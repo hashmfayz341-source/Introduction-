@@ -79,3 +79,13 @@ in the repository. Deliver the final MP4 as a GitHub release asset. `node_module
 - `public/source/`, `public/audio/`: reviewed lecture and real reusable audio.
 - `scripts/`: source validation, narration generation and audio integrity checks.
 - `docs/qa.md`: verification evidence and remaining work.
+
+## Publication
+
+Normal publication uses `git push origin main`. If the environment's Git HTTPS
+transport rejects its injected credential while GitHub API writes remain valid,
+`python3 scripts/publish-github.py` publishes exact existing Git objects through
+the Git Data API using authenticated `gh`. It verifies every blob, tree and commit
+SHA, preserves the author, committer, timestamps and parent history, and only
+performs fast-forward updates to this project's permanent `main` branch. It never
+reconstructs or replaces an existing commit with a different SHA.
