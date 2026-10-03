@@ -1,0 +1,30 @@
+{
+  "name": "cell-injury-motion-video",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Lecture-grounded medical motion graphics built with React, TypeScript and Remotion",
+  "scripts": {
+    "preview": "remotion studio src/index.ts",
+    "typecheck": "tsc --noEmit",
+    "doctor": "node scripts/doctor.mjs",
+    "check:source": "node scripts/check-source.mjs",
+    "audio": "python3 scripts/generate-narration.py",
+    "browser": "remotion browser ensure",
+    "check:ready": "npm run check:source && node scripts/check-ready.mjs",
+    "render": "npm run check:ready && remotion render src/index.ts CellInjury out/cell-injury.mp4 --codec=h264 --crf=18 --pixel-format=yuv420p",
+    "render:pipeline": "remotion render src/index.ts PipelineCheck out/pipeline-check.mp4 --codec=h264 --crf=20 --pixel-format=yuv420p",
+    "qa:pipeline": "remotion still src/index.ts PipelineCheck qa/frames/pipeline.png --frame=45"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.532",
+    "react": "19.2.4",
+    "react-dom": "19.2.4",
+    "remotion": "4.0.532"
+  },
+  "devDependencies": {
+    "@types/node": "24.10.0",
+    "@types/react": "19.2.14",
+    "@types/react-dom": "19.2.3",
+    "typescript": "5.9.3"
+  }
+}

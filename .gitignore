@@ -1,0 +1,14 @@
+node_modules/
+out/
+.venv/
+.cache/
+.env
+.env.*
+!.env.example
+__pycache__/
+*.py[cod]
+qa/frames/
+qa/temp/
+public/audio/segments/
+public/audio/*.mp3
+*.log
