@@ -15,21 +15,23 @@ const ink = theme.ink;
 /** Substeps share a spoken paragraph, but follow its measured individual words. */
 const useEnergyScene = (sceneId: string) => {
   const state = useScene(sceneId);
-  const word = (beatId: string, anchor: string, animationFrames = 45) => {
+  const wordFrame = (beatId: string, anchor: string) => {
     const target = state.timed.beats.find((b) => b.id === beatId);
     const normalize = (s: string) => s.toLowerCase().replace(/[^a-z0-9]/g, '');
     const cue = target?.words.find((w) => normalize(w.text) === normalize(anchor));
-    if (!cue) return state.beat(beatId, animationFrames);
-    const cueFrame = Math.round(cue.startSeconds * 30) - state.timed.startFrame;
+    return cue ? Math.round(cue.startSeconds * 30) - state.timed.startFrame : (target?.cueFrame ?? 0)-state.timed.startFrame;
+  };
+  const word = (beatId: string, anchor: string, animationFrames = 45) => {
+    const cueFrame = wordFrame(beatId, anchor);
     const p = Math.max(0, Math.min(1, (state.frame - cueFrame) / animationFrames));
     return p * p * (3 - 2 * p);
   };
-  return {...state, word};
+  return {...state, word, wordFrame};
 };
 
 /** A membrane detail, continuous with the membrane of the cell at right. */
 export const PumpSwelling: React.FC<SceneProps> = ({sceneId}) => {
-  const {frame, beat, word} = useEnergyScene(sceneId);
+  const {frame, beat, word, wordFrame} = useEnergyScene(sceneId);
   const pump = word('pump-failure', 'falls', 60);
   const ions = beat('pump-ions', 65);
   const water = word('pump-ions', 'Water', 80);
@@ -38,7 +40,11 @@ export const PumpSwelling: React.FC<SceneProps> = ({sceneId}) => {
   const calcium = beat('pump-calcium', 60);
   const calciumFailure = word('pump-calcium', 'failing', 50);
   // Normal transport decelerates instead of suddenly reversing direction.
-  const cycle = (frame / (70 + 250 * pump)) % 1;
+  const slowingStart = wordFrame('pump-failure','falls');
+  const elapsed = Math.max(0,frame-slowingStart);
+  const u = Math.min(1,elapsed/60);
+  const integratedSlowing = Math.min(elapsed,60)-.88*60*(u**3-.5*u**4)+Math.max(0,elapsed-60)*.12;
+  const cycle = (frame<slowingStart ? frame/70 : (slowingStart+integratedSlowing)/70) % 1;
   const normalTransport = 1 - pump;
   return <SceneCanvas sceneId={sceneId} footer={calcium>.5 ? 'Ca²⁺ regulation is separate; Na⁺/K⁺ ATPase does not transport Ca²⁺.' : 'ATP ↓  →  pump failure  →  Na⁺ ↑  →  water influx  →  swelling'}>
     <g transform="translate(1320 590)">
@@ -110,7 +116,7 @@ const Glycogen: React.FC<{x: number; y: number; depletion: number}> = ({x,y,depl
   {Array.from({length: 19}, (_,i) => {
     const ring = i === 0 ? 0 : i < 7 ? 1 : 2;
     const theta = i * 2.399;
-    return <g key={i} opacity={Math.max(0.06, 1 - depletion * (1.1 + (i % 5) * 0.12))}>
+    return <g key={i} opacity={Math.max(0.14, 1 - depletion * (i < 2 ? 0.5 : 1.1))}>
       {i > 0 && <line x1="0" y1="0" x2={Math.cos(theta) * ring * 38} y2={Math.sin(theta) * ring * 38} stroke={gold} strokeWidth="3" />}
       <path d="M-13,-22 L13,-22 L26,0 L13,22 L-13,22 L-26,0Z" transform={`translate(${Math.cos(theta) * ring * 38} ${Math.sin(theta) * ring * 38})`} fill="#674D2E" stroke={gold} strokeWidth="3" />
     </g>;
@@ -220,7 +226,7 @@ export const ProteinSynthesis: React.FC<SceneProps> = ({sceneId}) => {
         </g>;
       })}
       <Label x={880} y={710} text="Ribosomes" color="#F5CEE1" size={33} opacity={1 - detach * 0.4} />
-      <Label x={1420} y={716} text="Nascent proteins" color={gold} size={32} opacity={1 - translation} />
+      <Label x={1420} y={716} text="Nascent proteins" color={gold} size={32} opacity={(1 - translation)*(1-detach)} />
     </g>
     <g opacity={detach*(1-branches)}>
       <Arrow x1={1110} y1={681} x2={1110} y2={773} color="#F5CEE1" progress={detach} />
@@ -258,7 +264,7 @@ const DNAFragment: React.FC<{x: number; y: number; damage: number}> = ({x,y,dama
 </g>;
 
 export const Calcium: React.FC<SceneProps> = ({sceneId}) => {
-  const {beat, word} = useEnergyScene(sceneId);
+  const {frame, beat, word} = useEnergyScene(sceneId);
   const influx = word('calcium-rise', 'entry', 50);
   const stores = word('calcium-rise', 'stores', 55);
   const lipids = beat('calcium-lipids', 65);
@@ -278,9 +284,9 @@ export const Calcium: React.FC<SceneProps> = ({sceneId}) => {
       {[0,1,2].map((i) => <Ion key={`stored-${i}`} x={mix(20 + i * 15,75 + i * 12,stores)} y={mix(-81,-20 + i * 15,stores)} type="Ca" scale={0.46} opacity={1} />)}
     </g>
     <Label x={430} y={276} text="Extracellular Ca²⁺" anchor="middle" color={gold} size={30} />
-    {[0,1,2].map((i) => <Ion key={`extra-${i}`} x={360 + i * 70} y={mix(311,443+i*18,influx)} type="Ca" scale={0.69} />)}
-    <Arrow x1={430} y1={316} x2={430} y2={435} color={gold} progress={influx} />
-    <Label x={242} y={735} text={['Ischemia', 'or toxins']} color={injury} size={31} />
+    {[0,1,2].map((i) => <Ion key={`extra-${i}`} x={mix(360 + i * 70,[350,400,495][i],influx)} y={mix(311,[535,580,564][i],influx)} type="Ca" scale={0.69} />)}
+    <Arrow x1={430} y1={316} x2={350} y2={405} color={gold} progress={influx} />
+    <Label x={242} y={690} text={['Ischemia', 'or toxins']} color={injury} size={31} opacity={1-lipids} />
     <Label x={569} y={639} text="ER stores" color={cyan} size={29} opacity={stores} />
     <Arrow x1={465} y1={430} x2={510} y2={516} color={gold} progress={stores} />
     </g>
@@ -288,7 +294,7 @@ export const Calcium: React.FC<SceneProps> = ({sceneId}) => {
     <g opacity={Math.max(0,(pool-.7)/.3)}>
       <Label x={994} y={315} text="Cytosol detail" anchor="middle" color={cyan} size={29} />
       <circle cx="994" cy="461" r="111" fill="#564323" stroke={gold} strokeWidth="3" opacity="0.5" />
-      {Array.from({length: 7},(_,i) => <Ion key={`pool-${i}`} x={994 + Math.cos(i*2.399)*((i%3)*28+8)} y={461 + Math.sin(i*2.399)*((i%3)*28+8)} type="Ca" scale={0.62} />)}
+      {Array.from({length: 7},(_,i) => <Ion key={`pool-${i}`} x={994+(i?Math.cos((i-1)*Math.PI/3)*68:0)+Math.sin(frame/30+i)*3} y={461+(i?Math.sin((i-1)*Math.PI/3)*68:0)+Math.cos(frame/32+i)*3} type="Ca" scale={0.62} />)}
       <Label x={994} y={616} text="Cytosolic Ca²⁺ ↑" anchor="middle" color={gold} size={39} />
     </g>
     <g>

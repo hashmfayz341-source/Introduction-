@@ -91,14 +91,14 @@ export const Homeostasis:React.FC<SceneProps> = ({sceneId}) => {
         <Leader x={cellX+263*scale} y={cellY-29*scale} toX={1300} toY={370} text="Plasma membrane"/>
         <Leader x={cellX+185*scale} y={cellY-102*scale} toX={1300} toY={470} text="Peroxisome"/>
         <Leader x={cellX+139*scale} y={cellY+72*scale} toX={1300} toY={570} text="Golgi apparatus"/>
-        <Leader x={cellX+89*scale} y={cellY+198*scale} toX={1300} toY={690} text="Cytoplasm"/>
-        <Leader x={cellX+121*scale} y={cellY+165*scale} toX={1300} toY={790} text="Cytoskeleton"/>
+        <Leader x={cellX+225*scale} y={cellY+20*scale} toX={1300} toY={690} text="Cytoplasm"/>
+        <Leader x={cellX-123*scale} y={cellY+166*scale} toX={1300} toY={790} text="Cytoskeleton"/>
       </g>
       <g opacity={balance*(1-cycle)}>
-        {[0,1,2,3,4,5].map((i)=>{
+        <g opacity={1-anatomy}>{[0,1,2,3,4,5].map((i)=>{
           const theta=(frame*0.006+i*Math.PI/3);
-          return <Ion key={i} x={cellX+355*Math.cos(theta)} y={cellY+290*Math.sin(theta)} type={i%2?'Na':'K'} scale={0.82}/>;
-        })}
+          return <Ion key={i} x={cellX+355*Math.cos(theta)} y={cellY+225*Math.sin(theta)} type={i%2?'Na':'K'} scale={0.82}/>;
+        })}</g>
         <path d="M648,866 H1178" stroke={theme.muted} strokeWidth={7} opacity={0.35}/>
         <path d="M765,866 H1065" stroke={theme.recovery} strokeWidth={7}/>
         <circle cx={915+18*Math.sin(frame/24)} cy={866} r={12} fill={theme.ink}/>
@@ -161,8 +161,8 @@ export const InjuryThreshold:React.FC<SceneProps> = ({sceneId}) => {
       <g opacity={recovery*(1-irreversible)}>
         <path d="M1340,765 C1450,736 1480,512 1352,430" fill="none" stroke={theme.recovery} strokeWidth={6}/>
         <Arrow x1={1370} y1={434} x2={1295} y2={408} color={theme.recovery}/>
-        <Label x={1510} y={585} text={['Remove the','injurious stimulus']} size={32} color={theme.recovery}/>
-        <Label x={1510} y={736} text="Recovery possible" size={31} color={theme.recovery}/>
+        <Label x={1650} y={585} text={['Remove the','injurious stimulus']} size={32} color={theme.recovery}/>
+        <Label x={1650} y={736} text="Recovery possible" size={31} color={theme.recovery}/>
       </g>
       <g opacity={integrity*(1-irreversible)}><Label x={345} y={443} text={['Functional membrane','integrity retained']} size={31} color={theme.recovery}/><Label x={345} y={796} text="Nucleus remains viable" size={31} color="#A8B4EB"/></g>
       <g opacity={irreversible}>
@@ -171,7 +171,7 @@ export const InjuryThreshold:React.FC<SceneProps> = ({sceneId}) => {
         <Label x={1630} y={671} text="Necrosis / apoptosis" size={30}/>
       </g>
       <path d="M520,909 H1400" stroke={theme.muted} strokeWidth={5} opacity={0.35}/>
-      <path d={`M520,909 H${520+880*(0.25*stress+0.35*reversible+0.4*irreversible)*(1-0.45*recovery)}`} stroke={irreversible>0.1?theme.injury:theme.mitochondrion} strokeWidth={8}/>
+      <path d={`M520,909 H${520+880*(0.25*stress+0.35*reversible+0.4*irreversible)*(1-0.45*recovery*(1-irreversible))}`} stroke={irreversible>0.1?theme.injury:theme.mitochondrion} strokeWidth={8}/>
       <Label x={500} y={877} text="Tolerable" size={30} anchor="start" color={theme.recovery}/>
       <Label x={1400} y={877} text="Severe / sustained" size={30} anchor="end" color={theme.injury}/>
     </g>
@@ -279,7 +279,7 @@ export const OxygenATP:React.FC<SceneProps> = ({sceneId}) => {
         return <g key={i} opacity={x>650?flow:1}><ellipse cx={x} cy={332} rx={25} ry={17} fill="#AB5A6B" stroke="#D88696" strokeWidth={3}/><circle cx={x+19} cy={306} r={7} fill={theme.membrane} opacity={oxy}/></g>;
       })}
       <g opacity={ischemia}><path d="M607,289 C672,284 680,310 649,332 C688,354 654,372 612,370 C650,345 601,321 607,289Z" fill="#E7938D" stroke={theme.injury} strokeWidth={6}/><Label x={643} y={420} text="Ischemia: blood flow ↓" size={31} color={theme.injury}/></g>
-      <Label x={1718} y={325} text={['O₂ delivery','↓']} size={31} color={hypoxia>0.1?theme.injury:theme.membrane}/>
+      <Label x={1718} y={325} text={hypoxia>0.1?['O₂ delivery','↓']:'O₂ delivery'} size={31} color={hypoxia>0.1?theme.injury:theme.membrane}/>
     </g>
     <g opacity={hypoxia}>
       <Label x={345} y={545} text="Hypoxia" color={theme.membrane} size={37}/>
@@ -289,7 +289,7 @@ export const OxygenATP:React.FC<SceneProps> = ({sceneId}) => {
     <g transform={`translate(${930-30*mito} ${678+9*mito})`}>
       <Mitochondrion scale={3.75+0.18*mito}/>
       {[0,1,2,3].map((i)=><Ion key={i} x={-192+i*98} y={-197+(frame%56)*0.63} type="O2" opacity={oxy} scale={0.8}/>)}
-      <Label x={0} y={213} text="Oxidative phosphorylation ↓" size={32} color={atp>0.1?theme.injury:theme.mitochondrion}/>
+      <Label x={0} y={213} text={mito>0.1?'Oxidative phosphorylation ↓':'Oxidative phosphorylation'} size={32} color={mito>0.1?theme.injury:theme.mitochondrion}/>
     </g>
     <Arrow x1={1290} y1={670} x2={1430} y2={670} color={theme.mitochondrion} progress={mito}/>
     <EnergyGauge x={1460} y={640} level={1-0.82*atp} label="ATP"/>

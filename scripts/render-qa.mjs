@@ -11,9 +11,11 @@ const serveUrl=await bundle({entryPoint:path.resolve('src/index.ts'),outDir:path
 const browser=await openBrowser('chrome',{browserExecutable:process.env.REMOTION_BROWSER_EXECUTABLE??'/usr/bin/chromium'});
 const manifest=[];
 try {
- for(const s of lesson.scenes.filter(s=>!filter||s.id===filter)){
+ for(const s of lesson.scenes.filter(s=>!filter||filter.split(',').includes(s.id))){
   const t=timeline.scenes.find(t=>t.id===s.id);
   const points=[['start',15],['beat2',t.beats[1].cueFrame-t.startFrame+100],['beat3',t.beats[2].cueFrame-t.startFrame+100],['beat4',t.beats[3].cueFrame-t.startFrame+100],['end',t.durationInFrames-45]];
+  const extras={'protein-synthesis':[['translation',250]],homeostasis:[['balance',98]],'injury-threshold':[['factors',243]],causes:[['chemical',608],['biological',764],['environment',936],['nutrition',1095]],'death-patterns':[['apoptotic-bodies',Math.round(t.beats[2].words.find(w=>w.text.toLowerCase().includes('bounded'))?.startSeconds*30??t.beats[2].cueFrame)-t.startFrame+20]]};
+  points.push(...(extras[s.id]??[]));
   const composition=await selectComposition({serveUrl,id:`Lab-${s.id}`,puppeteerInstance:browser});
   await fs.mkdir(path.join(base,s.id),{recursive:true});
   for(const [state,localFrame] of points){

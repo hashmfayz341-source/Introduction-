@@ -86,3 +86,55 @@ The final visual review must inspect actual rendered frames and transitions for:
 
 Record the encoded review and any fixes in `docs/qa.md` with frame evidence after
 rendering. Until that evidence exists, encoded medical QA is **pending**, not passed.
+
+## Independent implementation review
+
+All four scene implementation files and reusable anatomy were reviewed against
+the complete lecture. The independent pass inspected all **18 rendered scene
+contact sheets, 90 representative states**, plus individual 1080p end states for
+mitochondria, sodium-pump swelling and cell-death morphology. These are actual
+Remotion-rendered stills, not assumptions drawn from code. The final encoded MP4
+is a separate later check.
+
+The initial stills correctly show:
+
+- Normal-cell structural context including Golgi, peroxisome, centrioles and cytoskeleton.
+- Cell size versus cell number versus epithelial phenotype replacement in adaptation.
+- Preserved reversible membrane boundaries and nuclear viability versus irreparable rupture.
+- Ischemic delivery loss leading to mitochondrial ATP depletion and normal-versus-failing pump transport.
+- Na/K directions, osmotic water entry, ER swelling, reversible chromatin clumping and reduced protein synthesis.
+- Distinct calcium enzyme targets and a labelled cytosol detail, without Na/K pump calcium transport.
+- Two mitochondrial membranes and appropriate cytochrome-c movement from the intermembrane region into cytosol.
+- Radical versus nonradical ROS identity, all three molecular target classes, and sequential enzymatic peroxide handling.
+- Plasma leakage, mitochondrial failure and lysosomal digestive-enzyme release as distinct consequences.
+- DNA repair versus caspase apoptosis; necrotic mitochondrial densities, lysosome rupture and nuclear fragmentation.
+- Membrane-bounded apoptotic fragments and phagocytic clearance; the same swollen cell returning to balance.
+
+The review identified and sent the following corrections to the implementing agents:
+
+1. Separate apoptotic shrinkage, chromatin condensation, body formation and clearance
+   at their actual spoken word cues; fade the parent cell as bodies form so material
+   is not apparently duplicated. Applied in the reviewed initial scene stills/code.
+2. Label recovery and persistent injury as conditional alternatives in the protein
+   synthesis scene, avoiding green recovery arrows feeding unchanged injury labels.
+   Applied in the reviewed initial scene stills/code.
+3. Delay downward oxygen/phosphorylation labels until the actual decline rather than
+   displaying them over the healthy baseline. Applied and verified in the corrected stills.
+4. Replace three absent recap word cues (`branches`, `oxidative`, `membranes`) with
+   words actually present in the narration (`Glycolysis`, `ROS`, `membrane`). Applied
+   and verified against the real speech metadata and corrected stills.
+5. Delay the right irreversible branch in Recovery until the spoken irreversible
+   description, instead of the preceding reversible-bleb description. Applied and
+   verified in corrected Recovery states; bottom failure/myelin labels are readable.
+6. Place the mitochondrial outer-membrane leader precisely on its contour rather
+   than the adjacent intermembrane space. Applied using the actual outer-contour
+   Bézier point transformed by the same zoom as the organelle; final encoded frame
+   check still required because this last leader edit followed the correction stills.
+
+No additional incorrect biochemical mechanism or important unrepresented source
+category was found. The corrected stills for Oxygen/Recovery/Recap/Calcium/Protein/
+Death/Mitochondria and the additional pre-clearance apoptotic-body state were
+inspected independently. **Corrected implementation medical review: PASS.**
+All **64 literal internal word cues** in the four scene files match actual
+synthesized word-boundary entries; no silent fallback is needed for these cues.
+Final encoded-video verification remains pending until the completed MP4 is inspected.

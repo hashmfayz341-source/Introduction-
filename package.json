@@ -10,10 +10,11 @@
     "check:source": "node scripts/check-source.mjs",
     "audio": "python3 scripts/generate-narration.py",
     "browser": "remotion browser ensure",
-    "check:ready": "npm run check:source && node scripts/check-ready.mjs",
+    "check:ready": "npm run check:source && node scripts/check-ready.mjs && node scripts/check-cues.mjs",
     "render": "npm run check:ready && remotion render src/index.ts CellInjury out/cell-injury.mp4 --codec=h264 --crf=18 --pixel-format=yuv420p",
     "render:pipeline": "remotion render src/index.ts PipelineCheck out/pipeline-check.mp4 --codec=h264 --crf=20 --pixel-format=yuv420p",
-    "qa:pipeline": "remotion still src/index.ts PipelineCheck qa/frames/pipeline.png --frame=45"
+    "qa:pipeline": "remotion still src/index.ts PipelineCheck qa/frames/pipeline.png --frame=45",
+    "qa:frames": "node scripts/render-qa.mjs corrected"
   },
   "dependencies": {
     "@fontsource/inter": "^5.3.0",

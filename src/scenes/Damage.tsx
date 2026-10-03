@@ -144,7 +144,7 @@ export const Antioxidants: React.FC<SceneProps> = ({sceneId}) => {
     <g opacity={spontaneous}>
       {Array.from({length: 5}, (_, i) => {
         const phase = ((frame + i * 14) % 88) / 88;
-        return <Radical key={i} x={165 + i * 45} y={330 - phase * 56} scale={.55 * (1 - phase)} opacity={1 - phase} />;
+        return <Radical key={i} x={165 + i * 45} y={374 - phase * 22} scale={.55 * (1 - phase)} opacity={1 - phase} />;
       })}
       <Label x={270} y={319} text="Spontaneous decay" size={30} color={theme.muted} anchor="middle" />
     </g>
@@ -170,7 +170,7 @@ export const Antioxidants: React.FC<SceneProps> = ({sceneId}) => {
     <g opacity={nonenzymatic}>
       <path d="M125,731 H1795" stroke={theme.muted} strokeWidth="2" opacity=".4" />
       <Label x={140} y={786} text="Additional defenses" size={35} color={theme.recovery} />
-      <Label x={450} y={858} text={['Vitamins A · E · C', 'Carotenes · tocopherols · ascorbate']} size={30} anchor="middle" />
+      <Label x={450} y={858} text={['Vitamins A · E · C', 'Carotenes · tocopherols', 'Ascorbate']} size={30} anchor="middle" />
       <Label x={1120} y={858} text={['Glutathione', 'Flavonoids']} size={32} anchor="middle" />
       <Label x={1625} y={858} text={['Selenium · zinc', 'Support antioxidant systems']} size={30} anchor="middle" />
     </g>
@@ -201,8 +201,8 @@ export const MembraneInjury: React.FC<SceneProps> = ({sceneId}) => {
     </g>
     <Label x={963} y={627} text="Membrane injury" size={38} color={theme.injury} anchor="middle" opacity={causes} />
     <g opacity={feedback}>
-      <path d="M1724,862 C1810,813 1810,390 1741,314" fill="none" stroke={theme.injury} strokeWidth="4" strokeDasharray="11 13" strokeDashoffset={-frame * .7} />
-      <Arrow x1={1741} y1={314} x2={1714} y2={287} color={theme.injury} progress={feedback} />
+      <path d="M1740,862 C1840,813 1840,380 1810,290 H1690" fill="none" stroke={theme.injury} strokeWidth="4" strokeDasharray="11 13" strokeDashoffset={-frame * .7} />
+      <Arrow x1={1690} y1={290} x2={1655} y2={287} color={theme.injury} progress={feedback} />
     </g>
     <g opacity={plasma}>
       <Arrow x1={704} y1={640} x2={440} y2={713} color={theme.injury} progress={plasma} />
@@ -224,7 +224,7 @@ export const MembraneInjury: React.FC<SceneProps> = ({sceneId}) => {
       {Array.from({length: 8}, (_, i) => {
         const phase = ((frame + i * 17) % 106) / 106;
         const angle = i * 1.75;
-        return <circle key={i} cx={lerp(1484 + Math.cos(angle) * 28, 1440 + Math.cos(angle) * 75, phase)} cy={lerp(804 + Math.sin(angle) * 25, 816 + Math.sin(angle) * 90, phase)} r="7" fill={theme.injury} />;
+        return <circle key={i} cx={lerp(1484 + Math.cos(angle) * 28, 1440 + Math.cos(angle) * 75, phase)} cy={lerp(804 + Math.sin(angle) * 25, 808 + Math.sin(angle) * 48, phase)} r="7" fill={theme.injury} />;
       })}
       <Label x={1495} y={923} text={['Lysosomal membrane', 'Hydrolases digest cell contents']} size={30} anchor="middle" />
     </g>
@@ -280,7 +280,6 @@ export const DeathPatterns: React.FC<SceneProps> = ({sceneId}) => {
   const {beat, frame, timed} = useScene(sceneId);
   const necrosis = beat('death-necrosis', 65);
   const nucleus = beat('death-nucleus', 100);
-  const apoptosis = beat('death-apoptosis', 75);
   const shrink = atWord(timed, frame, 'death-apoptosis', 'shrinks', 32, 20);
   const condenses = atWord(timed, frame, 'death-apoptosis', 'condenses', 28, 50);
   const apoptoticFragments = atWord(timed, frame, 'death-apoptosis', 'breaks', 40, 85);
@@ -298,7 +297,7 @@ export const DeathPatterns: React.FC<SceneProps> = ({sceneId}) => {
       {Array.from({length: 7}, (_, i) => {
         const angle = i * .85;
         const phase = ((frame + i * 17) % 100) / 100;
-        return <circle key={i} cx={Math.cos(angle) * lerp(170, 285, phase)} cy={Math.sin(angle) * lerp(175, 274, phase)} r={i % 2 === 0 ? 8 : 5} fill={theme.injury} opacity={necrosis * (1 - phase)} />;
+        return <circle key={i} cx={Math.cos(angle) * lerp(170, 285, phase)} cy={Math.max(-185, Math.min(230, Math.sin(angle) * lerp(175, 274, phase)))} r={i % 2 === 0 ? 8 : 5} fill={theme.injury} opacity={necrosis * (1 - phase)} />;
       })}
       <g opacity={densities}>
         <circle cx="-115" cy="82" r="8" fill="#1B1621" />
@@ -317,7 +316,7 @@ export const DeathPatterns: React.FC<SceneProps> = ({sceneId}) => {
       </g>
       <Label x={765} y={845} text="Inflammation" size={30} color={theme.injury} anchor="middle" />
       <Label x={459} y={939} text="Swelling · leakage" size={35} color={theme.injury} anchor="middle" />
-      <Label x={440} y={881} text="Lysosome rupture · mitochondrial densities" size={29} color={theme.muted} anchor="middle" opacity={nucleus} />
+      <Label x={440} y={881} text="Lysosome rupture · mitochondrial densities" size={30} color={theme.muted} anchor="middle" opacity={nucleus} />
     </g>
     <g transform="translate(1404 599)" opacity={1 - apoptoticFragments}>
       <Cell scale={lerp(.73, .46, shrink)} nuclearState={condenses > .25 ? 'condensed' : 'normal'} />
@@ -333,11 +332,15 @@ export const DeathPatterns: React.FC<SceneProps> = ({sceneId}) => {
           <circle cx={x - 4} cy={y + 1} r={radius * .42} fill="#8F9AE1" />
         </g>;
       })}
-      <Label x={1418} y={846} text="Contained apoptotic bodies" size={31} color={theme.membrane} anchor="middle" />
+      <Label x={1418} y={846} text={clearance > .8 ? 'Bodies cleared by phagocytes' : 'Contained apoptotic bodies'} size={31} color={theme.membrane} anchor="middle" />
       <Label x={1438} y={939} text="Shrinkage · controlled clearance" size={32} color={theme.membrane} anchor="middle" />
     </g>
     <g opacity={clearance} transform="translate(1697 601)">
       <path d="M-44,-72 C-96,-70 -92,-24 -68,-11 C-127,18 -93,80 -41,72 C-25,109 42,103 53,67 C108,70 111,9 79,-9 C100,-64 49,-90 13,-71 C-4,-104 -36,-99 -44,-72Z" fill="#285766" stroke={theme.recovery} strokeWidth="6" />
+      {[[-47, -35], [48, -28], [-52, 33], [36, 51]].map(([x, y], i) => <g key={i} opacity={clearance}>
+        <circle cx={x} cy={y} r="12" fill={theme.cytoplasm} stroke={theme.membrane} strokeWidth="2" />
+        <circle cx={x - 2} cy={y + 1} r="5" fill="#8F9AE1" />
+      </g>)}
       <ellipse cx="11" cy="7" rx="29" ry="34" fill="#6879AA" />
       <Label x={0} y={161} text="Phagocyte" size={30} color={theme.recovery} anchor="middle" />
     </g>

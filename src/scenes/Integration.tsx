@@ -55,7 +55,7 @@ export const Mitochondria:React.FC<Props>=({sceneId})=>{
       {[0,1,2,3,4].map(i=><circle key={`cyt-${i}`} cx={mix(150+i*26,230+i*20,release)} cy={mix(142-i%2*8,240+i%2*28,release)} r="10" fill="#D2B1EA" opacity={outer}/>) }
     </g>
     <L x={907} y={284} text="Mitochondrial cutaway" color={theme.mitochondrion} size={37}/>
-    <path d="M1185 323 L1140 364" stroke={theme.mitochondrion} strokeWidth="3"/>
+    <path d={`M1185 323 L${925+209.8*zoom} ${495-133.2*zoom}`} stroke={theme.mitochondrion} strokeWidth="3"/>
     <L x={1310} y={325} text="Outer membrane" size={29}/>
     <path d="M1130 397 L1300 393" stroke={theme.mitochondrion} strokeWidth="3"/>
     <L x={1434} y={402} text="Inner membrane" size={29}/>
@@ -85,12 +85,14 @@ export const Recovery:React.FC<Props>=({sceneId})=>{
   const recover=word('recovery-return','volume',85);
   const morphology=beat('recovery-morphology',55);
   const myelin=word('recovery-morphology','myelin',50);
+  const severe=word('recovery-morphology','irreversible',55);
+  const fragmented=word('recovery-morphology','fragmentation',50);
   const hallmarks=beat('recovery-hallmarks',60);
   const context=beat('recovery-context',45);
   return <SceneCanvas sceneId={sceneId} footer="Recovery depends on the cell, the severity of injury, and how quickly its cause is removed.">
     <path d="M960 300 V930" stroke="#31505C" strokeWidth="3"/>
     <L x={500} y={310} text="Early intervention" size={38} color={theme.recovery}/>
-    <L x={1415} y={310} text={hallmarks>.5?'Irreversible injury':'Beyond recovery'} size={38} color={theme.injury} opacity={morphology}/>
+    <L x={1415} y={310} text={hallmarks>.5?'Irreversible injury':'Beyond recovery'} size={38} color={theme.injury} opacity={severe}/>
     <g transform="translate(520 600)"><Cell scale={.89} swelling={1-recover} erSwelling={1-recover} ribosomeLoss={1-recover}/>
       <g opacity={1-recover}>{[[-55,-40],[5,-40],[-55,15],[10,20]].map(([x,y],i)=><ellipse key={i} cx={x} cy={y} rx="18" ry="12" fill="#ABB7EB"/>)}</g>
     </g>
@@ -99,8 +101,8 @@ export const Recovery:React.FC<Props>=({sceneId})=>{
       <EnergyGauge x={398} y={835} level={.12+recover*.88}/>
       <L x={530} y={969} text={recover>.8?'Volume + ion balance restored':'Oxygen supply restored'} color={theme.recovery} size={31}/>
     </g>
-    <g opacity={morphology} transform="translate(1410 560)">
-      <Cell scale={.75} swelling={.75} membraneDamage={hallmarks} mitochondriaDamage={hallmarks} nuclearState={myelin>.5?'fragmented':'condensed'}/>
+    <g opacity={severe} transform="translate(1410 560)">
+      <Cell scale={.75} swelling={.75} membraneDamage={hallmarks} mitochondriaDamage={hallmarks} nuclearState={fragmented>.5?'fragmented':'condensed'}/>
       <Myelin x={-80} y={170} opacity={myelin}/>
     </g>
     <g opacity={myelin}>
@@ -121,11 +123,11 @@ export const Recap:React.FC<Props>=({sceneId})=>{
   const atp=beat('recap-atp',50);
   const pumps=word('recap-atp','pumps',50);
   const water=word('recap-atp','water',60);
-  const branches=word('recap-atp','branches',45);
+  const branches=word('recap-atp','Glycolysis',45);
   const calcium=beat('recap-network',45);
-  const ros=word('recap-network','oxidative',45);
+  const ros=word('recap-network','ROS',45);
   const mito=word('recap-network','mitochondrial',50);
-  const membrane=word('recap-network','membranes',60);
+  const membrane=word('recap-network','membrane',60);
   const dna=beat('recap-dna',50);
   const outcome=beat('recap-outcome',55);
   const end=word('recap-outcome','why',65);
