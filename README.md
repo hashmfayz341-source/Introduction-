@@ -1,91 +1,93 @@
-# Cell Injury medical motion video
+# Cell Injury — a narrated medical motion lesson
 
-Permanent repository: **hashmfayz341-source/Introduction-**. React, TypeScript,
-Remotion and SVG provide deterministic 1920×1080, 30 fps medical animation.
+A complete React/TypeScript/Remotion lesson based on the supplied **28-page Cell
+Injury and Cell Death, Part I** lecture (AMS-HIS Pathology Team). Eighteen scenes
+show adaptation, energy failure, swelling, calcium/oxidative damage, membrane and
+genome injury, recovery and cell death using a consistent SVG cell and organelles.
 
-**Current status: render/audio infrastructure only. The original lecture
-attachment is unavailable in this environment. No complete lesson, final
-narration, medical review, or final MP4 is claimed.**
+Permanent repository: https://github.com/hashmfayz341-source/Introduction-
 
-The original README contained only the repository title. It was inspected before
-editing; its original commit remains in history.
+## Install and preview
 
-## Installation and preview
-
-Requirements: Node 22+, Python 3.10+, FFmpeg/FFprobe and a Chromium-compatible
-browser.
+Node 22+ and a Chromium-compatible browser are required. The recorded narration is
+included, so Python and FFmpeg are needed only to regenerate it or run media QA.
 
 ```sh
 npm ci
-python3 -m venv .venv
-.venv/bin/pip install -r requirements.txt
 npm run browser
 npm run preview
 ```
 
-`npm run doctor` reports readiness. For an existing browser, set
-`REMOTION_BROWSER_EXECUTABLE` to its absolute path instead of downloading one.
-No API keys are embedded in this project.
+Select **CellInjury** in Remotion Studio. The `Lab-*` compositions isolate each
+mechanism at its actual narration timing; `PipelineCheck` is a development diagnostic.
+Fonts are bundled locally. No API keys or external image dependencies are needed.
+For an installed browser, set `REMOTION_BROWSER_EXECUTABLE` to its absolute path.
 
-## Lecture and real audio
-
-Place the complete PDF at `public/source/cell-injury-lecture.pdf`. After reading
-every page, record the PDF SHA-256, page count, reviewed pages, source coverage,
-scene objectives, visual design and narration beats in `src/data/lesson.json`.
-Lecture statements, established medical clarifications and visual simplifications
-have separate provenance labels.
-
-`npm run check:source` blocks final rendering and audio generation until complete
-lecture review is recorded. With the Python environment activated, `npm run audio`
-generates actual Edge TTS speech (`en-US-AriaNeural`, rate `-5%`). Generation
-requires a network connection. The voice/rate can be selected with
-`NARRATOR_VOICE` and `NARRATOR_RATE`.
-
-Decoded PCM sample counts determine scene durations; actual spoken-word boundaries
-determine animation cues. The master audio is `public/audio/narration.wav`. Its
-measured timeline is stored in `src/data/timeline.json` and
-`public/audio/timing.json`. SHA-256 checks block stale narration after a script,
-lecture or audio change. Intermediate speech segments are excluded from Git.
-
-## Rendering
-
-The intended main composition is `CellInjury`; it will be registered after lecture
-review and complete scene implementation. Final output is `out/cell-injury.mp4`.
-The reproducible final command is:
+## Render
 
 ```sh
 npm run render
 ```
 
-This command deliberately fails while the source and narrated lesson are missing.
-`PipelineCheck` is a development diagnostic, not an educational video:
+Output: **out/cell-injury.mp4**, H.264, AAC narration, 1920×1080, 30 fps, BT.709.
+The measured master audio is **942.158 seconds**; the video is **28,265 frames**
+(15:42.167 after rounding to the next complete frame). Validation blocks rendering
+if the lecture, script, audio or timing fingerprints no longer agree.
+
+The final MP4 is distributed as a GitHub release asset, rather than a large Git
+source blob. Temporary renders, QA frames, caches and dependencies are ignored.
+
+## Narration and timing
+
+- Medical script: `src/data/lesson.json` — 18 scenes, 72 narration beats.
+- Real recorded speech: `public/audio/narration.wav` — Microsoft Edge TTS,
+  `en-US-AriaNeural`, rate `-5%`, normalized 24 kHz mono PCM.
+- Sample-count master timeline: `src/data/timeline.json`.
+- Spoken word boundaries and audio fingerprint: `public/audio/timing.json`.
+
+Animations use recorded word boundaries, including substeps within a sentence;
+scene lengths follow decoded samples plus deliberate short breathing pauses.
+Regenerating speech requires network access and may produce different timing:
+
+```sh
+python3 -m venv .venv
+.venv/bin/pip install -r requirements.txt
+.venv/bin/python scripts/generate-narration.py
+npm run typecheck
+npm run check:ready
+```
+
+Re-review the visuals after changing narration. The included WAV gives deterministic
+reproduction of the approved timing without depending on the speech service.
+
+## Source and review
+
+- `public/source/cell-injury-lecture.pdf`: complete supplied source.
+- `docs/lecture-text.txt`: extracted text; image diagrams were reviewed separately.
+- `docs/source-coverage.md`: every page mapped to the lesson; provenance decisions.
+- `docs/medical-review.md`: source-grounded medical review and clarifications.
+- `docs/qa.md`: render, visual, motion and playback verification record.
+
+Diagram scale, particle counts and organelle numbers are illustrative. The lesson
+separates inner mitochondrial permeability transition from outer membrane
+permeabilization, distinguishes ROS from free radicals, and preserves the distinction
+between reversible changes and loss of viability. The review is educational and
+source-grounded; no independent clinician sign-off is claimed.
+
+## Code layout and QA
+
+`src/anatomy/` contains reusable cell structures; `src/components/` supplies labels,
+arrows and scene layout; `src/scenes/` implements the four scene families;
+`src/compositions/CellInjury.tsx` places them against the one master audio track.
 
 ```sh
 npm run typecheck
-npm run render:pipeline
-npm run qa:pipeline
+npm run check:ready
+node scripts/render-qa.mjs corrected
 ```
 
-Final source, lecture, approved narration, measured audio and review records belong
-in the repository. Deliver the final MP4 as a GitHub release asset. `node_modules/`,
-`out/`, environments, caches and temporary QA frames are ignored.
-
-## Layout
-
-- `src/anatomy/`: consistent reusable biological entities.
-- `src/animations/`: real-speech-cued deterministic motion.
-- `src/compositions/`: master audio composition and development diagnostics.
-- `src/data/`: lecture coverage, narration beats and measured timing.
-- `public/source/`, `public/audio/`: reviewed lecture and real reusable audio.
-- `scripts/`: source validation, narration generation and audio integrity checks.
-- `docs/qa.md`: verification evidence and remaining work.
-
-## Publication
-
-Normal publication uses `git push origin main`. If the environment's Git HTTPS
-transport rejects its injected credential while GitHub API writes remain valid,
-`python3 scripts/publish-github.py` publishes exact existing Git objects through
-the Git Data API using authenticated `gh`. It verifies every blob, tree and commit
-SHA, preserves the author, committer, timestamps and parent history, and only
-performs fast-forward updates to this project's permanent `main` branch. It never
-reconstructs or replaces an existing commit with a different SHA.
+The QA script renders five representative states per scene into ignored
+`qa/frames/`. Set the browser environment variable as needed. Publication normally
+uses `git push origin main`. If the environment's injected credential rejects Git
+HTTPS but permits GitHub API writes, `python3 scripts/publish-github.py` publishes
+and verifies the **exact existing Git objects**, with fast-forward updates only.

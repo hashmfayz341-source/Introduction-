@@ -8,5 +8,5 @@ export const theme = {
   mitochondrion: '#EBB565',
   injury: '#EC7C73',
   recovery: '#8AD8AE',
-  font: 'Arial, Helvetica, sans-serif',
+  font: 'Inter, Arial, sans-serif',
 } as const;

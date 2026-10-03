@@ -1,0 +1,301 @@
+Cell Injury and Cell
+       Death
+         Part I
+
+        AMS-HIS
+     Pathology Team
+             By the end of this session students should
+             be able to:
+
+
+Session’s    ◦ Recognize cell interactions
+
+Objectives
+             ◦ Recognize and enlist causes of cell injury.
+
+Part 1       ◦ Identify biochemical mechanisms involved
+               in cell injury.
+Cell – intro recall
+ ◦ Basic unit of structure and function
+ ◦ To maintain their structure and function cells have “homeostasis”
+    ◦ Homeostasis is a dynamic condition in which cells try to maintain their internal environment
+      within narrow range of physiologic parameters
+
+ ◦ Three main types depending on activity in cell cycle(mitotic ability)
+    ◦ Labile- continuous growth without stimulus
+    ◦ Stable- growth with stimulus
+    ◦ Permanent- no growth even with stimulus
+ ◦ Every cell type has different ability to withstand the stress and its
+   own homeostatic limits according to tissue function
+Normal cell
+  The Cell and the Environment
+
+Adaptive Responses: when exposed           Cell Injury: Occur in response of
+to physiological stresses and              harmful stimuli when cells are unable
+pathological stimuli , cell undergo        or exceed limits to adapt or external
+adaptations to achieve a new steady        stress is severe enough, then cell
+state to preserve viability and function   injury ensue
+• Atrophy                                  • Reversible
+• Hypertrophy                              • Irreversible
+• Hyperplasia
+• Metaplasia
+Robbins Pathology 10 th edition
+Cell stress and injury
+◦ In its specific microenvironment under physical conditions cells survive
+  via homeostasis
+◦ A response from the cellular mechanisms to the stress, such that
+  homeostatic mechanisms were challenged to the limits
+
+
+◦ Reponses depends upon
+  ◦ Type of cell
+  ◦ Duration and Intensity of stressor
+Cell Injury- affect of the stress on the cell
+
+If confronted with stress that endangers the structural or functional integrity of
+the cell, the cell may undergo changes to survive depending upon:
+
+
+◦ Cell type (Labile/ Stable/ Permanent)
+◦ Duration (removed- mins/hrs/days/years)
+◦ Intensity (mild/ moderate/severe)
+Difference between stress and injury
+
+
+◦ They are cause (stress) and effect (injury).
+
+
+  ◦ Removable stressor-removed stress- reversible injury
+  ◦ Persistent stressor-sustained stress- Irreversible injury
+              ◦ Reversible cell injury:
+                 ◦ Within certain limits, functional & morphological
+                   (gross and microscopic) changes are reversible if
+                 ◦ damaging stimulus is removed and cell returns to
+                   stable state.
+                 ◦ No membrane damage & nucleus is intact
+
+              ◦ Irreversible cell injury (Cell Death):
+Cell Injury      ◦ If stress is severe, persistent and rapid then cell
+                   unable to restore normal function and progress
+                   eventually to cell death.
+
+                ◦ Cell Death either:
+                   ◦ Necrosis
+                   ◦ Apoptosis
+         Stages in the cellular response to stress and injurious stimuli
+                                     Normal cell
+Stress increase                     (homeostasis)                 Injurious stimulus if
+demand and cell                                                   continuous can lead to
+shows
+         Adaptations                                                   Cell Injury
+
+
+
+
+               Reversible
+               Cell injury
+                                                                            Irreversible
+                                                                             Cell injury
+
+
+
+                                  Necrosis                                 Apoptosis
+                                                                     Damage to DNA or
+                             Damage to membrane
+                                                                         proteins
+                 ◦ Oxygen deprivation- Hypoxia (most common),
+                   ischemia
+                 ◦ Physical- sharp (needles, blades, knives, glass etc)/
+                   blunt (steering wheel, falls, pressure etc)
+                 ◦ Chemical- pH (alkali/ acid), pollutants
+                 ◦ Biological- infections (virus/bacteria/fungi),
+Causes of Cell     infestation (parasites or insects/ worms etc)
+                 ◦ Environmental- temperature (hypo/hyper),
+Injury             radiation
+                 ◦ Nutrition- macronutrient or micronutrient (excess
+                   or deficiency)
+                 ◦ Genetic- disorders like Down syndrome, Sickle cell
+                   anemia, Mediterranean disease
+                 ◦ Aging-
+                ◦ Cellular response to injurious stimuli depends
+                  on:
+                      ◦ Type, duration, and severity of injury.
+
+                ◦ Consequences of cell injury depend on:
+                    ◦ Type, state, & adaptability of injured cell.
+General
+Principles of   ◦ The most important targets of injurious stimuli
+                  are:
+Cell Injury          ◦ Mitochondria, the sites of ATP generation
+                     ◦ Cell membranes (homeostasis of cell
+                       depends)
+                     ◦ Endoplasmic reticulum/Ribosomes (Protein
+                       synthesis)
+                     ◦ Cytoskeleton
+                     ◦ Genetic apparatus of the cell
+                Mechanism of cell injury
+  1. Depletion of ATP
+         Blood Clot
+
+                                 ATP is the main cause of
+                                necrotic cell death
+          O2                   Major causes of ATP depletion:
+                                • Reduced supply of oxygen,
+                                  hypoxia.
+                                • Reduce supply of nutrients
+                       ATP     • Mitochondrial damage
+                                • Toxins (Cyanide)
+Hypoxic injury is the commonest type of cell injury making
+hypoxia the commonest factor
+1. Mechanism of
+   Ischemic / Hypoxic
+   injury
+Mechanism of Ischemic / Hypoxic injury
+
+       Intracellular ATP depletion
+
+                         ↑Ca2+,↑Na+, &              Cellular & ER
+    Sodium pump                                       swelling,
+                          H2O Influx
+        failure           Loss of K+                mitochondria
+   (Na+-K+ ATPase)                                    swelling
+
+                                      Glycogen depletion,
+   Increased anaerobic
+                                   Accumulation of lactic acid
+        glycolysis                 causing low pH (enzyme
+                                             activity)
+
+    Detachment of
+     ribosomes                       Reduce protein synthesis
+                   Pathogenesis of hypoxic cell injury
+Hypoxia is the most common cause of cell injury
+
+
+                                     Loss of
+Decrease   Anaerobic    Low ATP                   Water        Increase          Cell
+                                     Na+K+
+d Oxygen   glycolysis   production                influx       Lactic acid
+                                     ATPase                                     injury
+                                     pump
+                                                  Into the       • Low pH
+                                                  cells and      • Damage
+                                                  swell            DNA and
+                                                  organelles       organelles
+
+
+
+     Outline of pathogenesis of hypoxic induced cell injury
+Mechanism of cell injury
+
+                           2. Influx of Calcium:
+                           ◦ Causes of increase cytosolic Ca+2 :
+                            ◦ Ischemia
+                            ◦ Toxins
+
+
+                           ◦ Influx of Ca+2 in cells can:
+                            ◦ Activate enzymes which can damage
+                              the cells (Phospholipase, ATPase,
+                              protease, endonuclease)
+                            ◦  ATP generation
+                            ◦ Induce Apoptosis (Caspases)
+Mechanism of cell injury
+
+
+
+                           ◦ Causes of mitochondrial injury:
+                             ◦  cytosolic Ca+2
+                             ◦ Reactive oxygen species
+                             ◦ Ischemia
+
+
+                           ◦ Consequences:
+                             ◦ Formation of channels in mitochondrial
+                               membrane
+                                 ◦  oxidative phosphorylation and
+                                   depletion of ATP leading to necrosis
+                                 ◦ Release of cytochrome c inducing
+                                   apoptosis
+Mechanism of cell injury
+                           4. Accumulation of Oxygen
+                           derived Free Radicals-
+                           oxidative stress
+
+                           ◦ Free radicals are unstable molecules,
+                            which react with cell organelles and
+                            cause damage.
+
+
+                           ◦ Reactive oxygen species (ROS) are O2
+                            derived free radicals
+                       Fate of free radicals
+
+◦Spontaneous degradation           ◦Antioxidant action- Non-
+◦Antioxidant action-                enzymatic degradation
+                                     ◦ Carotenes (e.g., Vitamin A)
+ Enzymatic degradation               ◦ Tocopherols (e.g., Vitamin E)
+ ◦ SOD (superoxide dismutase)
+                                     ◦ Ascorbate (vitamin C)
+ ◦ Catalase
+                                     ◦ Glutathione (in liver)
+                                     ◦ Flavonoids (in tea)
+                                     ◦ Selenium
+                                     ◦ Zinc
+Robbins Pathology 10 th edition
+Mechanism of cell injury
+                           5. Defects in membrane
+                           permeability
+
+                           ◦ Factors that can lead to defect in membrane
+                           permeability
+                              ◦ Hypoxia (ATP)
+                              ◦ ROS (Lipid peroxidation)
+                              ◦ Increase Ca+2 (Activation of enzymes)
+
+                           ◦ Most important site of membrane damage
+                           during cell injury:
+                              ◦ Mitochondrial membrane damage
+                              ◦ Plasma membrane damage
+                              ◦ Injury to lysosomal membrane which release
+                                digestive enzymes and degradation of
+                                cellular contents
+                           Mechanism of cell injury
+
+6. Damage to DNA and Proteins
+◦ Cells can repair minor DNA damages
+◦ If the damage is severe that cannot be corrected, the cell initiates its suicide program and die
+  by apoptosis.
+
+
+◦ Causes of DNA damage:
+  ◦ Radiation and chemical injury
+  ◦ Reactive oxygen species
+            Mechanism of cell injury, summary
+1.   ATP depletion (mitochondrial injury)      Na+ pump failure    reversible cell
+     injury   necrosis.
+
+
+2.   Mitochondrial injury    necrosis or apoptosis
+
+
+3.   Influx of Ca+2 activation of enzymes      cell damage/ apoptosis
+
+
+4.   Reactive Oxygen species(free radicals)        damage to cell structure
+     especially DNA.
+
+
+5.   Increase membrane permeability          mitochondria, Lysosome, and cell
+     membranes     necrosis
+
+
+6.   Accumulation of damaged DNA            apoptosis
+Summary
+THANK YOU
+
+
+
+
+            Summary
+

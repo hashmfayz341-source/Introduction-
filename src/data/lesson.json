@@ -1,10 +1,209 @@
 {
   "source": {
     "path": "public/source/cell-injury-lecture.pdf",
-    "sha256": null,
-    "pageCount": null,
-    "reviewedPages": [],
-    "completeReview": false
+    "sha256": "e3ccc809294761b11b8cb3ebbcf0981e6c42abf4e6dacbe7411340e5465fc714",
+    "pageCount": 28,
+    "reviewedPages": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28],
+    "completeReview": true
   },
-  "scenes": []
+  "scenes": [
+    {
+      "id": "homeostasis", "title": "A cell in balance",
+      "objective": "Explain homeostasis and why proliferative capacity and tissue function affect injury responses.",
+      "sourcePages": [1, 2, 3, 4, 7, 8], "provenance": "established-clarification", "visual": "homeostasis",
+      "beats": [
+        {"id": "homeostasis-balance", "anchor": "Homeostasis", "text": "A living cell constantly balances energy, ions, proteins, and its surroundings. Homeostasis is this active maintenance of a stable internal environment."},
+        {"id": "homeostasis-structures", "anchor": "membrane", "text": "Its membrane controls exchange, mitochondria supply energy, and the nucleus stores genetic instructions. Other organelles build, transport, or break down cellular materials."},
+        {"id": "homeostasis-types", "anchor": "Labile", "text": "Labile cells divide regularly. Stable cells usually rest but can divide after stimulation. Adult permanent cells, such as most neurons, have very limited proliferative capacity."},
+        {"id": "homeostasis-limits", "anchor": "limits", "text": "Each cell has different limits. Its type, condition, and function help determine how much stress it can tolerate, and how it responds."}
+      ]
+    },
+    {
+      "id": "adaptation", "title": "Adapt before injury",
+      "objective": "Distinguish viable adaptation from structural or functional damage.",
+      "sourcePages": [5, 6, 11], "provenance": "established-clarification", "visual": "adaptation",
+      "beats": [
+        {"id": "adaptation-demand", "anchor": "adaptation", "text": "An increased demand does not automatically injure a cell. Within its limits, adaptation creates a new steady state that preserves viability and function."},
+        {"id": "adaptation-size", "anchor": "Hypertrophy", "text": "Hypertrophy increases cell size. A heart muscle cell can enlarge when workload rises. Atrophy reduces cell size, and sometimes cell number, when demand or support falls."},
+        {"id": "adaptation-number", "anchor": "Hyperplasia", "text": "Hyperplasia increases the number of cells in tissues able to proliferate. Metaplasia replaces one differentiated cell type with another better suited to the stress."},
+        {"id": "adaptation-limit", "anchor": "exceeds", "text": "But adaptation has limits. When an insult exceeds the cell's capacity, or directly threatens its structure and function, the story changes from adaptation to injury."}
+      ]
+    },
+    {
+      "id": "injury-threshold", "title": "Recover or cross the threshold",
+      "objective": "Define reversible and irreversible injury without implying that duration alone determines outcome.",
+      "sourcePages": [7, 8, 9, 10, 11, 12], "provenance": "established-clarification", "visual": "injury-threshold",
+      "beats": [
+        {"id": "threshold-stress", "anchor": "Stress", "text": "Stress is the challenge; injury is the harmful effect on the cell. The outcome depends on the insult's type, intensity, and duration, together with cellular susceptibility."},
+        {"id": "threshold-reversible", "anchor": "Reversible", "text": "Reversible injury means function and morphology can recover if the damaging stimulus is removed soon enough. Swelling and membrane blebs may already be present."},
+        {"id": "threshold-integrity", "anchor": "integrity", "text": "Crucially, functional membrane integrity and nuclear viability are preserved. Reversible injury does not mean that every membrane structure remains perfectly unchanged."},
+        {"id": "threshold-irreversible", "anchor": "Irreversible", "text": "Irreversible injury develops when recovery becomes impossible. A very severe insult can reach that point rapidly; removing the cause after this threshold cannot rescue the cell."}
+      ]
+    },
+    {
+      "id": "causes", "title": "Different insults, shared targets",
+      "objective": "Represent every lecture category of injurious stimulus while distinguishing hypoxia from ischemia.",
+      "sourcePages": [13], "provenance": "established-clarification", "visual": "causes",
+      "beats": [
+        {"id": "causes-oxygen", "anchor": "Hypoxia", "text": "The lecture emphasizes oxygen deprivation. Hypoxia is insufficient oxygen; ischemia is reduced blood flow, which also limits nutrients and removal of metabolic waste."},
+        {"id": "causes-trauma", "anchor": "Physical", "text": "Physical injury includes sharp and blunt trauma. Chemicals include acids, alkalis, toxins, and pollutants. Biological causes include infections and parasitic infestations."},
+        {"id": "causes-environment", "anchor": "temperature", "text": "Environmental extremes include high or low temperature and radiation. Both excesses and deficiencies of major nutrients or micronutrients can also injure cells."},
+        {"id": "causes-genetic", "anchor": "Genetic", "text": "Genetic abnormalities alter function or susceptibility. The source lists Down syndrome, sickle cell anemia, and Mediterranean disease. Aging adds declining cellular reserve and repair capacity."}
+      ]
+    },
+    {
+      "id": "targets", "title": "Inside the vulnerable cell",
+      "objective": "Locate the major injury targets and relate each to its cellular function.",
+      "sourcePages": [4, 14], "provenance": "lecture", "visual": "targets",
+      "beats": [
+        {"id": "targets-energy", "anchor": "Mitochondria", "text": "Many different insults converge on a small set of targets. Mitochondria are central because cells need ATP to maintain their essential functions."},
+        {"id": "targets-boundary", "anchor": "membranes", "text": "Cell membranes maintain the boundary between compartments. Losing this control disturbs ion balance and allows substances to enter or leave inappropriately."},
+        {"id": "targets-proteins", "anchor": "ribosomes", "text": "The endoplasmic reticulum and ribosomes support protein synthesis. The cytoskeleton supplies internal support and helps preserve the cell's shape and membrane organization."},
+        {"id": "targets-genome", "anchor": "DNA", "text": "The genetic apparatus, especially DNA, preserves the instructions needed for survival. These targets interact: injury to one can amplify damage to the others."}
+      ]
+    },
+    {
+      "id": "oxygen-atp", "title": "When the energy supply falls",
+      "objective": "Show oxygen or nutrient deprivation causing reduced oxidative phosphorylation and ATP depletion.",
+      "sourcePages": [15, 16, 17, 18], "provenance": "established-clarification", "visual": "oxygen-atp",
+      "beats": [
+        {"id": "oxygen-flow", "anchor": "clot", "text": "Follow a clot blocking a vessel. Downstream blood flow falls, so the cell receives less oxygen and fewer nutrients. This is the setting for ischemic injury."},
+        {"id": "oxygen-mitochondria", "anchor": "phosphorylation", "text": "Without adequate oxygen, mitochondrial oxidative phosphorylation slows. ATP production falls, leaving less energy available for membrane pumps and other essential work."},
+        {"id": "oxygen-other", "anchor": "cyanide", "text": "Reduced nutrients, direct mitochondrial damage, and toxins such as cyanide can also deplete ATP. Oxygen delivery alone is not the only point where energy production can fail."},
+        {"id": "oxygen-necrosis", "anchor": "necrosis", "text": "Severe, sustained ATP depletion is a major mechanism of necrosis. Early energy failure, however, can still produce reversible changes. Watch what happens to ion transport first."}
+      ]
+    },
+    {
+      "id": "pump-swelling", "title": "ATP falls. Water follows sodium.",
+      "objective": "Animate ATP depletion, reduced sodium-potassium pumping, altered ion gradients, water influx and swelling.",
+      "sourcePages": [12, 16, 17, 18, 26], "provenance": "established-clarification", "visual": "pump-swelling",
+      "beats": [
+        {"id": "pump-failure", "anchor": "pump", "text": "The sodium potassium pump needs ATP. As ATP falls, the pump slows, and the cell can no longer maintain its usual sodium and potassium gradients."},
+        {"id": "pump-ions", "anchor": "Sodium", "text": "Sodium accumulates inside, while potassium is lost. Water follows the increased intracellular solute load, producing cellular swelling."},
+        {"id": "pump-morphology", "anchor": "reticulum", "text": "The endoplasmic reticulum and mitochondria can swell too. The cell surface may form blebs and lose microvilli. These changes are early signs of disturbed homeostasis."},
+        {"id": "pump-calcium", "anchor": "calcium", "text": "Keep calcium separate in your mental model. Sodium potassium pump failure does not directly transport calcium inward; failing calcium regulation and membrane injury raise cytosolic calcium."}
+      ]
+    },
+    {
+      "id": "glycolysis", "title": "A temporary energy detour",
+      "objective": "Show increased anaerobic glycolysis, glycogen consumption, lactate accumulation and reduced pH.",
+      "sourcePages": [16, 17, 18], "provenance": "established-clarification", "visual": "glycolysis",
+      "beats": [
+        {"id": "glycolysis-backup", "anchor": "glycolysis", "text": "With oxidative phosphorylation impaired, the cell increases anaerobic glycolysis. This provides some ATP, but far less energy than normal aerobic metabolism."},
+        {"id": "glycolysis-glycogen", "anchor": "Glycogen", "text": "Glycogen stores are consumed as the cell draws on its fuel reserves. Lactate accumulates, and intracellular pH falls."},
+        {"id": "glycolysis-ph", "anchor": "enzyme", "text": "Acidosis alters enzyme activity and contributes to clumping of nuclear chromatin. The nucleus can still be viable at this reversible stage."},
+        {"id": "glycolysis-caution", "anchor": "DNA", "text": "Do not treat low pH as an automatic DNA break. DNA damage is a separate injury mechanism; acidosis mainly signals disturbed metabolism and impaired cellular function here."}
+      ]
+    },
+    {
+      "id": "protein-synthesis", "title": "The protein workshop slows",
+      "objective": "Connect ATP depletion and rough ER disturbance to ribosome detachment and reduced protein synthesis.",
+      "sourcePages": [4, 12, 14, 16, 17], "provenance": "lecture", "visual": "protein-synthesis",
+      "beats": [
+        {"id": "protein-workshop", "anchor": "ribosomes", "text": "Now zoom into rough endoplasmic reticulum. Its attached ribosomes normally assemble proteins that the cell needs for secretion, membranes, and other functions."},
+        {"id": "protein-detach", "anchor": "detach", "text": "During hypoxic injury, the endoplasmic reticulum swells and ribosomes detach. Protein synthesis decreases, weakening the cell's ability to maintain and replace essential components."},
+        {"id": "protein-branches", "anchor": "branches", "text": "Think of ATP depletion as several parallel branches: pump failure causes swelling, anaerobic glycolysis consumes reserves and lowers pH, and ribosome detachment reduces protein production."},
+        {"id": "protein-recover", "anchor": "recovery", "text": "These changes can improve if the insult ends early and energy production returns. Persistent injury gives these interacting disturbances more time to undermine recovery."}
+      ]
+    },
+    {
+      "id": "calcium", "title": "Calcium activates damage",
+      "objective": "Show cytosolic calcium increases and connect four enzyme classes to their respective damage targets.",
+      "sourcePages": [19, 20, 24, 26], "provenance": "established-clarification", "visual": "calcium",
+      "beats": [
+        {"id": "calcium-rise", "anchor": "Calcium", "text": "Calcium is normally kept low in the cytosol. Ischemia and toxins can increase entry from outside and release calcium from intracellular stores."},
+        {"id": "calcium-lipids", "anchor": "Phospholipases", "text": "Phospholipases break down membrane phospholipids. Proteases damage cellular proteins, including the cytoskeleton. Both weaken the cell's structure and membranes."},
+        {"id": "calcium-dna", "anchor": "Endonucleases", "text": "Endonucleases damage DNA, while ATPases consume ATP and worsen energy depletion. One calcium disturbance can therefore attack several survival systems at once."},
+        {"id": "calcium-death", "anchor": "mitochondrial", "text": "Calcium overload also promotes mitochondrial dysfunction and can help activate apoptotic pathways involving caspases. The consequences depend on the extent and context of injury."}
+      ]
+    },
+    {
+      "id": "mitochondria", "title": "Two mitochondrial consequences",
+      "objective": "Distinguish inner membrane permeability transition from outer membrane cytochrome-c release.",
+      "sourcePages": [20, 26], "provenance": "established-clarification", "visual": "mitochondria",
+      "beats": [
+        {"id": "mitochondria-insults", "anchor": "Ischemia", "text": "Ischemia, excess cytosolic calcium, and reactive oxygen species can damage mitochondria. Two consequences must stay distinct."},
+        {"id": "mitochondria-inner", "anchor": "inner", "text": "Increased permeability of the inner mitochondrial membrane collapses the electrochemical gradient needed for oxidative phosphorylation. ATP generation fails, favoring necrotic death when the injury is severe."},
+        {"id": "mitochondria-outer", "anchor": "outer", "text": "Permeabilization of the outer mitochondrial membrane can release cytochrome c into the cytosol. This helps activate caspases and the intrinsic apoptotic pathway."},
+        {"id": "mitochondria-distinct", "anchor": "distinct", "text": "These are distinct membrane events, although they can coexist during injury. Mitochondrial damage is therefore a crossroads between energy failure and programmed cell death."}
+      ]
+    },
+    {
+      "id": "ros", "title": "Oxidative stress attacks three targets",
+      "objective": "Define ROS accurately and connect lipid, protein and DNA injury to excess ROS.",
+      "sourcePages": [21, 23, 25, 26], "provenance": "established-clarification", "visual": "ros",
+      "beats": [
+        {"id": "ros-species", "anchor": "species", "text": "Reactive oxygen species include superoxide and hydroxyl radicals, but also hydrogen peroxide, which is not a free radical. Excess production overwhelms cellular defenses."},
+        {"id": "ros-sources", "anchor": "reperfusion", "text": "Radiation, toxins, and damaged mitochondria can increase ROS. The source also highlights reperfusion: restoring blood flow can add oxidative injury to previously ischemic tissue."},
+        {"id": "ros-lipids", "anchor": "peroxidation", "text": "Lipid peroxidation damages membranes. Protein oxidation can cause breakdown or misfolding. DNA injury can produce mutations or trigger death pathways if the damage cannot be repaired."},
+        {"id": "ros-balance", "anchor": "balance", "text": "Oxidative stress is a balance problem: damage rises when reactive species outpace their removal. Defenses matter as much as production."}
+      ]
+    },
+    {
+      "id": "antioxidants", "title": "Keep oxidants under control",
+      "objective": "Show sequential enzymatic ROS handling and place dietary antioxidants and cofactors in their proper roles.",
+      "sourcePages": [4, 22, 23], "provenance": "established-clarification", "visual": "antioxidants",
+      "beats": [
+        {"id": "antioxidants-sod", "anchor": "dismutase", "text": "Some reactive species decay spontaneously. Superoxide dismutase converts superoxide to hydrogen peroxide; this is an intermediate step, not complete detoxification."},
+        {"id": "antioxidants-peroxide", "anchor": "Catalase", "text": "Catalase and glutathione peroxidase then remove hydrogen peroxide. Glutathione participates in cellular antioxidant defense, including the liver, rather than acting only there."},
+        {"id": "antioxidants-nutrition", "anchor": "vitamins", "text": "The lecture also lists carotenoids, vitamins E and C, and flavonoids. Selenium and zinc support antioxidant systems; they should not be pictured as directly swallowing every radical."},
+        {"id": "antioxidants-limit", "anchor": "overwhelmed", "text": "These defenses can be overwhelmed. Their normal biological roles do not mean that taking supplements will reverse established ischemic injury or prevent every kind of cell damage."}
+      ]
+    },
+    {
+      "id": "membrane-injury", "title": "Boundaries begin to fail",
+      "objective": "Connect ATP, ROS and calcium mechanisms to plasma, mitochondrial and lysosomal membrane injury.",
+      "sourcePages": [12, 24, 26], "provenance": "lecture", "visual": "membrane-injury",
+      "beats": [
+        {"id": "membrane-causes", "anchor": "converge", "text": "Energy failure, oxidative damage, and calcium activated enzymes converge on membranes. Reduced phospholipid synthesis, lipid breakdown, and cytoskeletal damage weaken their structure."},
+        {"id": "membrane-plasma", "anchor": "plasma", "text": "Loss of plasma membrane integrity causes uncontrolled exchange and leakage of cell contents. Unlike a reversible surface bleb, major membrane disruption threatens cell survival."},
+        {"id": "membrane-organelles", "anchor": "Mitochondrial", "text": "Mitochondrial membrane damage further impairs energy production. Lysosomal membrane injury releases digestive enzymes into the cytoplasm, where they can degrade cellular contents."},
+        {"id": "membrane-feedback", "anchor": "cycle", "text": "This creates a damaging cycle: energy failure and enzyme activation injure membranes; failed membranes deepen ion disturbances and organelle injury. Necrosis becomes increasingly likely."}
+      ]
+    },
+    {
+      "id": "dna-protein", "title": "Repair, or activate apoptosis",
+      "objective": "Show limited damage repair versus unrepaired DNA/protein damage activating programmed cell death.",
+      "sourcePages": [11, 23, 25, 26], "provenance": "established-clarification", "visual": "dna-protein",
+      "beats": [
+        {"id": "dna-insults", "anchor": "Radiation", "text": "Radiation, chemicals, and ROS can damage DNA. Cells can repair limited damage, so a damaged molecule does not automatically mean a doomed cell."},
+        {"id": "dna-repair", "anchor": "repair", "text": "If repair succeeds, survival remains possible. If severe DNA damage cannot be corrected, the cell can activate apoptosis rather than continue with an unsafe genome."},
+        {"id": "dna-proteins", "anchor": "proteins", "text": "Accumulated damaged or misfolded proteins can also stress the cell and activate apoptotic pathways. This connects the lecture's protein and genetic injury targets."},
+        {"id": "dna-caspases", "anchor": "Caspases", "text": "Caspases carry out the organized dismantling of apoptosis. This is different from the uncontrolled leakage and digestion that dominate the necrotic pattern."}
+      ]
+    },
+    {
+      "id": "death-patterns", "title": "Two patterns of cell death",
+      "objective": "Visually distinguish necrotic swelling and membrane rupture from apoptotic fragmentation and clearance.",
+      "sourcePages": [10, 11, 12, 20, 25, 26], "provenance": "established-clarification", "visual": "death-patterns",
+      "beats": [
+        {"id": "death-necrosis", "anchor": "Necrosis", "text": "Necrosis commonly features swelling, severe organelle damage, and loss of membrane integrity. Cellular contents leak and can provoke inflammation in surrounding tissue."},
+        {"id": "death-nucleus", "anchor": "nucleus", "text": "The lecture's morphology diagram shows a condensed nucleus followed by fragmentation, disrupted membranes, lysosomal rupture, and amorphous densities in swollen mitochondria."},
+        {"id": "death-apoptosis", "anchor": "Apoptosis", "text": "Apoptosis is organized: the cell shrinks, chromatin condenses, and the cell breaks into membrane bounded fragments. These can be removed with relatively little inflammation."},
+        {"id": "death-overlap", "anchor": "patterns", "text": "These are useful patterns, not rigid labels for every injured cell. The lecture's focus is how energy, membranes, calcium, ROS, DNA, and proteins lead toward them."}
+      ]
+    },
+    {
+      "id": "recovery", "title": "Return to the same cell",
+      "objective": "Integrate the reversible morphology diagram and the major hallmarks of irreversible injury.",
+      "sourcePages": [6, 9, 10, 11, 12, 16], "provenance": "established-clarification", "visual": "recovery",
+      "beats": [
+        {"id": "recovery-return", "anchor": "Restore", "text": "Return to our swollen cell. Restore oxygen and support early enough, and ATP production, ion gradients, cell volume, and protein synthesis can recover."},
+        {"id": "recovery-morphology", "anchor": "blebs", "text": "Swelling, blebs, and chromatin clumping can resolve. Severe irreversible damage brings membrane fragmentation, nuclear destruction, and membrane derived myelin figures instead."},
+        {"id": "recovery-hallmarks", "anchor": "hallmarks", "text": "Two major hallmarks of irreversible injury are an inability to reverse mitochondrial dysfunction and profound membrane damage. Removal of the original stimulus is then too late."},
+        {"id": "recovery-context", "anchor": "timing", "text": "The lesson is timing plus severity plus cell type. Adaptation, recovery, and death are outcomes of the cell's response to its environment, not a fixed clock."}
+      ]
+    },
+    {
+      "id": "recap", "title": "One connected injury network",
+      "objective": "Consolidate all six lecture mechanisms into a causal model and a memorable reversible-versus-irreversible distinction.",
+      "sourcePages": [2, 11, 26, 27, 28], "provenance": "lecture", "visual": "recap",
+      "beats": [
+        {"id": "recap-atp", "anchor": "ATP", "text": "Remember the energy chain: ATP falls, ion pumps fail, sodium accumulates, water enters, and the cell swells. Glycolysis and reduced protein synthesis add parallel consequences."},
+        {"id": "recap-network", "anchor": "Calcium", "text": "Calcium activates damaging enzymes. ROS attack lipids, proteins, and DNA. Mitochondrial injury undermines ATP or releases apoptotic signals; membrane injury removes essential boundaries."},
+        {"id": "recap-dna", "anchor": "Unrepaired", "text": "Unrepaired DNA and protein damage can activate apoptosis. These mechanisms reinforce one another, so understand their connections rather than memorizing six isolated boxes."},
+        {"id": "recap-outcome", "anchor": "Recoverable", "text": "Recoverable dysfunction is reversible injury. Irreparable mitochondrial and membrane failure marks irreversible injury. Always ask: what failed, why did it fail, and can this cell still recover?", "holdAfterSeconds": 1.6}
+      ]
+    }
+  ]
 }
