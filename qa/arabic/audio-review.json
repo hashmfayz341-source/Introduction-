@@ -1,2305 +1,2215 @@
 {
   "method": "Faster Whisper small/int8, explicit language; waveform and real boundary checks",
   "directListeningAvailable": false,
-  "audioSha256": "c7481186456c01eb10dca5fc5628fbe6e67dd2cfc202a8713b204b04ee38ccd0",
+  "audioSha256": "ab75ddcbb4301f081cfd45e5b0e4f5ea038bb55c3c67309dcb452106f4976e88",
   "arabicVoice": "ar-SA-HamedNeural",
-  "englishVoice": "en-US-AndrewMultilingualNeural",
+  "englishVoice": "en-US-AndrewNeural",
   "beats": [
     {
       "scene": "homeostasis",
       "beat": "homeostasis-balance",
       "startSeconds": 0.24,
-      "endSeconds": 22.899291666666667,
+      "endSeconds": 22.67445833333333,
       "segments": [
         {
           "startSeconds": 0.24,
           "endSeconds": 3.24,
           "text": " خلونا نبدأ بخلية طبيعية",
-          "averageLogProbability": -0.1792312079557666
+          "averageLogProbability": -0.1694402470501191
         },
         {
           "startSeconds": 3.24,
           "endSeconds": 8.24,
           "text": " الخلية تطبط الطاقة والأيونات والبروتينات باستمرار",
-          "averageLogProbability": -0.1792312079557666
+          "averageLogProbability": -0.1694402470501191
         },
         {
           "startSeconds": 8.24,
           "endSeconds": 10.24,
           "text": " هذا هو",
-          "averageLogProbability": -0.1792312079557666
+          "averageLogProbability": -0.1694402470501191
         },
         {
           "startSeconds": 10.24,
-          "endSeconds": 18.24,
-          "text": " يعني الحفاظ على توازن دافلي ضن حدود ضيقة رغم تغير البيئة حولها",
-          "averageLogProbability": -0.1792312079557666
+          "endSeconds": 17.24,
+          "text": " يعني الحفاظ على التوازن داخلي ضن حدود ضيقة رغم تغير البيئة حولها",
+          "averageLogProbability": -0.1694402470501191
         },
         {
-          "startSeconds": 18.24,
-          "endSeconds": 23.24,
-          "text": " التوازن هنا عملية النشطة وليس حالة سكون",
-          "averageLogProbability": -0.1792312079557666
+          "startSeconds": 17.24,
+          "endSeconds": 22.24,
+          "text": " التوازن هنا عملية نشطة وليس حالة سكون",
+          "averageLogProbability": -0.1694402470501191
         }
       ]
     },
     {
       "scene": "homeostasis",
       "beat": "homeostasis-structures",
-      "startSeconds": 22.999291666666668,
-      "endSeconds": 47.25995833333333,
+      "startSeconds": 22.77445833333333,
+      "endSeconds": 46.791375,
       "segments": [
         {
-          "startSeconds": 22.999291666666668,
-          "endSeconds": 28.43929166666667,
-          "text": " أو الغشاء الخلوي ينظم دخول المودي وخروجها",
-          "averageLogProbability": -0.3685010858803741
+          "startSeconds": 22.77445833333333,
+          "endSeconds": 28.29445833333333,
+          "text": " او الغشاء الخلوي ينظم دخول المود وخروجها",
+          "averageLogProbability": -0.352519410901365
         },
         {
-          "startSeconds": 29.159291666666668,
-          "endSeconds": 31.79929166666667,
-          "text": " وميتا كاندريا تنتج ATP",
-          "averageLogProbability": -0.3685010858803741
+          "startSeconds": 28.934458333333332,
+          "endSeconds": 34.69445833333333,
+          "text": " وميتا كاندريا تنتج ATP جزي الطاقة الذي تعتمد عليه الخلية",
+          "averageLogProbability": -0.352519410901365
         },
         {
-          "startSeconds": 31.79929166666667,
-          "endSeconds": 34.999291666666664,
-          "text": " جزيء الطاقة الذي تعتمد عليه الخلية",
-          "averageLogProbability": -0.3685010858803741
+          "startSeconds": 35.33445833333333,
+          "endSeconds": 41.094458333333336,
+          "text": " اما نوكليوس النواه فتخفظ DNA المادة الوراثية",
+          "averageLogProbability": -0.352519410901365
         },
         {
-          "startSeconds": 35.71929166666667,
-          "endSeconds": 37.15929166666667,
-          "text": " أما نوكليوس",
-          "averageLogProbability": -0.3685010858803741
-        },
-        {
-          "startSeconds": 37.15929166666667,
-          "endSeconds": 39.71929166666666,
-          "text": " النواة فتخفظ DNA",
-          "averageLogProbability": -0.3685010858803741
-        },
-        {
-          "startSeconds": 39.71929166666666,
-          "endSeconds": 41.47929166666667,
-          "text": " المادة الوراثية",
-          "averageLogProbability": -0.3685010858803741
-        },
-        {
-          "startSeconds": 42.11929166666667,
-          "endSeconds": 47.239291666666674,
-          "text": " وبقية العضيات تشارك في تصنيع المودي ونقلها وتفكيكها",
-          "averageLogProbability": -0.3685010858803741
+          "startSeconds": 41.734458333333336,
+          "endSeconds": 46.85445833333333,
+          "text": " وبقية العضيات تشارك في تصنيع المود ونقلها وتفكيكها",
+          "averageLogProbability": -0.352519410901365
         }
       ]
     },
     {
       "scene": "homeostasis",
       "beat": "homeostasis-types",
-      "startSeconds": 47.35995833333333,
-      "endSeconds": 73.55416666666666,
+      "startSeconds": 46.891375,
+      "endSeconds": 72.60691666666666,
       "segments": [
         {
-          "startSeconds": 47.35995833333333,
-          "endSeconds": 73.35995833333334,
-          "text": " قدرة الإنقسام تختلف بين الخلايا، استتجدد وتنقسم باستمرار، استكون غالبا في حالات راحة، لكنها تنقسم عند وجود محفز، مثل معظم الخلايا العصبية عند البالغين، فقدرتها على الإنقسام محدودة جدا، هذا لا يعني أنها لا تستطيع زيادة حجمها.",
-          "averageLogProbability": -0.1609240097877307
+          "startSeconds": 46.891375,
+          "endSeconds": 52.891375,
+          "text": " قدرة الانقسام تختلف بين الخلايا استتجدد وتنقسم باستمرار",
+          "averageLogProbability": -0.17334914477220897
+        },
+        {
+          "startSeconds": 52.891375,
+          "endSeconds": 59.891375,
+          "text": " استكون غالبا في حالات راحة لكنها تنقسم عند وجود محفز",
+          "averageLogProbability": -0.17334914477220897
+        },
+        {
+          "startSeconds": 59.891375,
+          "endSeconds": 68.891375,
+          "text": " مثل معظم الخلايا العصبية عند البالغين فقدرتها على الانقسام محدودة جدا",
+          "averageLogProbability": -0.17334914477220897
+        },
+        {
+          "startSeconds": 68.891375,
+          "endSeconds": 72.891375,
+          "text": " هذا لا يعني أنها لا تستطيع زيادة حجمها",
+          "averageLogProbability": -0.17334914477220897
         }
       ]
     },
     {
       "scene": "homeostasis",
       "beat": "homeostasis-limits",
-      "startSeconds": 73.65416666666667,
-      "endSeconds": 92.00166666666667,
+      "startSeconds": 72.70691666666667,
+      "endSeconds": 91.05441666666667,
       "segments": [
         {
-          "startSeconds": 73.65416666666667,
-          "endSeconds": 93.65416666666667,
-          "text": " إذاً لكل خلية حدود تحمل مختلفة. نوعها وحالتها ووظيفتها في النسيج تحدد مقدار الضغط الذي تتحمل وكيف تستجيب له. لذلك نفس المؤثر قد يضر نوعاً من الخلايا أكثر من غيره.",
-          "averageLogProbability": -0.15954165709646126
+          "startSeconds": 72.70691666666667,
+          "endSeconds": 92.70691666666667,
+          "text": " إذن لكل خلية حدود تحمل مختلفة. نوعها وحالتها ووظيفتها في النسيج تحدد مقدار الضغط الذي تتحمله وكيف تستجيب له. لذلك نفس المؤثر قد يضر نوعا من الخلايا أكثر من غيره.",
+          "averageLogProbability": -0.1511998045000624
         }
       ]
     },
     {
       "scene": "adaptation",
       "beat": "adaptation-demand",
-      "startSeconds": 92.66166666666666,
-      "endSeconds": 107.76599999999999,
+      "startSeconds": 91.71441666666666,
+      "endSeconds": 106.73604166666667,
       "segments": [
         {
-          "startSeconds": 92.66166666666666,
-          "endSeconds": 96.66166666666666,
-          "text": " زيادة الطلب على الخلية لا تعني الإصابة مباشرة.",
-          "averageLogProbability": -0.2300964167088638
+          "startSeconds": 91.71441666666666,
+          "endSeconds": 95.71441666666666,
+          "text": " زيادة الطلب على الخلية لا تعني الإصابة مباشرة",
+          "averageLogProbability": -0.22912601881389377
         },
         {
-          "startSeconds": 97.46166666666666,
-          "endSeconds": 98.46166666666666,
+          "startSeconds": 96.51441666666666,
+          "endSeconds": 97.51441666666666,
           "text": " قد تستجيب",
-          "averageLogProbability": -0.2300964167088638
+          "averageLogProbability": -0.22912601881389377
         },
         {
-          "startSeconds": 99.46166666666666,
-          "endSeconds": 105.46166666666666,
+          "startSeconds": 98.51441666666666,
+          "endSeconds": 104.31441666666666,
           "text": " يعني تكيف يكون توازن جديدا ويحافظ على بقاء الخلية ووظيفتها",
-          "averageLogProbability": -0.2300964167088638
+          "averageLogProbability": -0.22912601881389377
         },
         {
-          "startSeconds": 105.46166666666666,
-          "endSeconds": 107.66166666666666,
-          "text": " ما دام الطلب ضمن قدرتها.",
-          "averageLogProbability": -0.2300964167088638
+          "startSeconds": 104.51441666666666,
+          "endSeconds": 106.71441666666666,
+          "text": " ما دام الطلب ضمن قدرتها",
+          "averageLogProbability": -0.22912601881389377
         }
       ]
     },
     {
       "scene": "adaptation",
       "beat": "adaptation-size",
-      "startSeconds": 107.866,
-      "endSeconds": 124.44304166666666,
+      "startSeconds": 106.83604166666667,
+      "endSeconds": 123.26625000000001,
       "segments": [
         {
-          "startSeconds": 107.866,
-          "endSeconds": 114.866,
-          "text": " في ايزيد حجم الخلية مثل خلية عضلت القلب عندما يزيد عليها عب العمل",
-          "averageLogProbability": -0.21788768579320208
+          "startSeconds": 106.83604166666667,
+          "endSeconds": 113.83604166666667,
+          "text": " في يزيد حجم الخلية مثل خلية عضلة القلب عندما يزيد عليها عب العمل",
+          "averageLogProbability": -0.18918031807988883
         },
         {
-          "startSeconds": 115.866,
-          "endSeconds": 124.866,
-          "text": " وفي ايزيد حجم الخلية وقد يقل عدد الخلية أيضا عندما يقل الطلب أو تقل التغذية والدعم",
-          "averageLogProbability": -0.21788768579320208
+          "startSeconds": 113.83604166666667,
+          "endSeconds": 123.83604166666667,
+          "text": " وفي يصغر حجم الخلية وقد يقل عدد الخلية أيضا عندما يقل الطلب أو تقل التغذية والدعم",
+          "averageLogProbability": -0.18918031807988883
         }
       ]
     },
     {
       "scene": "adaptation",
       "beat": "adaptation-number",
-      "startSeconds": 124.54304166666667,
-      "endSeconds": 143.03662500000002,
+      "startSeconds": 123.36625,
+      "endSeconds": 141.65566666666666,
       "segments": [
         {
-          "startSeconds": 124.54304166666667,
-          "endSeconds": 130.06304166666666,
-          "text": " اما اذا هي زيادة عدد الخلية في نسيج قادر على الانقسام",
-          "averageLogProbability": -0.34410977595382264
+          "startSeconds": 123.36625,
+          "endSeconds": 128.88625,
+          "text": " فهي زيادة عدد الخلية في نسيج قادر على الانقسام",
+          "averageLogProbability": -0.3208298244695554
         },
         {
-          "startSeconds": 130.94304166666666,
-          "endSeconds": 137.34304166666666,
-          "text": " و جتعني استدال نوع من الخلية المتميزة بنوع آخر انسبى للضغط الموجود",
-          "averageLogProbability": -0.34410977595382264
+          "startSeconds": 129.60625,
+          "endSeconds": 136.16625,
+          "text": " وتعني استدال نوع من الخلية المتميزة بنوع آخر أنسبة للضغط الموجود",
+          "averageLogProbability": -0.3208298244695554
         },
         {
-          "startSeconds": 138.38304166666666,
-          "endSeconds": 143.02304166666667,
+          "startSeconds": 136.96625,
+          "endSeconds": 141.68625,
           "text": " انتبه للفرق حجم أو عدد أو نوع الخلية",
-          "averageLogProbability": -0.34410977595382264
+          "averageLogProbability": -0.3208298244695554
         }
       ]
     },
     {
       "scene": "adaptation",
       "beat": "adaptation-limit",
-      "startSeconds": 143.136625,
-      "endSeconds": 160.4632916666667,
+      "startSeconds": 141.75566666666666,
+      "endSeconds": 158.95158333333333,
       "segments": [
         {
-          "startSeconds": 143.136625,
-          "endSeconds": 145.136625,
+          "startSeconds": 141.75566666666666,
+          "endSeconds": 143.75566666666666,
           "text": " التكيف له حدود",
-          "averageLogProbability": -0.2229826497404199
+          "averageLogProbability": -0.23874149761701885
         },
         {
-          "startSeconds": 145.836625,
-          "endSeconds": 148.636625,
+          "startSeconds": 144.45566666666664,
+          "endSeconds": 147.25566666666666,
           "text": " إذا تجاوز المؤثر قدرة الخليا",
-          "averageLogProbability": -0.2229826497404199
+          "averageLogProbability": -0.23874149761701885
         },
         {
-          "startSeconds": 148.636625,
-          "endSeconds": 151.93662500000002,
+          "startSeconds": 147.25566666666666,
+          "endSeconds": 150.55566666666667,
           "text": " أو هدد بنيتها ووظيفتها مباشرة",
-          "averageLogProbability": -0.2229826497404199
+          "averageLogProbability": -0.23874149761701885
         },
         {
-          "startSeconds": 151.93662500000002,
-          "endSeconds": 153.43662500000002,
+          "startSeconds": 150.55566666666667,
+          "endSeconds": 151.75566666666666,
           "text": " تبدأ",
-          "averageLogProbability": -0.2229826497404199
+          "averageLogProbability": -0.23874149761701885
         },
         {
-          "startSeconds": 153.43662500000002,
-          "endSeconds": 155.43662500000002,
+          "startSeconds": 151.75566666666666,
+          "endSeconds": 154.05566666666667,
           "text": " يعني حدوث ضرر في الخليا",
-          "averageLogProbability": -0.2229826497404199
+          "averageLogProbability": -0.23874149761701885
         },
         {
-          "startSeconds": 156.236625,
-          "endSeconds": 157.43662500000002,
+          "startSeconds": 154.65566666666666,
+          "endSeconds": 155.95566666666664,
           "text": " من هنا نسأل",
-          "averageLogProbability": -0.2229826497404199
+          "averageLogProbability": -0.23874149761701885
         },
         {
-          "startSeconds": 157.43662500000002,
-          "endSeconds": 160.43662500000002,
+          "startSeconds": 155.95566666666664,
+          "endSeconds": 158.95566666666664,
           "text": " هل نازال هذا الضرر قابلا للتعافي",
-          "averageLogProbability": -0.2229826497404199
+          "averageLogProbability": -0.23874149761701885
         }
       ]
     },
     {
       "scene": "injury-threshold",
       "beat": "threshold-stress",
-      "startSeconds": 161.12329166666666,
-      "endSeconds": 181.3550833333333,
+      "startSeconds": 159.61158333333333,
+      "endSeconds": 179.67404166666665,
       "segments": [
         {
-          "startSeconds": 161.12329166666666,
-          "endSeconds": 167.82329166666665,
-          "text": " السهل التحدي الذي تتعرض له الخلية وهو الضرر الناتج عنه.",
-          "averageLogProbability": -0.23577857047927622
+          "startSeconds": 159.61158333333333,
+          "endSeconds": 163.15158333333332,
+          "text": " السهل التحدي الذي تتعرض له الخلية",
+          "averageLogProbability": -0.29408622622489927
         },
         {
-          "startSeconds": 167.82329166666665,
-          "endSeconds": 176.62329166666666,
-          "text": " النتيجة تعتمد على نوع المؤثر وشدته ومدته وعلى قابلية الخلية نفسها للتأثر.",
-          "averageLogProbability": -0.23577857047927622
+          "startSeconds": 163.15158333333332,
+          "endSeconds": 166.27158333333333,
+          "text": " هو الضرر الناتج عنه",
+          "averageLogProbability": -0.29408622622489927
         },
         {
-          "startSeconds": 176.62329166666666,
-          "endSeconds": 182.62329166666666,
-          "text": " لذلك لا توجد نتيجة واحدة لكل أنواع الضغق.",
-          "averageLogProbability": -0.23577857047927622
+          "startSeconds": 166.27158333333333,
+          "endSeconds": 169.15158333333332,
+          "text": " النتيجة تعتمد على نوع المؤثر",
+          "averageLogProbability": -0.29408622622489927
+        },
+        {
+          "startSeconds": 169.15158333333332,
+          "endSeconds": 171.21158333333332,
+          "text": " وشدته ومدته",
+          "averageLogProbability": -0.29408622622489927
+        },
+        {
+          "startSeconds": 171.21158333333332,
+          "endSeconds": 175.09158333333332,
+          "text": " وعلى قابلية الخلية نفسها للتأثر",
+          "averageLogProbability": -0.29408622622489927
+        },
+        {
+          "startSeconds": 175.09158333333332,
+          "endSeconds": 179.59158333333332,
+          "text": " لذلك لا توجد نتيجة واحدة لكل أنواع الضغط",
+          "averageLogProbability": -0.29408622622489927
         }
       ]
     },
     {
       "scene": "injury-threshold",
       "beat": "threshold-reversible",
-      "startSeconds": 181.45508333333333,
-      "endSeconds": 202.581,
+      "startSeconds": 179.77404166666668,
+      "endSeconds": 200.76020833333334,
       "segments": [
         {
-          "startSeconds": 181.45508333333333,
-          "endSeconds": 191.45508333333333,
-          "text": " يعني إصابة قابلة للعكس، تستطيع الخلية استعادة وظيفتها وشكلها إذا أزلنا السبب في الوقت المناسب.",
-          "averageLogProbability": -0.19885112186695666
-        },
-        {
-          "startSeconds": 192.45508333333333,
-          "endSeconds": 202.45508333333333,
-          "text": " قد نشاهد أي انتفاخ الخلية بروزات صغيرة في الغشاء مع أن التعافي مازال ممكن.",
-          "averageLogProbability": -0.19885112186695666
+          "startSeconds": 179.77404166666668,
+          "endSeconds": 200.77404166666668,
+          "text": " يعني إصابة قابلة للعكس، تستطيع الخلية استعادة وظيفتها وشكلها إذا أزلنا السبب في الوقت المناسب، قد نشاهد أي انتفاخ الخلية، بروزات صغيرة في الغشاء مع أن التعافي مازال ممكنا.",
+          "averageLogProbability": -0.2153442272163452
         }
       ]
     },
     {
       "scene": "injury-threshold",
       "beat": "threshold-integrity",
-      "startSeconds": 202.681,
-      "endSeconds": 222.15670833333334,
+      "startSeconds": 200.86020833333333,
+      "endSeconds": 220.27466666666666,
       "segments": [
         {
-          "startSeconds": 202.681,
-          "endSeconds": 209.681,
+          "startSeconds": 200.86020833333333,
+          "endSeconds": 207.60020833333334,
           "text": " النقطة المهمة هنا هي بقاء سلامة الغشاء الوظيفية و بقاء النوات قابلة للحياة",
-          "averageLogProbability": -0.25610542821663396
+          "averageLogProbability": -0.2845435790993549
         },
         {
-          "startSeconds": 209.681,
-          "endSeconds": 215.681,
-          "text": " كلمة رفرسيب لا تعني أن الغشاء لم يتغير شكله أبدًا",
-          "averageLogProbability": -0.25610542821663396
+          "startSeconds": 208.46020833333333,
+          "endSeconds": 212.86020833333333,
+          "text": " كلمة رفرسبل لا تعني أن الغشاء لم يتغير شكله أبدًا",
+          "averageLogProbability": -0.2845435790993549
         },
         {
-          "startSeconds": 215.681,
-          "endSeconds": 222.681,
+          "startSeconds": 213.76020833333334,
+          "endSeconds": 220.02020833333333,
           "text": " قد تظهر بروزات وتغيرات مبكرة لكن الخلية لم تفقد مقاومات البقاء",
-          "averageLogProbability": -0.25610542821663396
+          "averageLogProbability": -0.2845435790993549
         }
       ]
     },
     {
       "scene": "injury-threshold",
       "beat": "threshold-irreversible",
-      "startSeconds": 222.25670833333334,
-      "endSeconds": 241.57183333333333,
+      "startSeconds": 220.37466666666666,
+      "endSeconds": 239.66683333333333,
       "segments": [
         {
-          "startSeconds": 222.25670833333334,
-          "endSeconds": 228.29670833333333,
+          "startSeconds": 220.37466666666666,
+          "endSeconds": 226.17466666666667,
           "text": " إذا وصل الضرر إلى إصابة غير قابلة للعكس",
-          "averageLogProbability": -0.20901455311104655
+          "averageLogProbability": -0.1955855133322378
         },
         {
-          "startSeconds": 228.29670833333333,
-          "endSeconds": 234.61670833333335,
-          "text": " فالخلية ما عادت قدر ترجع للوضع الطبيعي حتى لو أزن السبب",
-          "averageLogProbability": -0.20901455311104655
+          "startSeconds": 226.37466666666666,
+          "endSeconds": 231.57466666666664,
+          "text": " فالخلية ما عادة قدر ترجع للوضع الطبيعي حتى لو أزن السبب",
+          "averageLogProbability": -0.1955855133322378
         },
         {
-          "startSeconds": 234.61670833333335,
-          "endSeconds": 243.25670833333334,
+          "startSeconds": 232.57466666666664,
+          "endSeconds": 239.57466666666664,
           "text": " والمؤثر الشديد جدا قد يصل بها إلى هذه المرحلة بسرعة ليست المسألة مدة فقط",
-          "averageLogProbability": -0.20901455311104655
+          "averageLogProbability": -0.1955855133322378
         }
       ]
     },
     {
       "scene": "causes",
       "beat": "causes-oxygen",
-      "startSeconds": 242.23183333333333,
-      "endSeconds": 262.9433333333333,
+      "startSeconds": 240.32683333333333,
+      "endSeconds": 260.60295833333333,
       "segments": [
         {
-          "startSeconds": 242.23183333333333,
-          "endSeconds": 245.23183333333333,
+          "startSeconds": 240.32683333333333,
+          "endSeconds": 243.32683333333333,
           "text": " المحاضرة تركز على نقص الأكسوجين",
-          "averageLogProbability": -0.22179014369178174
+          "averageLogProbability": -0.256474530255353
         },
         {
-          "startSeconds": 245.23183333333333,
-          "endSeconds": 246.23183333333333,
-          "text": " هيباكسيا",
-          "averageLogProbability": -0.22179014369178174
+          "startSeconds": 243.32683333333333,
+          "endSeconds": 244.12683333333334,
+          "text": " ايباكسيا",
+          "averageLogProbability": -0.256474530255353
         },
         {
-          "startSeconds": 246.23183333333333,
-          "endSeconds": 249.23183333333333,
+          "startSeconds": 244.12683333333334,
+          "endSeconds": 246.52683333333331,
           "text": " يعني عدم كفاية الأكسوجين",
-          "averageLogProbability": -0.22179014369178174
+          "averageLogProbability": -0.256474530255353
         },
         {
-          "startSeconds": 249.23183333333333,
-          "endSeconds": 250.23183333333333,
-          "text": " أم إسكيميا",
-          "averageLogProbability": -0.22179014369178174
+          "startSeconds": 247.32683333333333,
+          "endSeconds": 248.32683333333333,
+          "text": " ام إسكيميا",
+          "averageLogProbability": -0.256474530255353
         },
         {
-          "startSeconds": 250.23183333333333,
-          "endSeconds": 252.23183333333333,
-          "text": " إذا هي نقص تدفق أدم",
-          "averageLogProbability": -0.22179014369178174
+          "startSeconds": 248.32683333333333,
+          "endSeconds": 250.32683333333333,
+          "text": " فهي نقص تدفق أدم",
+          "averageLogProbability": -0.256474530255353
         },
         {
-          "startSeconds": 252.23183333333333,
-          "endSeconds": 254.23183333333333,
+          "startSeconds": 250.32683333333333,
+          "endSeconds": 252.52683333333331,
           "text": " فتقل أيضا المغذيات",
-          "averageLogProbability": -0.22179014369178174
+          "averageLogProbability": -0.256474530255353
         },
         {
-          "startSeconds": 254.23183333333333,
-          "endSeconds": 258.2318333333333,
-          "text": " ويضيف التخلص من الفضلات الأيضية",
-          "averageLogProbability": -0.22179014369178174
+          "startSeconds": 252.52683333333331,
+          "endSeconds": 255.52683333333331,
+          "text": " ويضعف التخلص من الفضلات الأيضية",
+          "averageLogProbability": -0.256474530255353
         },
         {
-          "startSeconds": 258.2318333333333,
-          "endSeconds": 259.2318333333333,
+          "startSeconds": 256.3268333333333,
+          "endSeconds": 257.3268333333333,
           "text": " لذلك",
-          "averageLogProbability": -0.22179014369178174
+          "averageLogProbability": -0.256474530255353
         },
         {
-          "startSeconds": 259.2318333333333,
-          "endSeconds": 260.2318333333333,
+          "startSeconds": 257.3268333333333,
+          "endSeconds": 257.72683333333333,
           "text": " أفر",
-          "averageLogProbability": -0.22179014369178174
+          "averageLogProbability": -0.256474530255353
         },
         {
-          "startSeconds": 260.2318333333333,
-          "endSeconds": 261.2318333333333,
+          "startSeconds": 257.72683333333333,
+          "endSeconds": 258.3268333333333,
           "text": " إسكيميا",
-          "averageLogProbability": -0.22179014369178174
+          "averageLogProbability": -0.256474530255353
         },
         {
-          "startSeconds": 261.2318333333333,
-          "endSeconds": 263.2318333333333,
+          "startSeconds": 258.3268333333333,
+          "endSeconds": 260.52683333333334,
           "text": " يأوسع من نقص الأكسوجين واحدة",
-          "averageLogProbability": -0.22179014369178174
+          "averageLogProbability": -0.256474530255353
         }
       ]
     },
     {
       "scene": "causes",
       "beat": "causes-trauma",
-      "startSeconds": 263.04333333333335,
-      "endSeconds": 285.06145833333335,
+      "startSeconds": 260.70295833333336,
+      "endSeconds": 282.72108333333335,
       "segments": [
         {
-          "startSeconds": 263.04333333333335,
-          "endSeconds": 270.6433333333334,
+          "startSeconds": 260.70295833333336,
+          "endSeconds": 268.3029583333334,
           "text": " الأسباب الفيزيائية تشمل الإصابات الحدة والردود مثل الإبار والجروح والسقوط والضغط",
-          "averageLogProbability": -0.19221036930064686
+          "averageLogProbability": -0.19836490027240064
         },
         {
-          "startSeconds": 270.6433333333334,
-          "endSeconds": 277.04333333333335,
+          "startSeconds": 268.3029583333334,
+          "endSeconds": 274.50295833333337,
           "text": " والأسباب الكيميائية تشمل الأحماض والقلويات والسموم والملوثات",
-          "averageLogProbability": -0.19221036930064686
+          "averageLogProbability": -0.19836490027240064
         },
         {
-          "startSeconds": 277.04333333333335,
-          "endSeconds": 285.04333333333335,
+          "startSeconds": 274.50295833333337,
+          "endSeconds": 282.70295833333336,
           "text": " أما الأسباب البيولوجية فتشمل العدوى بالفيروسات والبكتيريا والفطريات والإصابة بالطفيليات",
-          "averageLogProbability": -0.19221036930064686
+          "averageLogProbability": -0.19836490027240064
         }
       ]
     },
     {
       "scene": "causes",
       "beat": "causes-environment",
-      "startSeconds": 285.1614583333333,
-      "endSeconds": 302.35575,
+      "startSeconds": 282.8210833333333,
+      "endSeconds": 300.015375,
       "segments": [
         {
-          "startSeconds": 285.1614583333333,
-          "endSeconds": 291.6014583333333,
+          "startSeconds": 282.8210833333333,
+          "endSeconds": 289.2610833333333,
           "text": " ومن الأسباب البيئية، الحرارة المرتفعة أو المنخفضة، والتعرض للإشعاع",
-          "averageLogProbability": -0.19355628647302325
+          "averageLogProbability": -0.19604491905162208
         },
         {
-          "startSeconds": 292.4414583333333,
-          "endSeconds": 302.32145833333334,
+          "startSeconds": 290.1010833333333,
+          "endSeconds": 299.98108333333334,
           "text": " كذلك، نقص مغذيات أو زيادتها قد يضر الخلية، سواء كانت مغذيات كبرأ أو عناصر نحتاجها بكميات صغيرة",
-          "averageLogProbability": -0.19355628647302325
+          "averageLogProbability": -0.19604491905162208
         }
       ]
     },
     {
       "scene": "causes",
       "beat": "causes-genetic",
-      "startSeconds": 302.45575,
-      "endSeconds": 324.073375,
+      "startSeconds": 300.115375,
+      "endSeconds": 321.58529166666665,
       "segments": [
         {
-          "startSeconds": 302.45575,
-          "endSeconds": 307.89575,
+          "startSeconds": 300.115375,
+          "endSeconds": 305.55537499999997,
           "text": " الإترابات الجينية قد تغير وظيفة الخليت أو حساسيتها للضرر",
-          "averageLogProbability": -0.3097786811681894
+          "averageLogProbability": -0.3006043281310644
         },
         {
-          "startSeconds": 308.45575,
-          "endSeconds": 310.05575000000005,
+          "startSeconds": 306.115375,
+          "endSeconds": 307.715375,
           "text": " وتذكر المحاضرت",
-          "averageLogProbability": -0.3097786811681894
+          "averageLogProbability": -0.3006043281310644
         },
         {
-          "startSeconds": 310.05575000000005,
-          "endSeconds": 311.05575000000005,
+          "startSeconds": 307.715375,
+          "endSeconds": 308.51537499999995,
           "text": " Down syndrome",
-          "averageLogProbability": -0.3097786811681894
+          "averageLogProbability": -0.3006043281310644
         },
         {
-          "startSeconds": 311.05575000000005,
-          "endSeconds": 312.45575,
+          "startSeconds": 308.51537499999995,
+          "endSeconds": 310.115375,
           "text": " Sickle cell anemia",
-          "averageLogProbability": -0.3097786811681894
+          "averageLogProbability": -0.3006043281310644
         },
         {
-          "startSeconds": 312.45575,
-          "endSeconds": 314.05575000000005,
+          "startSeconds": 310.115375,
+          "endSeconds": 311.715375,
           "text": " Mediterranean disease",
-          "averageLogProbability": -0.3097786811681894
+          "averageLogProbability": -0.3006043281310644
         },
         {
-          "startSeconds": 314.05575000000005,
-          "endSeconds": 315.45575,
+          "startSeconds": 311.715375,
+          "endSeconds": 313.715375,
           "text": " كما وردت فيها",
-          "averageLogProbability": -0.3097786811681894
+          "averageLogProbability": -0.3006043281310644
         },
         {
-          "startSeconds": 316.25575000000003,
-          "endSeconds": 318.05575000000005,
+          "startSeconds": 313.715375,
+          "endSeconds": 315.715375,
           "text": " ومع التقدم في العمر",
-          "averageLogProbability": -0.3097786811681894
+          "averageLogProbability": -0.3006043281310644
         },
         {
-          "startSeconds": 318.05575000000005,
-          "endSeconds": 321.45575,
+          "startSeconds": 315.715375,
+          "endSeconds": 318.915375,
           "text": " تقل احتياطات الخليت وكفاءة الإسلاح",
-          "averageLogProbability": -0.3097786811681894
+          "averageLogProbability": -0.3006043281310644
         },
         {
-          "startSeconds": 321.45575,
-          "endSeconds": 324.05575000000005,
+          "startSeconds": 318.915375,
+          "endSeconds": 321.715375,
           "text": " فتزداد قابليتها للتأذي",
-          "averageLogProbability": -0.3097786811681894
+          "averageLogProbability": -0.3006043281310644
         }
       ]
     },
     {
       "scene": "targets",
       "beat": "targets-energy",
-      "startSeconds": 324.733375,
-      "endSeconds": 345.86720833333334,
+      "startSeconds": 322.2452916666667,
+      "endSeconds": 343.2065416666667,
       "segments": [
         {
-          "startSeconds": 324.733375,
-          "endSeconds": 330.993375,
+          "startSeconds": 322.2452916666667,
+          "endSeconds": 328.50529166666666,
           "text": " الأسباب كثيرة لكنها تتقطع عند أهداف محددة داخل الخلية",
-          "averageLogProbability": -0.25004135960280294
+          "averageLogProbability": -0.24102404236793518
         },
         {
-          "startSeconds": 330.993375,
-          "endSeconds": 340.733375,
-          "text": " اهدف اساسي لأن الخلية تحتاج لتشغيل المضخات والمحافظة على وظائفها الحيوية",
-          "averageLogProbability": -0.25004135960280294
+          "startSeconds": 328.50529166666666,
+          "endSeconds": 338.2452916666667,
+          "text": " اهدف اساسي لأن الخلية تحتاج ATP لتجغيل المضخات والمحافظة على وظائفها الحيوية",
+          "averageLogProbability": -0.24102404236793518
         },
         {
-          "startSeconds": 340.733375,
-          "endSeconds": 345.733375,
-          "text": " فإذا تعطل مصدر الطاقة تتأثر أنظمة كثيرة معها",
-          "averageLogProbability": -0.25004135960280294
+          "startSeconds": 338.2452916666667,
+          "endSeconds": 343.2452916666667,
+          "text": " فإذا تعطل مصدر الطاقة تتأثر أنظمة كثيرة معه",
+          "averageLogProbability": -0.24102404236793518
         }
       ]
     },
     {
       "scene": "targets",
       "beat": "targets-boundary",
-      "startSeconds": 345.96720833333336,
-      "endSeconds": 364.1717916666667,
+      "startSeconds": 343.30654166666665,
+      "endSeconds": 361.46095833333334,
       "segments": [
         {
-          "startSeconds": 345.96720833333336,
-          "endSeconds": 352.7672083333334,
-          "text": " وستفصل بين داخل الخلية وخارجها وبين العبضيات والسيتوبلس",
-          "averageLogProbability": -0.28746834495565393
+          "startSeconds": 343.30654166666665,
+          "endSeconds": 354.30654166666665,
+          "text": " وستفصل بين داخل الخالية وخارجها وبين العضيات والسيتوبلس هذه الحدود تحفظ توزيع الآيونات والمود",
+          "averageLogProbability": -0.2581716969955799
         },
         {
-          "startSeconds": 353.36720833333334,
-          "endSeconds": 357.16720833333335,
-          "text": " هذه الحدود تحفظ توزيع الأيونات والنود",
-          "averageLogProbability": -0.28746834495565393
-        },
-        {
-          "startSeconds": 357.66720833333335,
-          "endSeconds": 360.2672083333334,
-          "text": " إذا فقد الغشاء هذه السيطرة",
-          "averageLogProbability": -0.28746834495565393
-        },
-        {
-          "startSeconds": 360.2672083333334,
-          "endSeconds": 364.2672083333334,
-          "text": " تدخل مودة وتخرج أخرى بطريقة غير منظمة",
-          "averageLogProbability": -0.28746834495565393
+          "startSeconds": 354.30654166666665,
+          "endSeconds": 361.30654166666665,
+          "text": " إذا فقد الغشاء هذه السيطرة تدخل مود وتخرج أخرى بطريقة غير منظمة",
+          "averageLogProbability": -0.2581716969955799
         }
       ]
     },
     {
       "scene": "targets",
       "beat": "targets-proteins",
-      "startSeconds": 364.2717916666667,
-      "endSeconds": 384.8084166666667,
+      "startSeconds": 361.56095833333336,
+      "endSeconds": 381.54220833333335,
       "segments": [
         {
-          "startSeconds": 364.2717916666667,
-          "endSeconds": 366.2717916666667,
-          "text": " اندو بلاسمك رتيكولم",
-          "averageLogProbability": -0.32099078968167305
-        },
-        {
-          "startSeconds": 366.2717916666667,
-          "endSeconds": 367.2717916666667,
-          "text": " او اي ادي",
-          "averageLogProbability": -0.32099078968167305
-        },
-        {
-          "startSeconds": 367.2717916666667,
-          "endSeconds": 371.2717916666667,
+          "startSeconds": 361.56095833333336,
+          "endSeconds": 367.9209583333334,
           "text": " شبكة أرشية تدعم تصنيع البروتين ونقله",
-          "averageLogProbability": -0.32099078968167305
+          "averageLogProbability": -0.2538334587473928
         },
         {
-          "startSeconds": 371.2717916666667,
-          "endSeconds": 372.2717916666667,
-          "text": " ومعها",
-          "averageLogProbability": -0.32099078968167305
+          "startSeconds": 368.56095833333336,
+          "endSeconds": 372.56095833333336,
+          "text": " ومعها وحدات تصنيع البروتين",
+          "averageLogProbability": -0.2538334587473928
         },
         {
-          "startSeconds": 372.2717916666667,
-          "endSeconds": 373.2717916666667,
-          "text": " ريبسونس",
-          "averageLogProbability": -0.32099078968167305
-        },
-        {
-          "startSeconds": 373.2717916666667,
-          "endSeconds": 376.2717916666667,
-          "text": " وحدات تصنيع البروتين",
-          "averageLogProbability": -0.32099078968167305
-        },
-        {
-          "startSeconds": 376.2717916666667,
-          "endSeconds": 378.2717916666667,
-          "text": " وصايتوسكيلوتين",
-          "averageLogProbability": -0.32099078968167305
-        },
-        {
-          "startSeconds": 378.2717916666667,
-          "endSeconds": 380.2717916666667,
-          "text": " الهيكل الداخلي للخلية",
-          "averageLogProbability": -0.32099078968167305
-        },
-        {
-          "startSeconds": 380.2717916666667,
-          "endSeconds": 385.2717916666667,
-          "text": " يوفر الدعم ويحافظ على شكل الخلية وتنظيم أرشيتها",
-          "averageLogProbability": -0.32099078968167305
+          "startSeconds": 373.1609583333334,
+          "endSeconds": 381.56095833333336,
+          "text": " والهيكل الداخلي للخلية يوفر الدعم ويحافظ على شكل الخلية وتنظيم أرشيتها",
+          "averageLogProbability": -0.2538334587473928
         }
       ]
     },
     {
       "scene": "targets",
       "beat": "targets-genome",
-      "startSeconds": 384.90841666666665,
-      "endSeconds": 402.64258333333333,
+      "startSeconds": 381.6422083333333,
+      "endSeconds": 399.44891666666666,
       "segments": [
         {
-          "startSeconds": 384.90841666666665,
-          "endSeconds": 390.36841666666663,
-          "text": " ويأتي ديانا الذي يحفظ التعليمات الوراثية اللازمة للبقاء",
-          "averageLogProbability": -0.24933416095185787
+          "startSeconds": 381.6422083333333,
+          "endSeconds": 387.2022083333333,
+          "text": " ويأتي DNA الذي يحفظ التعليمات الوراثية اللازمة للبقاء.",
+          "averageLogProbability": -0.2487314977953511
         },
         {
-          "startSeconds": 391.16841666666664,
-          "endSeconds": 402.66841666666664,
-          "text": " تذكر أن هذه الأهداف مترابطة إصابة الميت كنديريا مثلا قد تؤثر في الأغشية وتصنيع البروتين فتزيد الضرر في بقية الخلية",
-          "averageLogProbability": -0.24933416095185787
+          "startSeconds": 388.00220833333333,
+          "endSeconds": 399.4022083333333,
+          "text": " تذكر أن هذه الأهداف مترابطة إصابة الميت كندرية مثلا قد تؤثر في الأغشية وتصنيع البروتين فتزيد الضرر في بقية الخلية.",
+          "averageLogProbability": -0.2487314977953511
         }
       ]
     },
     {
       "scene": "oxygen-atp",
       "beat": "oxygen-flow",
-      "startSeconds": 403.30258333333336,
-      "endSeconds": 420.3250416666667,
+      "startSeconds": 400.1089166666667,
+      "endSeconds": 417.0985416666667,
       "segments": [
         {
-          "startSeconds": 403.30258333333336,
-          "endSeconds": 406.30258333333336,
+          "startSeconds": 400.1089166666667,
+          "endSeconds": 403.1089166666667,
           "text": " تابع هذه الجلطة وهي تصد الوعاق",
-          "averageLogProbability": -0.2755292369259728
+          "averageLogProbability": -0.2464598763320181
         },
         {
-          "startSeconds": 407.30258333333336,
-          "endSeconds": 409.9025833333334,
+          "startSeconds": 404.1089166666667,
+          "endSeconds": 406.7089166666667,
           "text": " يقل تدفق أدم بعد الإنسداد",
-          "averageLogProbability": -0.2755292369259728
+          "averageLogProbability": -0.2464598763320181
         },
         {
-          "startSeconds": 410.10258333333337,
-          "endSeconds": 414.10258333333337,
+          "startSeconds": 406.9089166666667,
+          "endSeconds": 410.9089166666667,
           "text": " فيصل إلى الخلية أكسجين أقل ومغذيات أقل",
-          "averageLogProbability": -0.2755292369259728
+          "averageLogProbability": -0.2464598763320181
         },
         {
-          "startSeconds": 414.9025833333334,
-          "endSeconds": 416.30258333333336,
-          "text": " هذه بداية موذج",
-          "averageLogProbability": -0.2755292369259728
+          "startSeconds": 411.7089166666667,
+          "endSeconds": 413.1089166666667,
+          "text": " هذه بداية أموذج",
+          "averageLogProbability": -0.2464598763320181
         },
         {
-          "startSeconds": 417.70258333333334,
-          "endSeconds": 420.30258333333336,
+          "startSeconds": 414.50891666666666,
+          "endSeconds": 417.1089166666667,
           "text": " الإصابة الناتجة عن نقص التروية",
-          "averageLogProbability": -0.2755292369259728
+          "averageLogProbability": -0.2464598763320181
         }
       ]
     },
     {
       "scene": "oxygen-atp",
       "beat": "oxygen-mitochondria",
-      "startSeconds": 420.4250416666667,
-      "endSeconds": 441.11158333333333,
+      "startSeconds": 417.19854166666664,
+      "endSeconds": 437.4069583333333,
       "segments": [
         {
-          "startSeconds": 420.4250416666667,
-          "endSeconds": 430.2250416666667,
-          "text": " مع نقص الأكسوجين، تبطأ عملية إنتاج الطاقة المرتبطة بسلسلة نقل الإلكترون في الميت كوندرية،",
-          "averageLogProbability": -0.27554513541134923
+          "startSeconds": 417.19854166666664,
+          "endSeconds": 426.79854166666667,
+          "text": " مع نقص الأكسوجين، تبطء عملية انتاج الطاقة المرتبطة بسلسلة نقل الإلكترون في الميتو كوندريا.",
+          "averageLogProbability": -0.27078104263002223
         },
         {
-          "startSeconds": 431.2250416666667,
-          "endSeconds": 435.2250416666667,
-          "text": " فيقل إنتاج ATP، هنا تبدأ ATP-depletion،",
-          "averageLogProbability": -0.27554513541134923
+          "startSeconds": 427.5985416666666,
+          "endSeconds": 431.5985416666666,
+          "text": " فيقل انتاج ATP، هنا تبدأ ATP-depletion،",
+          "averageLogProbability": -0.27078104263002223
         },
         {
-          "startSeconds": 435.6250416666667,
-          "endSeconds": 441.0250416666667,
-          "text": " يعني إنخفاض الطاقة المتاحة للمضخات وبقية العمل الأساسي داخل الخلية.",
-          "averageLogProbability": -0.27554513541134923
+          "startSeconds": 431.79854166666667,
+          "endSeconds": 437.39854166666663,
+          "text": " يعني انخفاض الطاقة المتاحة للمضخات وبقية العمل الأساسي داخل الخلية.",
+          "averageLogProbability": -0.27078104263002223
         }
       ]
     },
     {
       "scene": "oxygen-atp",
       "beat": "oxygen-other",
-      "startSeconds": 441.21158333333335,
-      "endSeconds": 458.58112500000004,
+      "startSeconds": 437.50695833333333,
+      "endSeconds": 454.72279166666664,
       "segments": [
         {
-          "startSeconds": 441.21158333333335,
-          "endSeconds": 450.21158333333335,
-          "text": " وقد يحدث ايضاً بسبب نقص المغذيات، او اصابة الميت كندرية مباشرة، او سموم مثل سينايد.",
-          "averageLogProbability": -0.2508544282844433
+          "startSeconds": 437.50695833333333,
+          "endSeconds": 446.30695833333334,
+          "text": " وقد يحدث ايضا بسبب نقص المغذيات، او اصابة الميت كندرية مباشرة، او سموم مثل سيناد.",
+          "averageLogProbability": -0.27053376155741077
         },
         {
-          "startSeconds": 450.21158333333335,
-          "endSeconds": 459.21158333333335,
-          "text": " اذن المشكلة ليس دائماً في وصول الأكسوجين، قد تكون في قدرة الخالية على استخدامه لانتاج الطاقة.",
-          "averageLogProbability": -0.2508544282844433
+          "startSeconds": 446.30695833333334,
+          "endSeconds": 454.7069583333333,
+          "text": " إذن المشكلة ليس دائما في وصول الأكسوجين، قد تكون في قدرة الخليات على استخدامه لانتاج الطاقة.",
+          "averageLogProbability": -0.27053376155741077
         }
       ]
     },
     {
       "scene": "oxygen-atp",
       "beat": "oxygen-necrosis",
-      "startSeconds": 458.681125,
-      "endSeconds": 479.87345833333336,
+      "startSeconds": 454.82279166666666,
+      "endSeconds": 475.75354166666665,
       "segments": [
         {
-          "startSeconds": 458.681125,
-          "endSeconds": 469.121125,
-          "text": " النقص شديد والمستمر في إيالية مهمة في نمط موت تتضرر فيه الخلية بشدة وقت تسرب محتوياتها",
-          "averageLogProbability": -0.24283958456226598
+          "startSeconds": 454.82279166666666,
+          "endSeconds": 459.82279166666666,
+          "text": " النقص شديد والمستمر في إيالية مهمة في نكروسس",
+          "averageLogProbability": -0.1798178089701611
         },
         {
-          "startSeconds": 469.961125,
-          "endSeconds": 475.161125,
+          "startSeconds": 459.82279166666666,
+          "endSeconds": 465.82279166666666,
+          "text": " نمط موت تتضرر فيه الخلية بشدة وقد تتسرب محتويتها",
+          "averageLogProbability": -0.1798178089701611
+        },
+        {
+          "startSeconds": 465.82279166666666,
+          "endSeconds": 471.82279166666666,
           "text": " لكن نقص طاقة في البداية قد يسبب تغييرات قابلة للعكس",
-          "averageLogProbability": -0.24283958456226598
+          "averageLogProbability": -0.1798178089701611
         },
         {
-          "startSeconds": 476.041125,
-          "endSeconds": 479.761125,
+          "startSeconds": 471.82279166666666,
+          "endSeconds": 475.82279166666666,
           "text": " خلونا نتابع أولا ماذا يحبث لنقل الأيونات",
-          "averageLogProbability": -0.24283958456226598
+          "averageLogProbability": -0.1798178089701611
         }
       ]
     },
     {
       "scene": "pump-swelling",
       "beat": "pump-failure",
-      "startSeconds": 480.53345833333333,
-      "endSeconds": 498.82,
+      "startSeconds": 476.4135416666667,
+      "endSeconds": 494.05987500000003,
       "segments": [
         {
-          "startSeconds": 480.53345833333333,
-          "endSeconds": 487.6734583333333,
-          "text": " مضخة السوديون والبوتسيوم تعتمد على",
-          "averageLogProbability": -0.33542712529500324
-        },
-        {
-          "startSeconds": 487.6734583333333,
-          "endSeconds": 489.4734583333333,
-          "text": " لما يقل",
-          "averageLogProbability": -0.33542712529500324
-        },
-        {
-          "startSeconds": 489.4734583333333,
-          "endSeconds": 498.71345833333334,
-          "text": " تبطء المضخة وتدعف قدرة الخالية على المحافظة على التوزيع الطبيعي للسوديون والبوتسيوم عبر الغشاب",
-          "averageLogProbability": -0.33542712529500324
+          "startSeconds": 476.4135416666667,
+          "endSeconds": 493.9735416666667,
+          "text": " مضخط سوديوم بوتاسيوم اتبط المضخة وتضعف قدرة الخليات على المحافظة على التوزيع الطبيعي للسوديوم والبوتاسيوم عبر الغشاب.",
+          "averageLogProbability": -0.343711522088122
         }
       ]
     },
     {
       "scene": "pump-swelling",
       "beat": "pump-ions",
-      "startSeconds": 498.92,
-      "endSeconds": 518.6959583333334,
+      "startSeconds": 494.159875,
+      "endSeconds": 513.8292916666667,
       "segments": [
         {
-          "startSeconds": 498.92,
-          "endSeconds": 503.62,
-          "text": " الصد يوم يتجمع داخل الخلية والبوتس يوم يفقد منها",
-          "averageLogProbability": -0.2483195409178734
+          "startSeconds": 494.159875,
+          "endSeconds": 499.459875,
+          "text": " السد يوم يتجمع داخل الخلية والبوتس يوم يفقد منها.",
+          "averageLogProbability": -0.26225339256080926
         },
         {
-          "startSeconds": 504.42,
-          "endSeconds": 508.52000000000004,
-          "text": " الماء يتبع زيادة المودب الزائبة دافلها فتدأ",
-          "averageLogProbability": -0.2483195409178734
+          "startSeconds": 499.459875,
+          "endSeconds": 504.659875,
+          "text": " الماء يتبع زيادة المود الزائب تدافلها فتدأ.",
+          "averageLogProbability": -0.26225339256080926
         },
         {
-          "startSeconds": 509.62,
-          "endSeconds": 518.52,
-          "text": " هذه هي العلاقة التي نريد نتذكرها طاقة أقل ضخ أضعف صد يوم أكثر ثم ماء وانتفاخ",
-          "averageLogProbability": -0.2483195409178734
+          "startSeconds": 504.659875,
+          "endSeconds": 513.659875,
+          "text": " هذه العلاقة التي نريد نتذكرها طاقة أقل ضخ أضعف سد يوم أكثر ثم ماء وانتفاخ.",
+          "averageLogProbability": -0.26225339256080926
         }
       ]
     },
     {
       "scene": "pump-swelling",
       "beat": "pump-morphology",
-      "startSeconds": 518.7959583333334,
-      "endSeconds": 538.5261666666667,
+      "startSeconds": 513.9292916666667,
+      "endSeconds": 533.362375,
       "segments": [
         {
-          "startSeconds": 518.7959583333334,
-          "endSeconds": 521.6959583333334,
-          "text": " وقد ينتفخ أيدي روال ميدا كاندريا",
-          "averageLogProbability": -0.37552531814575196
+          "startSeconds": 513.9292916666667,
+          "endSeconds": 516.8292916666667,
+          "text": " وقد ينتفخ أير والميتاكندريا",
+          "averageLogProbability": -0.37299447973905986
         },
         {
-          "startSeconds": 521.6959583333334,
-          "endSeconds": 523.3959583333334,
-          "text": " بأيضا",
-          "averageLogProbability": -0.37552531814575196
+          "startSeconds": 516.8292916666667,
+          "endSeconds": 518.3292916666667,
+          "text": " أيضا",
+          "averageLogProbability": -0.37299447973905986
         },
         {
-          "startSeconds": 523.3959583333334,
-          "endSeconds": 525.1959583333334,
-          "text": " وعلى صطح الخلية تظهر",
-          "averageLogProbability": -0.37552531814575196
+          "startSeconds": 518.3292916666667,
+          "endSeconds": 520.2292916666667,
+          "text": " وعلى صدح الخلية تظهر",
+          "averageLogProbability": -0.37299447973905986
         },
         {
-          "startSeconds": 525.1959583333334,
-          "endSeconds": 526.4959583333334,
-          "text": " مبريم بلابز",
-          "averageLogProbability": -0.37552531814575196
+          "startSeconds": 520.2292916666667,
+          "endSeconds": 521.4292916666667,
+          "text": " ميبرين بلابز",
+          "averageLogProbability": -0.37299447973905986
         },
         {
-          "startSeconds": 526.4959583333334,
-          "endSeconds": 527.2959583333334,
+          "startSeconds": 521.4292916666667,
+          "endSeconds": 522.2292916666667,
           "text": " وقد تختفي",
-          "averageLogProbability": -0.37552531814575196
+          "averageLogProbability": -0.37299447973905986
         },
         {
-          "startSeconds": 527.2959583333334,
-          "endSeconds": 528.3959583333334,
-          "text": " ميكرو فيلاي",
-          "averageLogProbability": -0.37552531814575196
+          "startSeconds": 522.2292916666667,
+          "endSeconds": 523.2292916666667,
+          "text": " ميكروفولي",
+          "averageLogProbability": -0.37299447973905986
         },
         {
-          "startSeconds": 528.3959583333334,
-          "endSeconds": 531.4959583333334,
-          "text": " الزغيبات الصغيرة على الصطح",
-          "averageLogProbability": -0.37552531814575196
+          "startSeconds": 523.2292916666667,
+          "endSeconds": 526.4292916666667,
+          "text": " الزغيبات الصغيرة على الصدح",
+          "averageLogProbability": -0.37299447973905986
         },
         {
-          "startSeconds": 531.4959583333334,
-          "endSeconds": 535.5959583333333,
-          "text": " هذه تغييرات مبكرة تدل على اختلال التوازن",
-          "averageLogProbability": -0.37552531814575196
+          "startSeconds": 526.4292916666667,
+          "endSeconds": 530.4292916666667,
+          "text": " هذه تغييرات مبكرة تدل على اختلال التواز",
+          "averageLogProbability": -0.37299447973905986
         },
         {
-          "startSeconds": 535.5959583333333,
-          "endSeconds": 538.5959583333333,
+          "startSeconds": 530.4292916666667,
+          "endSeconds": 533.4292916666667,
           "text": " ولا تعني وحدها أن الخلية ماتت",
-          "averageLogProbability": -0.37552531814575196
+          "averageLogProbability": -0.37299447973905986
         }
       ]
     },
     {
       "scene": "pump-swelling",
       "beat": "pump-calcium",
-      "startSeconds": 538.6261666666667,
-      "endSeconds": 558.13825,
+      "startSeconds": 533.462375,
+      "endSeconds": 552.9744583333332,
       "segments": [
         {
-          "startSeconds": 538.6261666666667,
-          "endSeconds": 542.4261666666666,
-          "text": " خلونا نفصل الكالسيوم عن هذا المسار",
-          "averageLogProbability": -0.20798190354226945
+          "startSeconds": 533.462375,
+          "endSeconds": 537.2623749999999,
+          "text": " خلونا نفصل الكالسيوم عن هذا المسار.",
+          "averageLogProbability": -0.2219692713998515
         },
         {
-          "startSeconds": 542.4261666666666,
-          "endSeconds": 548.2261666666667,
-          "text": " مضخة الصود يوم والبوتس يوم لا تمقل الكالسيوم إلى الداخل مباشرة",
-          "averageLogProbability": -0.20798190354226945
+          "startSeconds": 537.2623749999999,
+          "endSeconds": 543.062375,
+          "text": " مضخط الصود يوم والبتسيوم لا تنقل الكالسيوم إلى الداخل مباشرة.",
+          "averageLogProbability": -0.2219692713998515
         },
         {
-          "startSeconds": 548.2261666666667,
-          "endSeconds": 555.0261666666667,
-          "text": " الذي أرفع الكالسيوم في السيتوب لازم هو اختلار تنظيمه ومعه إصابة الأغشية",
-          "averageLogProbability": -0.20798190354226945
+          "startSeconds": 543.062375,
+          "endSeconds": 549.8623749999999,
+          "text": " الذي أرفع الكالسيوم في السيتوب لازم هو اختلار تنظيمه ومعه إصابة الأغشية.",
+          "averageLogProbability": -0.2219692713998515
         },
         {
-          "startSeconds": 555.0261666666667,
-          "endSeconds": 559.2261666666667,
-          "text": " سنشاهد هذا المسار بشكل مستقل",
-          "averageLogProbability": -0.20798190354226945
+          "startSeconds": 549.8623749999999,
+          "endSeconds": 554.462375,
+          "text": " سنشاهد هذا المسار بشكل مستقل.",
+          "averageLogProbability": -0.2219692713998515
         }
       ]
     },
     {
       "scene": "glycolysis",
       "beat": "glycolysis-backup",
-      "startSeconds": 558.79825,
-      "endSeconds": 578.0650833333334,
+      "startSeconds": 553.6344583333333,
+      "endSeconds": 572.3755,
       "segments": [
         {
-          "startSeconds": 558.79825,
-          "endSeconds": 560.1182500000001,
+          "startSeconds": 553.6344583333333,
+          "endSeconds": 555.6344583333333,
           "text": " عندما تتعطل",
-          "averageLogProbability": -0.32277845726771787
+          "averageLogProbability": -0.22616757401688534
         },
         {
-          "startSeconds": 562.1182500000001,
-          "endSeconds": 563.1182500000001,
+          "startSeconds": 556.6344583333333,
+          "endSeconds": 558.6344583333333,
           "text": " تزيد الخلية",
-          "averageLogProbability": -0.32277845726771787
+          "averageLogProbability": -0.22616757401688534
         },
         {
-          "startSeconds": 564.95825,
-          "endSeconds": 569.59825,
+          "startSeconds": 559.6344583333333,
+          "endSeconds": 563.6344583333333,
           "text": " تكسير الجلوكوز لإنتاج الطاقة من تون الاعتماد على الأكسجين",
-          "averageLogProbability": -0.32277845726771787
+          "averageLogProbability": -0.22616757401688534
         },
         {
-          "startSeconds": 570.35825,
-          "endSeconds": 571.59825,
+          "startSeconds": 564.6344583333333,
+          "endSeconds": 566.6344583333333,
           "text": " هذا يعطي بعض",
-          "averageLogProbability": -0.32277845726771787
+          "averageLogProbability": -0.22616757401688534
         },
         {
-          "startSeconds": 572.71825,
-          "endSeconds": 578.0382500000001,
+          "startSeconds": 566.6344583333333,
+          "endSeconds": 572.6344583333333,
           "text": " لكنه لا يعود كمية الطاقة التي يوفرها الأيض الهوائي الطبيعي",
-          "averageLogProbability": -0.32277845726771787
+          "averageLogProbability": -0.22616757401688534
         }
       ]
     },
     {
       "scene": "glycolysis",
       "beat": "glycolysis-glycogen",
-      "startSeconds": 578.1650833333333,
-      "endSeconds": 596.1556666666667,
+      "startSeconds": 572.4755,
+      "endSeconds": 590.2113333333333,
       "segments": [
         {
-          "startSeconds": 578.1650833333333,
-          "endSeconds": 583.6250833333334,
+          "startSeconds": 572.4755,
+          "endSeconds": 577.7755,
           "text": " تستهلك الخلية مخزون الواقودي الذي يمكنها استخدامه",
-          "averageLogProbability": -0.29754589916615004
+          "averageLogProbability": -0.3361960021398401
         },
         {
-          "startSeconds": 584.5250833333333,
-          "endSeconds": 591.4050833333333,
-          "text": " ويتراكم ثم ينخفض جداخل الخلية أي تصبح البيئة أكثر حموضة",
-          "averageLogProbability": -0.29754589916615004
+          "startSeconds": 578.6755,
+          "endSeconds": 582.8755,
+          "text": " ويتراكم ثم ينخفض الواقودي في الخلية",
+          "averageLogProbability": -0.3361960021398401
         },
         {
-          "startSeconds": 592.3050833333333,
-          "endSeconds": 596.0450833333333,
+          "startSeconds": 583.0755,
+          "endSeconds": 585.4755,
+          "text": " أي تصبح البيئة أكثر حموضة",
+          "averageLogProbability": -0.3361960021398401
+        },
+        {
+          "startSeconds": 586.2755,
+          "endSeconds": 590.0755,
           "text": " هذا يربط استهلك الواقودي بتغيير كمياء الخلية",
-          "averageLogProbability": -0.29754589916615004
+          "averageLogProbability": -0.3361960021398401
         }
       ]
     },
     {
       "scene": "glycolysis",
       "beat": "glycolysis-ph",
-      "startSeconds": 596.2556666666667,
-      "endSeconds": 614.4471666666667,
+      "startSeconds": 590.3113333333333,
+      "endSeconds": 608.457375,
       "segments": [
         {
-          "startSeconds": 596.2556666666667,
-          "endSeconds": 598.2556666666667,
+          "startSeconds": 590.3113333333333,
+          "endSeconds": 591.7513333333334,
           "text": " هذه الحموضة",
-          "averageLogProbability": -0.2487399921102344
+          "averageLogProbability": -0.37141406085310863
         },
         {
-          "startSeconds": 598.2556666666667,
-          "endSeconds": 601.2556666666667,
+          "startSeconds": 591.7513333333334,
+          "endSeconds": 592.9513333333333,
+          "text": " أسيدوسس",
+          "averageLogProbability": -0.37141406085310863
+        },
+        {
+          "startSeconds": 592.9513333333333,
+          "endSeconds": 595.1113333333333,
           "text": " تغير نشاط الإنزيمات",
-          "averageLogProbability": -0.2487399921102344
+          "averageLogProbability": -0.37141406085310863
         },
         {
-          "startSeconds": 601.2556666666667,
-          "endSeconds": 603.2556666666667,
+          "startSeconds": 595.1113333333333,
+          "endSeconds": 596.6113333333333,
           "text": " وتساهم في تكتل",
-          "averageLogProbability": -0.2487399921102344
+          "averageLogProbability": -0.37141406085310863
         },
         {
-          "startSeconds": 603.2556666666667,
-          "endSeconds": 605.2556666666667,
+          "startSeconds": 596.6113333333333,
+          "endSeconds": 597.3513333333333,
+          "text": " كروميطن",
+          "averageLogProbability": -0.37141406085310863
+        },
+        {
+          "startSeconds": 597.3513333333333,
+          "endSeconds": 598.7513333333334,
           "text": " المدة التي تجمع",
-          "averageLogProbability": -0.2487399921102344
+          "averageLogProbability": -0.37141406085310863
         },
         {
-          "startSeconds": 605.2556666666667,
-          "endSeconds": 606.2556666666667,
-          "text": " ديانا",
-          "averageLogProbability": -0.2487399921102344
+          "startSeconds": 598.7513333333334,
+          "endSeconds": 599.6113333333333,
+          "text": " DNA",
+          "averageLogProbability": -0.37141406085310863
         },
         {
-          "startSeconds": 606.2556666666667,
-          "endSeconds": 608.2556666666667,
+          "startSeconds": 599.6113333333333,
+          "endSeconds": 602.5513333333333,
           "text": " والبروتينات داخل النواة",
-          "averageLogProbability": -0.2487399921102344
+          "averageLogProbability": -0.37141406085310863
         },
         {
-          "startSeconds": 608.2556666666667,
-          "endSeconds": 610.2556666666667,
+          "startSeconds": 602.5513333333333,
+          "endSeconds": 604.3113333333333,
           "text": " ومع هذا التكتل",
-          "averageLogProbability": -0.2487399921102344
+          "averageLogProbability": -0.37141406085310863
         },
         {
-          "startSeconds": 610.2556666666667,
-          "endSeconds": 613.2556666666667,
+          "startSeconds": 604.3113333333333,
+          "endSeconds": 607.2513333333334,
           "text": " قد تبق النواة قابلة للحيات في مرحلة",
-          "averageLogProbability": -0.2487399921102344
+          "averageLogProbability": -0.37141406085310863
         },
         {
-          "startSeconds": 613.2556666666667,
-          "endSeconds": 615.2556666666667,
-          "text": " رورسيب لنجري",
-          "averageLogProbability": -0.2487399921102344
+          "startSeconds": 607.2513333333334,
+          "endSeconds": 608.4113333333333,
+          "text": " رفرسيبل انجري",
+          "averageLogProbability": -0.37141406085310863
         }
       ]
     },
     {
       "scene": "glycolysis",
       "beat": "glycolysis-caution",
-      "startSeconds": 614.5471666666666,
-      "endSeconds": 634.2442916666666,
+      "startSeconds": 608.557375,
+      "endSeconds": 628.3055416666666,
       "segments": [
         {
-          "startSeconds": 614.5471666666666,
-          "endSeconds": 619.5471666666666,
-          "text": " ولين ربط خثاب pH بكسر DNA بشكل تلقائي",
-          "averageLogProbability": -0.3002412360906601
+          "startSeconds": 608.557375,
+          "endSeconds": 613.157375,
+          "text": " ولين ربط خثاب pH بكسر DNA بشكل انتلقائي",
+          "averageLogProbability": -0.3344681003306172
         },
         {
-          "startSeconds": 620.0471666666666,
-          "endSeconds": 623.5471666666666,
+          "startSeconds": 614.157375,
+          "endSeconds": 617.3573749999999,
           "text": " ضرر DNA له ألياته المستقلة",
-          "averageLogProbability": -0.3002412360906601
+          "averageLogProbability": -0.3344681003306172
         },
         {
-          "startSeconds": 624.0471666666666,
-          "endSeconds": 629.3471666666666,
+          "startSeconds": 618.257375,
+          "endSeconds": 623.3573749999999,
           "text": " هنا الحموض تتوضح لنا التراب الأيض وتأثر وظيفة الخلية",
-          "averageLogProbability": -0.3002412360906601
+          "averageLogProbability": -0.3344681003306172
         },
         {
-          "startSeconds": 629.3471666666666,
-          "endSeconds": 634.0471666666666,
+          "startSeconds": 623.3573749999999,
+          "endSeconds": 628.057375,
           "text": " وليس الدليلا وحدها على ضرر وراثي غير قابل للإصلاح",
-          "averageLogProbability": -0.3002412360906601
+          "averageLogProbability": -0.3344681003306172
         }
       ]
     },
     {
       "scene": "protein-synthesis",
       "beat": "protein-workshop",
-      "startSeconds": 634.9042916666667,
-      "endSeconds": 654.515125,
+      "startSeconds": 628.9655416666667,
+      "endSeconds": 648.1007916666667,
       "segments": [
         {
-          "startSeconds": 634.9042916666667,
-          "endSeconds": 641.2042916666667,
-          "text": " الآن نقرب الصورة إلى الجسئ الذي تحمل أغشيته.",
-          "averageLogProbability": -0.2752326419378849
+          "startSeconds": 628.9655416666667,
+          "endSeconds": 630.9655416666667,
+          "text": " الآن نقرب الصورة إلى",
+          "averageLogProbability": -0.23038591366065175
         },
         {
-          "startSeconds": 641.2042916666667,
-          "endSeconds": 646.1442916666667,
-          "text": " هذه الريب السومة ترك بروتينات تحتاجها الخلية للإفراز",
-          "averageLogProbability": -0.2752326419378849
+          "startSeconds": 631.9655416666667,
+          "endSeconds": 633.9655416666667,
+          "text": " الجس الذي تحمل أرشيته",
+          "averageLogProbability": -0.23038591366065175
         },
         {
-          "startSeconds": 646.1442916666667,
-          "endSeconds": 649.8442916666668,
-          "text": " ولأغشيتها ولأعمال أخرى.",
-          "averageLogProbability": -0.2752326419378849
+          "startSeconds": 634.9655416666667,
+          "endSeconds": 639.9655416666667,
+          "text": " هذه الريبسومة ترك بروتينات تحتاجها الخلية للإفراز",
+          "averageLogProbability": -0.23038591366065175
         },
         {
-          "startSeconds": 649.8442916666668,
-          "endSeconds": 654.6442916666667,
-          "text": " لذلك تعطل هذه الورشة يؤثر في صيانة الخلية.",
-          "averageLogProbability": -0.2752326419378849
+          "startSeconds": 639.9655416666667,
+          "endSeconds": 642.9655416666667,
+          "text": " ولأغشيتها و لأعمال أخرى",
+          "averageLogProbability": -0.23038591366065175
+        },
+        {
+          "startSeconds": 642.9655416666667,
+          "endSeconds": 643.9655416666667,
+          "text": " لذلك",
+          "averageLogProbability": -0.23038591366065175
+        },
+        {
+          "startSeconds": 643.9655416666667,
+          "endSeconds": 647.9655416666667,
+          "text": " تعطل هذه الورشة يؤثر في صيانة الخلية",
+          "averageLogProbability": -0.23038591366065175
         }
       ]
     },
     {
       "scene": "protein-synthesis",
       "beat": "protein-detach",
-      "startSeconds": 654.615125,
-      "endSeconds": 673.995625,
+      "startSeconds": 648.2007916666666,
+      "endSeconds": 667.0893333333333,
       "segments": [
         {
-          "startSeconds": 654.615125,
-          "endSeconds": 661.135125,
+          "startSeconds": 648.2007916666666,
+          "endSeconds": 654.5607916666667,
           "text": " أثناء الإصابة بنقص الأكسوجين ينتفخ الروطن فصل صعن",
-          "averageLogProbability": -0.37057343747589616
+          "averageLogProbability": -0.3747932291693158
         },
         {
-          "startSeconds": 661.895125,
-          "endSeconds": 663.9551250000001,
+          "startSeconds": 655.2007916666666,
+          "endSeconds": 657.2007916666666,
           "text": " فيقل",
-          "averageLogProbability": -0.37057343747589616
+          "averageLogProbability": -0.3747932291693158
         },
         {
-          "startSeconds": 664.095125,
-          "endSeconds": 666.095125,
+          "startSeconds": 657.2007916666666,
+          "endSeconds": 659.2007916666666,
           "text": " يعني تصميع البروتين",
-          "averageLogProbability": -0.37057343747589616
+          "averageLogProbability": -0.3747932291693158
         },
         {
-          "startSeconds": 666.855125,
-          "endSeconds": 673.9351250000001,
-          "text": " وتضوف معه قدرة الخالية على المحافظة على مكوناتها الأساسية وستدال ما يتلف منها",
-          "averageLogProbability": -0.37057343747589616
+          "startSeconds": 659.9607916666666,
+          "endSeconds": 667.2007916666666,
+          "text": " وتضوف معه قدرة الخالية على المحافظة على مكوناتها الأساسية وستبدال ما يتلف منها",
+          "averageLogProbability": -0.3747932291693158
         }
       ]
     },
     {
       "scene": "protein-synthesis",
       "beat": "protein-branches",
-      "startSeconds": 674.095625,
-      "endSeconds": 694.2267916666667,
+      "startSeconds": 667.1893333333334,
+      "endSeconds": 686.8223750000001,
       "segments": [
         {
-          "startSeconds": 674.095625,
-          "endSeconds": 689.095625,
-          "text": " كمسارات متوازية، فشل المضخات يسبب الانتفاخ، استهلك المخزون وتخفض pH وانفصال ربسون سيقل الانتاج البروتين.",
-          "averageLogProbability": -0.3102885866942613
+          "startSeconds": 667.1893333333334,
+          "endSeconds": 673.1893333333334,
+          "text": " شوف ATP دبليشن كمسارات متوازية، فشل المضخات يسبب الانتفاق",
+          "averageLogProbability": -0.37156447644035023
         },
         {
-          "startSeconds": 689.095625,
-          "endSeconds": 694.095625,
-          "text": " ليست خطوات يجب أن تمتظر بعضها قد تتطور معا.",
-          "averageLogProbability": -0.3102885866942613
+          "startSeconds": 673.1893333333334,
+          "endSeconds": 675.1893333333334,
+          "text": " وانوروبيك قليكهوليسس",
+          "averageLogProbability": -0.37156447644035023
+        },
+        {
+          "startSeconds": 675.1893333333334,
+          "endSeconds": 678.4893333333333,
+          "text": " استهلك المخزون وتخفض pH وانفصال",
+          "averageLogProbability": -0.37156447644035023
+        },
+        {
+          "startSeconds": 678.4893333333333,
+          "endSeconds": 679.1893333333334,
+          "text": " ربسونز",
+          "averageLogProbability": -0.37156447644035023
+        },
+        {
+          "startSeconds": 679.1893333333334,
+          "endSeconds": 681.1893333333334,
+          "text": " سيقلل انتاج البروتين",
+          "averageLogProbability": -0.37156447644035023
+        },
+        {
+          "startSeconds": 682.1893333333334,
+          "endSeconds": 686.6893333333334,
+          "text": " ليست خطوات يجب أن تمتظر بعضها قد تتطور معا",
+          "averageLogProbability": -0.37156447644035023
         }
       ]
     },
     {
       "scene": "protein-synthesis",
       "beat": "protein-recover",
-      "startSeconds": 694.3267916666666,
-      "endSeconds": 714.3160833333333,
+      "startSeconds": 686.922375,
+      "endSeconds": 706.9116666666666,
       "segments": [
         {
-          "startSeconds": 694.3267916666666,
-          "endSeconds": 701.0667916666666,
-          "text": " إذا انتهى المؤثر مبكرا وعاد إنتاج الطاقة يمكن لهذه التغييرات أن تتحسن",
-          "averageLogProbability": -0.2607311777494572
+          "startSeconds": 686.922375,
+          "endSeconds": 693.582375,
+          "text": " إذا انتهى المؤثر مبكراً وعاد إنتاج الطاقة يمكن لهذه التغييرات أن تتحسن",
+          "averageLogProbability": -0.25773479304182423
         },
         {
-          "startSeconds": 701.8667916666666,
-          "endSeconds": 708.9667916666666,
-          "text": " أما استمرار الإصابة فيه يعطي للترابات المتفاعلة وقتا أطول فتضيف فرصة التعافي",
-          "averageLogProbability": -0.2607311777494572
+          "startSeconds": 694.4823749999999,
+          "endSeconds": 701.522375,
+          "text": " أما استمرار الإصابة في يعطي للترابات المتفاعلة وقتاً أطول فتضيف فرصة التعافي",
+          "averageLogProbability": -0.25773479304182423
         },
         {
-          "startSeconds": 709.6667916666667,
-          "endSeconds": 714.3267916666666,
+          "startSeconds": 702.282375,
+          "endSeconds": 706.922375,
           "text": " لذلك نقار هنا بين عودة الطاقة واستمرار الضرر",
-          "averageLogProbability": -0.2607311777494572
+          "averageLogProbability": -0.25773479304182423
         }
       ]
     },
     {
       "scene": "calcium",
       "beat": "calcium-rise",
-      "startSeconds": 714.9760833333333,
-      "endSeconds": 734.1269583333334,
+      "startSeconds": 707.5716666666667,
+      "endSeconds": 726.4229583333333,
       "segments": [
         {
-          "startSeconds": 714.9760833333333,
-          "endSeconds": 721.3960833333333,
-          "text": " عادة يكون تركيز الكالسيوم منخفضاً في الجزء السائلة من السيتوب لازم",
-          "averageLogProbability": -0.3687389930089315
+          "startSeconds": 707.5716666666667,
+          "endSeconds": 713.9316666666667,
+          "text": " عادة يكون تركيز الكالسيوم منخفضاً في الجزء السائلة من السيطوب لازم",
+          "averageLogProbability": -0.32512997311574443
         },
         {
-          "startSeconds": 722.1760833333334,
-          "endSeconds": 729.2160833333334,
-          "text": " مع إسكيميا أو سموم يزيد كالسيوم من خارج الخالية",
-          "averageLogProbability": -0.3687389930089315
+          "startSeconds": 714.7316666666667,
+          "endSeconds": 718.3716666666667,
+          "text": " مع إسكيميا أو سموم يزيد كالسيوم من فلوكس",
+          "averageLogProbability": -0.32512997311574443
         },
         {
-          "startSeconds": 729.9760833333333,
-          "endSeconds": 734.1360833333333,
-          "text": " ويطلق أيضاً من المخازن الداخلية مثل إياري",
-          "averageLogProbability": -0.3687389930089315
+          "startSeconds": 718.5716666666667,
+          "endSeconds": 721.5316666666668,
+          "text": " يعني دخول الكالسيوم من خارج الخلية",
+          "averageLogProbability": -0.32512997311574443
+        },
+        {
+          "startSeconds": 722.3316666666667,
+          "endSeconds": 726.3716666666667,
+          "text": " ويطلق أيضاً من المخازن الداخلية مثل ال-ER",
+          "averageLogProbability": -0.32512997311574443
         }
       ]
     },
     {
       "scene": "calcium",
       "beat": "calcium-lipids",
-      "startSeconds": 734.2269583333333,
-      "endSeconds": 752.118375,
+      "startSeconds": 726.5229583333333,
+      "endSeconds": 744.0708333333333,
       "segments": [
         {
-          "startSeconds": 734.2269583333333,
-          "endSeconds": 740.1469583333333,
-          "text": " الكالسيوم المرتفع ينشط انزيمات تفكك دهون الأغشية",
-          "averageLogProbability": -0.2405922734335567
+          "startSeconds": 726.5229583333333,
+          "endSeconds": 732.3229583333333,
+          "text": " الكالسيوم المرتفع ينشت انزيمات تفكك دهون الأغشية",
+          "averageLogProbability": -0.25066811304826003
         },
         {
-          "startSeconds": 740.8669583333333,
-          "endSeconds": 752.1069583333333,
-          "text": " و ينشط انزيمات تضر البروتينات و منها بروتينات هكذا يضعف الغشاء والدعم الدافلية للخليات في الوقت نفسه",
-          "averageLogProbability": -0.2405922734335567
+          "startSeconds": 733.0229583333333,
+          "endSeconds": 739.5229583333333,
+          "text": " و ينشوت انزيمات تضر البروتينات و منها برووتينات",
+          "averageLogProbability": -0.25066811304826003
+        },
+        {
+          "startSeconds": 739.5229583333333,
+          "endSeconds": 744.0229583333333,
+          "text": " هكذا يضعف الغشاء والدعم الدافلية للخلية في الوقت نفسه",
+          "averageLogProbability": -0.25066811304826003
         }
       ]
     },
     {
       "scene": "calcium",
       "beat": "calcium-dna",
-      "startSeconds": 752.218375,
-      "endSeconds": 770.2268750000001,
+      "startSeconds": 744.1708333333333,
+      "endSeconds": 761.81625,
       "segments": [
         {
-          "startSeconds": 752.218375,
-          "endSeconds": 761.978375,
-          "text": " و يمشد انزيمات تضر ديانا ام اتب ايسس فتستهلك فتزيد استنزاف طاقة",
-          "averageLogProbability": -0.2935139417000439
+          "startSeconds": 744.1708333333333,
+          "endSeconds": 753.6908333333333,
+          "text": " و يمشد انزيمات تضر ام اتب اتب فتستهلك اتب فتزيد استنزافة طاقة",
+          "averageLogProbability": -0.3348666610925094
         },
         {
-          "startSeconds": 762.978375,
-          "endSeconds": 769.978375,
+          "startSeconds": 754.4908333333334,
+          "endSeconds": 761.6908333333333,
           "text": " لاحظوا كيف يربط ارتفاع الكالسيوم بين ضرر الاغشية والبروتينات والمدة الورافية ونقص الطاقة",
-          "averageLogProbability": -0.2935139417000439
+          "averageLogProbability": -0.3348666610925094
         }
       ]
     },
     {
       "scene": "calcium",
       "beat": "calcium-death",
-      "startSeconds": 770.326875,
-      "endSeconds": 791.6961666666666,
+      "startSeconds": 761.91625,
+      "endSeconds": 782.9644583333334,
       "segments": [
         {
-          "startSeconds": 770.326875,
-          "endSeconds": 777.826875,
-          "text": " زيادة الكالسيون تساهم أيضاً في اختلال وظيفة الميتو كندرية",
-          "averageLogProbability": -0.2704958514411851
+          "startSeconds": 761.91625,
+          "endSeconds": 769.21625,
+          "text": " زيادة الكالس يوم تساهم أيضاً في اختلال وظيفة الميتو كندرية",
+          "averageLogProbability": -0.2526994979027474
         },
         {
-          "startSeconds": 777.826875,
-          "endSeconds": 785.526875,
-          "text": " وقد تساعد على التنشيط المصارات الموت الخلوي المنظم عبر انزيمات",
-          "averageLogProbability": -0.2704958514411851
+          "startSeconds": 769.21625,
+          "endSeconds": 776.71625,
+          "text": " وقد تساعد على التنشيط مصارات الموت الخلوي المنظم عبر انزيمات",
+          "averageLogProbability": -0.2526994979027474
         },
         {
-          "startSeconds": 785.526875,
-          "endSeconds": 791.826875,
+          "startSeconds": 776.71625,
+          "endSeconds": 783.21625,
           "text": " النتيجة تعتمد على شدة الإصابة وسيقها وليست واحدة في كل خلية",
-          "averageLogProbability": -0.2704958514411851
+          "averageLogProbability": -0.2526994979027474
         }
       ]
     },
     {
       "scene": "mitochondria",
       "beat": "mitochondria-insults",
-      "startSeconds": 792.3561666666667,
-      "endSeconds": 811.6611250000001,
+      "startSeconds": 783.6244583333333,
+      "endSeconds": 802.5006666666667,
       "segments": [
         {
-          "startSeconds": 792.3561666666667,
-          "endSeconds": 802.7561666666667,
-          "text": " وارتفاع الكالس يونف السيتوب لازم وانواع اكسوجين تفاعلية قد تضر الميتو كوندرية",
-          "averageLogProbability": -0.306067458961321
+          "startSeconds": 783.6244583333333,
+          "endSeconds": 793.6244583333333,
+          "text": " وارتفاع الكالس يوم في السيتوب لازم وانواع اكسوجين تفاعلية قد تضر الميتو كوندرية",
+          "averageLogProbability": -0.24995051897489107
         },
         {
-          "startSeconds": 802.7561666666667,
-          "endSeconds": 807.3561666666667,
-          "text": " لكن لازم نفصل بين نتيجتين مختلفتين",
-          "averageLogProbability": -0.306067458961321
-        },
-        {
-          "startSeconds": 807.3561666666667,
-          "endSeconds": 812.3561666666667,
-          "text": " لاحظ الغشاء الدافلية والغشاء الخارجية في الصورة",
-          "averageLogProbability": -0.306067458961321
+          "startSeconds": 793.6244583333333,
+          "endSeconds": 802.6244583333333,
+          "text": " لكن لازم نفصل بين نتيجتين مختلفتين. لاحظ الغشاء الدافلية والغشاء الخارجية في الصورة",
+          "averageLogProbability": -0.24995051897489107
         }
       ]
     },
     {
       "scene": "mitochondria",
       "beat": "mitochondria-inner",
-      "startSeconds": 811.761125,
-      "endSeconds": 829.50025,
+      "startSeconds": 802.6006666666667,
+      "endSeconds": 819.9312083333334,
       "segments": [
         {
-          "startSeconds": 811.761125,
-          "endSeconds": 820.761125,
-          "text": " إذا زادت نفاظية الغشاء الدافلي ينهار التدرج الكهرو كيميائي اللازم لإنتاج الطاقة",
-          "averageLogProbability": -0.27873098180535133
+          "startSeconds": 802.6006666666667,
+          "endSeconds": 811.2006666666667,
+          "text": " إذا زادت نفاذية الغشاء الدافلي ينهار تدرج الكهروك ميائي اللازم لإنتاج الطاقة",
+          "averageLogProbability": -0.27519582550634036
         },
         {
-          "startSeconds": 820.761125,
-          "endSeconds": 829.761125,
+          "startSeconds": 812.1006666666667,
+          "endSeconds": 819.8006666666668,
           "text": " ويتعطل إنتاج ATP إذا كان هذا الفشل شديدا ومستمرا فقد يدفع الخلية نحو نكروسس",
-          "averageLogProbability": -0.27873098180535133
+          "averageLogProbability": -0.27519582550634036
         }
       ]
     },
     {
       "scene": "mitochondria",
       "beat": "mitochondria-outer",
-      "startSeconds": 829.60025,
-      "endSeconds": 850.1662083333333,
+      "startSeconds": 820.0312083333333,
+      "endSeconds": 840.1205416666667,
       "segments": [
         {
-          "startSeconds": 829.60025,
-          "endSeconds": 838.60025,
-          "text": " أما زيادة نفاذية الغشاء الخارجي، فقد تسمح بخروج إلى السيطوب لاسم",
-          "averageLogProbability": -0.2901320340840713
+          "startSeconds": 820.0312083333333,
+          "endSeconds": 829.0312083333333,
+          "text": " أما زيادة نثاثية الغشاء الخارجي فقد تسمح بخروج إلسيتوب لاسم",
+          "averageLogProbability": -0.3512857287395291
         },
         {
-          "startSeconds": 839.60025,
-          "endSeconds": 844.60025,
-          "text": " هذا يساهم في تمشيط ثم المسار الدافليلي",
-          "averageLogProbability": -0.2901320340840713
+          "startSeconds": 829.0312083333333,
+          "endSeconds": 838.0312083333333,
+          "text": " هذا يساهم في تمشيط ثم المسار الداخلي لي here we follow a sign of a organized death",
+          "averageLogProbability": -0.3512857287395291
         },
         {
-          "startSeconds": 845.60025,
-          "endSeconds": 850.60025,
-          "text": " هنا نحن نتبع إشارة موت منظم، لا مجرد فقدان طاقة",
-          "averageLogProbability": -0.2901320340840713
+          "startSeconds": 838.0312083333333,
+          "endSeconds": 840.0312083333333,
+          "text": " لا مجرد فقدان طاقة",
+          "averageLogProbability": -0.3512857287395291
         }
       ]
     },
     {
       "scene": "mitochondria",
       "beat": "mitochondria-distinct",
-      "startSeconds": 850.2662083333333,
-      "endSeconds": 868.746875,
+      "startSeconds": 840.2205416666667,
+      "endSeconds": 858.7012083333334,
       "segments": [
         {
-          "startSeconds": 850.2662083333333,
-          "endSeconds": 858.0662083333333,
+          "startSeconds": 840.2205416666667,
+          "endSeconds": 847.9205416666667,
           "text": " إذن عندنا حدثان مختلفان في غشائين مختلفين وقد يجتمع عن أثناء الإصابة.",
-          "averageLogProbability": -0.17676590976205844
+          "averageLogProbability": -0.1794981918867352
         },
         {
-          "startSeconds": 858.0662083333333,
-          "endSeconds": 869.0662083333333,
+          "startSeconds": 847.9205416666667,
+          "endSeconds": 858.9205416666667,
           "text": " الميت كندرية تربط بين فشل إنتاج الطاقة وإشارات الموت المنظم لكن لنختصر المسارين في قناة واحدة تؤدي دائما إلى النتيجتين.",
-          "averageLogProbability": -0.17676590976205844
+          "averageLogProbability": -0.1794981918867352
         }
       ]
     },
     {
       "scene": "ros",
       "beat": "ros-species",
-      "startSeconds": 869.406875,
-      "endSeconds": 892.0755,
+      "startSeconds": 859.3612083333334,
+      "endSeconds": 880.674125,
       "segments": [
         {
-          "startSeconds": 869.406875,
-          "endSeconds": 871.406875,
-          "text": " ريكتف اوكسجن سبيسيس",
-          "averageLogProbability": -0.358096189748228
+          "startSeconds": 859.3612083333334,
+          "endSeconds": 861.3612083333334,
+          "text": " رياكتف اوكسجن سبيسيس",
+          "averageLogProbability": -0.38639498744041295
         },
         {
-          "startSeconds": 871.406875,
-          "endSeconds": 873.406875,
-          "text": " او ار أوس",
-          "averageLogProbability": -0.358096189748228
+          "startSeconds": 861.3612083333334,
+          "endSeconds": 862.5612083333334,
+          "text": " روس",
+          "averageLogProbability": -0.38639498744041295
         },
         {
-          "startSeconds": 873.406875,
-          "endSeconds": 874.406875,
+          "startSeconds": 862.5612083333334,
+          "endSeconds": 863.2612083333333,
           "text": " تشمل",
-          "averageLogProbability": -0.358096189748228
+          "averageLogProbability": -0.38639498744041295
         },
         {
-          "startSeconds": 874.406875,
-          "endSeconds": 875.406875,
+          "startSeconds": 863.2612083333333,
+          "endSeconds": 864.1612083333333,
           "text": " سوبروكسايد",
-          "averageLogProbability": -0.358096189748228
+          "averageLogProbability": -0.38639498744041295
         },
         {
-          "startSeconds": 875.406875,
-          "endSeconds": 877.406875,
-          "text": " هيدروكسو راتيكوز",
-          "averageLogProbability": -0.358096189748228
+          "startSeconds": 864.1612083333333,
+          "endSeconds": 865.6612083333333,
+          "text": " هيدروكسل راتيكلس",
+          "averageLogProbability": -0.38639498744041295
         },
         {
-          "startSeconds": 877.406875,
-          "endSeconds": 879.406875,
+          "startSeconds": 865.6612083333333,
+          "endSeconds": 868.4612083333334,
           "text": " انواع فيها إلكترون غير مصدوج",
-          "averageLogProbability": -0.358096189748228
+          "averageLogProbability": -0.38639498744041295
         },
         {
-          "startSeconds": 879.406875,
-          "endSeconds": 881.406875,
+          "startSeconds": 869.2612083333333,
+          "endSeconds": 869.9612083333334,
           "text": " وتشمل",
-          "averageLogProbability": -0.358096189748228
+          "averageLogProbability": -0.38639498744041295
         },
         {
-          "startSeconds": 881.406875,
-          "endSeconds": 883.406875,
-          "text": " هيدروجن بروكسايد",
-          "averageLogProbability": -0.358096189748228
+          "startSeconds": 869.9612083333334,
+          "endSeconds": 870.3612083333334,
+          "text": " ايضا",
+          "averageLogProbability": -0.38639498744041295
         },
         {
-          "startSeconds": 883.406875,
-          "endSeconds": 884.406875,
+          "startSeconds": 870.3612083333334,
+          "endSeconds": 871.6612083333333,
+          "text": " هيدروجن باروكسايد",
+          "averageLogProbability": -0.38639498744041295
+        },
+        {
+          "startSeconds": 871.6612083333333,
+          "endSeconds": 872.8612083333334,
           "text": " الذي لا يعد",
-          "averageLogProbability": -0.358096189748228
+          "averageLogProbability": -0.38639498744041295
         },
         {
-          "startSeconds": 884.406875,
-          "endSeconds": 885.406875,
-          "text": " فري راتيكو",
-          "averageLogProbability": -0.358096189748228
+          "startSeconds": 872.8612083333334,
+          "endSeconds": 873.6612083333333,
+          "text": " فري راتيكل",
+          "averageLogProbability": -0.38639498744041295
         },
         {
-          "startSeconds": 885.406875,
-          "endSeconds": 887.406875,
-          "text": " إذا زاد إنتاج هذه الأنواع",
-          "averageLogProbability": -0.358096189748228
+          "startSeconds": 873.6612083333333,
+          "endSeconds": 877.2612083333333,
+          "text": " إذا زاد انتاج هذه الأنواع على قدرة الدفاع",
+          "averageLogProbability": -0.38639498744041295
         },
         {
-          "startSeconds": 887.406875,
-          "endSeconds": 888.406875,
-          "text": " على قدرة الدفاع",
-          "averageLogProbability": -0.358096189748228
-        },
-        {
-          "startSeconds": 888.406875,
-          "endSeconds": 889.406875,
+          "startSeconds": 877.2612083333333,
+          "endSeconds": 877.8612083333334,
           "text": " يبدأ",
-          "averageLogProbability": -0.358096189748228
+          "averageLogProbability": -0.38639498744041295
         },
         {
-          "startSeconds": 889.406875,
-          "endSeconds": 890.406875,
-          "text": " اوكسجيد",
-          "averageLogProbability": -0.358096189748228
+          "startSeconds": 877.8612083333334,
+          "endSeconds": 879.1612083333333,
+          "text": " اوكسجايد",
+          "averageLogProbability": -0.38639498744041295
         },
         {
-          "startSeconds": 890.406875,
-          "endSeconds": 892.406875,
+          "startSeconds": 879.1612083333333,
+          "endSeconds": 880.6612083333333,
           "text": " الإجهاد التأكدي",
-          "averageLogProbability": -0.358096189748228
+          "averageLogProbability": -0.38639498744041295
         }
       ]
     },
     {
       "scene": "ros",
       "beat": "ros-sources",
-      "startSeconds": 892.1755,
-      "endSeconds": 909.4266250000001,
+      "startSeconds": 880.774125,
+      "endSeconds": 897.2959166666667,
       "segments": [
         {
-          "startSeconds": 892.1755,
-          "endSeconds": 903.1755,
-          "text": " قد يزيد الإشعاع والسموم والميت كندرية المتضررة وإنتاج ر أوس وتذكر المحاضرة عودة تدفق أدم بعد نقص التروية",
-          "averageLogProbability": -0.3163102344462746
+          "startSeconds": 880.774125,
+          "endSeconds": 884.774125,
+          "text": " قد يزيد الإشعاع والسموم والميت كندرية المتضررة وانتاج",
+          "averageLogProbability": -0.27660829832679346
         },
         {
-          "startSeconds": 903.1755,
-          "endSeconds": 910.1755,
-          "text": " هذه العودة قطضيف ضررا تأكسوديا إلى النسيج الذي كان يعاني ميسكيميا",
-          "averageLogProbability": -0.3163102344462746
+          "startSeconds": 885.774125,
+          "endSeconds": 890.774125,
+          "text": " وتذكر المحضرت عودة تدفق أدم بعد نقص التروية",
+          "averageLogProbability": -0.27660829832679346
+        },
+        {
+          "startSeconds": 891.774125,
+          "endSeconds": 896.774125,
+          "text": " هذه العودة قطضيف ضرراً تأكسودياً إلى النسيج الذي كان يعاني ميسكيميا",
+          "averageLogProbability": -0.27660829832679346
         }
       ]
     },
     {
       "scene": "ros",
       "beat": "ros-lipids",
-      "startSeconds": 909.526625,
-      "endSeconds": 932.1572083333333,
+      "startSeconds": 897.3959166666667,
+      "endSeconds": 919.8383333333334,
       "segments": [
         {
-          "startSeconds": 909.526625,
-          "endSeconds": 910.966625,
-          "text": " في لِبِدْ بُرُوْخْصِدَاشِن",
-          "averageLogProbability": -0.4330978520711263
+          "startSeconds": 897.3959166666667,
+          "endSeconds": 900.8359166666668,
+          "text": " في تضرر دهون الأغشية",
+          "averageLogProbability": -0.3778874995757122
         },
         {
-          "startSeconds": 910.966625,
-          "endSeconds": 912.926625,
-          "text": " تَتَضَرَرُ دُهُونِ الْأَغْشِيَة",
-          "averageLogProbability": -0.4330978520711263
+          "startSeconds": 901.5559166666667,
+          "endSeconds": 906.2359166666668,
+          "text": " وفي قد تتفك البروتينات أو يختل طيها",
+          "averageLogProbability": -0.3778874995757122
         },
         {
-          "startSeconds": 913.766625,
-          "endSeconds": 914.166625,
-          "text": " وفي",
-          "averageLogProbability": -0.4330978520711263
+          "startSeconds": 907.0359166666667,
+          "endSeconds": 913.5159166666667,
+          "text": " وضرر يسبب طفرات أو يفعل مسارات الموت إذا تعظر الإصلاح",
+          "averageLogProbability": -0.3778874995757122
         },
         {
-          "startSeconds": 914.166625,
-          "endSeconds": 915.526625,
-          "text": " بُرُوْتِينِ الْأَخْصِدَاشِن",
-          "averageLogProbability": -0.4330978520711263
-        },
-        {
-          "startSeconds": 915.526625,
-          "endSeconds": 918.606625,
-          "text": " قد تتفكَكُ الْبُرُوْتِيْنَاتُ أو يَخْتَلُّ طيُّها",
-          "averageLogProbability": -0.4330978520711263
-        },
-        {
-          "startSeconds": 919.526625,
-          "endSeconds": 920.126625,
-          "text": " وضَرَرُ",
-          "averageLogProbability": -0.4330978520711263
-        },
-        {
-          "startSeconds": 920.126625,
-          "endSeconds": 920.846625,
-          "text": " دِيَنَة",
-          "averageLogProbability": -0.4330978520711263
-        },
-        {
-          "startSeconds": 920.846625,
-          "endSeconds": 922.366625,
-          "text": " قد يُسبِّبُ طفرات",
-          "averageLogProbability": -0.4330978520711263
-        },
-        {
-          "startSeconds": 922.5666249999999,
-          "endSeconds": 925.766625,
-          "text": " أو يفعلُ مسارات الموتِ إذا تعظر الإصلاح",
-          "averageLogProbability": -0.4330978520711263
-        },
-        {
-          "startSeconds": 926.766625,
-          "endSeconds": 928.606625,
-          "text": " أمامنا ثلاثة أهداف",
-          "averageLogProbability": -0.4330978520711263
-        },
-        {
-          "startSeconds": 928.846625,
-          "endSeconds": 929.606625,
-          "text": " دُهُن",
-          "averageLogProbability": -0.4330978520711263
-        },
-        {
-          "startSeconds": 929.8066249999999,
-          "endSeconds": 930.846625,
-          "text": " بُرُوْتِيْنَات",
-          "averageLogProbability": -0.4330978520711263
-        },
-        {
-          "startSeconds": 930.846625,
-          "endSeconds": 932.846625,
-          "text": " ودينا",
-          "averageLogProbability": -0.5789294838905334
+          "startSeconds": 914.3559166666668,
+          "endSeconds": 919.8359166666668,
+          "text": " أمامنا ثلاثة أهداف دهون بروتينات ودينات",
+          "averageLogProbability": -0.3778874995757122
         }
       ]
     },
     {
       "scene": "ros",
       "beat": "ros-balance",
-      "startSeconds": 932.2572083333333,
-      "endSeconds": 950.727875,
+      "startSeconds": 919.9383333333334,
+      "endSeconds": 937.7556666666667,
       "segments": [
         {
-          "startSeconds": 932.2572083333333,
-          "endSeconds": 950.6572083333333,
-          "text": " الفكرة هي التوازن بين الإنتاج والإزالة، يرتفع الضرر عندما تكون سأسرع من ما تستطيع الخليات التخلص منها، لذلك لفهم ننظر إلى الدفاعات كما ننظر إلى مصدر الإنتاج.",
-          "averageLogProbability": -0.2192771809086913
+          "startSeconds": 919.9383333333334,
+          "endSeconds": 937.6983333333334,
+          "text": " الفكرة هي التوازن بين الإنتاج والإزالة، يرتفع الضرر عندما تتكون سسر عام ما تستطيع الخلية التخلص منها، لذلك لفهم ننظر إلى الدفاعات كما ننظر إلى مصادر الإنتاج.",
+          "averageLogProbability": -0.21739167010500318
         }
       ]
     },
     {
       "scene": "antioxidants",
       "beat": "antioxidants-sod",
-      "startSeconds": 951.387875,
-      "endSeconds": 969.706125,
+      "startSeconds": 938.4156666666667,
+      "endSeconds": 955.9995,
       "segments": [
         {
-          "startSeconds": 951.387875,
-          "endSeconds": 954.987875,
+          "startSeconds": 938.4156666666667,
+          "endSeconds": 942.0156666666667,
           "text": " بعض الأنواع التفاعلية تتحلل تلقائياً",
-          "averageLogProbability": -0.4115783460934957
+          "averageLogProbability": -0.36970389207204185
         },
         {
-          "startSeconds": 955.7078750000001,
-          "endSeconds": 956.787875,
+          "startSeconds": 942.8156666666666,
+          "endSeconds": 943.2156666666666,
           "text": " و",
-          "averageLogProbability": -0.4115783460934957
+          "averageLogProbability": -0.36970389207204185
         },
         {
-          "startSeconds": 959.387875,
-          "endSeconds": 960.787875,
+          "startSeconds": 946.0156666666667,
+          "endSeconds": 946.6156666666667,
           "text": " يحول",
-          "averageLogProbability": -0.4115783460934957
+          "averageLogProbability": -0.36970389207204185
         },
         {
-          "startSeconds": 962.787875,
-          "endSeconds": 963.987875,
+          "startSeconds": 949.2156666666666,
+          "endSeconds": 950.2156666666666,
           "text": " انتبه",
-          "averageLogProbability": -0.4115783460934957
+          "averageLogProbability": -0.36970389207204185
         },
         {
-          "startSeconds": 963.987875,
-          "endSeconds": 966.387875,
+          "startSeconds": 950.2156666666666,
+          "endSeconds": 952.8156666666666,
           "text": " هذا انتقال إلى مدة وصيطة",
-          "averageLogProbability": -0.4115783460934957
+          "averageLogProbability": -0.36970389207204185
         },
         {
-          "startSeconds": 966.387875,
-          "endSeconds": 969.787875,
+          "startSeconds": 952.8156666666666,
+          "endSeconds": 956.0156666666667,
           "text": " وليس إزالة كاملة للمود المؤكسدة",
-          "averageLogProbability": -0.4115783460934957
+          "averageLogProbability": -0.36970389207204185
         }
       ]
     },
     {
       "scene": "antioxidants",
       "beat": "antioxidants-peroxide",
-      "startSeconds": 969.806125,
-      "endSeconds": 986.2670416666666,
+      "startSeconds": 956.0995,
+      "endSeconds": 971.8952916666667,
       "segments": [
         {
-          "startSeconds": 969.806125,
-          "endSeconds": 971.806125,
-          "text": " بعدها يأتي",
-          "averageLogProbability": -0.30386003895082336
+          "startSeconds": 956.0995,
+          "endSeconds": 962.5595000000001,
+          "text": " بعدها يأتي هيدرجين براكسايد و بلوتاثيون",
+          "averageLogProbability": -0.45451508217220066
         },
         {
-          "startSeconds": 973.6061249999999,
-          "endSeconds": 975.806125,
-          "text": " لإزالة",
-          "averageLogProbability": -0.30386003895082336
+          "startSeconds": 962.5595000000001,
+          "endSeconds": 968.2795,
+          "text": " إن يشارك في الدفاع المضد للأكسدة داخل الخلايا و منها خلايا الكابد",
+          "averageLogProbability": -0.45451508217220066
         },
         {
-          "startSeconds": 976.806125,
-          "endSeconds": 980.806125,
-          "text": " إن يشارك في الدفاع المضد للأكسدة داخل الخلايا",
-          "averageLogProbability": -0.30386003895082336
-        },
-        {
-          "startSeconds": 980.806125,
-          "endSeconds": 982.806125,
-          "text": " ومنها خلايا الكابد",
-          "averageLogProbability": -0.30386003895082336
-        },
-        {
-          "startSeconds": 983.406125,
-          "endSeconds": 986.806125,
+          "startSeconds": 969.0995,
+          "endSeconds": 971.8395,
           "text": " دوره لا يقتصر على الكابد وحدة",
-          "averageLogProbability": -0.30386003895082336
+          "averageLogProbability": -0.45451508217220066
         }
       ]
     },
     {
       "scene": "antioxidants",
       "beat": "antioxidants-nutrition",
-      "startSeconds": 986.3670416666666,
-      "endSeconds": 1004.159625,
+      "startSeconds": 971.9952916666666,
+      "endSeconds": 989.3464583333333,
       "segments": [
         {
-          "startSeconds": 986.3670416666666,
-          "endSeconds": 987.9070416666666,
+          "startSeconds": 971.9952916666666,
+          "endSeconds": 973.9952916666666,
           "text": " وتذكر المحاضرة",
-          "averageLogProbability": -0.47105400869622827
+          "averageLogProbability": -0.3071805018931627
         },
         {
-          "startSeconds": 987.9070416666666,
-          "endSeconds": 989.0270416666666,
-          "text": " كروتانويدs",
-          "averageLogProbability": -0.47105400869622827
-        },
-        {
-          "startSeconds": 989.0270416666666,
-          "endSeconds": 990.0270416666666,
+          "startSeconds": 973.9952916666666,
+          "endSeconds": 975.9952916666666,
           "text": " وفي تميني",
-          "averageLogProbability": -0.47105400869622827
+          "averageLogProbability": -0.3071805018931627
         },
         {
-          "startSeconds": 990.0270416666666,
-          "endSeconds": 991.0270416666666,
-          "text": " إيه وصي",
-          "averageLogProbability": -0.47105400869622827
-        },
-        {
-          "startSeconds": 991.0270416666666,
-          "endSeconds": 992.1670416666666,
-          "text": " وفليفانويدs",
-          "averageLogProbability": -0.47105400869622827
-        },
-        {
-          "startSeconds": 992.1670416666666,
-          "endSeconds": 993.0670416666667,
+          "startSeconds": 975.9952916666666,
+          "endSeconds": 977.9952916666666,
           "text": " كذلك",
-          "averageLogProbability": -0.47105400869622827
+          "averageLogProbability": -0.3071805018931627
         },
         {
-          "startSeconds": 993.0670416666667,
-          "endSeconds": 993.7870416666666,
-          "text": " سلينيوم",
-          "averageLogProbability": -0.47105400869622827
+          "startSeconds": 977.9952916666666,
+          "endSeconds": 982.9952916666666,
+          "text": " كي يدعمان أمضمة الدفاع المضد للأكسده",
+          "averageLogProbability": -0.3071805018931627
         },
         {
-          "startSeconds": 993.7870416666666,
-          "endSeconds": 994.4870416666666,
-          "text": " وزينك",
-          "averageLogProbability": -0.47105400869622827
+          "startSeconds": 982.9952916666666,
+          "endSeconds": 986.9952916666666,
+          "text": " لا نفهم دورهما كأن كل عمسر يمسك كل",
+          "averageLogProbability": -0.3071805018931627
         },
         {
-          "startSeconds": 994.4870416666666,
-          "endSeconds": 997.6070416666666,
-          "text": " يدعمان أمضمة الدفاع المضد للأكسده",
-          "averageLogProbability": -0.47105400869622827
-        },
-        {
-          "startSeconds": 998.3670416666666,
-          "endSeconds": 1001.6670416666666,
-          "text": " لا نفهم دوره ما كأن كل عمسر يمسك كل",
-          "averageLogProbability": -0.47105400869622827
-        },
-        {
-          "startSeconds": 1001.6670416666666,
-          "endSeconds": 1002.5070416666666,
-          "text": " فري راتيكو",
-          "averageLogProbability": -0.47105400869622827
-        },
-        {
-          "startSeconds": 1002.5070416666666,
-          "endSeconds": 1004.1670416666666,
+          "startSeconds": 986.9952916666666,
+          "endSeconds": 989.9952916666666,
           "text": " ويوزيله مباشرة",
-          "averageLogProbability": -0.47105400869622827
+          "averageLogProbability": -0.3071805018931627
         }
       ]
     },
     {
       "scene": "antioxidants",
       "beat": "antioxidants-limit",
-      "startSeconds": 1004.259625,
-      "endSeconds": 1019.3855416666667,
+      "startSeconds": 989.4464583333333,
+      "endSeconds": 1004.445375,
       "segments": [
         {
-          "startSeconds": 1004.259625,
-          "endSeconds": 1007.659625,
+          "startSeconds": 989.4464583333333,
+          "endSeconds": 993.0464583333334,
           "text": " هذه الدفاعات قد لا تكفي عندما يزداد الضرر",
-          "averageLogProbability": -0.26064848429278326
+          "averageLogProbability": -0.27248812310489606
         },
         {
-          "startSeconds": 1008.499625,
-          "endSeconds": 1018.4596250000001,
-          "text": " ووجود دور طبيعي لهذه المودلة يعني أن المكملات تعكس الصابة اكفارية وصلط إلى مرحلة متقدمة أو تمع كل أنواع",
-          "averageLogProbability": -0.26064848429278326
+          "startSeconds": 993.6464583333334,
+          "endSeconds": 996.4464583333333,
+          "text": " ووجود دور طبيعي لهذه المودلة",
+          "averageLogProbability": -0.27248812310489606
+        },
+        {
+          "startSeconds": 996.4464583333333,
+          "endSeconds": 1002.1264583333333,
+          "text": " لا يعني أن المكملات تعكس الصابة اكفارية وصلط إلى مرحلة متقدمة",
+          "averageLogProbability": -0.27248812310489606
+        },
+        {
+          "startSeconds": 1002.1264583333333,
+          "endSeconds": 1003.6464583333334,
+          "text": " أو تمع كل أنواع",
+          "averageLogProbability": -0.27248812310489606
         }
       ]
     },
     {
       "scene": "membrane-injury",
       "beat": "membrane-causes",
-      "startSeconds": 1020.0455416666666,
-      "endSeconds": 1044.947375,
+      "startSeconds": 1005.105375,
+      "endSeconds": 1029.6827916666666,
       "segments": [
         {
-          "startSeconds": 1020.0455416666666,
-          "endSeconds": 1027.9455416666667,
-          "text": " نقص الطاقة والضرر التأكدي والإنزيمات التي ينشطها الكالسيوم تتقطع عند الأغشية",
-          "averageLogProbability": -0.2331773951902228
+          "startSeconds": 1005.105375,
+          "endSeconds": 1012.985375,
+          "text": " نقص الطاقة والضرر التأكدي والإنزيمات التي ينشطها الكلسيوم تتقاطع عند الأغشية",
+          "averageLogProbability": -0.32324861111464326
         },
         {
-          "startSeconds": 1028.6455416666665,
-          "endSeconds": 1035.6455416666665,
-          "text": " يقل تصنيع الدهون المكوناة للأغشية وتزداد عملية تفكيكها",
-          "averageLogProbability": -0.2331773951902228
+          "startSeconds": 1013.705375,
+          "endSeconds": 1015.705375,
+          "text": " يقل تصنيع فosphalipids",
+          "averageLogProbability": -0.32324861111464326
         },
         {
-          "startSeconds": 1035.6455416666665,
-          "endSeconds": 1044.9455416666667,
-          "text": " ويتضرر فتضعف بمية الغشاء ويدأ الضرر الذي يخل بوظيفته وحدوده",
-          "averageLogProbability": -0.2331773951902228
+          "startSeconds": 1015.945375,
+          "endSeconds": 1020.585375,
+          "text": " الدهون المكونات للأغشية وتزداد عملية تفكيكها",
+          "averageLogProbability": -0.32324861111464326
+        },
+        {
+          "startSeconds": 1020.705375,
+          "endSeconds": 1022.465375,
+          "text": " ويتضرر cidoskeleton",
+          "averageLogProbability": -0.32324861111464326
+        },
+        {
+          "startSeconds": 1022.545375,
+          "endSeconds": 1026.425375,
+          "text": " فتضع فبنية غشاء ويدأ membrane damage",
+          "averageLogProbability": -0.32324861111464326
+        },
+        {
+          "startSeconds": 1026.5853749999999,
+          "endSeconds": 1029.665375,
+          "text": " الضرر الذي يخل بوظيفته وحدوده",
+          "averageLogProbability": -0.32324861111464326
         }
       ]
     },
     {
       "scene": "membrane-injury",
       "beat": "membrane-plasma",
-      "startSeconds": 1045.047375,
-      "endSeconds": 1063.1699166666667,
+      "startSeconds": 1029.7827916666668,
+      "endSeconds": 1047.7402916666667,
       "segments": [
         {
-          "startSeconds": 1045.047375,
-          "endSeconds": 1055.847375,
+          "startSeconds": 1029.7827916666668,
+          "endSeconds": 1039.7827916666668,
           "text": " عندما تفقد سلامة الغشاء الذي يحيط بالخلية تصبح حركة المود الغير منظمة وتتسرب محتويات الخلية",
-          "averageLogProbability": -0.2025359619048334
+          "averageLogProbability": -0.16271106653161102
         },
         {
-          "startSeconds": 1055.847375,
-          "endSeconds": 1059.547375,
-          "text": " هذا يختلف عن بروز صغير قابل للعكس",
-          "averageLogProbability": -0.2025359619048334
-        },
-        {
-          "startSeconds": 1059.547375,
-          "endSeconds": 1063.547375,
-          "text": " الاتراب الشديد في الغشاء يهدد بقاء الخلية",
-          "averageLogProbability": -0.2025359619048334
+          "startSeconds": 1039.7827916666668,
+          "endSeconds": 1047.7827916666668,
+          "text": " هذا يختلف عن بروز صغير قابل للعكس للتراب الشديد في الغشاء يهدد بقاء الخلية",
+          "averageLogProbability": -0.16271106653161102
         }
       ]
     },
     {
       "scene": "membrane-injury",
       "beat": "membrane-organelles",
-      "startSeconds": 1063.2699166666666,
-      "endSeconds": 1080.9932916666667,
+      "startSeconds": 1047.8402916666666,
+      "endSeconds": 1065.3709583333334,
       "segments": [
         {
-          "startSeconds": 1063.2699166666666,
-          "endSeconds": 1067.2699166666666,
-          "text": " ضرر أغشية الميتو كندريا يزيد فشل إنتاج الطاقة",
-          "averageLogProbability": -0.2896816571553548
-        },
-        {
-          "startSeconds": 1068.0699166666666,
-          "endSeconds": 1069.2699166666666,
-          "text": " وضرر أغشية",
-          "averageLogProbability": -0.2896816571553548
-        },
-        {
-          "startSeconds": 1069.2699166666666,
-          "endSeconds": 1070.2699166666666,
-          "text": " why so songs",
-          "averageLogProbability": -0.2896816571553548
-        },
-        {
-          "startSeconds": 1070.6699166666667,
-          "endSeconds": 1073.4699166666667,
-          "text": " العضيات التي تحتوي انزيمات الهب",
-          "averageLogProbability": -0.2896816571553548
-        },
-        {
-          "startSeconds": 1073.4699166666667,
-          "endSeconds": 1076.4699166666667,
-          "text": " يطلق هذه الإنزيمات إلى السيطوب لزن",
-          "averageLogProbability": -0.2896816571553548
-        },
-        {
-          "startSeconds": 1077.2699166666666,
-          "endSeconds": 1081.0699166666666,
-          "text": " هناك تستطيع تفكيك مكونات الخلية نفسها",
-          "averageLogProbability": -0.2896816571553548
+          "startSeconds": 1047.8402916666666,
+          "endSeconds": 1065.8402916666666,
+          "text": " ضرر أغشية الميتو كندرية يزيد فشل إنتاج الطاقة وضرر أغشية العضيات التي تحتوي انزيمات الهبم يطلق هذه الإنزيمات إلى السيطوب لزم هناك تستطيع تفكيك مكونات الخلية نفسها",
+          "averageLogProbability": -0.27463928461074827
         }
       ]
     },
     {
       "scene": "membrane-injury",
       "beat": "membrane-feedback",
-      "startSeconds": 1081.0932916666666,
-      "endSeconds": 1098.1649166666666,
+      "startSeconds": 1065.4709583333333,
+      "endSeconds": 1082.3658333333333,
       "segments": [
         {
-          "startSeconds": 1081.0932916666666,
-          "endSeconds": 1092.0932916666666,
-          "text": " هنا تتكون حلقة تزيد الضرر نقص الطاقة وطنشيط الإنزيمات يضران الأغشية وفشل الأغشية يزيد اختلال الأيونات وإصابة العضيات",
-          "averageLogProbability": -0.16239080810919404
+          "startSeconds": 1065.4709583333333,
+          "endSeconds": 1076.4709583333333,
+          "text": " هنا تتكون حلقة تزيد الضرر نقص الطاقة وتنشيط الإنزيمات يضران الأغشية وفشل الأغشية يزيد اختلال الأيونات وإصابة العضيات",
+          "averageLogProbability": -0.1682588451787045
         },
         {
-          "startSeconds": 1093.0932916666666,
-          "endSeconds": 1098.0932916666666,
+          "startSeconds": 1077.4709583333333,
+          "endSeconds": 1082.4709583333333,
           "text": " ومع اشتداد هذه الحلقة تصبح سأكثر احتمالا",
-          "averageLogProbability": -0.16239080810919404
+          "averageLogProbability": -0.1682588451787045
         }
       ]
     },
     {
       "scene": "dna-protein",
       "beat": "dna-insults",
-      "startSeconds": 1098.8249166666667,
-      "endSeconds": 1114.6129166666667,
+      "startSeconds": 1083.0258333333334,
+      "endSeconds": 1098.4080416666668,
       "segments": [
         {
-          "startSeconds": 1098.8249166666667,
-          "endSeconds": 1107.8249166666667,
-          "text": " الإشعاع والمودي الكيميائية ور أوس سقد تضر دينا لكن الخلية تستطيع إصلاح الضرر المحدود",
-          "averageLogProbability": -0.268013324679398
+          "startSeconds": 1083.0258333333334,
+          "endSeconds": 1091.0258333333334,
+          "text": " الإشعاع والمود الكنيائية واروس سقد تضر DNA لكن الخليتة تستطيع إصلاح الضرر المحدود",
+          "averageLogProbability": -0.2750687714666128
         },
         {
-          "startSeconds": 1107.8249166666667,
-          "endSeconds": 1114.8249166666667,
-          "text": " لذلك وجود جزيء متضر لا يعني مباشرة أن الخلية فقدت فرصة البقاء",
-          "averageLogProbability": -0.268013324679398
+          "startSeconds": 1092.0258333333334,
+          "endSeconds": 1098.0258333333334,
+          "text": " لذلك وجود جزيء متضر لا يعني مباشرة أن الخليتة فقدت فرصة البقاء",
+          "averageLogProbability": -0.2750687714666128
         }
       ]
     },
     {
       "scene": "dna-protein",
       "beat": "dna-repair",
-      "startSeconds": 1114.7129166666666,
-      "endSeconds": 1135.1434166666666,
+      "startSeconds": 1098.5080416666667,
+      "endSeconds": 1118.9350833333333,
       "segments": [
         {
-          "startSeconds": 1114.7129166666666,
-          "endSeconds": 1118.7129166666666,
-          "text": " إذا نجح الإسلاح، يتقل بقاء ممكنًا",
-          "averageLogProbability": -0.23338507460775199
-        },
-        {
-          "startSeconds": 1118.7129166666666,
-          "endSeconds": 1130.7129166666666,
-          "text": " أما إذا كان ضرر شديدًا وغير قابل للتصحيح، فقد تنشط الخلية بدل الاستمرار بمدة وراثية متضررة",
-          "averageLogProbability": -0.23338507460775199
-        },
-        {
-          "startSeconds": 1130.7129166666666,
-          "endSeconds": 1135.7129166666666,
-          "text": " إذن، القرار مرتبط بقدرة الإسلاح وشدة الضرر",
-          "averageLogProbability": -0.23338507460775199
+          "startSeconds": 1098.5080416666667,
+          "endSeconds": 1119.5080416666667,
+          "text": " إذا نجح الإسلاح، يتقل بقاء ممكنًا، أما إذا كان ضرر شديدًا وغير قابلًا للتصحيح، فقد تنشط الخلية بدل الاستمرار بمدة وراثية متضررة، إذن القرار مرتبط بقدرة الإسلاح وشدة الضرار.",
+          "averageLogProbability": -0.23932777331254193
         }
       ]
     },
     {
       "scene": "dna-protein",
       "beat": "dna-proteins",
-      "startSeconds": 1135.2434166666667,
-      "endSeconds": 1152.4827916666668,
+      "startSeconds": 1119.0350833333334,
+      "endSeconds": 1136.0216666666668,
       "segments": [
         {
-          "startSeconds": 1135.2434166666667,
-          "endSeconds": 1152.2434166666667,
-          "text": " كذلك، تركم البروتينات المتضررة، البروتينات التي اختلطيها، قد يوجد الخلية وينشوط مصارات، وهذا يربط هدفات البروتين والمدة الوراثية الذين ركزت عليهم المحاضرة.",
-          "averageLogProbability": -0.26337115416366064
+          "startSeconds": 1119.0350833333334,
+          "endSeconds": 1136.0350833333334,
+          "text": " كذلك، تركم البروتينات المتضررة، البروتينات التي اختلطيها، قد يوجد الخلية ويمشوط مصارات، وهذا يربط هدفي البروتين والمدة الوراثية الذين ركزت عليهم المحاضرة.",
+          "averageLogProbability": -0.26952495493672113
         }
       ]
     },
     {
       "scene": "dna-protein",
       "beat": "dna-caspases",
-      "startSeconds": 1152.5827916666667,
-      "endSeconds": 1170.196125,
+      "startSeconds": 1136.1216666666667,
+      "endSeconds": 1153.5097916666666,
       "segments": [
         {
-          "startSeconds": 1152.5827916666667,
-          "endSeconds": 1156.5827916666667,
-          "text": " التفكيك المنظم في ايبوبتوسس",
-          "averageLogProbability": -0.2521088686974152
+          "startSeconds": 1136.1216666666667,
+          "endSeconds": 1139.9216666666666,
+          "text": " تنفذ التفكيك المنظم في اي باب توسس",
+          "averageLogProbability": -0.27187227465442776
         },
         {
-          "startSeconds": 1156.5827916666667,
-          "endSeconds": 1162.5827916666667,
+          "startSeconds": 1139.9216666666666,
+          "endSeconds": 1145.9216666666666,
           "text": " هذا يختلف عن التسرب والهدم غير المنظم الذين يميزان النمط النخري",
-          "averageLogProbability": -0.2521088686974152
+          "averageLogProbability": -0.27187227465442776
         },
         {
-          "startSeconds": 1162.5827916666667,
-          "endSeconds": 1170.5827916666667,
-          "text": " الاختلاف لا يكون في الاسم فقط سنراه في شكل الخليات وطريقة التخلص من محتوياتها",
-          "averageLogProbability": -0.2521088686974152
+          "startSeconds": 1145.9216666666666,
+          "endSeconds": 1153.9216666666666,
+          "text": " الاختلاف لا يكون في الاسم فقط سنراه في شكل الخلية وطريقة التخلص من محتوياتها",
+          "averageLogProbability": -0.27187227465442776
         }
       ]
     },
     {
       "scene": "death-patterns",
       "beat": "death-necrosis",
-      "startSeconds": 1170.856125,
-      "endSeconds": 1192.2175,
+      "startSeconds": 1154.1697916666667,
+      "endSeconds": 1175.2227500000001,
       "segments": [
         {
-          "startSeconds": 1170.856125,
-          "endSeconds": 1179.196125,
-          "text": " في نكروسيس نشاهد عادة الانتفاخ الخلية وضررا شديدا في العضيات وفقدان سلامة الغشاب",
-          "averageLogProbability": -0.29295903885806046
+          "startSeconds": 1154.1697916666667,
+          "endSeconds": 1170.1697916666667,
+          "text": " في نكروسس نشاهد عادة الانتفاخ الخلية وضررا شديدا في العضيات وفقدان سلامة الغشاب تتصرب المحتويات وقد تثير استجابة الاتهابية في النسيج المحيط",
+          "averageLogProbability": -0.23896431364119053
         },
         {
-          "startSeconds": 1179.856125,
-          "endSeconds": 1186.856125,
-          "text": " تتصرب المحتويات وقد تثير استجابة الاتهابية في النسيج المحيط",
-          "averageLogProbability": -0.29295903885806046
-        },
-        {
-          "startSeconds": 1187.556125,
-          "endSeconds": 1192.356125,
+          "startSeconds": 1170.1697916666667,
+          "endSeconds": 1175.1697916666667,
           "text": " لذلك الضرر لا يبقى دائما داخل الخلية وحدها",
-          "averageLogProbability": -0.29295903885806046
+          "averageLogProbability": -0.23896431364119053
         }
       ]
     },
     {
       "scene": "death-patterns",
       "beat": "death-nucleus",
-      "startSeconds": 1192.3175,
-      "endSeconds": 1213.3685833333334,
+      "startSeconds": 1175.32275,
+      "endSeconds": 1195.9561666666666,
       "segments": [
         {
-          "startSeconds": 1192.3175,
-          "endSeconds": 1199.3175,
+          "startSeconds": 1175.32275,
+          "endSeconds": 1182.32275,
           "text": " صورة محاضرة توضح تكثف النواة ثم تفتتها مع الطراب الأغشية وتمزك",
-          "averageLogProbability": -0.21628581909906297
+          "averageLogProbability": -0.18511120868580683
         },
         {
-          "startSeconds": 1199.3175,
-          "endSeconds": 1201.3175,
-          "text": " و تظهر",
-          "averageLogProbability": -0.21628581909906297
-        },
-        {
-          "startSeconds": 1201.3175,
-          "endSeconds": 1207.3175,
+          "startSeconds": 1185.32275,
+          "endSeconds": 1189.32275,
           "text": " كثافات غير منطظمة داخل الميت كندرية المنتفخة",
-          "averageLogProbability": -0.21628581909906297
+          "averageLogProbability": -0.18511120868580683
         },
         {
-          "startSeconds": 1207.3175,
-          "endSeconds": 1213.3175,
-          "text": " هذه مظاهر الصابة شديدة و ليست صورة الانتثاخ القابل للتعافي",
-          "averageLogProbability": -0.21628581909906297
+          "startSeconds": 1190.32275,
+          "endSeconds": 1196.32275,
+          "text": " هذه مظاهر الصابة شديدة وليست صورة الانتفاخ القابل للتعافي",
+          "averageLogProbability": -0.18511120868580683
         }
       ]
     },
     {
       "scene": "death-patterns",
       "beat": "death-apoptosis",
-      "startSeconds": 1213.4685833333333,
-      "endSeconds": 1236.5027083333332,
+      "startSeconds": 1196.0561666666667,
+      "endSeconds": 1219.0117916666668,
       "segments": [
         {
-          "startSeconds": 1213.4685833333333,
-          "endSeconds": 1221.9085833333334,
-          "text": " أما فالخلية تمكمش ويتكثف ثم تجزأ إلى أجزاء محاطة بغشاء",
-          "averageLogProbability": -0.22976567712398843
+          "startSeconds": 1196.0561666666667,
+          "endSeconds": 1204.3961666666667,
+          "text": " أما فالخلية تمكمش ويتكثف ثم تتجزأ إلى أجزاء محاطة بغشاء",
+          "averageLogProbability": -0.23845680762421
         },
         {
-          "startSeconds": 1222.9085833333334,
-          "endSeconds": 1227.9485833333333,
+          "startSeconds": 1205.3961666666667,
+          "endSeconds": 1210.3561666666667,
           "text": " بعدها تتخلص منها الخلية البالعة غالباً مع التهاب أقل",
-          "averageLogProbability": -0.22976567712398843
+          "averageLogProbability": -0.23845680762421
         },
         {
-          "startSeconds": 1228.7885833333332,
-          "endSeconds": 1236.3885833333334,
+          "startSeconds": 1211.2961666666667,
+          "endSeconds": 1218.8561666666667,
           "text": " ركز على الفرق المحتويات هنا تبقى محصورة أثناء تكون الأجزاء بدل التصر بالواسع",
-          "averageLogProbability": -0.22976567712398843
+          "averageLogProbability": -0.23845680762421
         }
       ]
     },
     {
       "scene": "death-patterns",
       "beat": "death-overlap",
-      "startSeconds": 1236.6027083333333,
-      "endSeconds": 1256.6197916666667,
+      "startSeconds": 1219.1117916666667,
+      "endSeconds": 1238.7230833333333,
       "segments": [
         {
-          "startSeconds": 1236.6027083333333,
-          "endSeconds": 1243.1227083333333,
+          "startSeconds": 1219.1117916666667,
+          "endSeconds": 1225.6317916666667,
           "text": " هذه أنماط تساعدنا على الفهم وليس تقوالب الصارمة لكل خلية متضررة",
-          "averageLogProbability": -0.2880871152648559
+          "averageLogProbability": -0.3573088656392014
         },
         {
-          "startSeconds": 1243.9227083333333,
-          "endSeconds": 1252.4027083333333,
-          "text": " هدف المحاضرت هو ربط الطاقة والأغشية والكالس يمور أر أوس ودينا هو البروتينات بهذه النتائج",
-          "averageLogProbability": -0.2880871152648559
+          "startSeconds": 1226.4317916666666,
+          "endSeconds": 1230.5717916666667,
+          "text": " هدف المحاضرت هو ربط الطاقة والأغشية والكالس يمو",
+          "averageLogProbability": -0.3573088656392014
         },
         {
-          "startSeconds": 1253.2827083333334,
-          "endSeconds": 1256.4827083333334,
-          "text": " وقد يشارك أكثر من مسار في نفس الإصابة",
-          "averageLogProbability": -0.2880871152648559
+          "startSeconds": 1230.5717916666667,
+          "endSeconds": 1231.2717916666668,
+          "text": " روس",
+          "averageLogProbability": -0.3573088656392014
+        },
+        {
+          "startSeconds": 1231.2717916666668,
+          "endSeconds": 1231.7717916666668,
+          "text": " سوى",
+          "averageLogProbability": -0.3573088656392014
+        },
+        {
+          "startSeconds": 1231.7717916666668,
+          "endSeconds": 1232.2717916666668,
+          "text": " دين",
+          "averageLogProbability": -0.3573088656392014
+        },
+        {
+          "startSeconds": 1232.2717916666668,
+          "endSeconds": 1234.5717916666667,
+          "text": " هو البروتينات بهذه النتائج",
+          "averageLogProbability": -0.3573088656392014
+        },
+        {
+          "startSeconds": 1235.3717916666667,
+          "endSeconds": 1238.6717916666666,
+          "text": " وقد يشارك أكثر من نسار في نفس الإصابة",
+          "averageLogProbability": -0.3573088656392014
         }
       ]
     },
     {
       "scene": "recovery",
       "beat": "recovery-return",
-      "startSeconds": 1257.2797916666666,
-      "endSeconds": 1278.478375,
+      "startSeconds": 1239.3830833333334,
+      "endSeconds": 1260.4968333333334,
       "segments": [
         {
-          "startSeconds": 1257.2797916666666,
-          "endSeconds": 1261.0797916666666,
+          "startSeconds": 1239.3830833333334,
+          "endSeconds": 1243.1830833333333,
           "text": " نرجع الآن إلى نفس الخلية المنتفخة.",
-          "averageLogProbability": -0.21649351690997595
+          "averageLogProbability": -0.20739412282695288
         },
         {
-          "startSeconds": 1261.0797916666666,
-          "endSeconds": 1264.6397916666665,
+          "startSeconds": 1243.1830833333333,
+          "endSeconds": 1246.7830833333335,
           "text": " إذا عاد الأكسوجين والدعم في الوقت المناسب",
-          "averageLogProbability": -0.21649351690997595
+          "averageLogProbability": -0.20739412282695288
         },
         {
-          "startSeconds": 1264.6397916666665,
-          "endSeconds": 1266.6397916666665,
+          "startSeconds": 1246.7830833333335,
+          "endSeconds": 1248.6830833333333,
           "text": " يعود انتاج ATP",
-          "averageLogProbability": -0.21649351690997595
+          "averageLogProbability": -0.20739412282695288
         },
         {
-          "startSeconds": 1266.6397916666665,
-          "endSeconds": 1269.0397916666666,
+          "startSeconds": 1248.6830833333333,
+          "endSeconds": 1251.0830833333334,
           "text": " ويتحسن توزيع الأيونات",
-          "averageLogProbability": -0.21649351690997595
+          "averageLogProbability": -0.20739412282695288
         },
         {
-          "startSeconds": 1269.0397916666666,
-          "endSeconds": 1271.0397916666666,
+          "startSeconds": 1251.0830833333334,
+          "endSeconds": 1253.0830833333334,
           "text": " ويرجع حجم الخلية",
-          "averageLogProbability": -0.21649351690997595
+          "averageLogProbability": -0.20739412282695288
         },
         {
-          "startSeconds": 1271.0397916666666,
-          "endSeconds": 1274.1997916666667,
+          "startSeconds": 1253.0830833333334,
+          "endSeconds": 1256.1830833333333,
           "text": " ويتحسن تصنيع البروتين.",
-          "averageLogProbability": -0.21649351690997595
+          "averageLogProbability": -0.20739412282695288
         },
         {
-          "startSeconds": 1274.1997916666667,
-          "endSeconds": 1278.6797916666667,
+          "startSeconds": 1256.1830833333333,
+          "endSeconds": 1260.6830833333333,
           "text": " هذا هو التعافي عندما تبقى مقومات البقاء محفوظة.",
-          "averageLogProbability": -0.21649351690997595
+          "averageLogProbability": -0.20739412282695288
         }
       ]
     },
     {
       "scene": "recovery",
       "beat": "recovery-morphology",
-      "startSeconds": 1278.578375,
-      "endSeconds": 1295.38825,
+      "startSeconds": 1260.5968333333333,
+      "endSeconds": 1277.151875,
       "segments": [
         {
-          "startSeconds": 1278.578375,
-          "endSeconds": 1282.7383750000001,
-          "text": " الانتفاخ وزوة كتل انقل تزول",
-          "averageLogProbability": -0.34986921374717456
+          "startSeconds": 1260.5968333333333,
+          "endSeconds": 1264.5968333333333,
+          "text": " الانتفاخ و زوة كتل قد تزول",
+          "averageLogProbability": -0.2832280532565228
         },
         {
-          "startSeconds": 1283.618375,
-          "endSeconds": 1289.4983750000001,
-          "text": " أما الضرر شديد غير القابل للعكس فقد يرافقه تفت الأضشية وتهدم النواه",
-          "averageLogProbability": -0.34986921374717456
+          "startSeconds": 1265.5968333333333,
+          "endSeconds": 1271.5968333333333,
+          "text": " أما ضرر شديد غير القابل للعكس فقد يرافقه تفت الأضشية وتهدم النواه",
+          "averageLogProbability": -0.2832280532565228
         },
         {
-          "startSeconds": 1289.698375,
-          "endSeconds": 1295.378375,
-          "text": " وفهور تركيب ملتفة مشتقة من أضشية متضررة",
-          "averageLogProbability": -0.34986921374717456
+          "startSeconds": 1271.5968333333333,
+          "endSeconds": 1277.5968333333333,
+          "text": " وظهور تركيب ملتفة مشتقة من أضشية متضررة",
+          "averageLogProbability": -0.2832280532565228
         }
       ]
     },
     {
       "scene": "recovery",
       "beat": "recovery-hallmarks",
-      "startSeconds": 1295.48825,
-      "endSeconds": 1310.91325,
+      "startSeconds": 1277.251875,
+      "endSeconds": 1292.5580416666667,
       "segments": [
         {
-          "startSeconds": 1295.48825,
-          "endSeconds": 1304.48825,
-          "text": " هناك علامتان رئيسيتان في عدم القدرة على عكس وضرر شديد في الأغشية",
-          "averageLogProbability": -0.19785619676113128
+          "startSeconds": 1277.251875,
+          "endSeconds": 1286.251875,
+          "text": " هناك علامتان رئيسية تانف عدم القدرة على عكس وضرر شديد في الأغشية",
+          "averageLogProbability": -0.22820325174801787
         },
         {
-          "startSeconds": 1305.48825,
-          "endSeconds": 1310.48825,
+          "startSeconds": 1286.251875,
+          "endSeconds": 1293.251875,
           "text": " عند هذه المرحلة إزالة المؤثر الأصلي وحدها لا تدفي الاستعادة الخلية",
-          "averageLogProbability": -0.19785619676113128
+          "averageLogProbability": -0.22820325174801787
         }
       ]
     },
     {
       "scene": "recovery",
       "beat": "recovery-context",
-      "startSeconds": 1311.01325,
-      "endSeconds": 1325.8664999999999,
+      "startSeconds": 1292.6580416666666,
+      "endSeconds": 1307.5112916666665,
       "segments": [
         {
-          "startSeconds": 1311.01325,
-          "endSeconds": 1315.83325,
-          "text": " إذاً، نسألة هي التوقيت مع الشدة ونوع الخلية.",
-          "averageLogProbability": -0.26954579621218566
-        },
-        {
-          "startSeconds": 1315.83325,
-          "endSeconds": 1320.81325,
-          "text": " التكيف والتعافي والموت نتائج الاستجابة الخلية لبيئتها",
-          "averageLogProbability": -0.26954579621218566
-        },
-        {
-          "startSeconds": 1320.81325,
-          "endSeconds": 1326.31325,
-          "text": " وليست نقاطاً على ساعة ثابتة تصلح لكل ناسيج وكل إصابة.",
-          "averageLogProbability": -0.26954579621218566
+          "startSeconds": 1292.6580416666666,
+          "endSeconds": 1307.6580416666666,
+          "text": " إذاً، نسألة هي التوقيت مع الشدة ونوع الخلية، التكيف والتعافي والموت نتائج لستجابة الخلية لبيئتها وليست نقاطاً على ساعة ثابتة تصلح لكل ناسيج وكل الصابة",
+          "averageLogProbability": -0.2715638567166156
         }
       ]
     },
     {
       "scene": "recap",
       "beat": "recap-atp",
-      "startSeconds": 1326.5265,
-      "endSeconds": 1349.7740833333332,
+      "startSeconds": 1308.1712916666668,
+      "endSeconds": 1331.2089166666667,
       "segments": [
         {
-          "startSeconds": 1326.5265,
-          "endSeconds": 1337.3265,
-          "text": " تذكر مسار الطاقة يقل ATP فتفشل مضخات الأيونات ويتراكم الصد يوم ويتخل الماء فتنتفخ الخلية",
-          "averageLogProbability": -0.27406009850294694
+          "startSeconds": 1308.1712916666668,
+          "endSeconds": 1318.9712916666667,
+          "text": " تذكروا مسار الطاقة يقل ATP فتفشل مضخات الأيونات ويتراكم الصود يوم ويتخل الماء فتنتفخ الخلية",
+          "averageLogProbability": -0.27101978905704044
         },
         {
-          "startSeconds": 1338.0465,
-          "endSeconds": 1344.0465,
-          "text": " وبالتوازي تزيد بلايك حالسيس وتمخفض كفاءة تصنيع البروتين",
-          "averageLogProbability": -0.27406009850294694
+          "startSeconds": 1319.5312916666667,
+          "endSeconds": 1325.5312916666667,
+          "text": " وبالتوازي تزيد like houses وتمخفض كفاءة تصنيع البروتين",
+          "averageLogProbability": -0.27101978905704044
         },
         {
-          "startSeconds": 1344.8464999999999,
-          "endSeconds": 1349.7265,
+          "startSeconds": 1326.1712916666668,
+          "endSeconds": 1331.3712916666668,
           "text": " هكذا نفهم النتيجة من السبب بدل حذئ اسماء متفرقة",
-          "averageLogProbability": -0.27406009850294694
+          "averageLogProbability": -0.27101978905704044
         }
       ]
     },
     {
       "scene": "recap",
       "beat": "recap-network",
-      "startSeconds": 1349.8740833333334,
-      "endSeconds": 1368.00775,
+      "startSeconds": 1331.3089166666666,
+      "endSeconds": 1348.8759583333333,
       "segments": [
         {
-          "startSeconds": 1349.8740833333334,
-          "endSeconds": 1352.8740833333334,
-          "text": " الكالس يوم ينشطن زيماة تضر الخلية",
-          "averageLogProbability": -0.28655851161342927
+          "startSeconds": 1331.3089166666666,
+          "endSeconds": 1334.3089166666666,
+          "text": " الكالس يوم ينشطن زيمات تضر الخلية",
+          "averageLogProbability": -0.376188132222052
         },
         {
-          "startSeconds": 1353.8740833333334,
-          "endSeconds": 1367.8740833333334,
-          "text": " وستهاجم الدهون والبروتينات وإصابة الميتو كندرية تضعف أو تطلق إشارات بينما ضرر الأغشية يزيل الحدود التي تحفظ التوازن",
-          "averageLogProbability": -0.28655851161342927
+          "startSeconds": 1335.3089166666666,
+          "endSeconds": 1339.3089166666666,
+          "text": " واروس استهاجم الدهون والبروتينات ودنة",
+          "averageLogProbability": -0.376188132222052
+        },
+        {
+          "startSeconds": 1339.3089166666666,
+          "endSeconds": 1343.3089166666666,
+          "text": " وإصابة الميتو كوندرية تضعف ATP أو تطلق إشارات",
+          "averageLogProbability": -0.376188132222052
+        },
+        {
+          "startSeconds": 1343.3089166666666,
+          "endSeconds": 1344.3089166666666,
+          "text": " ايبوبتوسس",
+          "averageLogProbability": -0.376188132222052
+        },
+        {
+          "startSeconds": 1344.3089166666666,
+          "endSeconds": 1348.3089166666666,
+          "text": " بينما ضرر الأرشية يزيل الحدود التي تحفظ التوازن",
+          "averageLogProbability": -0.376188132222052
         }
       ]
     },
     {
       "scene": "recap",
       "beat": "recap-dna",
-      "startSeconds": 1368.10775,
-      "endSeconds": 1386.4469583333332,
+      "startSeconds": 1348.9759583333334,
+      "endSeconds": 1367.3117083333334,
       "segments": [
         {
-          "startSeconds": 1368.10775,
-          "endSeconds": 1373.32775,
-          "text": " وضرر ديانا هو البروتينات الذي لا يصلح قد ينشد ايبابتوسيس",
-          "averageLogProbability": -0.29844904274021816
+          "startSeconds": 1348.9759583333334,
+          "endSeconds": 1359.1759583333335,
+          "text": " وضرر DNA والبروتينات الذي لا يصلح قد ينشت هذه الآليات تقوي بعضها لذلك افهم الرواب طبينها",
+          "averageLogProbability": -0.22397271874024696
         },
         {
-          "startSeconds": 1373.32775,
-          "endSeconds": 1378.4477499999998,
-          "text": " هذه الاليات تقوي بعضها لذلك افهم الرواب طبينها",
-          "averageLogProbability": -0.29844904274021816
-        },
-        {
-          "startSeconds": 1379.1677499999998,
-          "endSeconds": 1386.36775,
-          "text": " نحن لا ندرس ستة مربعات منفصلة بل شبكة قد تسارع إذا تعطلت أكثر من وظيفة",
-          "averageLogProbability": -0.29844904274021816
+          "startSeconds": 1360.0159583333334,
+          "endSeconds": 1367.1759583333335,
+          "text": " نحن لا ندرس ستة مربعات منفصلة بل شبكة قد تتسارع إذا تعطلت أكثر من وظيفة",
+          "averageLogProbability": -0.22397271874024696
         }
       ]
     },
     {
       "scene": "recap",
       "beat": "recap-outcome",
-      "startSeconds": 1386.5469583333334,
-      "endSeconds": 1408.1456666666668,
+      "startSeconds": 1367.4117083333333,
+      "endSeconds": 1389.0420833333333,
       "segments": [
         {
-          "startSeconds": 1386.5469583333334,
-          "endSeconds": 1403.7469583333334,
-          "text": " إذا كانت الوظيفة قابلة للاستعادة فهذه وإذا أصبح فشل الميت كندرية والأرشية غير قابل للإصلاح فهذه دائما إسألوا ما ذات عطل ولماذا تعطل",
-          "averageLogProbability": -0.22424761574677746
-        },
-        {
-          "startSeconds": 1404.5469583333334,
-          "endSeconds": 1408.1469583333333,
-          "text": " وهل ما زالت هذه الخلية قادرة على التعافي؟",
-          "averageLogProbability": -0.22424761574677746
+          "startSeconds": 1367.4117083333333,
+          "endSeconds": 1389.0117083333332,
+          "text": " إذا كانت الوظيفة قابلة للاستعادة، فهذه، وإذا أصبح فشل الميت كندرية والأرشية غير قابل للإصلاح، فهذه، دائما إسألوا، ما ذا تعطل، ولما ذا تعطل، وهل ما زالت هذه الخلية قادرة على التعافي؟",
+          "averageLogProbability": -0.23159428700231588
         }
       ]
     }
@@ -2308,387 +2218,383 @@
     {
       "term": "ATP depletion",
       "spokenForm": "A T P depletion",
-      "sourceStartSeconds": 433.971833,
-      "sourceEndSeconds": 435.22741600000006,
+      "sourceStartSeconds": 430.37604133333326,
+      "sourceEndSeconds": 431.51566633333334,
       "batchStartSeconds": 0.0,
-      "batchEndSeconds": 1.255625
+      "batchEndSeconds": 1.139625
     },
     {
       "term": "mitochondrial dysfunction",
       "spokenForm": "mitochondrial dysfunction",
-      "sourceStartSeconds": 772.919208,
-      "sourceEndSeconds": 774.4325,
-      "batchStartSeconds": 1.555625,
-      "batchEndSeconds": 3.0689375
+      "sourceStartSeconds": 764.508583,
+      "sourceEndSeconds": 765.918833,
+      "batchStartSeconds": 1.4396250000000002,
+      "batchEndSeconds": 2.849875
     },
     {
       "term": "Na+/K+ ATPase",
       "spokenForm": "sodium potassium A T P ace",
-      "sourceStartSeconds": 481.231458,
-      "sourceEndSeconds": 484.16229100000004,
-      "batchStartSeconds": 3.3689375000000004,
-      "batchEndSeconds": 6.2998125
+      "sourceStartSeconds": 477.1115413333333,
+      "sourceEndSeconds": 479.57845833333334,
+      "batchStartSeconds": 3.149875,
+      "batchEndSeconds": 5.61675
     },
     {
       "term": "cellular swelling",
       "spokenForm": "cellular swelling",
-      "sourceStartSeconds": 193.26637466666668,
-      "sourceEndSeconds": 194.26424966666667,
-      "batchStartSeconds": 6.5998125000000005,
-      "batchEndSeconds": 7.5976875
+      "sourceStartSeconds": 191.63995833333334,
+      "sourceEndSeconds": 192.52179133333334,
+      "batchStartSeconds": 5.91675,
+      "batchEndSeconds": 6.798625
     },
     {
       "term": "calcium influx",
       "spokenForm": "calcium influx",
-      "sourceStartSeconds": 724.8261663333334,
-      "sourceEndSeconds": 725.9528743333333,
-      "batchStartSeconds": 7.8976875,
-      "batchEndSeconds": 9.024375
+      "sourceStartSeconds": 717.2207913333334,
+      "sourceEndSeconds": 718.2959573333334,
+      "batchStartSeconds": 7.098625,
+      "batchEndSeconds": 8.17375
     },
     {
       "term": "reactive oxygen species",
       "spokenForm": "reactive oxygen species",
-      "sourceStartSeconds": 796.2711246666668,
-      "sourceEndSeconds": 798.3385826666666,
-      "batchStartSeconds": 9.324375,
-      "batchEndSeconds": 11.3918125
+      "sourceStartSeconds": 787.3961246666667,
+      "sourceEndSeconds": 789.1800416666666,
+      "batchStartSeconds": 8.47375,
+      "batchEndSeconds": 10.257687500000001
     },
     {
       "term": "membrane damage",
       "spokenForm": "membrane damage",
-      "sourceStartSeconds": 1040.520458,
-      "sourceEndSeconds": 1041.569874,
-      "batchStartSeconds": 11.6918125,
-      "batchEndSeconds": 12.741249999999999
+      "sourceStartSeconds": 1025.3414996666666,
+      "sourceEndSeconds": 1026.2877906666668,
+      "batchStartSeconds": 10.5576875,
+      "batchEndSeconds": 11.504
     },
     {
       "term": "reversible injury",
       "spokenForm": "reversible injury",
-      "sourceStartSeconds": 181.727833,
-      "sourceEndSeconds": 182.764333,
-      "batchStartSeconds": 13.04125,
-      "batchEndSeconds": 14.07775
+      "sourceStartSeconds": 180.04679133333335,
+      "sourceEndSeconds": 181.12195733333334,
+      "batchStartSeconds": 11.804,
+      "batchEndSeconds": 12.879125
     },
     {
       "term": "irreversible injury",
       "spokenForm": "irreversible injury",
-      "sourceStartSeconds": 223.67637466666667,
-      "sourceEndSeconds": 224.88041566666666,
-      "batchStartSeconds": 14.377749999999999,
-      "batchEndSeconds": 15.581812499999998
+      "sourceStartSeconds": 221.794333,
+      "sourceEndSeconds": 222.959707,
+      "batchStartSeconds": 13.179125,
+      "batchEndSeconds": 14.3445
     },
     {
       "term": "necrosis",
       "spokenForm": "necrosis",
-      "sourceStartSeconds": 462.78362466666664,
-      "sourceEndSeconds": 463.6654996666667,
-      "batchStartSeconds": 15.881812499999999,
-      "batchEndSeconds": 16.7636875
+      "sourceStartSeconds": 458.84045799999996,
+      "sourceEndSeconds": 459.554791,
+      "batchStartSeconds": 14.6445,
+      "batchEndSeconds": 15.358875000000001
     },
     {
       "term": "apoptosis",
       "spokenForm": "apoptosis",
-      "sourceStartSeconds": 780.2578746666667,
-      "sourceEndSeconds": 781.2943746666666,
-      "batchStartSeconds": 17.0636875,
-      "batchEndSeconds": 18.1001875
+      "sourceStartSeconds": 771.7513746666667,
+      "sourceEndSeconds": 772.6847906666667,
+      "batchStartSeconds": 15.658875,
+      "batchEndSeconds": 16.5923125
     }
   ],
   "nativeEnglishRecognition": [
     {
       "startSeconds": 0.0,
-      "endSeconds": 7.5,
-      "text": " ATP depletion, mitochondrial dysfunction, sodium potassium, ATPase, cellular swelling,",
+      "endSeconds": 6.76,
+      "text": " ATP depletion, mitochondrial dysfunction, sodium potassium ATPase, cellular swelling,",
       "words": [
         {
           "text": " ATP",
           "startSeconds": 0.0,
           "endSeconds": 0.46,
-          "probability": 0.8202440738677979
+          "probability": 0.8364567160606384
         },
         {
           "text": " depletion,",
           "startSeconds": 0.46,
-          "endSeconds": 1.26,
-          "probability": 0.9531536897023519
+          "endSeconds": 1.16,
+          "probability": 0.9421099225680033
         },
         {
           "text": " mitochondrial",
-          "startSeconds": 1.5,
-          "endSeconds": 2.38,
-          "probability": 0.9910084903240204
+          "startSeconds": 1.4,
+          "endSeconds": 2.22,
+          "probability": 0.992829829454422
         },
         {
           "text": " dysfunction,",
-          "startSeconds": 2.38,
-          "endSeconds": 2.84,
-          "probability": 0.9932979941368103
+          "startSeconds": 2.22,
+          "endSeconds": 2.68,
+          "probability": 0.9948947429656982
         },
         {
           "text": " sodium",
-          "startSeconds": 3.36,
-          "endSeconds": 3.72,
-          "probability": 0.9798990488052368
+          "startSeconds": 3.16,
+          "endSeconds": 3.52,
+          "probability": 0.9883361458778381
         },
         {
-          "text": " potassium,",
-          "startSeconds": 3.72,
-          "endSeconds": 4.4,
-          "probability": 0.8145978450775146
+          "text": " potassium",
+          "startSeconds": 3.52,
+          "endSeconds": 4.16,
+          "probability": 0.5779985189437866
         },
         {
           "text": " ATPase,",
-          "startSeconds": 5.0,
-          "endSeconds": 6.12,
-          "probability": 0.960295706987381
+          "startSeconds": 4.16,
+          "endSeconds": 5.46,
+          "probability": 0.7940267622470856
         },
         {
           "text": " cellular",
-          "startSeconds": 6.62,
-          "endSeconds": 7.0,
-          "probability": 0.9886414408683777
+          "startSeconds": 5.92,
+          "endSeconds": 6.28,
+          "probability": 0.9916861653327942
         },
         {
           "text": " swelling,",
-          "startSeconds": 7.0,
-          "endSeconds": 7.5,
-          "probability": 0.9977003931999207
+          "startSeconds": 6.28,
+          "endSeconds": 6.76,
+          "probability": 0.9988219141960144
         }
       ]
     },
     {
-      "startSeconds": 7.84,
-      "endSeconds": 15.44,
+      "startSeconds": 7.06,
+      "endSeconds": 14.24,
       "text": " calcium influx, reactive oxygen species, membrane damage, reversible injury, irreversible injury,",
       "words": [
         {
           "text": " calcium",
-          "startSeconds": 7.84,
-          "endSeconds": 8.22,
-          "probability": 0.9953655004501343
+          "startSeconds": 7.06,
+          "endSeconds": 7.44,
+          "probability": 0.9964141249656677
         },
         {
           "text": " influx,",
-          "startSeconds": 8.22,
-          "endSeconds": 8.86,
-          "probability": 0.9925363063812256
+          "startSeconds": 7.44,
+          "endSeconds": 8.1,
+          "probability": 0.9947654604911804
         },
         {
           "text": " reactive",
-          "startSeconds": 9.3,
-          "endSeconds": 9.78,
-          "probability": 0.993749737739563
+          "startSeconds": 8.44,
+          "endSeconds": 8.84,
+          "probability": 0.9933777451515198
         },
         {
           "text": " oxygen",
-          "startSeconds": 9.78,
-          "endSeconds": 10.44,
-          "probability": 0.991038978099823
+          "startSeconds": 8.84,
+          "endSeconds": 9.5,
+          "probability": 0.9976946711540222
         },
         {
           "text": " species,",
-          "startSeconds": 10.44,
-          "endSeconds": 11.06,
-          "probability": 0.9970759153366089
+          "startSeconds": 9.5,
+          "endSeconds": 10.0,
+          "probability": 0.9979547262191772
         },
         {
           "text": " membrane",
-          "startSeconds": 11.7,
-          "endSeconds": 11.98,
-          "probability": 0.9963933825492859
+          "startSeconds": 10.56,
+          "endSeconds": 10.82,
+          "probability": 0.9985489249229431
         },
         {
           "text": " damage,",
-          "startSeconds": 11.98,
-          "endSeconds": 12.5,
-          "probability": 0.9986521601676941
+          "startSeconds": 10.82,
+          "endSeconds": 11.32,
+          "probability": 0.998689591884613
         },
         {
           "text": " reversible",
-          "startSeconds": 13.06,
-          "endSeconds": 13.46,
-          "probability": 0.9933702945709229
+          "startSeconds": 11.84,
+          "endSeconds": 12.24,
+          "probability": 0.9899179339408875
         },
         {
           "text": " injury,",
-          "startSeconds": 13.46,
-          "endSeconds": 14.0,
-          "probability": 0.9975513815879822
+          "startSeconds": 12.24,
+          "endSeconds": 12.8,
+          "probability": 0.9982759952545166
         },
         {
           "text": " irreversible",
-          "startSeconds": 14.42,
-          "endSeconds": 15.06,
-          "probability": 0.9983740250269572
+          "startSeconds": 13.22,
+          "endSeconds": 13.82,
+          "probability": 0.9983833034833273
         },
         {
           "text": " injury,",
-          "startSeconds": 15.06,
-          "endSeconds": 15.44,
-          "probability": 0.9984230995178223
+          "startSeconds": 13.82,
+          "endSeconds": 14.24,
+          "probability": 0.9980446100234985
         }
       ]
     },
     {
-      "startSeconds": 15.44,
-      "endSeconds": 17.84,
-      "text": " Necrosis Apoptosis",
+      "startSeconds": 14.66,
+      "endSeconds": 16.4,
+      "text": " necrosis, apoptosis.",
       "words": [
         {
-          "text": " Necrosis",
-          "startSeconds": 15.44,
-          "endSeconds": 16.74,
-          "probability": 0.8485787312189738
+          "text": " necrosis,",
+          "startSeconds": 14.66,
+          "endSeconds": 15.38,
+          "probability": 0.9885035554567972
         },
         {
-          "text": " Apoptosis",
-          "startSeconds": 16.74,
-          "endSeconds": 17.84,
-          "probability": 0.8363948067029318
+          "text": " apoptosis.",
+          "startSeconds": 15.7,
+          "endSeconds": 16.4,
+          "probability": 0.9972203175226847
         }
       ]
     }
   ],
   "waveform": {
-    "sampleCount": 33805576,
-    "durationSeconds": 1408.5656666666666,
+    "sampleCount": 33347090,
+    "durationSeconds": 1389.4620833333333,
     "peakDbFS": -1.360256080173671,
     "clippedSamples": 0,
     "silencesLongerThan1Second": [
       {
-        "startSeconds": 17.44,
+        "startSeconds": 17.22,
         "durationSeconds": 1.02
       },
       {
-        "startSeconds": 167.12,
+        "startSeconds": 165.44,
         "durationSeconds": 1.02
       },
       {
-        "startSeconds": 175.88,
+        "startSeconds": 174.20000000000002,
         "durationSeconds": 1.02
       },
       {
-        "startSeconds": 191.5,
-        "durationSeconds": 1.08
-      },
-      {
-        "startSeconds": 214.76,
-        "durationSeconds": 1.04
-      },
-      {
-        "startSeconds": 233.68,
-        "durationSeconds": 1.02
-      },
-      {
-        "startSeconds": 291.48,
-        "durationSeconds": 1.08
-      },
-      {
-        "startSeconds": 375.52,
-        "durationSeconds": 1.02
-      },
-      {
-        "startSeconds": 390.14,
-        "durationSeconds": 1.18
-      },
-      {
-        "startSeconds": 414.0,
-        "durationSeconds": 1.02
-      },
-      {
-        "startSeconds": 430.22,
-        "durationSeconds": 1.02
-      },
-      {
-        "startSeconds": 469.04,
-        "durationSeconds": 1.04
-      },
-      {
-        "startSeconds": 522.48,
-        "durationSeconds": 1.02
-      },
-      {
-        "startSeconds": 530.62,
-        "durationSeconds": 1.04
-      },
-      {
-        "startSeconds": 607.7,
-        "durationSeconds": 1.04
-      },
-      {
-        "startSeconds": 700.92,
-        "durationSeconds": 1.1
-      },
-      {
-        "startSeconds": 721.3000000000001,
-        "durationSeconds": 1.02
-      },
-      {
-        "startSeconds": 807.1,
-        "durationSeconds": 1.02
-      },
-      {
-        "startSeconds": 918.62,
-        "durationSeconds": 1.02
-      },
-      {
-        "startSeconds": 925.86,
+        "startSeconds": 189.88,
         "durationSeconds": 1.06
       },
       {
-        "startSeconds": 954.88,
+        "startSeconds": 212.88,
+        "durationSeconds": 1.04
+      },
+      {
+        "startSeconds": 231.76,
+        "durationSeconds": 1.04
+      },
+      {
+        "startSeconds": 246.52,
         "durationSeconds": 1.02
       },
       {
-        "startSeconds": 997.44,
-        "durationSeconds": 1.02
-      },
-      {
-        "startSeconds": 1007.58,
-        "durationSeconds": 1.02
-      },
-      {
-        "startSeconds": 1076.4,
-        "durationSeconds": 1.02
-      },
-      {
-        "startSeconds": 1092.14,
+        "startSeconds": 289.14,
         "durationSeconds": 1.08
       },
       {
-        "startSeconds": 1162.3600000000001,
+        "startSeconds": 372.38,
         "durationSeconds": 1.02
       },
       {
-        "startSeconds": 1178.82,
+        "startSeconds": 386.96000000000004,
         "durationSeconds": 1.18
       },
       {
-        "startSeconds": 1186.72,
-        "durationSeconds": 1.04
-      },
-      {
-        "startSeconds": 1206.68,
+        "startSeconds": 410.8,
         "durationSeconds": 1.02
       },
       {
-        "startSeconds": 1221.88,
+        "startSeconds": 426.7,
+        "durationSeconds": 1.02
+      },
+      {
+        "startSeconds": 464.92,
+        "durationSeconds": 1.04
+      },
+      {
+        "startSeconds": 517.48,
+        "durationSeconds": 1.02
+      },
+      {
+        "startSeconds": 525.46,
+        "durationSeconds": 1.04
+      },
+      {
+        "startSeconds": 536.44,
+        "durationSeconds": 1.02
+      },
+      {
+        "startSeconds": 601.66,
+        "durationSeconds": 1.04
+      },
+      {
+        "startSeconds": 693.52,
+        "durationSeconds": 1.08
+      },
+      {
+        "startSeconds": 797.94,
+        "durationSeconds": 1.02
+      },
+      {
+        "startSeconds": 913.46,
+        "durationSeconds": 1.06
+      },
+      {
+        "startSeconds": 982.76,
+        "durationSeconds": 1.02
+      },
+      {
+        "startSeconds": 992.76,
+        "durationSeconds": 1.04
+      },
+      {
+        "startSeconds": 1060.78,
+        "durationSeconds": 1.02
+      },
+      {
+        "startSeconds": 1076.52,
+        "durationSeconds": 1.08
+      },
+      {
+        "startSeconds": 1145.68,
+        "durationSeconds": 1.02
+      },
+      {
+        "startSeconds": 1161.96,
+        "durationSeconds": 1.18
+      },
+      {
+        "startSeconds": 1169.72,
+        "durationSeconds": 1.04
+      },
+      {
+        "startSeconds": 1189.26,
+        "durationSeconds": 1.04
+      },
+      {
+        "startSeconds": 1204.38,
         "durationSeconds": 1.12
       },
       {
-        "startSeconds": 1227.8600000000001,
+        "startSeconds": 1210.38,
         "durationSeconds": 1.04
       },
       {
-        "startSeconds": 1260.26,
+        "startSeconds": 1242.3600000000001,
         "durationSeconds": 1.04
       },
       {
-        "startSeconds": 1282.7,
+        "startSeconds": 1264.6200000000001,
         "durationSeconds": 1.04
       },
       {
-        "startSeconds": 1378.3,
+        "startSeconds": 1359.16,
         "durationSeconds": 1.02
       }
     ],

@@ -1,0 +1,342 @@
+{
+  "sourceCommit": "bb6217e54a322b0a128f71f3f5fbc2d7e30ca3bd",
+  "audioSha256": "ab75ddcbb4301f081cfd45e5b0e4f5ea038bb55c3c67309dcb452106f4976e88",
+  "method": "Visual inspection of all 18 final-timing contact sheets and selected 1920x1080 frames",
+  "renderedRepresentativeStates": 146,
+  "scenes": [
+    {
+      "scene": "homeostasis",
+      "reviewedStates": 10,
+      "states": [
+        "start",
+        "middle",
+        "beat1",
+        "beat2",
+        "beat3",
+        "beat4",
+        "end",
+        "balance",
+        "labile",
+        "stable"
+      ],
+      "layout": "PASS",
+      "readability": "PASS",
+      "medicalCausality": "PASS",
+      "measuredCueTiming": "PASS"
+    },
+    {
+      "scene": "adaptation",
+      "reviewedStates": 7,
+      "states": [
+        "start",
+        "middle",
+        "beat1",
+        "beat2",
+        "beat3",
+        "beat4",
+        "end"
+      ],
+      "layout": "PASS",
+      "readability": "PASS",
+      "medicalCausality": "PASS",
+      "measuredCueTiming": "PASS"
+    },
+    {
+      "scene": "injury-threshold",
+      "reviewedStates": 8,
+      "states": [
+        "start",
+        "middle",
+        "beat1",
+        "beat2",
+        "beat3",
+        "beat4",
+        "end",
+        "stress-factors"
+      ],
+      "layout": "PASS",
+      "readability": "PASS",
+      "medicalCausality": "PASS",
+      "measuredCueTiming": "PASS"
+    },
+    {
+      "scene": "causes",
+      "reviewedStates": 11,
+      "states": [
+        "start",
+        "middle",
+        "beat1",
+        "beat2",
+        "beat3",
+        "beat4",
+        "end",
+        "chemical",
+        "biological",
+        "environment",
+        "nutrition"
+      ],
+      "layout": "PASS",
+      "readability": "PASS",
+      "medicalCausality": "PASS",
+      "measuredCueTiming": "PASS"
+    },
+    {
+      "scene": "targets",
+      "reviewedStates": 7,
+      "states": [
+        "start",
+        "middle",
+        "beat1",
+        "beat2",
+        "beat3",
+        "beat4",
+        "end"
+      ],
+      "layout": "PASS",
+      "readability": "PASS",
+      "medicalCausality": "PASS",
+      "measuredCueTiming": "PASS"
+    },
+    {
+      "scene": "oxygen-atp",
+      "reviewedStates": 7,
+      "states": [
+        "start",
+        "middle",
+        "beat1",
+        "beat2",
+        "beat3",
+        "beat4",
+        "end"
+      ],
+      "layout": "PASS",
+      "readability": "PASS",
+      "medicalCausality": "PASS",
+      "measuredCueTiming": "PASS"
+    },
+    {
+      "scene": "pump-swelling",
+      "reviewedStates": 10,
+      "states": [
+        "start",
+        "middle",
+        "beat1",
+        "beat2",
+        "beat3",
+        "beat4",
+        "end",
+        "pump-slows",
+        "water-influx",
+        "swelling"
+      ],
+      "layout": "PASS",
+      "readability": "PASS",
+      "medicalCausality": "PASS",
+      "measuredCueTiming": "PASS"
+    },
+    {
+      "scene": "glycolysis",
+      "reviewedStates": 7,
+      "states": [
+        "start",
+        "middle",
+        "beat1",
+        "beat2",
+        "beat3",
+        "beat4",
+        "end"
+      ],
+      "layout": "PASS",
+      "readability": "PASS",
+      "medicalCausality": "PASS",
+      "measuredCueTiming": "PASS"
+    },
+    {
+      "scene": "protein-synthesis",
+      "reviewedStates": 9,
+      "states": [
+        "start",
+        "middle",
+        "beat1",
+        "beat2",
+        "beat3",
+        "beat4",
+        "end",
+        "translation",
+        "ribosomes-detach"
+      ],
+      "layout": "PASS",
+      "readability": "PASS",
+      "medicalCausality": "PASS",
+      "measuredCueTiming": "PASS"
+    },
+    {
+      "scene": "calcium",
+      "reviewedStates": 7,
+      "states": [
+        "start",
+        "middle",
+        "beat1",
+        "beat2",
+        "beat3",
+        "beat4",
+        "end"
+      ],
+      "layout": "PASS",
+      "readability": "PASS",
+      "medicalCausality": "PASS",
+      "measuredCueTiming": "PASS"
+    },
+    {
+      "scene": "mitochondria",
+      "reviewedStates": 9,
+      "states": [
+        "start",
+        "middle",
+        "beat1",
+        "beat2",
+        "beat3",
+        "beat4",
+        "end",
+        "inner-gradient",
+        "outer-release"
+      ],
+      "layout": "PASS",
+      "readability": "PASS",
+      "medicalCausality": "PASS",
+      "measuredCueTiming": "PASS"
+    },
+    {
+      "scene": "ros",
+      "reviewedStates": 7,
+      "states": [
+        "start",
+        "middle",
+        "beat1",
+        "beat2",
+        "beat3",
+        "beat4",
+        "end"
+      ],
+      "layout": "PASS",
+      "readability": "PASS",
+      "medicalCausality": "PASS",
+      "measuredCueTiming": "PASS"
+    },
+    {
+      "scene": "antioxidants",
+      "reviewedStates": 7,
+      "states": [
+        "start",
+        "middle",
+        "beat1",
+        "beat2",
+        "beat3",
+        "beat4",
+        "end"
+      ],
+      "layout": "PASS",
+      "readability": "PASS",
+      "medicalCausality": "PASS",
+      "measuredCueTiming": "PASS"
+    },
+    {
+      "scene": "membrane-injury",
+      "reviewedStates": 8,
+      "states": [
+        "start",
+        "middle",
+        "beat1",
+        "beat2",
+        "beat3",
+        "beat4",
+        "end",
+        "lysosomal-release"
+      ],
+      "layout": "PASS",
+      "readability": "PASS",
+      "medicalCausality": "PASS",
+      "measuredCueTiming": "PASS"
+    },
+    {
+      "scene": "dna-protein",
+      "reviewedStates": 7,
+      "states": [
+        "start",
+        "middle",
+        "beat1",
+        "beat2",
+        "beat3",
+        "beat4",
+        "end"
+      ],
+      "layout": "PASS",
+      "readability": "PASS",
+      "medicalCausality": "PASS",
+      "measuredCueTiming": "PASS"
+    },
+    {
+      "scene": "death-patterns",
+      "reviewedStates": 10,
+      "states": [
+        "start",
+        "middle",
+        "beat1",
+        "beat2",
+        "beat3",
+        "beat4",
+        "end",
+        "nuclear-fragments",
+        "apoptotic-bodies",
+        "clearance"
+      ],
+      "layout": "PASS",
+      "readability": "PASS",
+      "medicalCausality": "PASS",
+      "measuredCueTiming": "PASS"
+    },
+    {
+      "scene": "recovery",
+      "reviewedStates": 8,
+      "states": [
+        "start",
+        "middle",
+        "beat1",
+        "beat2",
+        "beat3",
+        "beat4",
+        "end",
+        "cell-recovers"
+      ],
+      "layout": "PASS",
+      "readability": "PASS",
+      "medicalCausality": "PASS",
+      "measuredCueTiming": "PASS"
+    },
+    {
+      "scene": "recap",
+      "reviewedStates": 7,
+      "states": [
+        "start",
+        "middle",
+        "beat1",
+        "beat2",
+        "beat3",
+        "beat4",
+        "end"
+      ],
+      "layout": "PASS",
+      "readability": "PASS",
+      "medicalCausality": "PASS",
+      "measuredCueTiming": "PASS"
+    }
+  ],
+  "fullResolutionChecks": [
+    "pump-swelling/end",
+    "mitochondria/end",
+    "membrane-injury/end",
+    "death-patterns/apoptotic-bodies"
+  ],
+  "findings": "No clipping, unintended overlap or misleading causal sequencing found in inspected states. Existing scene designs retained.",
+  "encodedMediaReview": "pending complete MP4"
+}

@@ -26,8 +26,8 @@ npm run render:ar
 
 Select **CellInjuryArabic**, or **LabAr-*** for individual mechanisms.
 Output: **out/cell-injury-ar.mp4**, 1920×1080, 30 fps, H.264/AAC, BT.709.
-The real master is **1389.462083 seconds**, **41,684 frames**
-(23.158 minutes). All 18 scene lengths, 72 beat anchors and
+The real audio master is **1389.462083 seconds**; the video is **41,684 frames**
+(**23:09.467** at 30 fps). All 18 scene lengths, 72 beat anchors and
 75 internal mechanism events follow measured audio rather than the English duration.
 
 Arabic script: `src/data/lesson.ar.json`, `docs/narration-ar.md`.
@@ -36,6 +36,10 @@ Measured timeline: `src/data/timeline.ar.json`, mirrored in `public/audio/timing
 Pronunciation controls and edit recipe: `src/data/pronunciation.ar.json`,
 `public/audio/recordings.ar.json`. The generator is `scripts/generate-arabic-narration.py`.
 See `docs/arabic-upgrade.md` for provider choice, backup and review limitations.
+Arabic review evidence is in `docs/qa-ar.md` and `qa/arabic/`.
+The Arabic render checks free space and puts temporary files in ignored
+`out/.remotion-tmp`; allow about 8 GiB. Set `CELL_INJURY_RENDER_TEMP_DIR` to use
+another volume. This avoids limited container `/tmp` mounts.
 
 ## Install and preview
 

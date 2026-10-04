@@ -28,8 +28,8 @@ and trailing padding was trimmed with acoustic guards, preserving every reported
 word interval and internal sentence pauses. This removed 58.245 seconds without
 time stretching. All scene and event times were recomputed, and QA was repeated.
 
-The corrected full master was independently processed again: **72/72 beats**.
-An English-language test of actual master clips recognized all eleven required
+The final full master was independently processed again: **72/72 beats**.
+An English-language test of actual final-master clips recognized all eleven required
 medical terms, including the corrected ATPase. The waveform has **zero clipped
 samples**; longest measured silence above the -50 dB threshold is **1.18 seconds**.
 Evidence: `qa/arabic/audio-review.json`; the raw ASR transcript is diagnostic and
@@ -41,12 +41,14 @@ changes. No direct human listening or independent clinician sign-off is claimed.
 
 ## Visual and medical review
 
-146 representative states were rendered at actual Arabic timing: start, middle,
+146 representative states were rendered at final Arabic timing: start, middle,
 all four narration beats, end and important intermediate mechanism states.
 All 18 contact sheets were visually inspected, with individual full-resolution
 checks of pump swelling, mitochondrial membranes, lysosomal release and contained
 apoptotic bodies. The complete set was re-rendered and visually inspected after
-silence correction. **Corrected representative visual QA: PASS.**
+the final single-language English voice correction. The 18 final contact sheets
+and critical full-resolution checks are recorded in `qa/arabic/visual-review.json`.
+**Final representative visual QA: PASS.**
 
 The separate medical pass compared the complete 28-page lecture, Arabic script
 and rendered mechanism states. It retains the established clarifications in
@@ -73,6 +75,12 @@ was introduced. **Representative motion/student review: PASS.**
 
 ## Reproduction and encoded checks
 
+The first full final-voice attempt completed all 41,684 rendered frames but failed
+at audio preprocessing because the container's `/tmp` mount ran out of space.
+No completed MP4 was certified. The render command now checks capacity and uses
+ignored workspace temporary storage, with about 8 GiB reserved. Audio, timelines
+and scene source were not changed by this infrastructure correction.
+
 ```sh
 npm run typecheck
 npm run check:ready:ar
@@ -93,6 +101,9 @@ and Permanent cells with the multilingual English voice. A single-language Andre
 pilot improved these while retaining all critical terms. The initial encoding was
 stopped before completion; all English segments were re-recorded using
 `en-US-AndrewNeural`, the Saudi Arabic body was retained, and all 18 scene timelines
-were recomputed from the new PCM. Final-master automated/encoded QA is pending.
-Earlier audio-review JSON identifies its own prior-master fingerprint and is
-superseded by the final review before release.
+were recomputed from the new PCM. Final-master ASR processed all 72 beats and
+recognized all eleven required terms. The separate expanded test covers all
+89 distinct English phrases, including ER, Rough ER, SOD and Permanent cells.
+Diagnostic spelling variations in ASR do not by themselves establish a speech
+error. Both review records now identify the final-master audio fingerprint.
+Encoded QA remains pending until the complete MP4 finishes rendering.

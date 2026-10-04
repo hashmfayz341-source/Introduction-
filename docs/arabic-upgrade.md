@@ -1,6 +1,6 @@
 # Arabic narration upgrade
 
-The existing 18-scene lesson is being upgraded with spoken Arabic narration.
+The existing 18-scene lesson has been upgraded with spoken Arabic narration.
 No scene designs, anatomy, labels or transitions have been replaced.
 
 ## English backup
@@ -38,8 +38,8 @@ Review against the source and approved English lesson confirms:
 
 There are 75 named mechanism cue spans, including all 64 literal event calls and
 11 dynamically selected events. These are actual words or phrases in the Arabic
-script. Their eventual timing must be measured from the real recording; no audio
-duration or fabricated word timestamps have been added.
+script. Their timing is measured from actual recorded words and PCM joins;
+no text-length estimates or fabricated word timestamps are used.
 
 Validate this preparation with `node scripts/check-arabic-script.mjs`.
 
@@ -90,10 +90,11 @@ the included master makes a local render reproducible without contacting TTS.
 
 ## Review limits
 
-Independent ASR of the first full master recognized all eleven required English
-medical terms; ATPase was separately checked after its spelling control was fixed.
-The complete second automated audio review processed 72/72 beats, and corrected
-visual QA inspected 146 representative frames across all 18 scenes before encoding. Audio recognition, waveform checks and playback validation are evidence
+Independent ASR of the final full master processed 72/72 beats and recognized all
+eleven required English medical terms. ATPase was separately checked after its
+spelling control was fixed. The expanded English diagnostic covers 89 distinct
+phrases. Final-timing visual QA inspected 146 representative states across all
+18 scenes before encoding. Audio recognition, waveform checks and playback validation are evidence
 of audibility and synchronization, not a claim of human listening or clinician sign-off.
 Direct listening is not available in this execution interface, and the fallback
 speech engine cannot accept the proposed natural-delivery instruction text.

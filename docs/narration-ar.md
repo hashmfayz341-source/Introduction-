@@ -1,6 +1,6 @@
 # Cell Injury — Arabic narration script
 
-Spoken Arabic with English medical terminology. The existing 18 scenes and all 28 source-page mappings are preserved. This is the reviewed script prepared for recording; Arabic audio and measured timing are pending.
+Spoken Arabic with English medical terminology. The existing 18 scenes and all 28 source-page mappings are preserved. This is the approved script for the included real recording, `public/audio/narration-ar.wav`; its measured timing is in `src/data/timeline.ar.json`.
 
 ## homeostasis — A cell in balance
 
@@ -325,4 +325,3 @@ Ischemia، وارتفاع الكالسيوم في السيتوبلازم، وRea
 **recap-outcome**
 
 إذا كانت الوظيفة قابلة للاستعادة، فهذه Reversible injury. وإذا أصبح فشل الميتوكوندريا والأغشية غير قابل للإصلاح، فهذه Irreversible injury. دائمًا اسألوا: ماذا تعطّل؟ ولماذا تعطّل؟ وهل ما زالت هذه الخلية قادرة على التعافي؟
-
