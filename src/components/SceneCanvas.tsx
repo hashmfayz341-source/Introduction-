@@ -1,11 +1,11 @@
 import React from 'react';
 import {AbsoluteFill,interpolate} from 'remotion';
-import {useScene,lesson} from '../hooks/useScene';
+import {useScene} from '../hooks/useScene';
 import {theme} from '../styles/theme';
 
 export const SceneCanvas:React.FC<{sceneId:string;children:React.ReactNode;footer?:string;kicker?:string}> =
 ({sceneId,children,footer,kicker}) => {
-  const {scene,timed,frame}=useScene(sceneId);
+  const {scene,timed,frame,lesson}=useScene(sceneId);
   const index=Math.max(0,lesson.scenes.findIndex(s=>s.id===sceneId));
   const entrance=interpolate(frame,[0,10],[0,1],{extrapolateLeft:'clamp',extrapolateRight:'clamp'});
   const exit=interpolate(frame,[Math.max(10,timed.durationInFrames-8),timed.durationInFrames-1],[1,0],{extrapolateLeft:'clamp',extrapolateRight:'clamp'});

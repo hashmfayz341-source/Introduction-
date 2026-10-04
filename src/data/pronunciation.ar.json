@@ -1,18 +1,18 @@
 {
-  "status": "prepared-for-recording",
-  "provider": "OpenAI",
-  "model": "gpt-4o-mini-tts",
-  "voice": "cedar",
+  "status": "recorded",
+  "provider": "Microsoft Edge neural speech",
+  "model": "neural voices via edge-tts 7.2.8",
+  "voice": "ar-SA-HamedNeural",
   "instructions": "Speak as a calm adult medical lecturer teaching Saudi/Gulf medical students. Use clear Modern Arabic with a light, natural Saudi-friendly conversational tone. Follow the supplied wording. Read the English medical terms in clear native English pronunciation, in the same voice and at the same volume as the Arabic. Do not translate English terms, read punctuation aloud, add introductions, or announce headings. Use human sentence phrasing, brief natural pauses, and subtle emphasis on causal changes. No theatrical delivery, exaggerated dialect, or repeated long pauses. ATP is pronounced with the English letters A T P; DNA with D N A; ER with E R; ROS with R O S; SOD with S O D. ATPase uses the English letters A T P followed by the enzyme ending 'ase'. Necrosis and apoptosis must remain clearly distinguishable English medical words.",
   "lexicalControls": {
-    "Na+/K+ ATPase": "sodium potassium A T P-ase",
-    "ATPases": "A T P-ases",
+    "Na+/K+ ATPase": "sodium potassium A T P ace",
     "ATP": "A T P",
     "DNA": "D N A",
     "ER": "E R",
     "ROS": "R O S",
     "SOD": "S O D",
-    "pH": "P H"
+    "pH": "P H",
+    "ATPases": "A T P aces"
   },
   "requiredTermReview": [
     "ATP depletion",
@@ -27,5 +27,32 @@
     "necrosis",
     "apoptosis"
   ],
-  "reviewNote": "These are proposed lexical controls, not claims of completed audio fixes. Evaluate the real generated sample and full recording before recording any pronunciation pass. No voice switching or synthetic word timestamps have been added."
+  "reviewNote": "Saudi Arabic was recorded as 72 full narration beats. Latin medical phrases were replaced by 167 native English recordings with sample-accurate edits, volume matching and 5 ms fades. Excess service-added leading/trailing silence was removed without shortening word intervals or internal sentence pauses. All 11 critical English terms were recognized in an independent English-language ASR test of the recorded master. A second complete automated review after silence correction processed all 72 beats and again recognized the eleven required native English medical terms. Direct human listening is unavailable and is not claimed.",
+  "rate": "-3%",
+  "englishVoice": "en-US-AndrewMultilingualNeural",
+  "englishRate": "-3%",
+  "instructionsApplied": false,
+  "fallbackReason": "OpenAI Platform rejected project/key target access; no usable higher-quality speech provider or credential was available. User explicitly permitted Edge only as a last resort.",
+  "pronunciationFixes": [
+    {
+      "term": "Na+/K+ ATPase",
+      "spokenForm": "sodium potassium A T P ace",
+      "reason": "Expand ions and spell ATP; ace gives the English enzyme suffix. Independent recognition corrected the initial ADPAs ambiguity to ATPase."
+    },
+    {
+      "term": "ATPases",
+      "spokenForm": "A T P aces",
+      "reason": "Explicit English acronym and plural enzyme suffix."
+    },
+    {
+      "term": "ATP / DNA / ER / ROS / SOD / pH",
+      "spokenForm": "A T P / D N A / E R / R O S / S O D / P H",
+      "reason": "Native English letters rather than Arabicized acronym reading."
+    },
+    {
+      "term": "all Latin medical phrases",
+      "spokenForm": "en-US-AndrewMultilingualNeural English segments",
+      "reason": "Replace the Saudi voice's unclear mixed-language pronunciations; preserve fluent Saudi Arabic around them."
+    }
+  ]
 }

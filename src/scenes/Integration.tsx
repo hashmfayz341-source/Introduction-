@@ -3,6 +3,7 @@ import {Cell,Mitochondrion} from '../anatomy/Cell';
 import {SceneCanvas} from '../components/SceneCanvas';
 import {Arrow,EnergyGauge,Ion,Label} from '../components/Primitives';
 import {useScene} from '../hooks/useScene';
+import {resolveCueFrame} from '../utils/cues';
 import {theme} from '../styles/theme';
 
 type Props={sceneId:string};
@@ -11,10 +12,9 @@ const L:React.FC<React.ComponentProps<typeof Label>>=(p)=><Label anchor="middle"
 const useIntegrated=(sceneId:string)=>{
   const state=useScene(sceneId);
   const word=(id:string,text:string,d=45)=>{
-    const norm=(s:string)=>s.toLowerCase().replace(/[^a-z0-9]/g,'');
-    const w=state.timed.beats.find(b=>b.id===id)?.words.find(w=>norm(w.text)===norm(text));
-    if(!w)return state.beat(id,d);
-    const p=Math.max(0,Math.min(1,(state.frame-Math.round(w.startSeconds*30)+state.timed.startFrame)/d));
+    const cue=resolveCueFrame(state.timed,id,text,state.fps);
+    if(cue===undefined)return state.beat(id,d);
+    const p=Math.max(0,Math.min(1,(state.frame-cue)/d));
     return p*p*(3-2*p);
   };
   return {...state,word};

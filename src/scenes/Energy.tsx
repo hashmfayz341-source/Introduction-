@@ -3,6 +3,7 @@ import {Cell, Mitochondrion} from '../anatomy/Cell';
 import {SceneCanvas} from '../components/SceneCanvas';
 import {Arrow, EnergyGauge, Ion, Label} from '../components/Primitives';
 import {useScene} from '../hooks/useScene';
+import {resolveCueFrame} from '../utils/cues';
 import {theme} from '../styles/theme';
 
 type SceneProps = {sceneId: string};
@@ -17,9 +18,7 @@ const useEnergyScene = (sceneId: string) => {
   const state = useScene(sceneId);
   const wordFrame = (beatId: string, anchor: string) => {
     const target = state.timed.beats.find((b) => b.id === beatId);
-    const normalize = (s: string) => s.toLowerCase().replace(/[^a-z0-9]/g, '');
-    const cue = target?.words.find((w) => normalize(w.text) === normalize(anchor));
-    return cue ? Math.round(cue.startSeconds * 30) - state.timed.startFrame : (target?.cueFrame ?? 0)-state.timed.startFrame;
+    return resolveCueFrame(state.timed,beatId,anchor,state.fps) ?? (target?.cueFrame ?? 0)-state.timed.startFrame;
   };
   const word = (beatId: string, anchor: string, animationFrames = 45) => {
     const cueFrame = wordFrame(beatId, anchor);

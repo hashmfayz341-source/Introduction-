@@ -41,7 +41,7 @@ def blob(data):
     return expected
 
 
-def validate_media(path):
+def validate_media(path, timeline_path):
     result = subprocess.run(["ffprobe", "-v", "error", "-show_streams", "-show_format",
                              "-of", "json", str(path)], check=True, capture_output=True,
                             text=True, timeout=30)
@@ -50,7 +50,7 @@ def validate_media(path):
     next(stream for stream in metadata["streams"] if stream["codec_type"] == "audio")
     if (video["width"], video["height"]) != (1920,1080) or Fraction(video["avg_frame_rate"]) != 30:
         raise ValueError("Artifact does not match the required 1920×1080 at 30 fps")
-    timeline = json.loads(ROOT.joinpath("src/data/timeline.json").read_text())
+    timeline = json.loads(ROOT.joinpath(timeline_path).read_text())
     expected_duration = timeline["durationInFrames"] / timeline["fps"]
     if abs(float(metadata["format"]["duration"]) - expected_duration) > 0.1:
         raise ValueError("Video duration differs from the measured narration timeline")
@@ -66,6 +66,9 @@ def main():
     parser.add_argument("--release-tag", required=True)
     parser.add_argument("--release-title", required=True)
     parser.add_argument("--notes-file", type=Path, required=True)
+    parser.add_argument("--timeline", default="src/data/timeline.json")
+    parser.add_argument("--qa-record", default="qa/final.json")
+    parser.add_argument("--audio", type=Path)
     args = parser.parse_args()
     if not re.fullmatch(r"[0-9a-f]{40}", args.source_commit):
         raise ValueError("Expected an exact final source commit SHA")
@@ -78,10 +81,10 @@ def main():
     if api("git/ref/heads/main")["object"]["sha"] != args.source_commit:
         raise ValueError("Remote main differs from the reviewed final source commit")
     path = args.artifact.resolve()
-    metadata = validate_media(path)
+    metadata = validate_media(path, args.timeline)
     digest = hashlib.sha256(path.read_bytes()).hexdigest()
     size = path.stat().st_size
-    reviewed = json.loads(ROOT.joinpath("qa/final.json").read_text())
+    reviewed = json.loads(ROOT.joinpath(args.qa_record).read_text())
     if (digest, size) != (reviewed["sha256"], reviewed["bytes"]):
         raise ValueError("Artifact differs from the encoded file that passed final QA")
     subprocess.run(["git", "diff", "--exit-code", reviewed["renderedFromCommit"],
@@ -105,6 +108,16 @@ def main():
                 "sha256":digest, "releaseTag":args.release_tag,
                 "releaseTitle":args.release_title, "notes":args.notes_file.read_text(),
                 "duration":float(metadata["format"]["duration"]), "parts":uploaded}
+    if args.audio:
+        audio = args.audio.resolve()
+        timeline = json.loads(ROOT.joinpath(args.timeline).read_text())
+        if audio != ROOT.joinpath("public", timeline["audioPath"]).resolve():
+            raise ValueError("Release audio must be the measured master in the reviewed source")
+        audio_digest = hashlib.sha256(audio.read_bytes()).hexdigest()
+        if audio_digest != timeline["audioSha256"]:
+            raise ValueError("Release audio master fingerprint changed")
+        manifest["audio"] = {"sourcePath":str(audio.relative_to(ROOT)),"name":audio.name,
+                              "sha256":audio_digest,"size":audio.stat().st_size}
     manifest_data = (json.dumps(manifest, indent=2)+"\n").encode()
     workflow = '''name: Publish verified Cell Injury MP4
 on:
@@ -160,12 +173,23 @@ jobs:
           notes.write_text(manifest['notes'])
           subprocess.run(['gh','release','create',manifest['releaseTag'],'--repo',repository,'--target',manifest['sourceCommit'],'--draft','--title',manifest['releaseTitle'],'--notes-file',str(notes)], check=True)
           subprocess.run(['gh','release','upload',manifest['releaseTag'],str(video),'--repo',repository], check=True)
+          if manifest.get('audio'):
+              audio_manifest = manifest['audio']
+              audio = pathlib.Path(audio_manifest['sourcePath'])
+              assert audio.stat().st_size == audio_manifest['size']
+              assert hashlib.sha256(audio.read_bytes()).hexdigest() == audio_manifest['sha256']
+              subprocess.run(['gh','release','upload',manifest['releaseTag'],str(audio),'--repo',repository], check=True)
           verification = directory / 'download-verification'
           verification.mkdir()
           subprocess.run(['gh','release','download',manifest['releaseTag'],'--repo',repository,'--pattern',manifest['name'],'--dir',str(verification)], check=True)
           downloaded = verification / manifest['name']
           assert downloaded.stat().st_size == manifest['size']
           assert hashlib.sha256(downloaded.read_bytes()).hexdigest() == manifest['sha256']
+          if manifest.get('audio'):
+              subprocess.run(['gh','release','download',manifest['releaseTag'],'--repo',repository,'--pattern',audio_manifest['name'],'--dir',str(verification)], check=True)
+              downloaded_audio = verification / audio_manifest['name']
+              assert downloaded_audio.stat().st_size == audio_manifest['size']
+              assert hashlib.sha256(downloaded_audio.read_bytes()).hexdigest() == audio_manifest['sha256']
           subprocess.run(['gh','release','edit',manifest['releaseTag'],'--repo',repository,'--draft=false','--latest'], check=True)
           release = json.loads(subprocess.check_output(['gh','api','repos/'+repository+'/releases/tags/'+manifest['releaseTag']], text=True))
           assert release['draft'] is False

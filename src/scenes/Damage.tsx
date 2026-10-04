@@ -3,6 +3,7 @@ import {Cell, Mitochondrion} from '../anatomy/Cell';
 import {SceneCanvas} from '../components/SceneCanvas';
 import {Arrow, Label} from '../components/Primitives';
 import {useScene} from '../hooks/useScene';
+import {resolveCueFrame} from '../utils/cues';
 import type {TimedScene} from '../data/types';
 import {theme} from '../styles/theme';
 
@@ -13,8 +14,7 @@ const lerp = (a: number, b: number, p: number) => a + (b - a) * p;
 const atWord = (timed: TimedScene, frame: number, beatId: string, word: string, duration = 24, fallbackOffset = 0) => {
   const b = timed.beats.find(v => v.id === beatId);
   if (!b) return 0;
-  const match = b.words.find(w => w.text.toLowerCase().replace(/[^a-z]/g, '') === word.toLowerCase());
-  const start = match ? Math.round(match.startSeconds * 30) - timed.startFrame : b.cueFrame - timed.startFrame + fallbackOffset;
+  const start = resolveCueFrame(timed,beatId,word) ?? b.cueFrame - timed.startFrame + fallbackOffset;
   const p = Math.max(0, Math.min(1, (frame - start) / duration));
   return p * p * (3 - 2 * p);
 };

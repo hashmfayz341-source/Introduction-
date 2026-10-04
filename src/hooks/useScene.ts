@@ -1,12 +1,15 @@
 import {useCurrentFrame} from 'remotion';
+import {createContext, useContext} from 'react';
 import lessonData from '../data/lesson.json';
 import timelineData from '../data/timeline.json';
 import type {AudioTimeline, Lesson, LessonScene, TimedScene} from '../data/types';
 
 export const lesson = lessonData as Lesson;
 export const timeline = timelineData as AudioTimeline | null;
+export const LessonContext = createContext<{lesson: Lesson; timeline: AudioTimeline | null}>({lesson, timeline});
 
 export const useScene = (sceneId:string) => {
+  const {lesson, timeline} = useContext(LessonContext);
   const frame = useCurrentFrame();
   const scene:LessonScene = lesson.scenes.find((s)=>s.id===sceneId) ?? {
     id:sceneId,title:sceneId,objective:'',sourcePages:[],provenance:'lecture',visual:sceneId,beats:[],
@@ -25,5 +28,5 @@ export const useScene = (sceneId:string) => {
   };
   let activeBeatIndex=0;
   timed.beats.forEach((b,i)=>{if(frame>=b.cueFrame-timed.startFrame)activeBeatIndex=i;});
-  return {scene,timed,frame,beat,activeBeatIndex};
+  return {scene,timed,frame,beat,activeBeatIndex,lesson,fps:timeline?.fps??30};
 };

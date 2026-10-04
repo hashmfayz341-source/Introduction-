@@ -9,12 +9,16 @@
     "doctor": "node scripts/doctor.mjs",
     "check:source": "node scripts/check-source.mjs",
     "audio": "python3 scripts/generate-narration.py",
+    "audio:ar": "python3 scripts/generate-arabic-narration.py",
     "browser": "remotion browser ensure",
     "check:ready": "npm run check:source && node scripts/check-ready.mjs && node scripts/check-cues.mjs",
+    "check:ready:ar": "node scripts/check-arabic-script.mjs && node scripts/check-arabic-ready.mjs",
     "render": "npm run check:ready && remotion render src/index.ts CellInjury out/cell-injury.mp4 --codec=h264 --crf=18 --pixel-format=yuv420p",
+    "render:ar": "npm run check:ready:ar && remotion render src/index.ts CellInjuryArabic out/cell-injury-ar.mp4 --codec=h264 --crf=18 --pixel-format=yuv420p",
     "render:pipeline": "remotion render src/index.ts PipelineCheck out/pipeline-check.mp4 --codec=h264 --crf=20 --pixel-format=yuv420p",
     "qa:pipeline": "remotion still src/index.ts PipelineCheck qa/frames/pipeline.png --frame=45",
-    "qa:frames": "node scripts/render-qa.mjs corrected"
+    "qa:frames": "node scripts/render-qa.mjs corrected",
+    "qa:frames:ar": "node scripts/render-arabic-qa.mjs"
   },
   "dependencies": {
     "@fontsource/inter": "^5.3.0",

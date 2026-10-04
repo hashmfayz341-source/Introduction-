@@ -3,11 +3,16 @@ import hashlib
 import json
 from pathlib import Path
 import subprocess
-import sys
+import argparse
 import numpy as np
 
-video=Path(sys.argv[1] if len(sys.argv)>1 else 'out/cell-injury.mp4')
-timeline=json.loads(Path('src/data/timeline.json').read_text())
+parser=argparse.ArgumentParser(description=__doc__)
+parser.add_argument('video',nargs='?',default='out/cell-injury.mp4')
+parser.add_argument('--timeline',default='src/data/timeline.json')
+parser.add_argument('--record',default='qa/final.json')
+args=parser.parse_args()
+video=Path(args.video)
+timeline=json.loads(Path(args.timeline).read_text())
 probe=json.loads(subprocess.check_output(['ffprobe','-v','error','-show_streams','-show_format','-of','json',str(video)]))
 v=next(s for s in probe['streams'] if s['codec_type']=='video')
 a=next(s for s in probe['streams'] if s['codec_type']=='audio')
@@ -48,5 +53,6 @@ record={
  'maxAudioLagSeconds':max(abs(r['lagSeconds']) for r in results),
  'minimumAudioCorrelation':min(r['correlation'] for r in results),
 }
-Path('qa/final.json').write_text(json.dumps(record,indent=2)+'\n')
+Path(args.record).parent.mkdir(parents=True,exist_ok=True)
+Path(args.record).write_text(json.dumps(record,indent=2)+'\n')
 print(json.dumps({k:record[k] for k in ['frames','durationSeconds','bytes','maxAudioLagSeconds','minimumAudioCorrelation']},indent=2))

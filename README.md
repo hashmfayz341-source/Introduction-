@@ -7,7 +7,35 @@ genome injury, recovery and cell death using a consistent SVG cell and organelle
 
 Permanent repository: https://github.com/hashmfayz341-source/Introduction-
 
-Finished video: [Download the narrated 1080p MP4](https://github.com/hashmfayz341-source/Introduction-/releases/download/cell-injury-v1/cell-injury.mp4).
+English backup: [Download the narrated 1080p MP4](https://github.com/hashmfayz341-source/Introduction-/releases/download/cell-injury-v1/cell-injury.mp4).
+
+## Arabic narration
+
+The Arabic upgrade preserves all 18 existing scene designs and the English backup.
+It uses Saudi Arabic narration (`ar-SA-HamedNeural`) with native English medical
+terms (`en-US-AndrewMultilingualNeural`), recorded through Microsoft Edge neural
+speech under the requested last-resort exception. The preferred OpenAI connection
+was unavailable. No human recording or direct listening review is claimed.
+
+```sh
+npm ci
+npm run browser
+npm run preview
+npm run render:ar
+```
+
+Select **CellInjuryArabic**, or **LabAr-*** for individual mechanisms.
+Output: **out/cell-injury-ar.mp4**, 1920×1080, 30 fps, H.264/AAC, BT.709.
+The real master is **1408.565667 seconds**, **42,257 frames**
+(23.476 minutes). All 18 scene lengths, 72 beat anchors and
+75 internal mechanism events follow measured audio rather than the English duration.
+
+Arabic script: `src/data/lesson.ar.json`, `docs/narration-ar.md`.
+Included audio: `public/audio/narration-ar.wav`.
+Measured timeline: `src/data/timeline.ar.json`, mirrored in `public/audio/timing.ar.json`.
+Pronunciation controls and edit recipe: `src/data/pronunciation.ar.json`,
+`public/audio/recordings.ar.json`. The generator is `scripts/generate-arabic-narration.py`.
+See `docs/arabic-upgrade.md` for provider choice, backup and review limitations.
 
 ## Install and preview
 

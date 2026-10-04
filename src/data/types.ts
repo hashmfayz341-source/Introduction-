@@ -5,6 +5,7 @@ export type NarrationBeat = {
   text: string;
   anchor?: string;
   holdAfterSeconds?: number;
+  cueSpans?: Record<string, string>;
 };
 
 export type LessonScene = {
@@ -34,7 +35,17 @@ export type TimedBeat = {
   speechStartFrame: number;
   cueFrame: number;
   endFrame: number;
-  words: {text: string; startSeconds: number; durationSeconds: number}[];
+  speechEndFrame?: number;
+  anchorSpan?: string;
+  cues?: Record<string, {
+    frame: number;
+    startSeconds: number;
+    endSeconds: number;
+    sourceSpan: string;
+    spokenForm: string;
+    alignment: 'measured-service-word-boundaries';
+  }>;
+  words: {text: string; startSeconds: number; durationSeconds: number; voice?: string}[];
 };
 
 export type TimedScene = {
@@ -45,6 +56,7 @@ export type TimedScene = {
 };
 
 export type AudioTimeline = {
+  language?: string;
   lessonSha256: string;
   lectureSha256: string;
   audioPath: string;

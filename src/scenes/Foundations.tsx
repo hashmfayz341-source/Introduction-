@@ -3,6 +3,7 @@ import {Cell, Mitochondrion} from '../anatomy/Cell';
 import {SceneCanvas} from '../components/SceneCanvas';
 import {Arrow, EnergyGauge, Ion, Label as SvgLabel} from '../components/Primitives';
 import {useScene} from '../hooks/useScene';
+import {resolveCueFrame} from '../utils/cues';
 import {theme} from '../styles/theme';
 
 type SceneProps = {sceneId:string};
@@ -13,10 +14,8 @@ const Label:React.FC<React.ComponentProps<typeof SvgLabel>> = ({anchor='middle',
 const useFoundation = (sceneId:string) => {
   const state=useScene(sceneId);
   const word=(beatId:string,spokenWord:string,duration=32) => {
-    const normalize=(value:string)=>value.toLowerCase().replace(/[^a-z0-9]/g,'');
-    const target=state.timed.beats.find((b)=>b.id===beatId)?.words.find((w)=>normalize(w.text)===normalize(spokenWord));
-    if(!target)return state.beat(beatId,duration);
-    const cue=Math.round(target.startSeconds*30)-state.timed.startFrame;
+    const cue=resolveCueFrame(state.timed,beatId,spokenWord,state.fps);
+    if(cue===undefined)return state.beat(beatId,duration);
     const t=Math.max(0,Math.min(1,(state.frame-cue)/duration));
     return t*t*(3-2*t);
   };

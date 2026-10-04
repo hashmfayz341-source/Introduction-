@@ -43,14 +43,57 @@ duration or fabricated word timestamps have been added.
 
 Validate this preparation with `node scripts/check-arabic-script.mjs`.
 
-## Recording and pronunciation status
+## Recording and pronunciation
 
-OpenAI `gpt-4o-mini-tts`, voice `cedar`, is proposed following authorization to
-create a secure API key. The Platform connection currently rejects account/project
-target access, so recording is pending authentication setup. This document does
-not claim that Arabic speech, alignment, rendering or pronunciation QA has passed.
+The preferred OpenAI Platform connection rejected account/project target access.
+There was no usable higher-quality speech provider or credential in the environment.
+The user's explicit last-resort exception therefore permits Microsoft Edge neural
+speech; this is not represented as OpenAI or a human recording.
 
-`src/data/pronunciation.ar.json` records the proposed tone instructions, English
-acronym controls and eleven required term checks. Pronunciation fixes will be
-recorded only after listening to and checking the actual generated speech.
-The Arabic MP4 will use a separate filename so the English backup is preserved.
+- Arabic voice: `ar-SA-HamedNeural`, adult Saudi male, rate `-3%`.
+- English terminology: `en-US-AndrewMultilingualNeural`, rate `-3%`.
+- 72 complete Saudi Arabic beats retain sentence prosody. Their Latin medical
+  phrases are replaced with 167 independently recorded native English segments.
+- Language joins use measured words, short acoustic guards, volume matching and
+  5 ms fades. No time stretching is applied.
+- Excess utterance padding identified in the first full audio review was removed;
+  internal pauses and all word intervals are preserved. All scenes were retimed again.
+- `Na+/K+ ATPase` is spoken as sodium potassium A T P ace; ATPases uses
+  A T P aces. ATP, DNA, ER, ROS, SOD and pH use explicit English letters.
+
+The corrected master has **33,805,576 samples at 24,000 Hz**,
+**1408.565667 seconds**, with **42,257 video frames**
+after rounding up. `public/audio/narration-ar.wav` is the included real audio;
+`src/data/timeline.ar.json` and `public/audio/timing.ar.json` contain the same
+measured timeline. `public/audio/recordings.ar.json` records the recording and edit
+recipe. All 75 semantic events resolve to real recorded words; missing events fail.
+
+## Composition and reproduction
+
+`CellInjuryArabic` uses the same 18 visual implementations through a language-specific
+lesson/timeline context. `LabAr-*` isolates the corrected Arabic mechanism timing.
+`CellInjury` and `Lab-*` retain the original English timeline and master audio.
+The anatomy, scene SVGs, labels and scene transitions have not been redesigned.
+
+```sh
+npm ci
+npm run typecheck
+npm run check:ready:ar
+npm run render:ar
+```
+
+Arabic output: `out/cell-injury-ar.mp4` (1920×1080, 30 fps, H.264/AAC).
+Preview with `npm run preview` and select `CellInjuryArabic`.
+For regeneration, install `requirements.txt` in a virtual environment, then run
+`python scripts/generate-arabic-narration.py`. Regeneration can change timing;
+the included master makes a local render reproducible without contacting TTS.
+
+## Review limits
+
+Independent ASR of the first full master recognized all eleven required English
+medical terms; ATPase was separately checked after its spelling control was fixed.
+The complete second automated audio review processed 72/72 beats, and corrected
+visual QA inspected 146 representative frames across all 18 scenes before encoding. Audio recognition, waveform checks and playback validation are evidence
+of audibility and synchronization, not a claim of human listening or clinician sign-off.
+Direct listening is not available in this execution interface, and the fallback
+speech engine cannot accept the proposed natural-delivery instruction text.
