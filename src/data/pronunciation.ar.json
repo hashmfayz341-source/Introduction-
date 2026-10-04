@@ -1,0 +1,31 @@
+{
+  "status": "prepared-for-recording",
+  "provider": "OpenAI",
+  "model": "gpt-4o-mini-tts",
+  "voice": "cedar",
+  "instructions": "Speak as a calm adult medical lecturer teaching Saudi/Gulf medical students. Use clear Modern Arabic with a light, natural Saudi-friendly conversational tone. Follow the supplied wording. Read the English medical terms in clear native English pronunciation, in the same voice and at the same volume as the Arabic. Do not translate English terms, read punctuation aloud, add introductions, or announce headings. Use human sentence phrasing, brief natural pauses, and subtle emphasis on causal changes. No theatrical delivery, exaggerated dialect, or repeated long pauses. ATP is pronounced with the English letters A T P; DNA with D N A; ER with E R; ROS with R O S; SOD with S O D. ATPase uses the English letters A T P followed by the enzyme ending 'ase'. Necrosis and apoptosis must remain clearly distinguishable English medical words.",
+  "lexicalControls": {
+    "Na+/K+ ATPase": "sodium potassium A T P-ase",
+    "ATPases": "A T P-ases",
+    "ATP": "A T P",
+    "DNA": "D N A",
+    "ER": "E R",
+    "ROS": "R O S",
+    "SOD": "S O D",
+    "pH": "P H"
+  },
+  "requiredTermReview": [
+    "ATP depletion",
+    "mitochondrial dysfunction",
+    "Na+/K+ ATPase",
+    "cellular swelling",
+    "calcium influx",
+    "reactive oxygen species",
+    "membrane damage",
+    "reversible injury",
+    "irreversible injury",
+    "necrosis",
+    "apoptosis"
+  ],
+  "reviewNote": "These are proposed lexical controls, not claims of completed audio fixes. Evaluate the real generated sample and full recording before recording any pronunciation pass. No voice switching or synthetic word timestamps have been added."
+}

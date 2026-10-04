@@ -1,0 +1,864 @@
+{
+  "source": {
+    "path": "public/source/cell-injury-lecture.pdf",
+    "sha256": "e3ccc809294761b11b8cb3ebbcf0981e6c42abf4e6dacbe7411340e5465fc714",
+    "pageCount": 28,
+    "reviewedPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "completeReview": true
+  },
+  "scenes": [
+    {
+      "id": "homeostasis",
+      "title": "A cell in balance",
+      "objective": "Explain homeostasis and why proliferative capacity and tissue function affect injury responses.",
+      "sourcePages": [
+        1,
+        2,
+        3,
+        4,
+        7,
+        8
+      ],
+      "provenance": "established-clarification",
+      "visual": "homeostasis",
+      "beats": [
+        {
+          "id": "homeostasis-balance",
+          "anchor": "Homeostasis",
+          "text": "خلّونا نبدأ بخلية طبيعية. الخلية تضبط الطاقة والأيونات والبروتينات باستمرار. هذا هو Homeostasis، يعني الحفاظ على توازن داخلي ضمن حدود ضيقة، رغم تغيّر البيئة حولها. التوازن هنا عملية نشطة، وليس حالة سكون.",
+          "cueSpans": {
+            "living": "خلية طبيعية"
+          }
+        },
+        {
+          "id": "homeostasis-structures",
+          "anchor": "Cell membrane",
+          "text": "الـ Cell membrane، أو الغشاء الخلوي، ينظّم دخول المواد وخروجها. والـ Mitochondria تنتج ATP، جزيء الطاقة الذي تعتمد عليه الخلية. أما الـ Nucleus، النواة، فتحفظ DNA؛ المادة الوراثية. وبقية العُضيّات تشارك في تصنيع المواد ونقلها وتفكيكها.",
+          "cueSpans": {}
+        },
+        {
+          "id": "homeostasis-types",
+          "anchor": "Labile",
+          "text": "قدرة الانقسام تختلف بين الخلايا. Labile cells تتجدّد وتنقسم باستمرار. Stable cells تكون غالبًا في حالة راحة، لكنها تنقسم عند وجود محفّز. أما Permanent cells، مثل معظم الخلايا العصبية عند البالغين، فقدرتها على الانقسام محدودة جدًا. هذا لا يعني أنها لا تستطيع زيادة حجمها.",
+          "cueSpans": {
+            "labile": "Labile",
+            "stable": "Stable",
+            "permanent": "Permanent"
+          }
+        },
+        {
+          "id": "homeostasis-limits",
+          "anchor": "حدود",
+          "text": "إذن، لكل خلية حدود تحمّل مختلفة. نوعها، وحالتها، ووظيفتها في النسيج تحدّد مقدار الضغط الذي تتحمّله، وكيف تستجيب له. لذلك، نفس المؤثّر قد يضرّ نوعًا من الخلايا أكثر من غيره.",
+          "cueSpans": {}
+        }
+      ]
+    },
+    {
+      "id": "adaptation",
+      "title": "Adapt before injury",
+      "objective": "Distinguish viable adaptation from structural or functional damage.",
+      "sourcePages": [
+        5,
+        6,
+        11
+      ],
+      "provenance": "established-clarification",
+      "visual": "adaptation",
+      "beats": [
+        {
+          "id": "adaptation-demand",
+          "anchor": "Adaptation",
+          "text": "زيادة الطلب على الخلية لا تعني الإصابة مباشرة. قد تستجيب بـ Adaptation، يعني تكيّف يكوّن توازنًا جديدًا ويحافظ على بقاء الخلية ووظيفتها، ما دام الطلب ضمن قدرتها.",
+          "cueSpans": {}
+        },
+        {
+          "id": "adaptation-size",
+          "anchor": "Hypertrophy",
+          "text": "في Hypertrophy يزيد حجم الخلية؛ مثل خلية عضلة القلب عندما يزيد عليها عبء العمل. وفي Atrophy يصغر حجم الخلية، وقد يقلّ عدد الخلايا أيضًا، عندما يقلّ الطلب أو تقلّ التغذية والدعم.",
+          "cueSpans": {
+            "hypertrophy": "Hypertrophy",
+            "atrophy": "Atrophy"
+          }
+        },
+        {
+          "id": "adaptation-number",
+          "anchor": "Hyperplasia",
+          "text": "أما Hyperplasia فهي زيادة عدد الخلايا في نسيج قادر على الانقسام. وMetaplasia تعني استبدال نوع من الخلايا المتمايزة بنوع آخر أنسب للضغط الموجود. انتبهوا للفرق: حجم، أو عدد، أو نوع الخلية.",
+          "cueSpans": {
+            "hyperplasia": "Hyperplasia",
+            "metaplasia": "Metaplasia"
+          }
+        },
+        {
+          "id": "adaptation-limit",
+          "anchor": "تجاوز",
+          "text": "التكيّف له حدود. إذا تجاوز المؤثّر قدرة الخلية، أو هدّد بنيتها ووظيفتها مباشرة، تبدأ Cell injury؛ يعني حدوث ضرر في الخلية. من هنا نسأل: هل ما زال هذا الضرر قابلًا للتعافي؟",
+          "cueSpans": {}
+        }
+      ]
+    },
+    {
+      "id": "injury-threshold",
+      "title": "Recover or cross the threshold",
+      "objective": "Define reversible and irreversible injury without implying that duration alone determines outcome.",
+      "sourcePages": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "provenance": "established-clarification",
+      "visual": "injury-threshold",
+      "beats": [
+        {
+          "id": "threshold-stress",
+          "anchor": "Stress",
+          "text": "الـ Stress هو التحدّي الذي تتعرّض له الخلية، والـ Injury هو الضرر الناتج عنه. النتيجة تعتمد على نوع المؤثّر، وشدّته، ومدّته، وعلى قابلية الخلية نفسها للتأثّر. لذلك، لا توجد نتيجة واحدة لكل أنواع الضغط.",
+          "cueSpans": {
+            "outcome": "النتيجة"
+          }
+        },
+        {
+          "id": "threshold-reversible",
+          "anchor": "Reversible injury",
+          "text": "في Reversible injury، يعني إصابة قابلة للعكس، تستطيع الخلية استعادة وظيفتها وشكلها إذا أزلنا السبب في الوقت المناسب. قد نشاهد Cellular swelling، أي انتفاخ الخلية، وMembrane blebs؛ بروزات صغيرة في الغشاء، مع أن التعافي ما زال ممكنًا.",
+          "cueSpans": {
+            "removed": "أزلنا السبب"
+          }
+        },
+        {
+          "id": "threshold-integrity",
+          "anchor": "سلامة الغشاء",
+          "text": "النقطة المهمة هنا هي بقاء سلامة الغشاء الوظيفية، وبقاء النواة قابلة للحياة. كلمة Reversible لا تعني أن الغشاء لم يتغيّر شكله أبدًا. قد تظهر بروزات وتغيّرات مبكّرة، لكن الخلية لم تفقد مقوّمات البقاء.",
+          "cueSpans": {}
+        },
+        {
+          "id": "threshold-irreversible",
+          "anchor": "Irreversible injury",
+          "text": "إذا وصل الضرر إلى Irreversible injury، يعني إصابة غير قابلة للعكس، فالخلية ما عاد تقدر ترجع للوضع الطبيعي، حتى لو أزلنا السبب. والمؤثّر الشديد جدًا قد يصل بها إلى هذه المرحلة بسرعة؛ ليست المسألة مدّة فقط.",
+          "cueSpans": {}
+        }
+      ]
+    },
+    {
+      "id": "causes",
+      "title": "Different insults, shared targets",
+      "objective": "Represent every lecture category of injurious stimulus while distinguishing hypoxia from ischemia.",
+      "sourcePages": [
+        13
+      ],
+      "provenance": "established-clarification",
+      "visual": "causes",
+      "beats": [
+        {
+          "id": "causes-oxygen",
+          "anchor": "Hypoxia",
+          "text": "المحاضرة تركّز على نقص الأكسجين. Hypoxia يعني عدم كفاية الأكسجين. أما Ischemia فهي نقص تدفّق الدم؛ فتقلّ أيضًا المغذّيات، ويضعف التخلّص من الفضلات الأيضية. لذلك، أثر Ischemia أوسع من نقص الأكسجين وحده.",
+          "cueSpans": {
+            "hypoxia": "Hypoxia"
+          }
+        },
+        {
+          "id": "causes-trauma",
+          "anchor": "الأسباب الفيزيائية",
+          "text": "الأسباب الفيزيائية تشمل الإصابات الحادّة والرضوض؛ مثل الإبر والجروح والسقوط والضغط. والأسباب الكيميائية تشمل الأحماض والقلويات والسموم والملوّثات. أما الأسباب البيولوجية فتشمل العدوى بالفيروسات والبكتيريا والفطريات، والإصابة بالطفيليات.",
+          "cueSpans": {
+            "physical": "الأسباب الفيزيائية",
+            "chemicals": "الأسباب الكيميائية",
+            "biological": "الأسباب البيولوجية"
+          }
+        },
+        {
+          "id": "causes-environment",
+          "anchor": "الأسباب البيئية",
+          "text": "ومن الأسباب البيئية: الحرارة المرتفعة أو المنخفضة، والتعرّض للإشعاع. كذلك، نقص المغذّيات أو زيادتها قد يضرّ الخلية، سواء كانت مغذّيات كبرى أو عناصر نحتاجها بكميات صغيرة.",
+          "cueSpans": {
+            "environmental": "الأسباب البيئية",
+            "both": "نقص المغذّيات"
+          }
+        },
+        {
+          "id": "causes-genetic",
+          "anchor": "الاضطرابات الجينية",
+          "text": "الاضطرابات الجينية قد تغيّر وظيفة الخلية أو حساسيتها للضرر. وتذكر المحاضرة Down syndrome، وSickle cell anemia، وMediterranean disease كما وردت فيها. ومع التقدّم في العمر، تقلّ احتياطات الخلية وكفاءة الإصلاح، فتزداد قابليتها للتأذّي.",
+          "cueSpans": {
+            "genetic": "الاضطرابات الجينية",
+            "aging": "التقدّم في العمر"
+          }
+        }
+      ]
+    },
+    {
+      "id": "targets",
+      "title": "Inside the vulnerable cell",
+      "objective": "Locate the major injury targets and relate each to its cellular function.",
+      "sourcePages": [
+        4,
+        14
+      ],
+      "provenance": "lecture",
+      "visual": "targets",
+      "beats": [
+        {
+          "id": "targets-energy",
+          "anchor": "Mitochondria",
+          "text": "الأسباب كثيرة، لكنها تتقاطع عند أهداف محدّدة داخل الخلية. الـ Mitochondria هدف أساسي؛ لأن الخلية تحتاج ATP لتشغيل المضخّات والمحافظة على وظائفها الحيوية. فإذا تعطل مصدر الطاقة، تتأثّر أنظمة كثيرة معه.",
+          "cueSpans": {
+            "mitochondria": "Mitochondria"
+          }
+        },
+        {
+          "id": "targets-boundary",
+          "anchor": "Cell membranes",
+          "text": "والـ Cell membranes تفصل بين داخل الخلية وخارجها، وبين العُضيّات والسيتوبلازم. هذه الحدود تحفظ توزيع الأيونات والمواد. إذا فقد الغشاء هذه السيطرة، تدخل مواد وتخرج أخرى بطريقة غير منظّمة.",
+          "cueSpans": {
+            "membranes": "Cell membranes"
+          }
+        },
+        {
+          "id": "targets-proteins",
+          "anchor": "Ribosomes",
+          "text": "الـ Endoplasmic reticulum، أو ER، شبكة أغشية تدعم تصنيع البروتين ونقله. ومعها Ribosomes، وحدات تصنيع البروتين. والـ Cytoskeleton، الهيكل الداخلي للخلية، يوفّر الدعم ويحافظ على شكل الخلية وتنظيم أغشيتها.",
+          "cueSpans": {
+            "ribosomes": "Ribosomes",
+            "cytoskeleton": "Cytoskeleton"
+          }
+        },
+        {
+          "id": "targets-genome",
+          "anchor": "DNA",
+          "text": "ويأتي DNA، الذي يحفظ التعليمات الوراثية اللازمة للبقاء. تذكّروا أن هذه الأهداف مترابطة؛ إصابة الميتوكوندريا، مثلًا، قد تؤثّر في الأغشية وتصنيع البروتين، فتزيد الضرر في بقية الخلية.",
+          "cueSpans": {
+            "dna": "DNA"
+          }
+        }
+      ]
+    },
+    {
+      "id": "oxygen-atp",
+      "title": "When the energy supply falls",
+      "objective": "Show oxygen or nutrient deprivation causing reduced oxidative phosphorylation and ATP depletion.",
+      "sourcePages": [
+        15,
+        16,
+        17,
+        18
+      ],
+      "provenance": "established-clarification",
+      "visual": "oxygen-atp",
+      "beats": [
+        {
+          "id": "oxygen-flow",
+          "anchor": "الجلطة",
+          "text": "تابعوا هذه الجلطة وهي تسدّ الوعاء. يقلّ تدفّق الدم بعد الانسداد، فيصل إلى الخلية أكسجين أقلّ ومغذّيات أقلّ. هذه بداية نموذج Ischemic injury، الإصابة الناتجة عن نقص التروية.",
+          "cueSpans": {
+            "clot": "الجلطة",
+            "oxygen": "أكسجين"
+          }
+        },
+        {
+          "id": "oxygen-mitochondria",
+          "anchor": "Oxidative phosphorylation",
+          "text": "مع نقص الأكسجين، تبطؤ Oxidative phosphorylation؛ عملية إنتاج الطاقة المرتبطة بسلسلة نقل الإلكترون في الميتوكوندريا. فيقلّ إنتاج ATP. هنا تبدأ ATP depletion، يعني انخفاض الطاقة المتاحة للمضخّات وبقية العمل الأساسي داخل الخلية.",
+          "cueSpans": {
+            "phosphorylation": "Oxidative phosphorylation",
+            "atp": "ATP"
+          }
+        },
+        {
+          "id": "oxygen-other",
+          "anchor": "Cyanide",
+          "text": "وقد يحدث ATP depletion أيضًا بسبب نقص المغذّيات، أو إصابة الميتوكوندريا مباشرة، أو سموم مثل Cyanide. إذن، المشكلة ليست دائمًا في وصول الأكسجين؛ قد تكون في قدرة الخلية على استخدامه لإنتاج الطاقة.",
+          "cueSpans": {}
+        },
+        {
+          "id": "oxygen-necrosis",
+          "anchor": "Necrosis",
+          "text": "النقص الشديد والمستمر في ATP آلية مهمة في Necrosis؛ نمط موت تتضرّر فيه الخلية بشدّة وقد تتسرّب محتوياتها. لكن نقص الطاقة في البداية قد يسبّب تغيّرات قابلة للعكس. خلّونا نتابع أولًا ماذا يحدث لنقل الأيونات.",
+          "cueSpans": {}
+        }
+      ]
+    },
+    {
+      "id": "pump-swelling",
+      "title": "ATP falls. Water follows sodium.",
+      "objective": "Animate ATP depletion, reduced sodium-potassium pumping, altered ion gradients, water influx and swelling.",
+      "sourcePages": [
+        12,
+        16,
+        17,
+        18,
+        26
+      ],
+      "provenance": "established-clarification",
+      "visual": "pump-swelling",
+      "beats": [
+        {
+          "id": "pump-failure",
+          "anchor": "Na+/K+ ATPase",
+          "text": "مضخّة Na+/K+ ATPase، مضخّة الصوديوم والبوتاسيوم، تعتمد على ATP. لما يقلّ ATP، تبطؤ المضخّة، وتضعف قدرة الخلية على المحافظة على التوزيع الطبيعي للصوديوم والبوتاسيوم عبر الغشاء.",
+          "cueSpans": {
+            "falls": "لما يقلّ ATP"
+          }
+        },
+        {
+          "id": "pump-ions",
+          "anchor": "الصوديوم",
+          "text": "الصوديوم يتجمّع داخل الخلية، والبوتاسيوم يُفقَد منها. الماء يتبع زيادة المواد الذائبة داخلها، فتبدأ Cellular swelling. هذه هي العلاقة التي نريد نتذكّرها: طاقة أقلّ، ضخّ أضعف، صوديوم أكثر، ثم ماء وانتفاخ.",
+          "cueSpans": {
+            "water": "الماء",
+            "swelling": "Cellular swelling"
+          }
+        },
+        {
+          "id": "pump-morphology",
+          "anchor": "ER",
+          "text": "وقد ينتفخ الـ ER والـ Mitochondria أيضًا. وعلى سطح الخلية تظهر Membrane blebs، وقد تختفي Microvilli؛ الزُغيبات الصغيرة على السطح. هذه تغيّرات مبكّرة تدلّ على اختلال التوازن، ولا تعني وحدها أن الخلية ماتت.",
+          "cueSpans": {}
+        },
+        {
+          "id": "pump-calcium",
+          "anchor": "الكالسيوم",
+          "text": "خلّونا نفصل الكالسيوم عن هذا المسار. مضخّة الصوديوم والبوتاسيوم لا تنقل الكالسيوم إلى الداخل مباشرة. الذي يرفع الكالسيوم في السيتوبلازم هو اختلال تنظيمه، ومعه إصابة الأغشية. سنشاهد هذا المسار بشكل مستقلّ.",
+          "cueSpans": {
+            "failing": "اختلال تنظيمه"
+          }
+        }
+      ]
+    },
+    {
+      "id": "glycolysis",
+      "title": "A temporary energy detour",
+      "objective": "Show increased anaerobic glycolysis, glycogen consumption, lactate accumulation and reduced pH.",
+      "sourcePages": [
+        16,
+        17,
+        18
+      ],
+      "provenance": "established-clarification",
+      "visual": "glycolysis",
+      "beats": [
+        {
+          "id": "glycolysis-backup",
+          "anchor": "Anaerobic glycolysis",
+          "text": "عندما تتعطّل Oxidative phosphorylation، تزيد الخلية Anaerobic glycolysis؛ تكسير الجلوكوز لإنتاج الطاقة من دون الاعتماد على الأكسجين. هذا يعطي بعض ATP، لكنه لا يعوّض كمية الطاقة التي يوفّرها الأيض الهوائي الطبيعي.",
+          "cueSpans": {}
+        },
+        {
+          "id": "glycolysis-glycogen",
+          "anchor": "Glycogen",
+          "text": "تستهلك الخلية مخزون Glycogen؛ مخزون الوقود الذي يمكنها استخدامه. ويتراكم Lactate، ثم ينخفض pH داخل الخلية، أي تصبح البيئة أكثر حموضة. هذا يربط استهلاك الوقود بتغيّر كيمياء الخلية.",
+          "cueSpans": {
+            "lactate": "Lactate",
+            "ph": "pH"
+          }
+        },
+        {
+          "id": "glycolysis-ph",
+          "anchor": "Acidosis",
+          "text": "هذه الحموضة، أو Acidosis، تغيّر نشاط الإنزيمات، وتساهم في تكتّل Chromatin؛ المادة التي تجمع DNA والبروتينات داخل النواة. ومع هذا التكتّل، قد تبقى النواة قابلة للحياة في مرحلة Reversible injury.",
+          "cueSpans": {
+            "clumping": "تكتّل Chromatin"
+          }
+        },
+        {
+          "id": "glycolysis-caution",
+          "anchor": "DNA",
+          "text": "ولا نربط انخفاض pH بكسر DNA بشكل تلقائي. ضرر DNA له آلياته المستقلّة. هنا، الحموضة توضّح لنا اضطراب الأيض وتأثّر وظيفة الخلية؛ وليست دليلًا وحدها على ضرر وراثي غير قابل للإصلاح.",
+          "cueSpans": {}
+        }
+      ]
+    },
+    {
+      "id": "protein-synthesis",
+      "title": "The protein workshop slows",
+      "objective": "Connect ATP depletion and rough ER disturbance to ribosome detachment and reduced protein synthesis.",
+      "sourcePages": [
+        4,
+        12,
+        14,
+        16,
+        17
+      ],
+      "provenance": "lecture",
+      "visual": "protein-synthesis",
+      "beats": [
+        {
+          "id": "protein-workshop",
+          "anchor": "Ribosomes",
+          "text": "الآن نقرّب الصورة إلى Rough ER؛ الجزء الذي تحمل أغشيته Ribosomes. هذه الريبوسومات تركّب بروتينات تحتاجها الخلية للإفراز، ولأغشيتها، ولأعمال أخرى. لذلك، تعطّل هذه الورشة يؤثّر في صيانة الخلية.",
+          "cueSpans": {
+            "zoom": "نقرّب الصورة"
+          }
+        },
+        {
+          "id": "protein-detach",
+          "anchor": "تنفصل",
+          "text": "أثناء الإصابة بنقص الأكسجين، ينتفخ الـ ER وتنفصل Ribosomes عنه. فيقلّ Protein synthesis، يعني تصنيع البروتين. وتضعف معه قدرة الخلية على المحافظة على مكوّناتها الأساسية واستبدال ما يتلف منها.",
+          "cueSpans": {
+            "decreases": "فيقلّ Protein synthesis"
+          }
+        },
+        {
+          "id": "protein-branches",
+          "anchor": "مسارات",
+          "text": "شوفوا ATP depletion كمسارات متوازية: فشل المضخّات يسبّب الانتفاخ، وAnaerobic glycolysis تستهلك المخزون وتخفض pH، وانفصال Ribosomes يقلّل إنتاج البروتين. ليست خطوات يجب أن تنتظر بعضها؛ قد تتطوّر معًا.",
+          "cueSpans": {
+            "swelling": "الانتفاخ",
+            "ph": "pH",
+            "production": "إنتاج البروتين"
+          }
+        },
+        {
+          "id": "protein-recover",
+          "anchor": "عاد إنتاج الطاقة",
+          "text": "إذا انتهى المؤثّر مبكّرًا وعاد إنتاج الطاقة، يمكن لهذه التغيّرات أن تتحسّن. أما استمرار الإصابة فيعطي الاضطرابات المتفاعلة وقتًا أطول، فتضعف فرصة التعافي. لذلك، نقارن هنا بين عودة الطاقة واستمرار الضرر.",
+          "cueSpans": {
+            "returns": "عاد إنتاج الطاقة",
+            "persistent": "استمرار الإصابة"
+          }
+        }
+      ]
+    },
+    {
+      "id": "calcium",
+      "title": "Calcium activates damage",
+      "objective": "Show cytosolic calcium increases and connect four enzyme classes to their respective damage targets.",
+      "sourcePages": [
+        19,
+        20,
+        24,
+        26
+      ],
+      "provenance": "established-clarification",
+      "visual": "calcium",
+      "beats": [
+        {
+          "id": "calcium-rise",
+          "anchor": "الكالسيوم",
+          "text": "عادةً يكون تركيز الكالسيوم منخفضًا في Cytosol، الجزء السائل من السيتوبلازم. مع Ischemia أو السموم، يزيد Calcium influx، يعني دخول الكالسيوم من خارج الخلية. ويُطلَق أيضًا من المخازن الداخلية، مثل الـ ER.",
+          "cueSpans": {
+            "entry": "Calcium influx",
+            "stores": "المخازن الداخلية"
+          }
+        },
+        {
+          "id": "calcium-lipids",
+          "anchor": "Phospholipases",
+          "text": "الكالسيوم المرتفع ينشّط Phospholipases؛ إنزيمات تفكّك دهون الأغشية. وينشّط Proteases؛ إنزيمات تضرّ البروتينات، ومنها بروتينات Cytoskeleton. هكذا يضعف الغشاء والدعم الداخلي للخلية في الوقت نفسه.",
+          "cueSpans": {
+            "proteases": "Proteases"
+          }
+        },
+        {
+          "id": "calcium-dna",
+          "anchor": "Endonucleases",
+          "text": "وينشّط Endonucleases؛ إنزيمات تضرّ DNA. أما ATPases فتستهلك ATP، فتزيد استنزاف الطاقة. لاحظوا كيف يربط ارتفاع الكالسيوم بين ضرر الأغشية والبروتينات والمادة الوراثية ونقص الطاقة.",
+          "cueSpans": {
+            "atpases": "ATPases"
+          }
+        },
+        {
+          "id": "calcium-death",
+          "anchor": "Mitochondrial dysfunction",
+          "text": "زيادة الكالسيوم تساهم أيضًا في Mitochondrial dysfunction؛ اختلال وظيفة الميتوكوندريا. وقد تساعد على تنشيط مسارات Apoptosis، الموت الخلوي المنظّم، عبر إنزيمات Caspases. النتيجة تعتمد على شدّة الإصابة وسياقها، وليست واحدة في كل خلية.",
+          "cueSpans": {
+            "caspases": "Caspases"
+          }
+        }
+      ]
+    },
+    {
+      "id": "mitochondria",
+      "title": "Two mitochondrial consequences",
+      "objective": "Distinguish inner membrane permeability transition from outer membrane cytochrome-c release.",
+      "sourcePages": [
+        20,
+        26
+      ],
+      "provenance": "established-clarification",
+      "visual": "mitochondria",
+      "beats": [
+        {
+          "id": "mitochondria-insults",
+          "anchor": "Ischemia",
+          "text": "Ischemia، وارتفاع الكالسيوم في السيتوبلازم، وReactive oxygen species؛ أنواع أكسجين تفاعلية، قد تضرّ الميتوكوندريا. لكن لازم نفصل بين نتيجتين مختلفتين. لاحظوا الغشاء الداخلي والغشاء الخارجي في الصورة.",
+          "cueSpans": {}
+        },
+        {
+          "id": "mitochondria-inner",
+          "anchor": "Inner mitochondrial membrane",
+          "text": "إذا زادت نفاذية Inner mitochondrial membrane، الغشاء الداخلي، ينهار التدرّج الكهروكيميائي اللازم لإنتاج الطاقة. ويتعطّل إنتاج ATP. إذا كان هذا الفشل شديدًا ومستمرًا، فقد يدفع الخلية نحو Necrosis.",
+          "cueSpans": {
+            "gradient": "التدرّج الكهروكيميائي",
+            "atp": "ATP"
+          }
+        },
+        {
+          "id": "mitochondria-outer",
+          "anchor": "Outer mitochondrial membrane",
+          "text": "أما زيادة نفاذية Outer mitochondrial membrane، الغشاء الخارجي، فقد تسمح بخروج Cytochrome c إلى السيتوبلازم. هذا يساهم في تنشيط Caspases، ثم المسار الداخلي لـ Apoptosis. هنا نحن نتتبّع إشارة موت منظّم، لا مجرّد فقدان طاقة.",
+          "cueSpans": {
+            "cytochrome": "Cytochrome c",
+            "caspases": "Caspases"
+          }
+        },
+        {
+          "id": "mitochondria-distinct",
+          "anchor": "حدثان مختلفان",
+          "text": "إذن، عندنا حدثان مختلفان في غشائين مختلفين، وقد يجتمعان أثناء الإصابة. الميتوكوندريا تربط بين فشل إنتاج الطاقة وإشارات الموت المنظّم، لكن لا نختصر المسارين في قناة واحدة تؤدّي دائمًا إلى النتيجتين.",
+          "cueSpans": {}
+        }
+      ]
+    },
+    {
+      "id": "ros",
+      "title": "Oxidative stress attacks three targets",
+      "objective": "Define ROS accurately and connect lipid, protein and DNA injury to excess ROS.",
+      "sourcePages": [
+        21,
+        23,
+        25,
+        26
+      ],
+      "provenance": "established-clarification",
+      "visual": "ros",
+      "beats": [
+        {
+          "id": "ros-species",
+          "anchor": "Reactive oxygen species",
+          "text": "الـ Reactive oxygen species، أو ROS، تشمل Superoxide وHydroxyl radicals؛ أنواعًا فيها إلكترون غير مزدوج. وتشمل أيضًا Hydrogen peroxide، الذي لا يُعدّ Free radical. إذا زاد إنتاج هذه الأنواع على قدرة الدفاع، يبدأ Oxidative stress؛ الإجهاد التأكسدي.",
+          "cueSpans": {}
+        },
+        {
+          "id": "ros-sources",
+          "anchor": "Reperfusion",
+          "text": "قد يزيد الإشعاع والسموم والميتوكوندريا المتضرّرة إنتاج ROS. وتذكر المحاضرة Reperfusion؛ عودة تدفّق الدم بعد نقص التروية. هذه العودة قد تضيف ضررًا تأكسديًا إلى النسيج الذي كان يعاني من Ischemia.",
+          "cueSpans": {
+            "radiation": "الإشعاع"
+          }
+        },
+        {
+          "id": "ros-lipids",
+          "anchor": "Lipid peroxidation",
+          "text": "في Lipid peroxidation تتضرّر دهون الأغشية. وفي Protein oxidation قد تتفكّك البروتينات أو يختلّ طيّها. وضرر DNA قد يسبّب طفرات، أو يفعّل مسارات الموت إذا تعذّر الإصلاح. أمامنا ثلاثة أهداف: دهون، بروتينات، وDNA.",
+          "cueSpans": {
+            "protein": "Protein oxidation",
+            "dna": "DNA"
+          }
+        },
+        {
+          "id": "ros-balance",
+          "anchor": "التوازن",
+          "text": "الفكرة هي التوازن بين الإنتاج والإزالة. يرتفع الضرر عندما تتكوّن ROS أسرع مما تستطيع الخلية التخلّص منها. لذلك، لفهم Oxidative stress، ننظر إلى الدفاعات كما ننظر إلى مصادر الإنتاج.",
+          "cueSpans": {}
+        }
+      ]
+    },
+    {
+      "id": "antioxidants",
+      "title": "Keep oxidants under control",
+      "objective": "Show sequential enzymatic ROS handling and place dietary antioxidants and cofactors in their proper roles.",
+      "sourcePages": [
+        4,
+        22,
+        23
+      ],
+      "provenance": "established-clarification",
+      "visual": "antioxidants",
+      "beats": [
+        {
+          "id": "antioxidants-sod",
+          "anchor": "Superoxide dismutase",
+          "text": "بعض الأنواع التفاعلية تتحلّل تلقائيًا. والـ Superoxide dismutase، أو SOD، يحوّل Superoxide إلى Hydrogen peroxide. انتبهوا: هذا انتقال إلى مادة وسيطة، وليس إزالة كاملة للمواد المؤكسدة.",
+          "cueSpans": {
+            "some": "بعض الأنواع"
+          }
+        },
+        {
+          "id": "antioxidants-peroxide",
+          "anchor": "Catalase",
+          "text": "بعدها يأتي Catalase وGlutathione peroxidase لإزالة Hydrogen peroxide. وGlutathione يشارك في الدفاع المضاد للأكسدة داخل الخلايا، ومنها خلايا الكبد. دوره لا يقتصر على الكبد وحده.",
+          "cueSpans": {}
+        },
+        {
+          "id": "antioxidants-nutrition",
+          "anchor": "فيتامينَي",
+          "text": "وتذكر المحاضرة Carotenoids، وفيتامينَي E وC، وFlavonoids. كذلك، Selenium وZinc يدعمان أنظمة الدفاع المضاد للأكسدة. لا نفهم دورهما كأن كل عنصر يمسك كل Free radical ويزيله مباشرة.",
+          "cueSpans": {}
+        },
+        {
+          "id": "antioxidants-limit",
+          "anchor": "لا تكفي",
+          "text": "هذه الدفاعات قد لا تكفي عندما يزداد الضرر. ووجود دور طبيعي لهذه المواد لا يعني أن المكمّلات تعكس إصابة إقفارية وصلت إلى مرحلة متقدّمة، أو تمنع كل أنواع Cell injury.",
+          "cueSpans": {}
+        }
+      ]
+    },
+    {
+      "id": "membrane-injury",
+      "title": "Boundaries begin to fail",
+      "objective": "Connect ATP, ROS and calcium mechanisms to plasma, mitochondrial and lysosomal membrane injury.",
+      "sourcePages": [
+        12,
+        24,
+        26
+      ],
+      "provenance": "lecture",
+      "visual": "membrane-injury",
+      "beats": [
+        {
+          "id": "membrane-causes",
+          "anchor": "تتقاطع",
+          "text": "نقص الطاقة، والضرر التأكسدي، والإنزيمات التي ينشّطها الكالسيوم، تتقاطع عند الأغشية. يقلّ تصنيع Phospholipids، الدهون المكوّنة للأغشية، وتزداد عملية تفكيكها، ويتضرّر Cytoskeleton. فتضعف بنية الغشاء، ويبدأ Membrane damage؛ الضرر الذي يخلّ بوظيفته وحدوده.",
+          "cueSpans": {
+            "energy": "نقص الطاقة"
+          }
+        },
+        {
+          "id": "membrane-plasma",
+          "anchor": "Plasma membrane",
+          "text": "عندما تُفقَد سلامة Plasma membrane، الغشاء الذي يحيط بالخلية، تصبح حركة المواد غير منظّمة وتتسرّب محتويات الخلية. هذا يختلف عن بروز صغير قابل للعكس؛ الاضطراب الشديد في الغشاء يهدّد بقاء الخلية.",
+          "cueSpans": {}
+        },
+        {
+          "id": "membrane-organelles",
+          "anchor": "الميتوكوندريا",
+          "text": "ضرر أغشية الميتوكوندريا يزيد فشل إنتاج الطاقة. وضرر أغشية Lysosomes، العُضيّات التي تحتوي إنزيمات الهضم، يطلق هذه الإنزيمات إلى السيتوبلازم. هناك تستطيع تفكيك مكوّنات الخلية نفسها.",
+          "cueSpans": {
+            "lysosomal": "Lysosomes"
+          }
+        },
+        {
+          "id": "membrane-feedback",
+          "anchor": "حلقة",
+          "text": "هنا تتكوّن حلقة تزيد الضرر: نقص الطاقة وتنشيط الإنزيمات يضرّان الأغشية، وفشل الأغشية يزيد اختلال الأيونات وإصابة العُضيّات. ومع اشتداد هذه الحلقة، تصبح Necrosis أكثر احتمالًا.",
+          "cueSpans": {}
+        }
+      ]
+    },
+    {
+      "id": "dna-protein",
+      "title": "Repair, or activate apoptosis",
+      "objective": "Show limited damage repair versus unrepaired DNA/protein damage activating programmed cell death.",
+      "sourcePages": [
+        11,
+        23,
+        25,
+        26
+      ],
+      "provenance": "established-clarification",
+      "visual": "dna-protein",
+      "beats": [
+        {
+          "id": "dna-insults",
+          "anchor": "الإشعاع",
+          "text": "الإشعاع والمواد الكيميائية وROS قد تضرّ DNA. لكن الخلية تستطيع إصلاح الضرر المحدود. لذلك، وجود جزيء متضرّر لا يعني مباشرة أن الخلية فقدت فرصة البقاء.",
+          "cueSpans": {}
+        },
+        {
+          "id": "dna-repair",
+          "anchor": "الإصلاح",
+          "text": "إذا نجح الإصلاح، يبقى البقاء ممكنًا. أما إذا كان ضرر DNA شديدًا وغير قابل للتصحيح، فقد تنشّط الخلية Apoptosis، بدل الاستمرار بمادة وراثية متضرّرة. إذن، القرار مرتبط بقدرة الإصلاح وشدّة الضرر.",
+          "cueSpans": {
+            "apoptosis": "Apoptosis"
+          }
+        },
+        {
+          "id": "dna-proteins",
+          "anchor": "البروتينات",
+          "text": "كذلك، تراكم البروتينات المتضرّرة أو Misfolded proteins، البروتينات التي اختلّ طيّها، قد يجهد الخلية وينشّط مسارات Apoptosis. وهذا يربط هدفَي البروتين والمادة الوراثية اللذين ركّزت عليهما المحاضرة.",
+          "cueSpans": {}
+        },
+        {
+          "id": "dna-caspases",
+          "anchor": "Caspases",
+          "text": "الـ Caspases تنفّذ التفكيك المنظّم في Apoptosis. هذا يختلف عن التسرّب والهضم غير المنظّم اللذين يميّزان النمط النخري. الاختلاف لا يكون في الاسم فقط؛ سنراه في شكل الخلية وطريقة التخلّص من محتوياتها.",
+          "cueSpans": {}
+        }
+      ]
+    },
+    {
+      "id": "death-patterns",
+      "title": "Two patterns of cell death",
+      "objective": "Visually distinguish necrotic swelling and membrane rupture from apoptotic fragmentation and clearance.",
+      "sourcePages": [
+        10,
+        11,
+        12,
+        20,
+        25,
+        26
+      ],
+      "provenance": "established-clarification",
+      "visual": "death-patterns",
+      "beats": [
+        {
+          "id": "death-necrosis",
+          "anchor": "Necrosis",
+          "text": "في Necrosis نشاهد عادةً انتفاخ الخلية، وضررًا شديدًا في العُضيّات، وفقدان سلامة الغشاء. تتسرّب المحتويات، وقد تثير Inflammation؛ استجابة التهابية في النسيج المحيط. لذلك، الضرر لا يبقى دائمًا داخل الخلية وحدها.",
+          "cueSpans": {}
+        },
+        {
+          "id": "death-nucleus",
+          "anchor": "تكثّف النواة",
+          "text": "صورة المحاضرة توضّح تكثّف النواة، ثم تفتّتها، مع اضطراب الأغشية وتمزّق Lysosomes. وتظهر Amorphous densities؛ كثافات غير منتظمة داخل الميتوكوندريا المنتفخة. هذه مظاهر إصابة شديدة، وليست صورة الانتفاخ القابل للتعافي.",
+          "cueSpans": {
+            "fragmentation": "تفتّتها",
+            "rupture": "تمزّق Lysosomes",
+            "amorphous": "Amorphous densities"
+          }
+        },
+        {
+          "id": "death-apoptosis",
+          "anchor": "Apoptosis",
+          "text": "أما في Apoptosis، فالخلية تنكمش، ويتكثّف Chromatin، ثم تتجزّأ إلى أجزاء محاطة بغشاء. بعدها تتخلّص منها الخلايا البالعة، غالبًا مع التهاب أقلّ. ركّزوا على الفرق: المحتويات هنا تبقى محصورة أثناء تكوّن الأجزاء، بدل التسرّب الواسع.",
+          "cueSpans": {
+            "shrinks": "تنكمش",
+            "condenses": "يتكثّف Chromatin",
+            "breaks": "تتجزّأ",
+            "removed": "تتخلّص منها الخلايا البالعة"
+          }
+        },
+        {
+          "id": "death-overlap",
+          "anchor": "أنماط",
+          "text": "هذه أنماط تساعدنا على الفهم، وليست قوالب صارمة لكل خلية متضرّرة. هدف المحاضرة هو ربط الطاقة والأغشية والكالسيوم وROS وDNA والبروتينات بهذه النتائج. وقد يشارك أكثر من مسار في نفس الإصابة.",
+          "cueSpans": {}
+        }
+      ]
+    },
+    {
+      "id": "recovery",
+      "title": "Return to the same cell",
+      "objective": "Integrate the reversible morphology diagram and the major hallmarks of irreversible injury.",
+      "sourcePages": [
+        6,
+        9,
+        10,
+        11,
+        12,
+        16
+      ],
+      "provenance": "established-clarification",
+      "visual": "recovery",
+      "beats": [
+        {
+          "id": "recovery-return",
+          "anchor": "عاد الأكسجين",
+          "text": "نرجع الآن إلى نفس الخلية المنتفخة. إذا عاد الأكسجين والدعم في الوقت المناسب، يعود إنتاج ATP، ويتحسّن توزيع الأيونات، ويرجع حجم الخلية، ويتحسّن تصنيع البروتين. هذا هو التعافي عندما تبقى مقوّمات البقاء محفوظة.",
+          "cueSpans": {
+            "volume": "حجم الخلية"
+          }
+        },
+        {
+          "id": "recovery-morphology",
+          "anchor": "Membrane blebs",
+          "text": "الانتفاخ وMembrane blebs وتكتّل Chromatin قد تزول. أما الضرر الشديد غير القابل للعكس فقد يرافقه تفتّت الأغشية وتهدّم النواة، وظهور Myelin figures؛ تراكيب ملتفّة مشتقّة من أغشية متضرّرة.",
+          "cueSpans": {
+            "myelin": "Myelin figures",
+            "irreversible": "غير القابل للعكس",
+            "fragmentation": "تفتّت الأغشية"
+          }
+        },
+        {
+          "id": "recovery-hallmarks",
+          "anchor": "علامتان",
+          "text": "هناك علامتان رئيسيتان في Irreversible injury: عدم القدرة على عكس Mitochondrial dysfunction، وضرر شديد في الأغشية. عند هذه المرحلة، إزالة المؤثّر الأصلي وحدها لا تكفي لاستعادة الخلية.",
+          "cueSpans": {}
+        },
+        {
+          "id": "recovery-context",
+          "anchor": "التوقيت",
+          "text": "إذن، المسألة هي التوقيت مع الشدّة ونوع الخلية. التكيّف والتعافي والموت نتائج لاستجابة الخلية لبيئتها، وليست نقاطًا على ساعة ثابتة تصلح لكل نسيج وكل إصابة.",
+          "cueSpans": {}
+        }
+      ]
+    },
+    {
+      "id": "recap",
+      "title": "One connected injury network",
+      "objective": "Consolidate all six lecture mechanisms into a causal model and a memorable reversible-versus-irreversible distinction.",
+      "sourcePages": [
+        2,
+        11,
+        26,
+        27,
+        28
+      ],
+      "provenance": "lecture",
+      "visual": "recap",
+      "beats": [
+        {
+          "id": "recap-atp",
+          "anchor": "ATP",
+          "text": "تذكّروا مسار الطاقة: يقلّ ATP، فتفشل مضخّات الأيونات، ويتراكم الصوديوم، ويدخل الماء، فتنتفخ الخلية. وبالتوازي، تزيد Glycolysis، وتنخفض كفاءة تصنيع البروتين. هكذا نفهم النتيجة من السبب، بدل حفظ أسماء متفرّقة.",
+          "cueSpans": {
+            "pumps": "مضخّات الأيونات",
+            "water": "الماء",
+            "glycolysis": "Glycolysis"
+          }
+        },
+        {
+          "id": "recap-network",
+          "anchor": "الكالسيوم",
+          "text": "الكالسيوم ينشّط إنزيمات تضرّ الخلية. وROS تهاجم الدهون والبروتينات وDNA. وإصابة الميتوكوندريا تضعف ATP أو تطلق إشارات Apoptosis، بينما ضرر الأغشية يزيل الحدود التي تحفظ التوازن.",
+          "cueSpans": {
+            "ros": "ROS",
+            "mitochondrial": "الميتوكوندريا",
+            "membrane": "ضرر الأغشية"
+          }
+        },
+        {
+          "id": "recap-dna",
+          "anchor": "لا يُصلَح",
+          "text": "وضرر DNA والبروتينات الذي لا يُصلَح قد ينشّط Apoptosis. هذه الآليات تقوّي بعضها، لذلك افهموا الروابط بينها. نحن لا ندرس ستة مربّعات منفصلة، بل شبكة قد تتسارع إذا تعطّلت أكثر من وظيفة.",
+          "cueSpans": {}
+        },
+        {
+          "id": "recap-outcome",
+          "anchor": "قابلة للاستعادة",
+          "text": "إذا كانت الوظيفة قابلة للاستعادة، فهذه Reversible injury. وإذا أصبح فشل الميتوكوندريا والأغشية غير قابل للإصلاح، فهذه Irreversible injury. دائمًا اسألوا: ماذا تعطّل؟ ولماذا تعطّل؟ وهل ما زالت هذه الخلية قادرة على التعافي؟",
+          "holdAfterSeconds": 1.6,
+          "cueSpans": {
+            "why": "ولماذا"
+          }
+        }
+      ]
+    }
+  ],
+  "language": "ar-SA",
+  "baseVersionCommit": "8777ef17494e38a86dd4fb6e4a60f8eb5b7230c6"
+}
