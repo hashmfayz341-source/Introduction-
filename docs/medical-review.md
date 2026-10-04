@@ -84,8 +84,8 @@ The final visual review must inspect actual rendered frames and transitions for:
 5. Plasma versus lysosomal leakage, including correct destination of released enzymes.
 6. Necrosis/apoptosis morphology and the same cell's recovery branch.
 
-Record the encoded review and any fixes in `docs/qa.md` with frame evidence after
-rendering. Until that evidence exists, encoded medical QA is **pending**, not passed.
+The completed encoded review below and the project verification record in
+`docs/qa.md` provide the frame evidence. **Encoded medical QA is PASS.**
 
 ## Independent implementation review
 
@@ -128,13 +128,60 @@ The review identified and sent the following corrections to the implementing age
    verified in corrected Recovery states; bottom failure/myelin labels are readable.
 6. Place the mitochondrial outer-membrane leader precisely on its contour rather
    than the adjacent intermembrane space. Applied using the actual outer-contour
-   Bézier point transformed by the same zoom as the organelle; final encoded frame
-   check still required because this last leader edit followed the correction stills.
+   Bézier point transformed by the same zoom as the organelle; verified directly
+   in the final encoded 1080p mitochondrial end frame.
 
 No additional incorrect biochemical mechanism or important unrepresented source
 category was found. The corrected stills for Oxygen/Recovery/Recap/Calcium/Protein/
 Death/Mitochondria and the additional pre-clearance apoptotic-body state were
 inspected independently. **Corrected implementation medical review: PASS.**
-All **64 literal internal word cues** in the four scene files match actual
-synthesized word-boundary entries; no silent fallback is needed for these cues.
-Final encoded-video verification remains pending until the completed MP4 is inspected.
+The validator checks **50 literal beat-ID/word pairs** in the four scene files
+against actual synthesized word boundaries; dynamic word anchors were reviewed
+separately. No unavailable spoken-word anchor remains in the reviewed scenes.
+## Final encoded medical review
+
+**Result: PASS.** The final MP4 was inspected through all **18 encoded scene
+contact sheets, 98 actual decoded representative states** covering starts,
+intermediate speech cues, important mechanism states and ends. The final 1080p
+mitochondrial end frame was also inspected individually to confirm the corrected
+outer-membrane leader. These frames came from the final H.264 MP4, including the
+normal translating-ribosome state and the pre-clearance apoptotic-body state;
+they are not earlier Remotion preview substitutes.
+
+Reviewed artifact: `out/cell-injury.mp4`, SHA-256
+`37ded821224caf1a059ed7a53170cdaa9a61487c12e952632dd95704cd669d6b`.
+Temporary evidence lives at `qa/frames/encoded/<sceneId>/`; the reproducible frame
+selection and durable verification records accompany the project QA workflow.
+
+Final findings:
+
+- Complete lecture content, the eight cause categories and the six mechanisms remain represented.
+- Reversible swelling, blebs and chromatin clumping retain viable nuclei and an
+  enclosing membrane; the recovered cell is clearly distinct from irreversible
+  membrane disruption and persistent mitochondrial failure.
+- ATP → Na/K-pump failure → altered sodium/potassium gradients → water entry →
+  swelling is correct. Calcium dysregulation remains a separate process.
+- ER/ribosome detachment, metabolic acidosis and calcium enzyme targets match the
+  lecture with the documented established clarifications.
+- Inner mitochondrial permeability/ATP loss and outer mitochondrial cytochrome-c
+  release/caspases remain visibly and verbally distinct. The final outer leader
+  lands on its actual membrane contour.
+- H2O2 is correctly classified as nonradical ROS. ROS targets and SOD/catalase/
+  glutathione-peroxidase handling have correct relationships and products.
+- Plasma leakage and lysosomal hydrolase release have distinct compartments and
+  consequences; repaired DNA is separated from severe unrepaired DNA/protein injury.
+- Necrotic leakage/inflammation, mitochondrial densities and nuclear fragmentation
+  are distinct from shrinking, membrane-bounded apoptotic bodies and phagocytic clearance.
+- The corrected recovery/irreversibility and recap reveals follow the intended
+  spoken mechanisms. No medical-blocking visual error or omitted major mechanism
+  was found. No narration, scene, timing or source modification was required after
+  this encoded review.
+
+The parent verification pass also completed full media decoding and compared
+encoded audio against the source narration at all 18 scene samples, reporting
+zero measured lag and a minimum waveform correlation of 0.999932. These checks
+support synchronization; they are not described as an independent human voice review.
+
+Review limitation: educational abstractions are not to scale and particle counts
+are illustrative. This source/knowledge/code/frame review is an internal medical
+education QA pass, with no claim of separate clinician or institutional approval.

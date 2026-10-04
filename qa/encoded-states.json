@@ -1,0 +1,590 @@
+[
+  {
+    "scene": "homeostasis",
+    "state": "start",
+    "localFrame": 15,
+    "globalFrame": 15
+  },
+  {
+    "scene": "homeostasis",
+    "state": "beat2",
+    "localFrame": 478,
+    "globalFrame": 478
+  },
+  {
+    "scene": "homeostasis",
+    "state": "beat3",
+    "localFrame": 870,
+    "globalFrame": 870
+  },
+  {
+    "scene": "homeostasis",
+    "state": "beat4",
+    "localFrame": 1346,
+    "globalFrame": 1346
+  },
+  {
+    "scene": "homeostasis",
+    "state": "end",
+    "localFrame": 1477,
+    "globalFrame": 1477
+  },
+  {
+    "scene": "homeostasis",
+    "state": "balance",
+    "localFrame": 98,
+    "globalFrame": 98
+  },
+  {
+    "scene": "adaptation",
+    "state": "start",
+    "localFrame": 15,
+    "globalFrame": 1537
+  },
+  {
+    "scene": "adaptation",
+    "state": "beat2",
+    "localFrame": 449,
+    "globalFrame": 1971
+  },
+  {
+    "scene": "adaptation",
+    "state": "beat3",
+    "localFrame": 867,
+    "globalFrame": 2389
+  },
+  {
+    "scene": "adaptation",
+    "state": "beat4",
+    "localFrame": 1330,
+    "globalFrame": 2852
+  },
+  {
+    "scene": "adaptation",
+    "state": "end",
+    "localFrame": 1454,
+    "globalFrame": 2976
+  },
+  {
+    "scene": "injury-threshold",
+    "state": "start",
+    "localFrame": 15,
+    "globalFrame": 3036
+  },
+  {
+    "scene": "injury-threshold",
+    "state": "beat2",
+    "localFrame": 488,
+    "globalFrame": 3509
+  },
+  {
+    "scene": "injury-threshold",
+    "state": "beat3",
+    "localFrame": 885,
+    "globalFrame": 3906
+  },
+  {
+    "scene": "injury-threshold",
+    "state": "beat4",
+    "localFrame": 1191,
+    "globalFrame": 4212
+  },
+  {
+    "scene": "injury-threshold",
+    "state": "end",
+    "localFrame": 1442,
+    "globalFrame": 4463
+  },
+  {
+    "scene": "injury-threshold",
+    "state": "factors",
+    "localFrame": 243,
+    "globalFrame": 3264
+  },
+  {
+    "scene": "causes",
+    "state": "start",
+    "localFrame": 15,
+    "globalFrame": 4523
+  },
+  {
+    "scene": "causes",
+    "state": "beat2",
+    "localFrame": 515,
+    "globalFrame": 5023
+  },
+  {
+    "scene": "causes",
+    "state": "beat3",
+    "localFrame": 1041,
+    "globalFrame": 5549
+  },
+  {
+    "scene": "causes",
+    "state": "beat4",
+    "localFrame": 1323,
+    "globalFrame": 5831
+  },
+  {
+    "scene": "causes",
+    "state": "end",
+    "localFrame": 1655,
+    "globalFrame": 6163
+  },
+  {
+    "scene": "causes",
+    "state": "chemical",
+    "localFrame": 608,
+    "globalFrame": 5116
+  },
+  {
+    "scene": "causes",
+    "state": "biological",
+    "localFrame": 764,
+    "globalFrame": 5272
+  },
+  {
+    "scene": "causes",
+    "state": "environment",
+    "localFrame": 936,
+    "globalFrame": 5444
+  },
+  {
+    "scene": "causes",
+    "state": "nutrition",
+    "localFrame": 1095,
+    "globalFrame": 5603
+  },
+  {
+    "scene": "targets",
+    "state": "start",
+    "localFrame": 15,
+    "globalFrame": 6223
+  },
+  {
+    "scene": "targets",
+    "state": "beat2",
+    "localFrame": 446,
+    "globalFrame": 6654
+  },
+  {
+    "scene": "targets",
+    "state": "beat3",
+    "localFrame": 833,
+    "globalFrame": 7041
+  },
+  {
+    "scene": "targets",
+    "state": "beat4",
+    "localFrame": 1213,
+    "globalFrame": 7421
+  },
+  {
+    "scene": "targets",
+    "state": "end",
+    "localFrame": 1393,
+    "globalFrame": 7601
+  },
+  {
+    "scene": "oxygen-atp",
+    "state": "start",
+    "localFrame": 15,
+    "globalFrame": 7661
+  },
+  {
+    "scene": "oxygen-atp",
+    "state": "beat2",
+    "localFrame": 589,
+    "globalFrame": 8235
+  },
+  {
+    "scene": "oxygen-atp",
+    "state": "beat3",
+    "localFrame": 1021,
+    "globalFrame": 8667
+  },
+  {
+    "scene": "oxygen-atp",
+    "state": "beat4",
+    "localFrame": 1414,
+    "globalFrame": 9060
+  },
+  {
+    "scene": "oxygen-atp",
+    "state": "end",
+    "localFrame": 1615,
+    "globalFrame": 9261
+  },
+  {
+    "scene": "pump-swelling",
+    "state": "start",
+    "localFrame": 15,
+    "globalFrame": 9321
+  },
+  {
+    "scene": "pump-swelling",
+    "state": "beat2",
+    "localFrame": 487,
+    "globalFrame": 9793
+  },
+  {
+    "scene": "pump-swelling",
+    "state": "beat3",
+    "localFrame": 847,
+    "globalFrame": 10153
+  },
+  {
+    "scene": "pump-swelling",
+    "state": "beat4",
+    "localFrame": 1232,
+    "globalFrame": 10538
+  },
+  {
+    "scene": "pump-swelling",
+    "state": "end",
+    "localFrame": 1514,
+    "globalFrame": 10820
+  },
+  {
+    "scene": "glycolysis",
+    "state": "start",
+    "localFrame": 15,
+    "globalFrame": 10880
+  },
+  {
+    "scene": "glycolysis",
+    "state": "beat2",
+    "localFrame": 488,
+    "globalFrame": 11353
+  },
+  {
+    "scene": "glycolysis",
+    "state": "beat3",
+    "localFrame": 817,
+    "globalFrame": 11682
+  },
+  {
+    "scene": "glycolysis",
+    "state": "beat4",
+    "localFrame": 1167,
+    "globalFrame": 12032
+  },
+  {
+    "scene": "glycolysis",
+    "state": "end",
+    "localFrame": 1367,
+    "globalFrame": 12232
+  },
+  {
+    "scene": "protein-synthesis",
+    "state": "start",
+    "localFrame": 15,
+    "globalFrame": 12292
+  },
+  {
+    "scene": "protein-synthesis",
+    "state": "beat2",
+    "localFrame": 614,
+    "globalFrame": 12891
+  },
+  {
+    "scene": "protein-synthesis",
+    "state": "beat3",
+    "localFrame": 963,
+    "globalFrame": 13240
+  },
+  {
+    "scene": "protein-synthesis",
+    "state": "beat4",
+    "localFrame": 1567,
+    "globalFrame": 13844
+  },
+  {
+    "scene": "protein-synthesis",
+    "state": "end",
+    "localFrame": 1523,
+    "globalFrame": 13800
+  },
+  {
+    "scene": "calcium",
+    "state": "start",
+    "localFrame": 15,
+    "globalFrame": 13860
+  },
+  {
+    "scene": "calcium",
+    "state": "beat2",
+    "localFrame": 438,
+    "globalFrame": 14283
+  },
+  {
+    "scene": "calcium",
+    "state": "beat3",
+    "localFrame": 836,
+    "globalFrame": 14681
+  },
+  {
+    "scene": "calcium",
+    "state": "beat4",
+    "localFrame": 1298,
+    "globalFrame": 15143
+  },
+  {
+    "scene": "calcium",
+    "state": "end",
+    "localFrame": 1505,
+    "globalFrame": 15350
+  },
+  {
+    "scene": "mitochondria",
+    "state": "start",
+    "localFrame": 15,
+    "globalFrame": 15410
+  },
+  {
+    "scene": "mitochondria",
+    "state": "beat2",
+    "localFrame": 483,
+    "globalFrame": 15878
+  },
+  {
+    "scene": "mitochondria",
+    "state": "beat3",
+    "localFrame": 920,
+    "globalFrame": 16315
+  },
+  {
+    "scene": "mitochondria",
+    "state": "beat4",
+    "localFrame": 1259,
+    "globalFrame": 16654
+  },
+  {
+    "scene": "mitochondria",
+    "state": "end",
+    "localFrame": 1474,
+    "globalFrame": 16869
+  },
+  {
+    "scene": "ros",
+    "state": "start",
+    "localFrame": 15,
+    "globalFrame": 16929
+  },
+  {
+    "scene": "ros",
+    "state": "beat2",
+    "localFrame": 745,
+    "globalFrame": 17659
+  },
+  {
+    "scene": "ros",
+    "state": "beat3",
+    "localFrame": 965,
+    "globalFrame": 17879
+  },
+  {
+    "scene": "ros",
+    "state": "beat4",
+    "localFrame": 1431,
+    "globalFrame": 18345
+  },
+  {
+    "scene": "ros",
+    "state": "end",
+    "localFrame": 1569,
+    "globalFrame": 18483
+  },
+  {
+    "scene": "antioxidants",
+    "state": "start",
+    "localFrame": 15,
+    "globalFrame": 18543
+  },
+  {
+    "scene": "antioxidants",
+    "state": "beat2",
+    "localFrame": 524,
+    "globalFrame": 19052
+  },
+  {
+    "scene": "antioxidants",
+    "state": "beat3",
+    "localFrame": 1007,
+    "globalFrame": 19535
+  },
+  {
+    "scene": "antioxidants",
+    "state": "beat4",
+    "localFrame": 1400,
+    "globalFrame": 19928
+  },
+  {
+    "scene": "antioxidants",
+    "state": "end",
+    "localFrame": 1603,
+    "globalFrame": 20131
+  },
+  {
+    "scene": "membrane-injury",
+    "state": "start",
+    "localFrame": 15,
+    "globalFrame": 20191
+  },
+  {
+    "scene": "membrane-injury",
+    "state": "beat2",
+    "localFrame": 553,
+    "globalFrame": 20729
+  },
+  {
+    "scene": "membrane-injury",
+    "state": "beat3",
+    "localFrame": 923,
+    "globalFrame": 21099
+  },
+  {
+    "scene": "membrane-injury",
+    "state": "beat4",
+    "localFrame": 1360,
+    "globalFrame": 21536
+  },
+  {
+    "scene": "membrane-injury",
+    "state": "end",
+    "localFrame": 1613,
+    "globalFrame": 21789
+  },
+  {
+    "scene": "dna-protein",
+    "state": "start",
+    "localFrame": 15,
+    "globalFrame": 21849
+  },
+  {
+    "scene": "dna-protein",
+    "state": "beat2",
+    "localFrame": 489,
+    "globalFrame": 22323
+  },
+  {
+    "scene": "dna-protein",
+    "state": "beat3",
+    "localFrame": 936,
+    "globalFrame": 22770
+  },
+  {
+    "scene": "dna-protein",
+    "state": "beat4",
+    "localFrame": 1243,
+    "globalFrame": 23077
+  },
+  {
+    "scene": "dna-protein",
+    "state": "end",
+    "localFrame": 1440,
+    "globalFrame": 23274
+  },
+  {
+    "scene": "death-patterns",
+    "state": "start",
+    "localFrame": 15,
+    "globalFrame": 23334
+  },
+  {
+    "scene": "death-patterns",
+    "state": "beat2",
+    "localFrame": 566,
+    "globalFrame": 23885
+  },
+  {
+    "scene": "death-patterns",
+    "state": "beat3",
+    "localFrame": 850,
+    "globalFrame": 24169
+  },
+  {
+    "scene": "death-patterns",
+    "state": "beat4",
+    "localFrame": 1259,
+    "globalFrame": 24578
+  },
+  {
+    "scene": "death-patterns",
+    "state": "end",
+    "localFrame": 1504,
+    "globalFrame": 24823
+  },
+  {
+    "scene": "death-patterns",
+    "state": "apoptotic-bodies",
+    "localFrame": 958,
+    "globalFrame": 24277
+  },
+  {
+    "scene": "recovery",
+    "state": "start",
+    "localFrame": 15,
+    "globalFrame": 24883
+  },
+  {
+    "scene": "recovery",
+    "state": "beat2",
+    "localFrame": 506,
+    "globalFrame": 25374
+  },
+  {
+    "scene": "recovery",
+    "state": "beat3",
+    "localFrame": 911,
+    "globalFrame": 25779
+  },
+  {
+    "scene": "recovery",
+    "state": "beat4",
+    "localFrame": 1296,
+    "globalFrame": 26164
+  },
+  {
+    "scene": "recovery",
+    "state": "end",
+    "localFrame": 1497,
+    "globalFrame": 26365
+  },
+  {
+    "scene": "recap",
+    "state": "start",
+    "localFrame": 15,
+    "globalFrame": 26425
+  },
+  {
+    "scene": "recap",
+    "state": "beat2",
+    "localFrame": 558,
+    "globalFrame": 26968
+  },
+  {
+    "scene": "recap",
+    "state": "beat3",
+    "localFrame": 1067,
+    "globalFrame": 27477
+  },
+  {
+    "scene": "recap",
+    "state": "beat4",
+    "localFrame": 1473,
+    "globalFrame": 27883
+  },
+  {
+    "scene": "recap",
+    "state": "end",
+    "localFrame": 1810,
+    "globalFrame": 28220
+  },
+  {
+    "scene": "protein-synthesis",
+    "state": "translation",
+    "localFrame": 250,
+    "globalFrame": 12527
+  }
+]

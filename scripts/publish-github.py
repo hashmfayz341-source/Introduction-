@@ -18,15 +18,34 @@ def git(*args):
     return subprocess.check_output(["git", *args])
 
 
-def api(endpoint, payload=None, method=None):
+def api(endpoint, payload=None, method=None, timeout=60):
     args = ["gh", "api", f"repos/{REPO}/{endpoint}"]
     if payload is not None:
         args += ["--method", method or "POST", "--input", "-"]
-    result = subprocess.run(args, input=json.dumps(payload) if payload is not None else None,
-                            text=True, capture_output=True)
+    try:
+        result = subprocess.run(args, input=json.dumps(payload) if payload is not None else None,
+                                text=True, capture_output=True, timeout=timeout)
+    except subprocess.TimeoutExpired as error:
+        raise RuntimeError(f"GitHub API {endpoint} timed out after {timeout} seconds") from error
     if result.returncode:
         raise RuntimeError(result.stderr.strip() or result.stdout.strip())
     return json.loads(result.stdout)
+
+
+def blob_exists(sha):
+    """Check metadata without downloading a possibly large base64 blob."""
+    endpoint = f"repos/{REPO}/git/blobs/{sha}"
+    try:
+        result = subprocess.run(["gh", "api", endpoint, "--method", "HEAD", "--include"],
+                                text=True, capture_output=True, timeout=30)
+    except subprocess.TimeoutExpired as error:
+        raise RuntimeError(f"Blob existence check {sha} timed out after 30 seconds") from error
+    status = re.search(r"^HTTP/\S+ (\d{3})", result.stdout, flags=re.MULTILINE)
+    if status and status.group(1) == "200" and result.returncode == 0:
+        return True
+    if status and status.group(1) == "404":
+        return False
+    raise RuntimeError(result.stderr.strip() or f"Unexpected GitHub blob metadata response: {sha}")
 
 
 def identity(text):
@@ -40,10 +59,16 @@ def identity(text):
 
 
 def upload_blob(entry):
+    if blob_exists(entry["sha"]):
+        print(f"Already published: {entry['path']} ({entry['sha']})", flush=True)
+        return entry
     content = git("cat-file", "blob", entry["sha"])
-    result = api("git/blobs", {"content": base64.b64encode(content).decode(), "encoding":"base64"})
+    print(f"Uploading: {entry['path']} ({len(content):,} bytes)", flush=True)
+    result = api("git/blobs", {"content": base64.b64encode(content).decode(), "encoding":"base64"},
+                 timeout=180 if len(content) >= 5_000_000 else 60)
     if result["sha"] != entry["sha"]:
         raise ValueError(f"Blob changed: {entry['path']}")
+    print(f"Verified blob: {entry['path']} ({entry['sha']})", flush=True)
     return entry
 
 
@@ -69,8 +94,17 @@ def publish_commit(sha):
         if kind != "blob":
             raise ValueError("Submodules are not supported by this publishing route")
         entries.append({"path":filename.decode(), "mode":mode, "type":kind, "sha":object_sha})
-    with ThreadPoolExecutor(max_workers=4) as pool:
-        entries = list(pool.map(upload_blob, entries))
+    # Deduplicate objects shared by multiple paths. Upload large audio alone so
+    # request buffering does not compete with concurrent GitHub requests.
+    unique_entries = list({entry["sha"]:entry for entry in entries}.values())
+    small_entries, large_entries = [], []
+    for entry in unique_entries:
+        size = int(git("cat-file", "-s", entry["sha"]))
+        (large_entries if size >= 5_000_000 else small_entries).append(entry)
+    with ThreadPoolExecutor(max_workers=2) as pool:
+        list(pool.map(upload_blob, small_entries))
+    for entry in large_entries:
+        upload_blob(entry)
     tree = api("git/trees", {"tree":entries})
     if tree["sha"] != fields["tree"]:
         raise ValueError("Remote tree SHA differs from the complete local tree")

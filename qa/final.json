@@ -1,0 +1,130 @@
+{
+  "renderedFromCommit": "c66d40f67d9139c063bcd0f8780fdfb3500cbd07",
+  "path": "out/cell-injury.mp4",
+  "sha256": "37ded821224caf1a059ed7a53170cdaa9a61487c12e952632dd95704cd669d6b",
+  "bytes": 77250689,
+  "frames": 28265,
+  "durationSeconds": 942.166667,
+  "width": 1920,
+  "height": 1080,
+  "fps": "30/1",
+  "pixelFormat": "yuv420p",
+  "videoCodec": "h264",
+  "audioCodec": "aac",
+  "audioChannels": 2,
+  "audioSampleRate": 48000,
+  "audioDurationSeconds": 942.187,
+  "colorSpace": "bt709",
+  "audioComparisons": [
+    {
+      "scene": "homeostasis",
+      "atSeconds": 4.0,
+      "lagSeconds": 0.0,
+      "correlation": 0.999979716138144
+    },
+    {
+      "scene": "adaptation",
+      "atSeconds": 54.733333333333334,
+      "lagSeconds": 0.0,
+      "correlation": 0.9999934992593156
+    },
+    {
+      "scene": "injury-threshold",
+      "atSeconds": 104.7,
+      "lagSeconds": 0.0,
+      "correlation": 0.9999321530482469
+    },
+    {
+      "scene": "causes",
+      "atSeconds": 154.26666666666668,
+      "lagSeconds": 0.0,
+      "correlation": 0.9999753755398509
+    },
+    {
+      "scene": "targets",
+      "atSeconds": 210.93333333333334,
+      "lagSeconds": 0.0,
+      "correlation": 0.99999652756833
+    },
+    {
+      "scene": "oxygen-atp",
+      "atSeconds": 258.8666666666667,
+      "lagSeconds": 0.0,
+      "correlation": 0.999973457699664
+    },
+    {
+      "scene": "pump-swelling",
+      "atSeconds": 314.2,
+      "lagSeconds": 0.0,
+      "correlation": 0.9999654763088681
+    },
+    {
+      "scene": "glycolysis",
+      "atSeconds": 366.1666666666667,
+      "lagSeconds": 0.0,
+      "correlation": 0.9999740291806876
+    },
+    {
+      "scene": "protein-synthesis",
+      "atSeconds": 413.23333333333335,
+      "lagSeconds": 0.0,
+      "correlation": 0.9999766622778404
+    },
+    {
+      "scene": "calcium",
+      "atSeconds": 465.5,
+      "lagSeconds": 0.0,
+      "correlation": 0.9999795840897449
+    },
+    {
+      "scene": "mitochondria",
+      "atSeconds": 517.1666666666666,
+      "lagSeconds": 0.0,
+      "correlation": 0.9999757476334462
+    },
+    {
+      "scene": "ros",
+      "atSeconds": 567.8,
+      "lagSeconds": 0.0,
+      "correlation": 0.9999608887510474
+    },
+    {
+      "scene": "antioxidants",
+      "atSeconds": 621.6,
+      "lagSeconds": 0.0,
+      "correlation": 0.9999739424186243
+    },
+    {
+      "scene": "membrane-injury",
+      "atSeconds": 676.5333333333333,
+      "lagSeconds": 0.0,
+      "correlation": 0.9999683088245028
+    },
+    {
+      "scene": "dna-protein",
+      "atSeconds": 731.8,
+      "lagSeconds": 0.0,
+      "correlation": 0.9999550530062747
+    },
+    {
+      "scene": "death-patterns",
+      "atSeconds": 781.3,
+      "lagSeconds": 0.0,
+      "correlation": 0.9999713402890592
+    },
+    {
+      "scene": "recovery",
+      "atSeconds": 832.9333333333333,
+      "lagSeconds": 0.0,
+      "correlation": 0.9999682588475074
+    },
+    {
+      "scene": "recap",
+      "atSeconds": 884.3333333333334,
+      "lagSeconds": 0.0,
+      "correlation": 0.999962104832089
+    }
+  ],
+  "maxAudioLagSeconds": 0.0,
+  "minimumAudioCorrelation": 0.9999321530482469
+}
