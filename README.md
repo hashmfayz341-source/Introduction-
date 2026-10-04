@@ -11,6 +11,10 @@ English backup: [Download the narrated 1080p MP4](https://github.com/hashmfayz34
 
 ## Arabic narration
 
+Final Arabic release: [1080p MP4](https://github.com/hashmfayz341-source/Introduction-/releases/download/cell-injury-ar-v1/cell-injury-ar.mp4),
+[narration WAV](https://github.com/hashmfayz341-source/Introduction-/releases/download/cell-injury-ar-v1/narration-ar.wav),
+and [tagged source and QA](https://github.com/hashmfayz341-source/Introduction-/releases/tag/cell-injury-ar-v1).
+
 The Arabic upgrade preserves all 18 existing scene designs and the English backup.
 It uses Saudi Arabic narration (`ar-SA-HamedNeural`) with native English medical
 terms (`en-US-AndrewNeural`), recorded through Microsoft Edge neural
@@ -37,6 +41,8 @@ Pronunciation controls and edit recipe: `src/data/pronunciation.ar.json`,
 `public/audio/recordings.ar.json`. The generator is `scripts/generate-arabic-narration.py`.
 See `docs/arabic-upgrade.md` for provider choice, backup and review limitations.
 Arabic review evidence is in `docs/qa-ar.md` and `qa/arabic/`.
+The complete MP4 passed full decoding, inspection of 197 encoded states,
+audio alignment checks in all 18 scenes and four actual browser playback checks.
 The Arabic render checks free space and puts temporary files in ignored
 `out/.remotion-tmp`; allow about 8 GiB. Set `CELL_INJURY_RENDER_TEMP_DIR` to use
 another volume. This avoids limited container `/tmp` mounts.

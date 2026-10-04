@@ -1,0 +1,7 @@
+{
+  "method": "Full AAC decode to floating-point PCM at 24 kHz mono",
+  "sampleCount": 33347584,
+  "durationSeconds": 1389.4826666666668,
+  "peakDbFS": -1.3507096767425537,
+  "samplesAtOrAboveFullScale": 0
+}

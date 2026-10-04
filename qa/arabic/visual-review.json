@@ -338,5 +338,34 @@
     "death-patterns/apoptotic-bodies"
   ],
   "findings": "No clipping, unintended overlap or misleading causal sequencing found in inspected states. Existing scene designs retained.",
-  "encodedMediaReview": "pending complete MP4"
+  "encodedMediaReview": {
+    "result": "PASS",
+    "renderedFromCommit": "88a2bd359e3e4a6975e215ba88609aaa634b96d0",
+    "videoPath": "out/cell-injury-ar.mp4",
+    "videoSha256": "3691118db31ee87cc1e558f42fc4c5501569be2f6556611194f47c4a77cdaaf5",
+    "fullVideoDecode": "PASS; FFmpeg -xerror completed without decoding errors",
+    "inspectedEncodedStates": 197,
+    "sceneStates": 146,
+    "transitionStates": 51,
+    "transitionBoundaries": 17,
+    "sceneContactSheetsViewed": 18,
+    "transitionContactSheetsViewed": 5,
+    "fullResolutionChecks": [
+      "pump-swelling/end",
+      "mitochondria/end",
+      "membrane-injury/end",
+      "death-patterns/apoptotic-bodies"
+    ],
+    "playbackScreenshotsViewed": [
+      "pump-swelling",
+      "mitochondria",
+      "death-patterns",
+      "recap"
+    ],
+    "findings": "Readable labels and mechanism states; no unintended clipping or overlaps in inspected frames. Existing brief dark scene fades are intentional.",
+    "medicalReview": "PASS; source-grounded review of script and mechanism states, without independent clinician sign-off",
+    "motionReview": "PASS; causal reveals and existing visual continuity preserved",
+    "studentReview": "PASS; mechanism relationships and English terminology remain visually distinguishable",
+    "directHumanListeningAvailable": false
+  }
 }

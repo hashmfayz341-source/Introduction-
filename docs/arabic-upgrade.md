@@ -82,7 +82,9 @@ npm run check:ready:ar
 npm run render:ar
 ```
 
-Arabic output: `out/cell-injury-ar.mp4` (1920×1080, 30 fps, H.264/AAC).
+Arabic output: `out/cell-injury-ar.mp4` (1920×1080, 30 fps, H.264/AAC),
+duration **23:09.467**. The reviewed MP4 and measured narration WAV are available
+in [the Arabic release](https://github.com/hashmfayz341-source/Introduction-/releases/tag/cell-injury-ar-v1).
 Preview with `npm run preview` and select `CellInjuryArabic`.
 For regeneration, install `requirements.txt` in a virtual environment, then run
 `python scripts/generate-arabic-narration.py`. Regeneration can change timing;
@@ -94,7 +96,10 @@ Independent ASR of the final full master processed 72/72 beats and recognized al
 eleven required English medical terms. ATPase was separately checked after its
 spelling control was fixed. The expanded English diagnostic covers 89 distinct
 phrases. Final-timing visual QA inspected 146 representative states across all
-18 scenes before encoding. Audio recognition, waveform checks and playback validation are evidence
-of audibility and synchronization, not a claim of human listening or clinician sign-off.
+18 scenes before encoding. The completed MP4 also passed full decoding,
+inspection of 197 encoded states, zero-lag audio checks at all 18 scene anchors
+and four unmuted browser playback tests with no dropped frames or media errors.
+Audio recognition, waveform checks and playback validation provide evidence of
+speech decoding and synchronization; no human listening or clinician sign-off is claimed.
 Direct listening is not available in this execution interface, and the fallback
 speech engine cannot accept the proposed natural-delivery instruction text.

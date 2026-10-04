@@ -50,6 +50,14 @@ the final single-language English voice correction. The 18 final contact sheets
 and critical full-resolution checks are recorded in `qa/arabic/visual-review.json`.
 **Final representative visual QA: PASS.**
 
+The completed MP4 was then decoded in full with FFmpeg's error-on-failure mode.
+All **197 encoded states** were extracted and inspected: the same 146 mechanism
+states plus three states around each of 17 transitions. All 18 encoded scene
+contact sheets, five transition sheets, four critical full-resolution images and
+four actual playback screenshots were viewed. Text, anatomy, cropping and causal
+reveals remain clear. Brief dark transition states are the existing scene fades.
+No additional scene redesign was required. **Encoded visual QA: PASS.**
+
 The separate medical pass compared the complete 28-page lecture, Arabic script
 and rendered mechanism states. It retains the established clarifications in
 `docs/medical-review.md`, including:
@@ -89,10 +97,34 @@ python scripts/verify-video.py out/cell-injury-ar.mp4 --timeline src/data/timeli
 python scripts/extract-encoded-qa.py --video out/cell-injury-ar.mp4 --manifest qa/arabic/encoded-states.json --output qa/frames/encoded-arabic
 ```
 
-Final encoded media, audio/AAC synchronization, transition inspection and actual
-browser playback are the remaining checks before release publication. Those
-results will be recorded here and in `qa/arabic/*.json`; the still review above
-does not falsely certify an unrendered MP4.
+The successful final render used source commit
+`88a2bd359e3e4a6975e215ba88609aaa634b96d0`. The final file is
+`out/cell-injury-ar.mp4`, **106,903,521 bytes**, SHA-256
+`3691118db31ee87cc1e558f42fc4c5501569be2f6556611194f47c4a77cdaaf5`.
+It contains **41,684 frames**, **1389.466667 seconds**, 1920×1080 at 30 fps,
+H.264/yuv420p/BT.709 and stereo 48 kHz AAC. The later QA/documentation commit
+does not change render inputs.
+
+Comparison of decoded AAC against the measured narration master found **zero
+lag at all 18 scene anchors**, with minimum correlation **0.9998916**.
+The full AAC waveform has **zero samples at or above full scale**, with peak
+**−1.351 dBFS**. AAC padding explains its approximately 16 ms longer container
+duration; no scene retiming is based on encoder padding.
+
+Actual unmuted Chromium playback was checked after accurate seeks to swelling,
+mitochondrial release, apoptotic bodies and the final recap. Each test advanced
+53–54 frames with audio decoding, **zero dropped frames**, no media errors and
+no captured console errors. All four screenshots were visually inspected.
+This verifies playback and decoding, without claiming direct human listening.
+
+Evidence: `qa/arabic/final.json`, `encoded-audio.json`, `playback.json` and
+`visual-review.json`. The 197 extraction targets are recorded in
+`qa/arabic/encoded-states.json`. A balanced FFmpeg selection expression avoids
+the parser recursion limit encountered with a long linear sum; it selects the
+same target frames. **Encoded media and audio/video synchronization: PASS.**
+
+The English MP4's SHA-256 was checked again after the Arabic render and remains
+`37ded821224caf1a059ed7a53170cdaa9a61487c12e952632dd95704cd669d6b`.
 
 ## Final English voice correction
 
@@ -106,4 +138,4 @@ recognized all eleven required terms. The separate expanded test covers all
 89 distinct English phrases, including ER, Rough ER, SOD and Permanent cells.
 Diagnostic spelling variations in ASR do not by themselves establish a speech
 error. Both review records now identify the final-master audio fingerprint.
-Encoded QA remains pending until the complete MP4 finishes rendering.
+The completed final MP4 passed the encoded and playback checks described above.

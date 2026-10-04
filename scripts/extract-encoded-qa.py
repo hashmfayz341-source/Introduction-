@@ -13,7 +13,15 @@ args=parser.parse_args()
 manifest=json.loads(Path(args.manifest).read_text())
 base=Path(args.output);base.mkdir(parents=True,exist_ok=True)
 unique=sorted(set(r['globalFrame'] for r in manifest))
-expression='+'.join(f'eq(n,{frame})' for frame in unique)
+def balanced_selection(frames):
+    # FFmpeg limits expression recursion. A linear sum fails for large QA sets;
+    # a balanced sum preserves the same selection with logarithmic depth.
+    if len(frames) == 1:
+        return f'eq(n,{frames[0]})'
+    middle = len(frames) // 2
+    return f'({balanced_selection(frames[:middle])}+{balanced_selection(frames[middle:])})'
+
+expression=balanced_selection(unique)
 subprocess.run(['ffmpeg','-v','error','-xerror','-y','-i',args.video,'-map','0:v:0','-vf',f"select='{expression}'",
                 '-fps_mode','vfr','-q:v','2',str(base/'frame-%03d.jpg')],check=True)
 for r in manifest:
