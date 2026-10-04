@@ -27,9 +27,9 @@
     "necrosis",
     "apoptosis"
   ],
-  "reviewNote": "Saudi Arabic was recorded as 72 full narration beats. Latin medical phrases were replaced by 167 native English recordings with sample-accurate edits, volume matching and 5 ms fades. Excess service-added leading/trailing silence was removed without shortening word intervals or internal sentence pauses. All 11 critical English terms were recognized in an independent English-language ASR test of the recorded master. A second complete automated review after silence correction processed all 72 beats and again recognized the eleven required native English medical terms. Direct human listening is unavailable and is not claimed.",
+  "reviewNote": "Final recording uses unchanged Saudi Arabic from ar-SA-HamedNeural and single-language en-US-AndrewNeural for English. An expanded 89-phrase review motivated the voice change; its pilot improved ER, Rough ER, SOD and Permanent cells and recognized all eleven required medical terms. Full final-master ASR and encoded QA are recorded separately. Direct human listening is unavailable and is not claimed.",
   "rate": "-3%",
-  "englishVoice": "en-US-AndrewMultilingualNeural",
+  "englishVoice": "en-US-AndrewNeural",
   "englishRate": "-3%",
   "instructionsApplied": false,
   "fallbackReason": "OpenAI Platform rejected project/key target access; no usable higher-quality speech provider or credential was available. User explicitly permitted Edge only as a last resort.",
@@ -51,8 +51,8 @@
     },
     {
       "term": "all Latin medical phrases",
-      "spokenForm": "en-US-AndrewMultilingualNeural English segments",
-      "reason": "Replace the Saudi voice's unclear mixed-language pronunciations; preserve fluent Saudi Arabic around them."
+      "spokenForm": "en-US-AndrewNeural English segments",
+      "reason": "Single-language English avoids the multilingual voice's unstable short acronym/anatomy readings; Saudi Arabic body remains intact."
     }
   ]
 }

@@ -1,0 +1,1503 @@
+{
+  "method": "Independent Whisper small/int8 English-language recognition of all distinct native English phrases cropped from the real master",
+  "directListeningAvailable": false,
+  "audioSha256": "c7481186456c01eb10dca5fc5628fbe6e67dd2cfc202a8713b204b04ee38ccd0",
+  "phrases": [
+    {
+      "phrase": "Homeostasis",
+      "sourceStartSeconds": 9.480458333333333,
+      "sourceEndSeconds": 10.73425,
+      "batchStartSeconds": 0.0,
+      "batchEndSeconds": 1.2537916666666666
+    },
+    {
+      "phrase": "Cell membrane",
+      "sourceStartSeconds": 23.178916666666666,
+      "sourceEndSeconds": 24.095541666666666,
+      "batchStartSeconds": 1.6037916666666667,
+      "batchEndSeconds": 2.5204166666666667
+    },
+    {
+      "phrase": "Mitochondria",
+      "sourceStartSeconds": 29.546791666666667,
+      "sourceEndSeconds": 30.52625,
+      "batchStartSeconds": 2.870416666666667,
+      "batchEndSeconds": 3.849875
+    },
+    {
+      "phrase": "A T P",
+      "sourceStartSeconds": 30.977291666666666,
+      "sourceEndSeconds": 31.88179166666667,
+      "batchStartSeconds": 4.199875,
+      "batchEndSeconds": 5.104375
+    },
+    {
+      "phrase": "Nucleus",
+      "sourceStartSeconds": 36.32633333333333,
+      "sourceEndSeconds": 37.13945833333333,
+      "batchStartSeconds": 5.454375,
+      "batchEndSeconds": 6.2675
+    },
+    {
+      "phrase": "D N A",
+      "sourceStartSeconds": 38.91641666666667,
+      "sourceEndSeconds": 39.7605,
+      "batchStartSeconds": 6.6175,
+      "batchEndSeconds": 7.4615833333333335
+    },
+    {
+      "phrase": "Labile cells",
+      "sourceStartSeconds": 50.34579166666666,
+      "sourceEndSeconds": 51.312416666666664,
+      "batchStartSeconds": 7.811583333333333,
+      "batchEndSeconds": 8.778208333333334
+    },
+    {
+      "phrase": "Stable cells",
+      "sourceStartSeconds": 53.654666666666664,
+      "sourceEndSeconds": 54.77129166666667,
+      "batchStartSeconds": 9.128208333333333,
+      "batchEndSeconds": 10.244833333333334
+    },
+    {
+      "phrase": "Permanent cells",
+      "sourceStartSeconds": 61.30479166666667,
+      "sourceEndSeconds": 62.446416666666664,
+      "batchStartSeconds": 10.594833333333334,
+      "batchEndSeconds": 11.736458333333333
+    },
+    {
+      "phrase": "Adaptation",
+      "sourceStartSeconds": 98.397,
+      "sourceEndSeconds": 99.31358333333333,
+      "batchStartSeconds": 12.086458333333333,
+      "batchEndSeconds": 13.003041666666666
+    },
+    {
+      "phrase": "Hypertrophy",
+      "sourceStartSeconds": 108.13583333333334,
+      "sourceEndSeconds": 109.104125,
+      "batchStartSeconds": 13.353041666666666,
+      "batchEndSeconds": 14.321333333333333
+    },
+    {
+      "phrase": "Atrophy",
+      "sourceStartSeconds": 116.09016666666666,
+      "sourceEndSeconds": 116.79520833333333,
+      "batchStartSeconds": 14.671333333333333,
+      "batchEndSeconds": 15.376375
+    },
+    {
+      "phrase": "Hyperplasia",
+      "sourceStartSeconds": 124.87733333333334,
+      "sourceEndSeconds": 125.86366666666666,
+      "batchStartSeconds": 15.726375,
+      "batchEndSeconds": 16.71270833333333
+    },
+    {
+      "phrase": "Metaplasia",
+      "sourceStartSeconds": 131.11004166666666,
+      "sourceEndSeconds": 131.97429166666666,
+      "batchStartSeconds": 17.062708333333333,
+      "batchEndSeconds": 17.926958333333335
+    },
+    {
+      "phrase": "Cell injury",
+      "sourceStartSeconds": 152.377125,
+      "sourceEndSeconds": 153.29970833333334,
+      "batchStartSeconds": 18.276958333333333,
+      "batchEndSeconds": 19.199541666666665
+    },
+    {
+      "phrase": "Stress",
+      "sourceStartSeconds": 161.30291666666668,
+      "sourceEndSeconds": 162.03341666666665,
+      "batchStartSeconds": 19.549541666666666,
+      "batchEndSeconds": 20.280041666666666
+    },
+    {
+      "phrase": "Injury",
+      "sourceStartSeconds": 165.02308333333335,
+      "sourceEndSeconds": 165.62345833333333,
+      "batchStartSeconds": 20.630041666666667,
+      "batchEndSeconds": 21.230416666666667
+    },
+    {
+      "phrase": "Reversible injury",
+      "sourceStartSeconds": 181.73783333333333,
+      "sourceEndSeconds": 182.82516666666666,
+      "batchStartSeconds": 21.580416666666668,
+      "batchEndSeconds": 22.66775
+    },
+    {
+      "phrase": "Cellular swelling",
+      "sourceStartSeconds": 193.276375,
+      "sourceEndSeconds": 194.323625,
+      "batchStartSeconds": 23.01775,
+      "batchEndSeconds": 24.065
+    },
+    {
+      "phrase": "Membrane blebs",
+      "sourceStartSeconds": 196.29216666666667,
+      "sourceEndSeconds": 197.42166666666665,
+      "batchStartSeconds": 24.415,
+      "batchEndSeconds": 25.5445
+    },
+    {
+      "phrase": "Reversible",
+      "sourceStartSeconds": 210.78745833333332,
+      "sourceEndSeconds": 211.54841666666667,
+      "batchStartSeconds": 25.8945,
+      "batchEndSeconds": 26.655458333333332
+    },
+    {
+      "phrase": "Irreversible injury",
+      "sourceStartSeconds": 223.686375,
+      "sourceEndSeconds": 224.95341666666667,
+      "batchStartSeconds": 27.005458333333333,
+      "batchEndSeconds": 28.2725
+    },
+    {
+      "phrase": "Hypoxia",
+      "sourceStartSeconds": 245.35941666666668,
+      "sourceEndSeconds": 246.23808333333332,
+      "batchStartSeconds": 28.6225,
+      "batchEndSeconds": 29.501166666666666
+    },
+    {
+      "phrase": "Ischemia",
+      "sourceStartSeconds": 249.78191666666666,
+      "sourceEndSeconds": 250.57675,
+      "batchStartSeconds": 29.851166666666668,
+      "batchEndSeconds": 30.646
+    },
+    {
+      "phrase": "Down syndrome",
+      "sourceStartSeconds": 309.9823333333333,
+      "sourceEndSeconds": 310.89954166666666,
+      "batchStartSeconds": 30.996,
+      "batchEndSeconds": 31.913208333333333
+    },
+    {
+      "phrase": "Sickle cell anemia",
+      "sourceStartSeconds": 311.220375,
+      "sourceEndSeconds": 312.4370833333333,
+      "batchStartSeconds": 32.26320833333333,
+      "batchEndSeconds": 33.47991666666667
+    },
+    {
+      "phrase": "Mediterranean disease",
+      "sourceStartSeconds": 312.82233333333335,
+      "sourceEndSeconds": 314.14004166666666,
+      "batchStartSeconds": 33.82991666666667,
+      "batchEndSeconds": 35.147625
+    },
+    {
+      "phrase": "Cell membranes",
+      "sourceStartSeconds": 346.2241666666667,
+      "sourceEndSeconds": 347.34095833333333,
+      "batchStartSeconds": 35.497625,
+      "batchEndSeconds": 36.61441666666666
+    },
+    {
+      "phrase": "Endoplasmic reticulum",
+      "sourceStartSeconds": 364.43854166666665,
+      "sourceEndSeconds": 366.1855,
+      "batchStartSeconds": 36.964416666666665,
+      "batchEndSeconds": 38.711375
+    },
+    {
+      "phrase": "E R",
+      "sourceStartSeconds": 366.5192083333333,
+      "sourceEndSeconds": 367.138625,
+      "batchStartSeconds": 39.061375,
+      "batchEndSeconds": 39.680791666666664
+    },
+    {
+      "phrase": "Ribosomes",
+      "sourceStartSeconds": 372.345,
+      "sourceEndSeconds": 373.2745,
+      "batchStartSeconds": 40.030791666666666,
+      "batchEndSeconds": 40.96029166666667
+    },
+    {
+      "phrase": "Cytoskeleton",
+      "sourceStartSeconds": 376.688125,
+      "sourceEndSeconds": 377.74066666666664,
+      "batchStartSeconds": 41.310291666666664,
+      "batchEndSeconds": 42.362833333333334
+    },
+    {
+      "phrase": "Ischemic injury",
+      "sourceStartSeconds": 416.525,
+      "sourceEndSeconds": 417.5744583333333,
+      "batchStartSeconds": 42.712833333333336,
+      "batchEndSeconds": 43.76229166666667
+    },
+    {
+      "phrase": "Oxidative phosphorylation",
+      "sourceStartSeconds": 422.8598333333333,
+      "sourceEndSeconds": 424.70216666666664,
+      "batchStartSeconds": 44.112291666666664,
+      "batchEndSeconds": 45.954625
+    },
+    {
+      "phrase": "A T P depletion",
+      "sourceStartSeconds": 433.9818333333333,
+      "sourceEndSeconds": 435.2905,
+      "batchStartSeconds": 46.304625,
+      "batchEndSeconds": 47.61329166666667
+    },
+    {
+      "phrase": "Cyanide",
+      "sourceStartSeconds": 449.400875,
+      "sourceEndSeconds": 450.11541666666665,
+      "batchStartSeconds": 47.96329166666667,
+      "batchEndSeconds": 48.67783333333333
+    },
+    {
+      "phrase": "Necrosis",
+      "sourceStartSeconds": 462.793625,
+      "sourceEndSeconds": 463.73604166666667,
+      "batchStartSeconds": 49.027833333333334,
+      "batchEndSeconds": 49.97025
+    },
+    {
+      "phrase": "sodium potassium A T P ace",
+      "sourceStartSeconds": 481.24145833333336,
+      "sourceEndSeconds": 484.222375,
+      "batchStartSeconds": 50.32025,
+      "batchEndSeconds": 53.30116666666667
+    },
+    {
+      "phrase": "Microvilli",
+      "sourceStartSeconds": 527.32275,
+      "sourceEndSeconds": 528.2522916666667,
+      "batchStartSeconds": 53.65116666666667,
+      "batchEndSeconds": 54.580708333333334
+    },
+    {
+      "phrase": "Anaerobic glycolysis",
+      "sourceStartSeconds": 563.0611666666666,
+      "sourceEndSeconds": 564.7843333333333,
+      "batchStartSeconds": 54.930708333333335,
+      "batchEndSeconds": 56.653875
+    },
+    {
+      "phrase": "Glycogen",
+      "sourceStartSeconds": 579.9942083333333,
+      "sourceEndSeconds": 580.73,
+      "batchStartSeconds": 57.003875,
+      "batchEndSeconds": 57.739666666666665
+    },
+    {
+      "phrase": "Lactate",
+      "sourceStartSeconds": 585.3307083333333,
+      "sourceEndSeconds": 585.9445833333333,
+      "batchStartSeconds": 58.089666666666666,
+      "batchEndSeconds": 58.703541666666666
+    },
+    {
+      "phrase": "P H",
+      "sourceStartSeconds": 587.0127916666667,
+      "sourceEndSeconds": 587.7420416666666,
+      "batchStartSeconds": 59.05354166666667,
+      "batchEndSeconds": 59.78279166666667
+    },
+    {
+      "phrase": "Acidosis",
+      "sourceStartSeconds": 597.8657083333334,
+      "sourceEndSeconds": 598.9579166666666,
+      "batchStartSeconds": 60.13279166666667,
+      "batchEndSeconds": 61.225
+    },
+    {
+      "phrase": "Chromatin",
+      "sourceStartSeconds": 602.7323333333334,
+      "sourceEndSeconds": 603.2999166666667,
+      "batchStartSeconds": 61.575,
+      "batchEndSeconds": 62.142583333333334
+    },
+    {
+      "phrase": "Rough E R",
+      "sourceStartSeconds": 636.69475,
+      "sourceEndSeconds": 638.0122916666667,
+      "batchStartSeconds": 62.492583333333336,
+      "batchEndSeconds": 63.810125
+    },
+    {
+      "phrase": "Protein synthesis",
+      "sourceStartSeconds": 662.517875,
+      "sourceEndSeconds": 663.9845833333334,
+      "batchStartSeconds": 64.160125,
+      "batchEndSeconds": 65.62683333333334
+    },
+    {
+      "phrase": "Cytosol",
+      "sourceStartSeconds": 718.1712083333333,
+      "sourceEndSeconds": 718.9251666666667,
+      "batchStartSeconds": 65.97683333333333,
+      "batchEndSeconds": 66.73079166666666
+    },
+    {
+      "phrase": "Calcium influx",
+      "sourceStartSeconds": 724.8361666666667,
+      "sourceEndSeconds": 726.02775,
+      "batchStartSeconds": 67.08079166666667,
+      "batchEndSeconds": 68.272375
+    },
+    {
+      "phrase": "Phospholipases",
+      "sourceStartSeconds": 736.1462916666667,
+      "sourceEndSeconds": 737.343125,
+      "batchStartSeconds": 68.622375,
+      "batchEndSeconds": 69.81920833333334
+    },
+    {
+      "phrase": "Proteases",
+      "sourceStartSeconds": 741.660375,
+      "sourceEndSeconds": 742.619625,
+      "batchStartSeconds": 70.16920833333333,
+      "batchEndSeconds": 71.12845833333333
+    },
+    {
+      "phrase": "Endonucleases",
+      "sourceStartSeconds": 752.9650416666667,
+      "sourceEndSeconds": 754.3695416666667,
+      "batchStartSeconds": 71.47845833333334,
+      "batchEndSeconds": 72.88295833333333
+    },
+    {
+      "phrase": "A T P aces",
+      "sourceStartSeconds": 756.8715416666666,
+      "sourceEndSeconds": 758.25125,
+      "batchStartSeconds": 73.23295833333333,
+      "batchEndSeconds": 74.61266666666667
+    },
+    {
+      "phrase": "Mitochondrial dysfunction",
+      "sourceStartSeconds": 772.9292083333333,
+      "sourceEndSeconds": 774.4945,
+      "batchStartSeconds": 74.96266666666666,
+      "batchEndSeconds": 76.52795833333333
+    },
+    {
+      "phrase": "Apoptosis",
+      "sourceStartSeconds": 780.267875,
+      "sourceEndSeconds": 781.3604583333333,
+      "batchStartSeconds": 76.87795833333334,
+      "batchEndSeconds": 77.97054166666666
+    },
+    {
+      "phrase": "Caspases",
+      "sourceStartSeconds": 784.5420833333334,
+      "sourceEndSeconds": 785.4587083333333,
+      "batchStartSeconds": 78.32054166666667,
+      "batchEndSeconds": 79.23716666666667
+    },
+    {
+      "phrase": "Reactive oxygen species",
+      "sourceStartSeconds": 796.281125,
+      "sourceEndSeconds": 798.388625,
+      "batchStartSeconds": 79.58716666666666,
+      "batchEndSeconds": 81.69466666666666
+    },
+    {
+      "phrase": "Inner mitochondrial membrane",
+      "sourceStartSeconds": 813.203625,
+      "sourceEndSeconds": 814.9411666666666,
+      "batchStartSeconds": 82.04466666666667,
+      "batchEndSeconds": 83.78220833333333
+    },
+    {
+      "phrase": "Outer mitochondrial membrane",
+      "sourceStartSeconds": 831.15875,
+      "sourceEndSeconds": 832.8859166666666,
+      "batchStartSeconds": 84.13220833333334,
+      "batchEndSeconds": 85.859375
+    },
+    {
+      "phrase": "Cytochrome c",
+      "sourceStartSeconds": 836.0289166666666,
+      "sourceEndSeconds": 837.2268333333334,
+      "batchStartSeconds": 86.209375,
+      "batchEndSeconds": 87.40729166666667
+    },
+    {
+      "phrase": "R O S",
+      "sourceStartSeconds": 872.0535,
+      "sourceEndSeconds": 873.3458333333333,
+      "batchStartSeconds": 87.75729166666666,
+      "batchEndSeconds": 89.049625
+    },
+    {
+      "phrase": "Superoxide",
+      "sourceStartSeconds": 873.9888333333333,
+      "sourceEndSeconds": 874.9805,
+      "batchStartSeconds": 89.399625,
+      "batchEndSeconds": 90.39129166666666
+    },
+    {
+      "phrase": "Hydroxyl radicals",
+      "sourceStartSeconds": 875.135125,
+      "sourceEndSeconds": 876.6030833333333,
+      "batchStartSeconds": 90.74129166666667,
+      "batchEndSeconds": 92.20925
+    },
+    {
+      "phrase": "Hydrogen peroxide",
+      "sourceStartSeconds": 881.3051666666667,
+      "sourceEndSeconds": 882.7218333333333,
+      "batchStartSeconds": 92.55925,
+      "batchEndSeconds": 93.97591666666666
+    },
+    {
+      "phrase": "Free radical",
+      "sourceStartSeconds": 883.9043333333333,
+      "sourceEndSeconds": 884.8255833333334,
+      "batchStartSeconds": 94.32591666666667,
+      "batchEndSeconds": 95.24716666666667
+    },
+    {
+      "phrase": "Oxidative stress",
+      "sourceStartSeconds": 889.0364166666667,
+      "sourceEndSeconds": 890.3780833333333,
+      "batchStartSeconds": 95.59716666666667,
+      "batchEndSeconds": 96.93883333333333
+    },
+    {
+      "phrase": "Reperfusion",
+      "sourceStartSeconds": 899.0069583333334,
+      "sourceEndSeconds": 899.9131666666667,
+      "batchStartSeconds": 97.28883333333333,
+      "batchEndSeconds": 98.19504166666667
+    },
+    {
+      "phrase": "Lipid peroxidation",
+      "sourceStartSeconds": 909.7835833333334,
+      "sourceEndSeconds": 911.140625,
+      "batchStartSeconds": 98.54504166666666,
+      "batchEndSeconds": 99.90208333333334
+    },
+    {
+      "phrase": "Protein oxidation",
+      "sourceStartSeconds": 914.2220416666667,
+      "sourceEndSeconds": 915.6702083333333,
+      "batchStartSeconds": 100.25208333333333,
+      "batchEndSeconds": 101.70025
+    },
+    {
+      "phrase": "Superoxide dismutase",
+      "sourceStartSeconds": 956.0149583333333,
+      "sourceEndSeconds": 957.8722083333333,
+      "batchStartSeconds": 102.05025,
+      "batchEndSeconds": 103.9075
+    },
+    {
+      "phrase": "S O D",
+      "sourceStartSeconds": 958.1801666666667,
+      "sourceEndSeconds": 959.3203333333333,
+      "batchStartSeconds": 104.2575,
+      "batchEndSeconds": 105.39766666666667
+    },
+    {
+      "phrase": "Catalase",
+      "sourceStartSeconds": 970.8234166666666,
+      "sourceEndSeconds": 971.6335,
+      "batchStartSeconds": 105.74766666666666,
+      "batchEndSeconds": 106.55775
+    },
+    {
+      "phrase": "Glutathione peroxidase",
+      "sourceStartSeconds": 971.7495,
+      "sourceEndSeconds": 973.6746666666667,
+      "batchStartSeconds": 106.90775,
+      "batchEndSeconds": 108.83291666666666
+    },
+    {
+      "phrase": "Glutathione",
+      "sourceStartSeconds": 976.0160833333333,
+      "sourceEndSeconds": 977.0102083333334,
+      "batchStartSeconds": 109.18291666666667,
+      "batchEndSeconds": 110.17704166666667
+    },
+    {
+      "phrase": "Carotenoids",
+      "sourceStartSeconds": 987.861125,
+      "sourceEndSeconds": 988.8406666666667,
+      "batchStartSeconds": 110.52704166666666,
+      "batchEndSeconds": 111.50658333333334
+    },
+    {
+      "phrase": "E",
+      "sourceStartSeconds": 989.9604583333333,
+      "sourceEndSeconds": 990.2902916666667,
+      "batchStartSeconds": 111.85658333333333,
+      "batchEndSeconds": 112.18641666666667
+    },
+    {
+      "phrase": "C",
+      "sourceStartSeconds": 990.4320416666667,
+      "sourceEndSeconds": 990.8813333333334,
+      "batchStartSeconds": 112.53641666666667,
+      "batchEndSeconds": 112.98570833333333
+    },
+    {
+      "phrase": "Flavonoids",
+      "sourceStartSeconds": 991.1892916666667,
+      "sourceEndSeconds": 992.0592083333333,
+      "batchStartSeconds": 113.33570833333333,
+      "batchEndSeconds": 114.205625
+    },
+    {
+      "phrase": "Selenium",
+      "sourceStartSeconds": 993.0857083333333,
+      "sourceEndSeconds": 993.8149166666667,
+      "batchStartSeconds": 114.555625,
+      "batchEndSeconds": 115.28483333333334
+    },
+    {
+      "phrase": "Zinc",
+      "sourceStartSeconds": 993.9566666666667,
+      "sourceEndSeconds": 994.5015416666666,
+      "batchStartSeconds": 115.63483333333333,
+      "batchEndSeconds": 116.17970833333334
+    },
+    {
+      "phrase": "Phospholipids",
+      "sourceStartSeconds": 1029.724125,
+      "sourceEndSeconds": 1030.7967916666666,
+      "batchStartSeconds": 116.52970833333333,
+      "batchEndSeconds": 117.602375
+    },
+    {
+      "phrase": "Membrane damage",
+      "sourceStartSeconds": 1040.5304583333334,
+      "sourceEndSeconds": 1041.6397083333334,
+      "batchStartSeconds": 117.952375,
+      "batchEndSeconds": 119.061625
+    },
+    {
+      "phrase": "Plasma membrane",
+      "sourceStartSeconds": 1046.6445416666666,
+      "sourceEndSeconds": 1047.7944583333333,
+      "batchStartSeconds": 119.411625,
+      "batchEndSeconds": 120.56154166666667
+    },
+    {
+      "phrase": "Lysosomes",
+      "sourceStartSeconds": 1069.2629583333332,
+      "sourceEndSeconds": 1070.3973333333333,
+      "batchStartSeconds": 120.91154166666666,
+      "batchEndSeconds": 122.04591666666667
+    },
+    {
+      "phrase": "Misfolded proteins",
+      "sourceStartSeconds": 1138.5287083333333,
+      "sourceEndSeconds": 1140.1224583333333,
+      "batchStartSeconds": 122.39591666666666,
+      "batchEndSeconds": 123.98966666666666
+    },
+    {
+      "phrase": "Inflammation",
+      "sourceStartSeconds": 1182.4952083333333,
+      "sourceEndSeconds": 1183.411875,
+      "batchStartSeconds": 124.33966666666667,
+      "batchEndSeconds": 125.25633333333333
+    },
+    {
+      "phrase": "Amorphous densities",
+      "sourceStartSeconds": 1201.1799583333334,
+      "sourceEndSeconds": 1202.596625,
+      "batchStartSeconds": 125.60633333333334,
+      "batchEndSeconds": 127.023
+    },
+    {
+      "phrase": "Myelin figures",
+      "sourceStartSeconds": 1290.3792916666666,
+      "sourceEndSeconds": 1291.6104583333333,
+      "batchStartSeconds": 127.373,
+      "batchEndSeconds": 128.60416666666666
+    },
+    {
+      "phrase": "Glycolysis",
+      "sourceStartSeconds": 1339.853125,
+      "sourceEndSeconds": 1340.919875,
+      "batchStartSeconds": 128.95416666666668,
+      "batchEndSeconds": 130.02091666666666
+    }
+  ],
+  "recognition": [
+    {
+      "startSeconds": 0.0,
+      "endSeconds": 9.92,
+      "text": " homeostasis. Cell membrane. Mitochondria. ATP. Nucleus. DNA. Label cells. Stable cells.",
+      "words": [
+        {
+          "text": " homeostasis.",
+          "startSeconds": 0.0,
+          "endSeconds": 0.94,
+          "probability": 0.7210980206727982
+        },
+        {
+          "text": " Cell",
+          "startSeconds": 1.54,
+          "endSeconds": 1.88,
+          "probability": 0.6854120492935181
+        },
+        {
+          "text": " membrane.",
+          "startSeconds": 1.88,
+          "endSeconds": 2.26,
+          "probability": 0.9711812138557434
+        },
+        {
+          "text": " Mitochondria.",
+          "startSeconds": 2.86,
+          "endSeconds": 3.68,
+          "probability": 0.8418859243392944
+        },
+        {
+          "text": " ATP.",
+          "startSeconds": 4.14,
+          "endSeconds": 4.58,
+          "probability": 0.9749123454093933
+        },
+        {
+          "text": " Nucleus.",
+          "startSeconds": 5.5,
+          "endSeconds": 6.1,
+          "probability": 0.9805881977081299
+        },
+        {
+          "text": " DNA.",
+          "startSeconds": 6.66,
+          "endSeconds": 7.12,
+          "probability": 0.6550836563110352
+        },
+        {
+          "text": " Label",
+          "startSeconds": 7.86,
+          "endSeconds": 8.12,
+          "probability": 0.9677815139293671
+        },
+        {
+          "text": " cells.",
+          "startSeconds": 8.12,
+          "endSeconds": 8.42,
+          "probability": 0.9857293367385864
+        },
+        {
+          "text": " Stable",
+          "startSeconds": 9.18,
+          "endSeconds": 9.5,
+          "probability": 0.9942385256290436
+        },
+        {
+          "text": " cells.",
+          "startSeconds": 9.5,
+          "endSeconds": 9.92,
+          "probability": 0.998604953289032
+        }
+      ]
+    },
+    {
+      "startSeconds": 10.68,
+      "endSeconds": 19.88,
+      "text": " Feminal cells. Adaptation. Hypertrophy. Atrophy. Hyperplasia. Metaplasia. Cell injury. Stress.",
+      "words": [
+        {
+          "text": " Feminal",
+          "startSeconds": 10.68,
+          "endSeconds": 10.96,
+          "probability": 0.32674407958984375
+        },
+        {
+          "text": " cells.",
+          "startSeconds": 10.96,
+          "endSeconds": 11.36,
+          "probability": 0.6589246988296509
+        },
+        {
+          "text": " Adaptation.",
+          "startSeconds": 12.14,
+          "endSeconds": 12.84,
+          "probability": 0.9858513176441193
+        },
+        {
+          "text": " Hypertrophy.",
+          "startSeconds": 13.38,
+          "endSeconds": 14.1,
+          "probability": 0.8846911787986755
+        },
+        {
+          "text": " Atrophy.",
+          "startSeconds": 14.72,
+          "endSeconds": 15.12,
+          "probability": 0.9819692969322205
+        },
+        {
+          "text": " Hyperplasia.",
+          "startSeconds": 15.82,
+          "endSeconds": 16.42,
+          "probability": 0.8506986300150553
+        },
+        {
+          "text": " Metaplasia.",
+          "startSeconds": 17.16,
+          "endSeconds": 17.74,
+          "probability": 0.7712889909744263
+        },
+        {
+          "text": " Cell",
+          "startSeconds": 18.34,
+          "endSeconds": 18.6,
+          "probability": 0.9857644438743591
+        },
+        {
+          "text": " injury.",
+          "startSeconds": 18.6,
+          "endSeconds": 18.9,
+          "probability": 0.9907641410827637
+        },
+        {
+          "text": " Stress.",
+          "startSeconds": 19.62,
+          "endSeconds": 19.88,
+          "probability": 0.994264543056488
+        }
+      ]
+    },
+    {
+      "startSeconds": 20.64,
+      "endSeconds": 28.02,
+      "text": " Injury. Reversible injury. Cellular swelling. Membrane blebs. Reversible. Irreversible injury.",
+      "words": [
+        {
+          "text": " Injury.",
+          "startSeconds": 20.64,
+          "endSeconds": 21.06,
+          "probability": 0.9955251415570577
+        },
+        {
+          "text": " Reversible",
+          "startSeconds": 21.68,
+          "endSeconds": 22.06,
+          "probability": 0.834608236948649
+        },
+        {
+          "text": " injury.",
+          "startSeconds": 22.06,
+          "endSeconds": 22.4,
+          "probability": 0.9922578930854797
+        },
+        {
+          "text": " Cellular",
+          "startSeconds": 23.16,
+          "endSeconds": 23.52,
+          "probability": 0.9919533431529999
+        },
+        {
+          "text": " swelling.",
+          "startSeconds": 23.52,
+          "endSeconds": 23.86,
+          "probability": 0.997111439704895
+        },
+        {
+          "text": " Membrane",
+          "startSeconds": 24.5,
+          "endSeconds": 24.84,
+          "probability": 0.9782496889432272
+        },
+        {
+          "text": " blebs.",
+          "startSeconds": 24.84,
+          "endSeconds": 25.28,
+          "probability": 0.8676134943962097
+        },
+        {
+          "text": " Reversible.",
+          "startSeconds": 25.88,
+          "endSeconds": 26.5,
+          "probability": 0.9135787685712179
+        },
+        {
+          "text": " Irreversible",
+          "startSeconds": 27.06,
+          "endSeconds": 27.66,
+          "probability": 0.9940519034862518
+        },
+        {
+          "text": " injury.",
+          "startSeconds": 27.66,
+          "endSeconds": 28.02,
+          "probability": 0.9944241642951965
+        }
+      ]
+    },
+    {
+      "startSeconds": 28.02,
+      "endSeconds": 36.34,
+      "text": " 3. Hypoxia. Ischemia. Down syndrome. Sickle cell anemia. Mediterranean disease. Cell membranes.",
+      "words": [
+        {
+          "text": " 3.",
+          "startSeconds": 28.02,
+          "endSeconds": 28.16,
+          "probability": 0.05343984067440033
+        },
+        {
+          "text": " Hypoxia.",
+          "startSeconds": 28.56,
+          "endSeconds": 29.36,
+          "probability": 0.8448344866434733
+        },
+        {
+          "text": " Ischemia.",
+          "startSeconds": 29.82,
+          "endSeconds": 30.36,
+          "probability": 0.7774682839711508
+        },
+        {
+          "text": " Down",
+          "startSeconds": 31.04,
+          "endSeconds": 31.26,
+          "probability": 0.9728153347969055
+        },
+        {
+          "text": " syndrome.",
+          "startSeconds": 31.26,
+          "endSeconds": 31.72,
+          "probability": 0.94316166639328
+        },
+        {
+          "text": " Sickle",
+          "startSeconds": 32.4,
+          "endSeconds": 32.64,
+          "probability": 0.925076812505722
+        },
+        {
+          "text": " cell",
+          "startSeconds": 32.64,
+          "endSeconds": 32.82,
+          "probability": 0.8230499029159546
+        },
+        {
+          "text": " anemia.",
+          "startSeconds": 32.82,
+          "endSeconds": 33.16,
+          "probability": 0.9723386168479919
+        },
+        {
+          "text": " Mediterranean",
+          "startSeconds": 33.84,
+          "endSeconds": 34.32,
+          "probability": 0.929229199886322
+        },
+        {
+          "text": " disease.",
+          "startSeconds": 34.32,
+          "endSeconds": 34.74,
+          "probability": 0.9790453314781189
+        },
+        {
+          "text": " Cell",
+          "startSeconds": 35.54,
+          "endSeconds": 35.78,
+          "probability": 0.9225355982780457
+        },
+        {
+          "text": " membranes.",
+          "startSeconds": 35.78,
+          "endSeconds": 36.34,
+          "probability": 0.9793932139873505
+        }
+      ]
+    },
+    {
+      "startSeconds": 37.0,
+      "endSeconds": 44.74,
+      "text": " Endoplasmic reticulum. E. adi. Ribosomes. Cytoskeleton. Ischemic injury. Oxidative",
+      "words": [
+        {
+          "text": " Endoplasmic",
+          "startSeconds": 37.0,
+          "endSeconds": 37.84,
+          "probability": 0.971211314201355
+        },
+        {
+          "text": " reticulum.",
+          "startSeconds": 37.84,
+          "endSeconds": 38.56,
+          "probability": 0.9864899714787801
+        },
+        {
+          "text": " E.",
+          "startSeconds": 39.16,
+          "endSeconds": 39.26,
+          "probability": 0.757254421710968
+        },
+        {
+          "text": " adi.",
+          "startSeconds": 39.3,
+          "endSeconds": 39.62,
+          "probability": 0.5446641519665718
+        },
+        {
+          "text": " Ribosomes.",
+          "startSeconds": 40.12,
+          "endSeconds": 40.64,
+          "probability": 0.9781455000241598
+        },
+        {
+          "text": " Cytoskeleton.",
+          "startSeconds": 41.36,
+          "endSeconds": 42.14,
+          "probability": 0.8997762441635132
+        },
+        {
+          "text": " Ischemic",
+          "startSeconds": 42.78,
+          "endSeconds": 43.14,
+          "probability": 0.9720912575721741
+        },
+        {
+          "text": " injury.",
+          "startSeconds": 43.14,
+          "endSeconds": 43.54,
+          "probability": 0.9766040444374084
+        },
+        {
+          "text": " Oxidative",
+          "startSeconds": 44.16,
+          "endSeconds": 44.74,
+          "probability": 0.9743633071581522
+        }
+      ]
+    },
+    {
+      "startSeconds": 44.74,
+      "endSeconds": 54.26,
+      "text": " phosphorylation. ATP depletion. Cyanide. Necrosis. Sodium potassium. ATPase. Microvilli.",
+      "words": [
+        {
+          "text": " phosphorylation.",
+          "startSeconds": 44.74,
+          "endSeconds": 45.74,
+          "probability": 0.9101628462473551
+        },
+        {
+          "text": " ATP",
+          "startSeconds": 46.36,
+          "endSeconds": 46.74,
+          "probability": 0.9585732817649841
+        },
+        {
+          "text": " depletion.",
+          "startSeconds": 46.74,
+          "endSeconds": 47.48,
+          "probability": 0.9869629343350729
+        },
+        {
+          "text": " Cyanide.",
+          "startSeconds": 48.1,
+          "endSeconds": 48.62,
+          "probability": 0.9249558051427206
+        },
+        {
+          "text": " Necrosis.",
+          "startSeconds": 49.12,
+          "endSeconds": 49.74,
+          "probability": 0.9561370809872946
+        },
+        {
+          "text": " Sodium",
+          "startSeconds": 50.38,
+          "endSeconds": 50.76,
+          "probability": 0.9841857552528381
+        },
+        {
+          "text": " potassium.",
+          "startSeconds": 50.76,
+          "endSeconds": 51.34,
+          "probability": 0.7630064487457275
+        },
+        {
+          "text": " ATPase.",
+          "startSeconds": 51.92,
+          "endSeconds": 52.98,
+          "probability": 0.8710117340087891
+        },
+        {
+          "text": " Microvilli.",
+          "startSeconds": 53.7,
+          "endSeconds": 54.26,
+          "probability": 0.6704387466112772
+        }
+      ]
+    },
+    {
+      "startSeconds": 54.26,
+      "endSeconds": 64.64,
+      "text": " Anerobic glycolysis. Glycogen. Lactate. pH. Acidosis. Chromatin. Holfi. E. Addi. Protein",
+      "words": [
+        {
+          "text": " Anerobic",
+          "startSeconds": 54.26,
+          "endSeconds": 55.48,
+          "probability": 0.48727724701166153
+        },
+        {
+          "text": " glycolysis.",
+          "startSeconds": 55.48,
+          "endSeconds": 56.48,
+          "probability": 0.8345915675163269
+        },
+        {
+          "text": " Glycogen.",
+          "startSeconds": 56.94,
+          "endSeconds": 57.6,
+          "probability": 0.979837104678154
+        },
+        {
+          "text": " Lactate.",
+          "startSeconds": 58.08,
+          "endSeconds": 58.62,
+          "probability": 0.966588536898295
+        },
+        {
+          "text": " pH.",
+          "startSeconds": 59.04,
+          "endSeconds": 59.38,
+          "probability": 0.5701588988304138
+        },
+        {
+          "text": " Acidosis.",
+          "startSeconds": 60.2,
+          "endSeconds": 61.08,
+          "probability": 0.9918371041615804
+        },
+        {
+          "text": " Chromatin.",
+          "startSeconds": 61.66,
+          "endSeconds": 61.96,
+          "probability": 0.5829910188913345
+        },
+        {
+          "text": " Holfi.",
+          "startSeconds": 62.54,
+          "endSeconds": 63.14,
+          "probability": 0.47507575154304504
+        },
+        {
+          "text": " E.",
+          "startSeconds": 63.28,
+          "endSeconds": 63.44,
+          "probability": 0.6349203586578369
+        },
+        {
+          "text": " Addi.",
+          "startSeconds": 63.44,
+          "endSeconds": 63.74,
+          "probability": 0.40023835003376007
+        },
+        {
+          "text": " Protein",
+          "startSeconds": 64.18,
+          "endSeconds": 64.64,
+          "probability": 0.9806105196475983
+        }
+      ]
+    },
+    {
+      "startSeconds": 64.64,
+      "endSeconds": 83.08,
+      "text": " synthesis. Cytosol. Calcium influx. Phospholipides. Proteases. Endonucleases. ATPases. Mitochondrial",
+      "words": [
+        {
+          "text": " synthesis.",
+          "startSeconds": 64.64,
+          "endSeconds": 65.12,
+          "probability": 0.6357827186584473
+        },
+        {
+          "text": " Cytosol.",
+          "startSeconds": 66.1,
+          "endSeconds": 66.6,
+          "probability": 0.8570873290300369
+        },
+        {
+          "text": " Calcium",
+          "startSeconds": 67.16,
+          "endSeconds": 67.5,
+          "probability": 0.9911888241767883
+        },
+        {
+          "text": " influx.",
+          "startSeconds": 67.5,
+          "endSeconds": 67.98,
+          "probability": 0.9822035431861877
+        },
+        {
+          "text": " Phospholipides.",
+          "startSeconds": 68.7,
+          "endSeconds": 69.38,
+          "probability": 0.7385816693305969
+        },
+        {
+          "text": " Proteases.",
+          "startSeconds": 70.02,
+          "endSeconds": 70.78,
+          "probability": 0.9759891927242279
+        },
+        {
+          "text": " Endonucleases.",
+          "startSeconds": 71.56,
+          "endSeconds": 72.48,
+          "probability": 0.9397168755531311
+        },
+        {
+          "text": " ATPases.",
+          "startSeconds": 73.28,
+          "endSeconds": 74.26,
+          "probability": 0.9318967461585999
+        },
+        {
+          "text": " Mitochondrial",
+          "startSeconds": 81.92,
+          "endSeconds": 83.08,
+          "probability": 0.8123705983161926
+        }
+      ]
+    },
+    {
+      "startSeconds": 83.08,
+      "endSeconds": 92.96,
+      "text": " membrane, outer mitochondrial membrane, cytochrome C, ROS, superoxide, hydroxyl radicals, hydrogen",
+      "words": [
+        {
+          "text": " membrane,",
+          "startSeconds": 83.08,
+          "endSeconds": 83.58,
+          "probability": 0.5598440766334534
+        },
+        {
+          "text": " outer",
+          "startSeconds": 84.1,
+          "endSeconds": 84.42,
+          "probability": 0.934104323387146
+        },
+        {
+          "text": " mitochondrial",
+          "startSeconds": 84.42,
+          "endSeconds": 85.22,
+          "probability": 0.9966641366481781
+        },
+        {
+          "text": " membrane,",
+          "startSeconds": 85.22,
+          "endSeconds": 85.66,
+          "probability": 0.9985842704772949
+        },
+        {
+          "text": " cytochrome",
+          "startSeconds": 86.22,
+          "endSeconds": 86.86,
+          "probability": 0.9330023229122162
+        },
+        {
+          "text": " C,",
+          "startSeconds": 86.86,
+          "endSeconds": 87.24,
+          "probability": 0.8666282892227173
+        },
+        {
+          "text": " ROS,",
+          "startSeconds": 87.84,
+          "endSeconds": 88.72,
+          "probability": 0.15685388818383217
+        },
+        {
+          "text": " superoxide,",
+          "startSeconds": 89.38,
+          "endSeconds": 90.2,
+          "probability": 0.9443997740745544
+        },
+        {
+          "text": " hydroxyl",
+          "startSeconds": 90.78,
+          "endSeconds": 91.4,
+          "probability": 0.976430873076121
+        },
+        {
+          "text": " radicals,",
+          "startSeconds": 91.4,
+          "endSeconds": 92.14,
+          "probability": 0.9935409724712372
+        },
+        {
+          "text": " hydrogen",
+          "startSeconds": 92.54,
+          "endSeconds": 92.96,
+          "probability": 0.9926900267601013
+        }
+      ]
+    },
+    {
+      "startSeconds": 92.96,
+      "endSeconds": 102.8,
+      "text": " peroxide, free radical, oxidative stress, reperfusion, lipid peroxidation, protein oxidation, superoxide",
+      "words": [
+        {
+          "text": " peroxide,",
+          "startSeconds": 92.96,
+          "endSeconds": 93.72,
+          "probability": 0.9910635948181152
+        },
+        {
+          "text": " free",
+          "startSeconds": 94.36,
+          "endSeconds": 94.66,
+          "probability": 0.9875046610832214
+        },
+        {
+          "text": " radical,",
+          "startSeconds": 94.66,
+          "endSeconds": 95.04,
+          "probability": 0.9949786067008972
+        },
+        {
+          "text": " oxidative",
+          "startSeconds": 95.7,
+          "endSeconds": 96.12,
+          "probability": 0.9987256228923798
+        },
+        {
+          "text": " stress,",
+          "startSeconds": 96.12,
+          "endSeconds": 96.54,
+          "probability": 0.9980772733688354
+        },
+        {
+          "text": " reperfusion,",
+          "startSeconds": 97.36,
+          "endSeconds": 97.94,
+          "probability": 0.9118955334027609
+        },
+        {
+          "text": " lipid",
+          "startSeconds": 98.56,
+          "endSeconds": 98.9,
+          "probability": 0.992488294839859
+        },
+        {
+          "text": " peroxidation,",
+          "startSeconds": 98.9,
+          "endSeconds": 99.74,
+          "probability": 0.9904391467571259
+        },
+        {
+          "text": " protein",
+          "startSeconds": 100.26,
+          "endSeconds": 100.74,
+          "probability": 0.9970575571060181
+        },
+        {
+          "text": " oxidation,",
+          "startSeconds": 100.74,
+          "endSeconds": 101.38,
+          "probability": 0.9637921452522278
+        },
+        {
+          "text": " superoxide",
+          "startSeconds": 102.12,
+          "endSeconds": 102.8,
+          "probability": 0.9929021596908569
+        }
+      ]
+    },
+    {
+      "startSeconds": 102.8,
+      "endSeconds": 112.8,
+      "text": " dismutase, issa, ovae, catalase, glutathione peroxidase, glutathione, carotenoids, e, c,",
+      "words": [
+        {
+          "text": " dismutase,",
+          "startSeconds": 102.8,
+          "endSeconds": 103.72,
+          "probability": 0.6880110750595728
+        },
+        {
+          "text": " issa,",
+          "startSeconds": 104.18,
+          "endSeconds": 104.72,
+          "probability": 0.4322204738855362
+        },
+        {
+          "text": " ovae,",
+          "startSeconds": 104.96,
+          "endSeconds": 105.36,
+          "probability": 0.2770804092288017
+        },
+        {
+          "text": " catalase,",
+          "startSeconds": 105.74,
+          "endSeconds": 106.3,
+          "probability": 0.875075489282608
+        },
+        {
+          "text": " glutathione",
+          "startSeconds": 107.04,
+          "endSeconds": 107.66,
+          "probability": 0.962748388449351
+        },
+        {
+          "text": " peroxidase,",
+          "startSeconds": 107.66,
+          "endSeconds": 108.6,
+          "probability": 0.9412506222724915
+        },
+        {
+          "text": " glutathione,",
+          "startSeconds": 109.2,
+          "endSeconds": 110.06,
+          "probability": 0.9867653846740723
+        },
+        {
+          "text": " carotenoids,",
+          "startSeconds": 110.62,
+          "endSeconds": 111.34,
+          "probability": 0.9642258137464523
+        },
+        {
+          "text": " e,",
+          "startSeconds": 111.86,
+          "endSeconds": 112.06,
+          "probability": 0.5257951617240906
+        },
+        {
+          "text": " c,",
+          "startSeconds": 112.54,
+          "endSeconds": 112.8,
+          "probability": 0.8463249802589417
+        }
+      ]
+    },
+    {
+      "startSeconds": 113.38,
+      "endSeconds": 121.72,
+      "text": " flavonoids, selenium, zinc, phospholipids, membrane damage, plasma membrane, lysosomes,",
+      "words": [
+        {
+          "text": " flavonoids,",
+          "startSeconds": 113.38,
+          "endSeconds": 114.0,
+          "probability": 0.9223914941151937
+        },
+        {
+          "text": " selenium,",
+          "startSeconds": 114.68,
+          "endSeconds": 115.14,
+          "probability": 0.9963944554328918
+        },
+        {
+          "text": " zinc,",
+          "startSeconds": 115.66,
+          "endSeconds": 115.94,
+          "probability": 0.9915144443511963
+        },
+        {
+          "text": " phospholipids,",
+          "startSeconds": 116.56,
+          "endSeconds": 117.38,
+          "probability": 0.9833327084779739
+        },
+        {
+          "text": " membrane",
+          "startSeconds": 117.98,
+          "endSeconds": 118.24,
+          "probability": 0.9938581585884094
+        },
+        {
+          "text": " damage,",
+          "startSeconds": 118.24,
+          "endSeconds": 118.72,
+          "probability": 0.9977093935012817
+        },
+        {
+          "text": " plasma",
+          "startSeconds": 119.38,
+          "endSeconds": 119.8,
+          "probability": 0.9837746620178223
+        },
+        {
+          "text": " membrane,",
+          "startSeconds": 119.8,
+          "endSeconds": 120.24,
+          "probability": 0.9953076243400574
+        },
+        {
+          "text": " lysosomes,",
+          "startSeconds": 121.0,
+          "endSeconds": 121.72,
+          "probability": 0.9827805161476135
+        }
+      ]
+    },
+    {
+      "startSeconds": 122.44,
+      "endSeconds": 129.74,
+      "text": " misfolded proteins, inflammation, amorphous densities, myelin figures, glycolysis.",
+      "words": [
+        {
+          "text": " misfolded",
+          "startSeconds": 122.44,
+          "endSeconds": 123.0,
+          "probability": 0.9401580890019735
+        },
+        {
+          "text": " proteins,",
+          "startSeconds": 123.0,
+          "endSeconds": 123.5,
+          "probability": 0.9959646463394165
+        },
+        {
+          "text": " inflammation,",
+          "startSeconds": 124.34,
+          "endSeconds": 124.84,
+          "probability": 0.9942712783813477
+        },
+        {
+          "text": " amorphous",
+          "startSeconds": 125.66,
+          "endSeconds": 126.16,
+          "probability": 0.9905522465705872
+        },
+        {
+          "text": " densities,",
+          "startSeconds": 126.16,
+          "endSeconds": 126.68,
+          "probability": 0.997523844242096
+        },
+        {
+          "text": " myelin",
+          "startSeconds": 127.44,
+          "endSeconds": 127.8,
+          "probability": 0.969664603471756
+        },
+        {
+          "text": " figures,",
+          "startSeconds": 127.8,
+          "endSeconds": 128.2,
+          "probability": 0.983960747718811
+        },
+        {
+          "text": " glycolysis.",
+          "startSeconds": 129.04,
+          "endSeconds": 129.74,
+          "probability": 0.9893717765808105
+        }
+      ]
+    }
+  ]
+}

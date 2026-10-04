@@ -51,7 +51,7 @@ The user's explicit last-resort exception therefore permits Microsoft Edge neura
 speech; this is not represented as OpenAI or a human recording.
 
 - Arabic voice: `ar-SA-HamedNeural`, adult Saudi male, rate `-3%`.
-- English terminology: `en-US-AndrewMultilingualNeural`, rate `-3%`.
+- English terminology: `en-US-AndrewNeural`, rate `-3%`.
 - 72 complete Saudi Arabic beats retain sentence prosody. Their Latin medical
   phrases are replaced with 167 independently recorded native English segments.
 - Language joins use measured words, short acoustic guards, volume matching and
@@ -61,8 +61,8 @@ speech; this is not represented as OpenAI or a human recording.
 - `Na+/K+ ATPase` is spoken as sodium potassium A T P ace; ATPases uses
   A T P aces. ATP, DNA, ER, ROS, SOD and pH use explicit English letters.
 
-The corrected master has **33,805,576 samples at 24,000 Hz**,
-**1408.565667 seconds**, with **42,257 video frames**
+The corrected master has **33,347,090 samples at 24,000 Hz**,
+**1389.462083 seconds**, with **41,684 video frames**
 after rounding up. `public/audio/narration-ar.wav` is the included real audio;
 `src/data/timeline.ar.json` and `public/audio/timing.ar.json` contain the same
 measured timeline. `public/audio/recordings.ar.json` records the recording and edit

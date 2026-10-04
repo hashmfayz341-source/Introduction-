@@ -13,7 +13,7 @@ English backup: [Download the narrated 1080p MP4](https://github.com/hashmfayz34
 
 The Arabic upgrade preserves all 18 existing scene designs and the English backup.
 It uses Saudi Arabic narration (`ar-SA-HamedNeural`) with native English medical
-terms (`en-US-AndrewMultilingualNeural`), recorded through Microsoft Edge neural
+terms (`en-US-AndrewNeural`), recorded through Microsoft Edge neural
 speech under the requested last-resort exception. The preferred OpenAI connection
 was unavailable. No human recording or direct listening review is claimed.
 
@@ -26,8 +26,8 @@ npm run render:ar
 
 Select **CellInjuryArabic**, or **LabAr-*** for individual mechanisms.
 Output: **out/cell-injury-ar.mp4**, 1920×1080, 30 fps, H.264/AAC, BT.709.
-The real master is **1408.565667 seconds**, **42,257 frames**
-(23.476 minutes). All 18 scene lengths, 72 beat anchors and
+The real master is **1389.462083 seconds**, **41,684 frames**
+(23.158 minutes). All 18 scene lengths, 72 beat anchors and
 75 internal mechanism events follow measured audio rather than the English duration.
 
 Arabic script: `src/data/lesson.ar.json`, `docs/narration-ar.md`.

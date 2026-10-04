@@ -9,10 +9,10 @@ encoded lesson. English source/audio/timing remain byte-identical to `cell-injur
 Microsoft Edge neural speech was used under the user's explicit last-resort
 exception after preferred-provider authentication and available voice checks failed.
 Saudi Arabic uses `ar-SA-HamedNeural`; English terms use
-`en-US-AndrewMultilingualNeural`, both at `-3%`.
+`en-US-AndrewNeural`, both at `-3%`.
 
-The corrected master has 33,805,576 samples at 24 kHz, 1408.565666667 seconds;
-the composition has 42,257 frames at 30 fps, 23:28.566667. All 72 beats and
+The corrected master has 33,347,090 samples at 24 kHz, 1389.462083333 seconds;
+the composition has 41,684 frames at 30 fps, 23:09.466667. All 72 beats and
 75 mechanism event cues are measured from recorded words and actual PCM joins.
 There are 167 native English term segments and 2,292 real spoken word boundaries.
 
@@ -85,3 +85,14 @@ Final encoded media, audio/AAC synchronization, transition inspection and actual
 browser playback are the remaining checks before release publication. Those
 results will be recorded here and in `qa/arabic/*.json`; the still review above
 does not falsely certify an unrendered MP4.
+
+## Final English voice correction
+
+The expanded 89-phrase review exposed unstable recognition of ER, Rough ER, SOD
+and Permanent cells with the multilingual English voice. A single-language Andrew
+pilot improved these while retaining all critical terms. The initial encoding was
+stopped before completion; all English segments were re-recorded using
+`en-US-AndrewNeural`, the Saudi Arabic body was retained, and all 18 scene timelines
+were recomputed from the new PCM. Final-master automated/encoded QA is pending.
+Earlier audio-review JSON identifies its own prior-master fingerprint and is
+superseded by the final review before release.

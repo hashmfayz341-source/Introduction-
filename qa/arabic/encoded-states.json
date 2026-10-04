@@ -874,5 +874,311 @@
     "state": "end",
     "localFrame": 2423,
     "globalFrame": 42212
+  },
+  {
+    "scene": "adaptation",
+    "state": "transition-outgoing",
+    "localFrame": -4,
+    "globalFrame": 2769
+  },
+  {
+    "scene": "adaptation",
+    "state": "transition-black",
+    "localFrame": 0,
+    "globalFrame": 2773
+  },
+  {
+    "scene": "adaptation",
+    "state": "transition-incoming",
+    "localFrame": 8,
+    "globalFrame": 2781
+  },
+  {
+    "scene": "injury-threshold",
+    "state": "transition-outgoing",
+    "localFrame": -4,
+    "globalFrame": 4822
+  },
+  {
+    "scene": "injury-threshold",
+    "state": "transition-black",
+    "localFrame": 0,
+    "globalFrame": 4826
+  },
+  {
+    "scene": "injury-threshold",
+    "state": "transition-incoming",
+    "localFrame": 8,
+    "globalFrame": 4834
+  },
+  {
+    "scene": "causes",
+    "state": "transition-outgoing",
+    "localFrame": -4,
+    "globalFrame": 7256
+  },
+  {
+    "scene": "causes",
+    "state": "transition-black",
+    "localFrame": 0,
+    "globalFrame": 7260
+  },
+  {
+    "scene": "causes",
+    "state": "transition-incoming",
+    "localFrame": 8,
+    "globalFrame": 7268
+  },
+  {
+    "scene": "targets",
+    "state": "transition-outgoing",
+    "localFrame": -4,
+    "globalFrame": 9731
+  },
+  {
+    "scene": "targets",
+    "state": "transition-black",
+    "localFrame": 0,
+    "globalFrame": 9735
+  },
+  {
+    "scene": "targets",
+    "state": "transition-incoming",
+    "localFrame": 8,
+    "globalFrame": 9743
+  },
+  {
+    "scene": "oxygen-atp",
+    "state": "transition-outgoing",
+    "localFrame": -4,
+    "globalFrame": 12088
+  },
+  {
+    "scene": "oxygen-atp",
+    "state": "transition-black",
+    "localFrame": 0,
+    "globalFrame": 12092
+  },
+  {
+    "scene": "oxygen-atp",
+    "state": "transition-incoming",
+    "localFrame": 8,
+    "globalFrame": 12100
+  },
+  {
+    "scene": "pump-swelling",
+    "state": "transition-outgoing",
+    "localFrame": -4,
+    "globalFrame": 14405
+  },
+  {
+    "scene": "pump-swelling",
+    "state": "transition-black",
+    "localFrame": 0,
+    "globalFrame": 14409
+  },
+  {
+    "scene": "pump-swelling",
+    "state": "transition-incoming",
+    "localFrame": 8,
+    "globalFrame": 14417
+  },
+  {
+    "scene": "glycolysis",
+    "state": "transition-outgoing",
+    "localFrame": -4,
+    "globalFrame": 16753
+  },
+  {
+    "scene": "glycolysis",
+    "state": "transition-black",
+    "localFrame": 0,
+    "globalFrame": 16757
+  },
+  {
+    "scene": "glycolysis",
+    "state": "transition-incoming",
+    "localFrame": 8,
+    "globalFrame": 16765
+  },
+  {
+    "scene": "protein-synthesis",
+    "state": "transition-outgoing",
+    "localFrame": -4,
+    "globalFrame": 19036
+  },
+  {
+    "scene": "protein-synthesis",
+    "state": "transition-black",
+    "localFrame": 0,
+    "globalFrame": 19040
+  },
+  {
+    "scene": "protein-synthesis",
+    "state": "transition-incoming",
+    "localFrame": 8,
+    "globalFrame": 19048
+  },
+  {
+    "scene": "calcium",
+    "state": "transition-outgoing",
+    "localFrame": -4,
+    "globalFrame": 21438
+  },
+  {
+    "scene": "calcium",
+    "state": "transition-black",
+    "localFrame": 0,
+    "globalFrame": 21442
+  },
+  {
+    "scene": "calcium",
+    "state": "transition-incoming",
+    "localFrame": 8,
+    "globalFrame": 21450
+  },
+  {
+    "scene": "mitochondria",
+    "state": "transition-outgoing",
+    "localFrame": -4,
+    "globalFrame": 23759
+  },
+  {
+    "scene": "mitochondria",
+    "state": "transition-black",
+    "localFrame": 0,
+    "globalFrame": 23763
+  },
+  {
+    "scene": "mitochondria",
+    "state": "transition-incoming",
+    "localFrame": 8,
+    "globalFrame": 23771
+  },
+  {
+    "scene": "ros",
+    "state": "transition-outgoing",
+    "localFrame": -4,
+    "globalFrame": 26071
+  },
+  {
+    "scene": "ros",
+    "state": "transition-black",
+    "localFrame": 0,
+    "globalFrame": 26075
+  },
+  {
+    "scene": "ros",
+    "state": "transition-incoming",
+    "localFrame": 8,
+    "globalFrame": 26083
+  },
+  {
+    "scene": "antioxidants",
+    "state": "transition-outgoing",
+    "localFrame": -4,
+    "globalFrame": 28530
+  },
+  {
+    "scene": "antioxidants",
+    "state": "transition-black",
+    "localFrame": 0,
+    "globalFrame": 28534
+  },
+  {
+    "scene": "antioxidants",
+    "state": "transition-incoming",
+    "localFrame": 8,
+    "globalFrame": 28542
+  },
+  {
+    "scene": "membrane-injury",
+    "state": "transition-outgoing",
+    "localFrame": -4,
+    "globalFrame": 30590
+  },
+  {
+    "scene": "membrane-injury",
+    "state": "transition-black",
+    "localFrame": 0,
+    "globalFrame": 30594
+  },
+  {
+    "scene": "membrane-injury",
+    "state": "transition-incoming",
+    "localFrame": 8,
+    "globalFrame": 30602
+  },
+  {
+    "scene": "dna-protein",
+    "state": "transition-outgoing",
+    "localFrame": -4,
+    "globalFrame": 32954
+  },
+  {
+    "scene": "dna-protein",
+    "state": "transition-black",
+    "localFrame": 0,
+    "globalFrame": 32958
+  },
+  {
+    "scene": "dna-protein",
+    "state": "transition-incoming",
+    "localFrame": 8,
+    "globalFrame": 32966
+  },
+  {
+    "scene": "death-patterns",
+    "state": "transition-outgoing",
+    "localFrame": -4,
+    "globalFrame": 35114
+  },
+  {
+    "scene": "death-patterns",
+    "state": "transition-black",
+    "localFrame": 0,
+    "globalFrame": 35118
+  },
+  {
+    "scene": "death-patterns",
+    "state": "transition-incoming",
+    "localFrame": 8,
+    "globalFrame": 35126
+  },
+  {
+    "scene": "recovery",
+    "state": "transition-outgoing",
+    "localFrame": -4,
+    "globalFrame": 37707
+  },
+  {
+    "scene": "recovery",
+    "state": "transition-black",
+    "localFrame": 0,
+    "globalFrame": 37711
+  },
+  {
+    "scene": "recovery",
+    "state": "transition-incoming",
+    "localFrame": 8,
+    "globalFrame": 37719
+  },
+  {
+    "scene": "recap",
+    "state": "transition-outgoing",
+    "localFrame": -4,
+    "globalFrame": 39785
+  },
+  {
+    "scene": "recap",
+    "state": "transition-black",
+    "localFrame": 0,
+    "globalFrame": 39789
+  },
+  {
+    "scene": "recap",
+    "state": "transition-incoming",
+    "localFrame": 8,
+    "globalFrame": 39797
   }
 ]
